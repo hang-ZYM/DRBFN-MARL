@@ -299,7 +299,27 @@ class SubprocVecEnv(ShareVecEnv):
 
 def shareworker(remote, parent_remote, env_fn_wrapper):
     parent_remote.close()
-    env = env_fn_wrapper.x()
+    # Retry env creation on SC2 launch failures (Windows parallel startup issue)
+    import time
+    ENV_CREATE_MAX_RETRIES = 5
+    ENV_CREATE_RETRY_SLEEP = 3.0
+    env = None
+    last_err = None
+    for attempt in range(ENV_CREATE_MAX_RETRIES):
+        try:
+            env = env_fn_wrapper.x()
+            break
+        except Exception as e:
+            last_err = e
+            print(
+                f"[shareworker] env creation failed (attempt {attempt+1}/{ENV_CREATE_MAX_RETRIES}): {e}; retrying in {ENV_CREATE_RETRY_SLEEP}s",
+                flush=True,
+            )
+            time.sleep(ENV_CREATE_RETRY_SLEEP)
+    if env is None:
+        raise RuntimeError(
+            f"[shareworker] env creation failed after {ENV_CREATE_MAX_RETRIES} retries: {last_err}"
+        )
     while True:
         cmd, data = remote.recv()
         if cmd == 'step':

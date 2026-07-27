@@ -1,0 +1,1057 @@
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+u are choosing to use r_drbfn (DRBFN), keeping use_centralized_V = True
+choose to use gpu...
+obs_space:  [[124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]]]
+share_obs_space:  [[156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]]]
+act_space:  [Discrete(12), Discrete(12), Discrete(12), Discrete(12), Discrete(12)]
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 0/1250 episodes, total num timesteps 1600/2000000, FPS 78.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 5/1250 episodes, total num timesteps 9600/2000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 10/1250 episodes, total num timesteps 17600/2000000, FPS 67.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 15/1250 episodes, total num timesteps 25600/2000000, FPS 70.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 20/1250 episodes, total num timesteps 33600/2000000, FPS 72.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 25/1250 episodes, total num timesteps 41600/2000000, FPS 74.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 30/1250 episodes, total num timesteps 49600/2000000, FPS 74.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 35/1250 episodes, total num timesteps 57600/2000000, FPS 74.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 40/1250 episodes, total num timesteps 65600/2000000, FPS 74.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 45/1250 episodes, total num timesteps 73600/2000000, FPS 73.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 50/1250 episodes, total num timesteps 81600/2000000, FPS 73.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 55/1250 episodes, total num timesteps 89600/2000000, FPS 72.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 60/1250 episodes, total num timesteps 97600/2000000, FPS 72.
+
+incre win rate is 0.002551020408163265.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 65/1250 episodes, total num timesteps 105600/2000000, FPS 73.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 70/1250 episodes, total num timesteps 113600/2000000, FPS 73.
+
+incre win rate is 0.005277044854881266.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 75/1250 episodes, total num timesteps 121600/2000000, FPS 73.
+
+incre win rate is 0.005420054200542005.
+eval win rate is 0.1875.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 80/1250 episodes, total num timesteps 129600/2000000, FPS 72.
+
+incre win rate is 0.008130081300813009.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 85/1250 episodes, total num timesteps 137600/2000000, FPS 72.
+
+incre win rate is 0.03038674033149171.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 90/1250 episodes, total num timesteps 145600/2000000, FPS 72.
+
+incre win rate is 0.027700831024930747.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 95/1250 episodes, total num timesteps 153600/2000000, FPS 72.
+
+incre win rate is 0.027777777777777776.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 100/1250 episodes, total num timesteps 161600/2000000, FPS 72.
+
+incre win rate is 0.019498607242339833.
+eval win rate is 0.03125.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 105/1250 episodes, total num timesteps 169600/2000000, FPS 72.
+
+incre win rate is 0.029498525073746312.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 110/1250 episodes, total num timesteps 177600/2000000, FPS 72.
+
+incre win rate is 0.03724928366762178.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 115/1250 episodes, total num timesteps 185600/2000000, FPS 72.
+
+incre win rate is 0.011235955056179775.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 120/1250 episodes, total num timesteps 193600/2000000, FPS 72.
+
+incre win rate is 0.020172910662824207.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 125/1250 episodes, total num timesteps 201600/2000000, FPS 72.
+
+incre win rate is 0.03651685393258427.
+eval win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 130/1250 episodes, total num timesteps 209600/2000000, FPS 72.
+
+incre win rate is 0.02.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 135/1250 episodes, total num timesteps 217600/2000000, FPS 72.
+
+incre win rate is 0.05217391304347826.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 140/1250 episodes, total num timesteps 225600/2000000, FPS 72.
+
+incre win rate is 0.043731778425655975.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 145/1250 episodes, total num timesteps 233600/2000000, FPS 72.
+
+incre win rate is 0.04081632653061224.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 150/1250 episodes, total num timesteps 241600/2000000, FPS 72.
+
+incre win rate is 0.026239067055393587.
+eval win rate is 0.09375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 155/1250 episodes, total num timesteps 249600/2000000, FPS 71.
+
+incre win rate is 0.0621301775147929.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 160/1250 episodes, total num timesteps 257600/2000000, FPS 71.
+
+incre win rate is 0.08902077151335312.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 165/1250 episodes, total num timesteps 265600/2000000, FPS 70.
+
+incre win rate is 0.06287425149700598.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 170/1250 episodes, total num timesteps 273600/2000000, FPS 70.
+
+incre win rate is 0.08708708708708708.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 175/1250 episodes, total num timesteps 281600/2000000, FPS 71.
+
+incre win rate is 0.06006006006006006.
+eval win rate is 0.15625.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 180/1250 episodes, total num timesteps 289600/2000000, FPS 70.
+
+incre win rate is 0.08108108108108109.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 185/1250 episodes, total num timesteps 297600/2000000, FPS 70.
+
+incre win rate is 0.10060975609756098.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 190/1250 episodes, total num timesteps 305600/2000000, FPS 71.
+
+incre win rate is 0.0856269113149847.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 195/1250 episodes, total num timesteps 313600/2000000, FPS 71.
+
+incre win rate is 0.10060975609756098.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 200/1250 episodes, total num timesteps 321600/2000000, FPS 71.
+
+incre win rate is 0.09538461538461539.
+eval win rate is 0.34375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 205/1250 episodes, total num timesteps 329600/2000000, FPS 71.
+
+incre win rate is 0.17337461300309598.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 210/1250 episodes, total num timesteps 337600/2000000, FPS 71.
+
+incre win rate is 0.15337423312883436.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 215/1250 episodes, total num timesteps 345600/2000000, FPS 71.
+
+incre win rate is 0.1393188854489164.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 220/1250 episodes, total num timesteps 353600/2000000, FPS 71.
+
+incre win rate is 0.11801242236024845.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 225/1250 episodes, total num timesteps 361600/2000000, FPS 71.
+
+incre win rate is 0.09815950920245399.
+eval win rate is 0.28125.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 230/1250 episodes, total num timesteps 369600/2000000, FPS 71.
+
+incre win rate is 0.184375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 235/1250 episodes, total num timesteps 377600/2000000, FPS 71.
+
+incre win rate is 0.1289308176100629.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 240/1250 episodes, total num timesteps 385600/2000000, FPS 71.
+
+incre win rate is 0.16199376947040497.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 245/1250 episodes, total num timesteps 393600/2000000, FPS 71.
+
+incre win rate is 0.24375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 250/1250 episodes, total num timesteps 401600/2000000, FPS 71.
+
+incre win rate is 0.17080745341614906.
+eval win rate is 0.25.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 255/1250 episodes, total num timesteps 409600/2000000, FPS 71.
+
+incre win rate is 0.16408668730650156.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 260/1250 episodes, total num timesteps 417600/2000000, FPS 71.
+
+incre win rate is 0.18153846153846154.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 265/1250 episodes, total num timesteps 425600/2000000, FPS 71.
+
+incre win rate is 0.18553459119496854.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 270/1250 episodes, total num timesteps 433600/2000000, FPS 71.
+
+incre win rate is 0.16875.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 275/1250 episodes, total num timesteps 441600/2000000, FPS 71.
+
+incre win rate is 0.18181818181818182.
+eval win rate is 0.3125.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 280/1250 episodes, total num timesteps 449600/2000000, FPS 72.
+
+incre win rate is 0.20440251572327045.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 285/1250 episodes, total num timesteps 457600/2000000, FPS 72.
+
+incre win rate is 0.2334384858044164.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 290/1250 episodes, total num timesteps 465600/2000000, FPS 72.
+
+incre win rate is 0.1892744479495268.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 295/1250 episodes, total num timesteps 473600/2000000, FPS 73.
+
+incre win rate is 0.19558359621451105.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 300/1250 episodes, total num timesteps 481600/2000000, FPS 73.
+
+incre win rate is 0.2555205047318612.
+eval win rate is 0.34375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 305/1250 episodes, total num timesteps 489600/2000000, FPS 73.
+
+incre win rate is 0.22429906542056074.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 310/1250 episodes, total num timesteps 497600/2000000, FPS 73.
+
+incre win rate is 0.20307692307692307.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 315/1250 episodes, total num timesteps 505600/2000000, FPS 74.
+
+incre win rate is 0.22429906542056074.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 320/1250 episodes, total num timesteps 513600/2000000, FPS 74.
+
+incre win rate is 0.16358024691358025.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 325/1250 episodes, total num timesteps 521600/2000000, FPS 73.
+
+incre win rate is 0.23510971786833856.
+eval win rate is 0.1875.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 330/1250 episodes, total num timesteps 529600/2000000, FPS 73.
+
+incre win rate is 0.2334384858044164.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 335/1250 episodes, total num timesteps 537600/2000000, FPS 74.
+
+incre win rate is 0.2006172839506173.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 340/1250 episodes, total num timesteps 545600/2000000, FPS 74.
+
+incre win rate is 0.2087227414330218.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 345/1250 episodes, total num timesteps 553600/2000000, FPS 74.
+
+incre win rate is 0.22955974842767296.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 350/1250 episodes, total num timesteps 561600/2000000, FPS 74.
+
+incre win rate is 0.2345679012345679.
+eval win rate is 0.1875.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 355/1250 episodes, total num timesteps 569600/2000000, FPS 74.
+
+incre win rate is 0.2260061919504644.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 360/1250 episodes, total num timesteps 577600/2000000, FPS 74.
+
+incre win rate is 0.17484662576687116.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 365/1250 episodes, total num timesteps 585600/2000000, FPS 74.
+
+incre win rate is 0.2360248447204969.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 370/1250 episodes, total num timesteps 593600/2000000, FPS 74.
+
+incre win rate is 0.27076923076923076.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 375/1250 episodes, total num timesteps 601600/2000000, FPS 74.
+
+incre win rate is 0.2267080745341615.
+eval win rate is 0.34375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 380/1250 episodes, total num timesteps 609600/2000000, FPS 74.
+
+incre win rate is 0.24528301886792453.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 385/1250 episodes, total num timesteps 617600/2000000, FPS 75.
+
+incre win rate is 0.23219814241486067.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 390/1250 episodes, total num timesteps 625600/2000000, FPS 75.
+
+incre win rate is 0.21003134796238246.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 395/1250 episodes, total num timesteps 633600/2000000, FPS 75.
+
+incre win rate is 0.16363636363636364.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 400/1250 episodes, total num timesteps 641600/2000000, FPS 75.
+
+incre win rate is 0.14634146341463414.
+eval win rate is 0.21875.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 405/1250 episodes, total num timesteps 649600/2000000, FPS 75.
+
+incre win rate is 0.19875776397515527.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 410/1250 episodes, total num timesteps 657600/2000000, FPS 75.
+
+incre win rate is 0.18042813455657492.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 415/1250 episodes, total num timesteps 665600/2000000, FPS 75.
+
+incre win rate is 0.275.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 420/1250 episodes, total num timesteps 673600/2000000, FPS 75.
+
+incre win rate is 0.22118380062305296.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 425/1250 episodes, total num timesteps 681600/2000000, FPS 75.
+
+incre win rate is 0.22910216718266255.
+eval win rate is 0.3125.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 430/1250 episodes, total num timesteps 689600/2000000, FPS 75.
+
+incre win rate is 0.20123839009287925.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 435/1250 episodes, total num timesteps 697600/2000000, FPS 75.
+
+incre win rate is 0.209375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 440/1250 episodes, total num timesteps 705600/2000000, FPS 75.
+
+incre win rate is 0.219435736677116.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 445/1250 episodes, total num timesteps 713600/2000000, FPS 75.
+
+incre win rate is 0.30914826498422715.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 450/1250 episodes, total num timesteps 721600/2000000, FPS 75.
+
+incre win rate is 0.279874213836478.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 455/1250 episodes, total num timesteps 729600/2000000, FPS 75.
+
+incre win rate is 0.2830188679245283.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 460/1250 episodes, total num timesteps 737600/2000000, FPS 75.
+
+incre win rate is 0.2830188679245283.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 465/1250 episodes, total num timesteps 745600/2000000, FPS 75.
+
+incre win rate is 0.3072100313479624.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 470/1250 episodes, total num timesteps 753600/2000000, FPS 76.
+
+incre win rate is 0.2807570977917981.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 475/1250 episodes, total num timesteps 761600/2000000, FPS 76.
+
+incre win rate is 0.279874213836478.
+eval win rate is 0.28125.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 480/1250 episodes, total num timesteps 769600/2000000, FPS 76.
+
+incre win rate is 0.3194888178913738.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 485/1250 episodes, total num timesteps 777600/2000000, FPS 76.
+
+incre win rate is 0.28391167192429023.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 490/1250 episodes, total num timesteps 785600/2000000, FPS 75.
+
+incre win rate is 0.3089171974522293.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 495/1250 episodes, total num timesteps 793600/2000000, FPS 75.
+
+incre win rate is 0.2961783439490446.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 500/1250 episodes, total num timesteps 801600/2000000, FPS 75.
+
+incre win rate is 0.3548387096774194.
+eval win rate is 0.5.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 505/1250 episodes, total num timesteps 809600/2000000, FPS 75.
+
+incre win rate is 0.3247588424437299.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 510/1250 episodes, total num timesteps 817600/2000000, FPS 75.
+
+incre win rate is 0.3248407643312102.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 515/1250 episodes, total num timesteps 825600/2000000, FPS 75.
+
+incre win rate is 0.28434504792332266.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 520/1250 episodes, total num timesteps 833600/2000000, FPS 76.
+
+incre win rate is 0.36477987421383645.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 525/1250 episodes, total num timesteps 841600/2000000, FPS 76.
+
+incre win rate is 0.2875.
+eval win rate is 0.3125.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 530/1250 episodes, total num timesteps 849600/2000000, FPS 76.
+
+incre win rate is 0.34169278996865204.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 535/1250 episodes, total num timesteps 857600/2000000, FPS 76.
+
+incre win rate is 0.4240506329113924.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 540/1250 episodes, total num timesteps 865600/2000000, FPS 76.
+
+incre win rate is 0.371875.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 545/1250 episodes, total num timesteps 873600/2000000, FPS 76.
+
+incre win rate is 0.29780564263322884.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 550/1250 episodes, total num timesteps 881600/2000000, FPS 76.
+
+incre win rate is 0.40189873417721517.
+eval win rate is 0.5.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 555/1250 episodes, total num timesteps 889600/2000000, FPS 76.
+
+incre win rate is 0.3440514469453376.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 560/1250 episodes, total num timesteps 897600/2000000, FPS 76.
+
+incre win rate is 0.37777777777777777.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 565/1250 episodes, total num timesteps 905600/2000000, FPS 76.
+
+incre win rate is 0.346031746031746.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 570/1250 episodes, total num timesteps 913600/2000000, FPS 76.
+
+incre win rate is 0.38782051282051283.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 575/1250 episodes, total num timesteps 921600/2000000, FPS 76.
+
+incre win rate is 0.37658227848101267.
+eval win rate is 0.28125.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 580/1250 episodes, total num timesteps 929600/2000000, FPS 76.
+
+incre win rate is 0.37579617834394907.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 585/1250 episodes, total num timesteps 937600/2000000, FPS 76.
+
+incre win rate is 0.36075949367088606.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 590/1250 episodes, total num timesteps 945600/2000000, FPS 76.
+
+incre win rate is 0.3523809523809524.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 595/1250 episodes, total num timesteps 953600/2000000, FPS 76.
+
+incre win rate is 0.3065015479876161.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 600/1250 episodes, total num timesteps 961600/2000000, FPS 76.
+
+incre win rate is 0.30625.
+eval win rate is 0.40625.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 605/1250 episodes, total num timesteps 969600/2000000, FPS 77.
+
+incre win rate is 0.38485804416403785.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 610/1250 episodes, total num timesteps 977600/2000000, FPS 77.
+
+incre win rate is 0.3627760252365931.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 615/1250 episodes, total num timesteps 985600/2000000, FPS 77.
+
+incre win rate is 0.42948717948717946.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 620/1250 episodes, total num timesteps 993600/2000000, FPS 78.
+
+incre win rate is 0.4426751592356688.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 625/1250 episodes, total num timesteps 1001600/2000000, FPS 78.
+
+incre win rate is 0.37261146496815284.
+eval win rate is 0.5625.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 630/1250 episodes, total num timesteps 1009600/2000000, FPS 78.
+
+incre win rate is 0.3829113924050633.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 635/1250 episodes, total num timesteps 1017600/2000000, FPS 79.
+
+incre win rate is 0.31545741324921134.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 640/1250 episodes, total num timesteps 1025600/2000000, FPS 79.
+
+incre win rate is 0.37658227848101267.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 645/1250 episodes, total num timesteps 1033600/2000000, FPS 79.
+
+incre win rate is 0.38311688311688313.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 650/1250 episodes, total num timesteps 1041600/2000000, FPS 79.
+
+incre win rate is 0.3408360128617363.
+eval win rate is 0.375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 655/1250 episodes, total num timesteps 1049600/2000000, FPS 79.
+
+incre win rate is 0.31962025316455694.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 660/1250 episodes, total num timesteps 1057600/2000000, FPS 79.
+
+incre win rate is 0.3627760252365931.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 665/1250 episodes, total num timesteps 1065600/2000000, FPS 79.
+
+incre win rate is 0.37261146496815284.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 670/1250 episodes, total num timesteps 1073600/2000000, FPS 79.
+
+incre win rate is 0.3354632587859425.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 675/1250 episodes, total num timesteps 1081600/2000000, FPS 79.
+
+incre win rate is 0.3667711598746082.
+eval win rate is 0.46875.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 680/1250 episodes, total num timesteps 1089600/2000000, FPS 79.
+
+incre win rate is 0.34579439252336447.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 685/1250 episodes, total num timesteps 1097600/2000000, FPS 79.
+
+incre win rate is 0.3824451410658307.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 690/1250 episodes, total num timesteps 1105600/2000000, FPS 79.
+
+incre win rate is 0.31974921630094044.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 695/1250 episodes, total num timesteps 1113600/2000000, FPS 79.
+
+incre win rate is 0.4056603773584906.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 700/1250 episodes, total num timesteps 1121600/2000000, FPS 79.
+
+incre win rate is 0.4222222222222222.
+eval win rate is 0.34375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 705/1250 episodes, total num timesteps 1129600/2000000, FPS 79.
+
+incre win rate is 0.34591194968553457.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 710/1250 episodes, total num timesteps 1137600/2000000, FPS 79.
+
+incre win rate is 0.4358974358974359.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 715/1250 episodes, total num timesteps 1145600/2000000, FPS 80.
+
+incre win rate is 0.4634920634920635.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 720/1250 episodes, total num timesteps 1153600/2000000, FPS 80.
+
+incre win rate is 0.4230769230769231.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 725/1250 episodes, total num timesteps 1161600/2000000, FPS 80.
+
+incre win rate is 0.44761904761904764.
+eval win rate is 0.5.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 730/1250 episodes, total num timesteps 1169600/2000000, FPS 80.
+
+incre win rate is 0.4031746031746032.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 735/1250 episodes, total num timesteps 1177600/2000000, FPS 80.
+
+incre win rate is 0.41139240506329117.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 740/1250 episodes, total num timesteps 1185600/2000000, FPS 80.
+
+incre win rate is 0.36129032258064514.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 745/1250 episodes, total num timesteps 1193600/2000000, FPS 80.
+
+incre win rate is 0.4383116883116883.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 750/1250 episodes, total num timesteps 1201600/2000000, FPS 80.
+
+incre win rate is 0.4115755627009646.
+eval win rate is 0.5.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 755/1250 episodes, total num timesteps 1209600/2000000, FPS 80.
+
+incre win rate is 0.3738019169329074.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 760/1250 episodes, total num timesteps 1217600/2000000, FPS 80.
+
+incre win rate is 0.40894568690095845.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 765/1250 episodes, total num timesteps 1225600/2000000, FPS 80.
+
+incre win rate is 0.40192926045016075.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 770/1250 episodes, total num timesteps 1233600/2000000, FPS 80.
+
+incre win rate is 0.3536977491961415.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 775/1250 episodes, total num timesteps 1241600/2000000, FPS 80.
+
+incre win rate is 0.38412698412698415.
+eval win rate is 0.5625.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 780/1250 episodes, total num timesteps 1249600/2000000, FPS 80.
+
+incre win rate is 0.38782051282051283.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 785/1250 episodes, total num timesteps 1257600/2000000, FPS 80.
+
+incre win rate is 0.4064516129032258.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 790/1250 episodes, total num timesteps 1265600/2000000, FPS 80.
+
+incre win rate is 0.3517915309446254.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 795/1250 episodes, total num timesteps 1273600/2000000, FPS 80.
+
+incre win rate is 0.43548387096774194.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 800/1250 episodes, total num timesteps 1281600/2000000, FPS 80.
+
+incre win rate is 0.37261146496815284.
+eval win rate is 0.59375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 805/1250 episodes, total num timesteps 1289600/2000000, FPS 80.
+
+incre win rate is 0.38782051282051283.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 810/1250 episodes, total num timesteps 1297600/2000000, FPS 80.
+
+incre win rate is 0.3883495145631068.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 815/1250 episodes, total num timesteps 1305600/2000000, FPS 80.
+
+incre win rate is 0.43729903536977494.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 820/1250 episodes, total num timesteps 1313600/2000000, FPS 80.
+
+incre win rate is 0.44904458598726116.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 825/1250 episodes, total num timesteps 1321600/2000000, FPS 80.
+
+incre win rate is 0.48717948717948717.
+eval win rate is 0.59375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 830/1250 episodes, total num timesteps 1329600/2000000, FPS 80.
+
+incre win rate is 0.4588607594936709.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 835/1250 episodes, total num timesteps 1337600/2000000, FPS 80.
+
+incre win rate is 0.44904458598726116.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 840/1250 episodes, total num timesteps 1345600/2000000, FPS 80.
+
+incre win rate is 0.4299363057324841.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 845/1250 episodes, total num timesteps 1353600/2000000, FPS 80.
+
+incre win rate is 0.3954983922829582.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 850/1250 episodes, total num timesteps 1361600/2000000, FPS 80.
+
+incre win rate is 0.416403785488959.
+eval win rate is 0.5.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 855/1250 episodes, total num timesteps 1369600/2000000, FPS 80.
+
+incre win rate is 0.4339622641509434.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 860/1250 episodes, total num timesteps 1377600/2000000, FPS 80.
+
+incre win rate is 0.434375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 865/1250 episodes, total num timesteps 1385600/2000000, FPS 80.
+
+incre win rate is 0.4200626959247649.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 870/1250 episodes, total num timesteps 1393600/2000000, FPS 80.
+
+incre win rate is 0.46394984326018807.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 875/1250 episodes, total num timesteps 1401600/2000000, FPS 80.
+
+incre win rate is 0.521875.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 880/1250 episodes, total num timesteps 1409600/2000000, FPS 80.
+
+incre win rate is 0.4775641025641026.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 885/1250 episodes, total num timesteps 1417600/2000000, FPS 80.
+
+incre win rate is 0.5063291139240507.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 890/1250 episodes, total num timesteps 1425600/2000000, FPS 81.
+
+incre win rate is 0.47318611987381703.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 895/1250 episodes, total num timesteps 1433600/2000000, FPS 81.
+
+incre win rate is 0.549520766773163.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 900/1250 episodes, total num timesteps 1441600/2000000, FPS 81.
+
+incre win rate is 0.517799352750809.
+eval win rate is 0.59375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 905/1250 episodes, total num timesteps 1449600/2000000, FPS 81.
+
+incre win rate is 0.4551282051282051.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 910/1250 episodes, total num timesteps 1457600/2000000, FPS 81.
+
+incre win rate is 0.4504792332268371.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 915/1250 episodes, total num timesteps 1465600/2000000, FPS 81.
+
+incre win rate is 0.48881789137380194.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 920/1250 episodes, total num timesteps 1473600/2000000, FPS 81.
+
+incre win rate is 0.4921135646687697.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 925/1250 episodes, total num timesteps 1481600/2000000, FPS 81.
+
+incre win rate is 0.5.
+eval win rate is 0.65625.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 930/1250 episodes, total num timesteps 1489600/2000000, FPS 81.
+
+incre win rate is 0.4855305466237942.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 935/1250 episodes, total num timesteps 1497600/2000000, FPS 81.
+
+incre win rate is 0.5273311897106109.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 940/1250 episodes, total num timesteps 1505600/2000000, FPS 81.
+
+incre win rate is 0.4758842443729904.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 945/1250 episodes, total num timesteps 1513600/2000000, FPS 81.
+
+incre win rate is 0.46474358974358976.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 950/1250 episodes, total num timesteps 1521600/2000000, FPS 81.
+
+incre win rate is 0.4472843450479233.
+eval win rate is 0.625.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 955/1250 episodes, total num timesteps 1529600/2000000, FPS 81.
+
+incre win rate is 0.4394904458598726.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 960/1250 episodes, total num timesteps 1537600/2000000, FPS 81.
+
+incre win rate is 0.46474358974358976.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 965/1250 episodes, total num timesteps 1545600/2000000, FPS 81.
+
+incre win rate is 0.48562300319488816.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 970/1250 episodes, total num timesteps 1553600/2000000, FPS 81.
+
+incre win rate is 0.49032258064516127.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 975/1250 episodes, total num timesteps 1561600/2000000, FPS 81.
+
+incre win rate is 0.4308176100628931.
+eval win rate is 0.65625.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 980/1250 episodes, total num timesteps 1569600/2000000, FPS 81.
+
+incre win rate is 0.45396825396825397.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 985/1250 episodes, total num timesteps 1577600/2000000, FPS 81.
+
+incre win rate is 0.4416403785488959.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 990/1250 episodes, total num timesteps 1585600/2000000, FPS 81.
+
+incre win rate is 0.4050632911392405.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 995/1250 episodes, total num timesteps 1593600/2000000, FPS 81.
+
+incre win rate is 0.4056603773584906.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1000/1250 episodes, total num timesteps 1601600/2000000, FPS 81.
+
+incre win rate is 0.41304347826086957.
+eval win rate is 0.40625.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1005/1250 episodes, total num timesteps 1609600/2000000, FPS 81.
+
+incre win rate is 0.49517684887459806.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1010/1250 episodes, total num timesteps 1617600/2000000, FPS 81.
+
+incre win rate is 0.5048231511254019.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1015/1250 episodes, total num timesteps 1625600/2000000, FPS 81.
+
+incre win rate is 0.4565916398713826.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1020/1250 episodes, total num timesteps 1633600/2000000, FPS 81.
+
+incre win rate is 0.48717948717948717.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1025/1250 episodes, total num timesteps 1641600/2000000, FPS 81.
+
+incre win rate is 0.5288461538461539.
+eval win rate is 0.59375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1030/1250 episodes, total num timesteps 1649600/2000000, FPS 81.
+
+incre win rate is 0.4440894568690096.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1035/1250 episodes, total num timesteps 1657600/2000000, FPS 81.
+
+incre win rate is 0.5175718849840255.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1040/1250 episodes, total num timesteps 1665600/2000000, FPS 81.
+
+incre win rate is 0.5142857142857142.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1045/1250 episodes, total num timesteps 1673600/2000000, FPS 81.
+
+incre win rate is 0.5127388535031847.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1050/1250 episodes, total num timesteps 1681600/2000000, FPS 81.
+
+incre win rate is 0.5411392405063291.
+eval win rate is 0.59375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1055/1250 episodes, total num timesteps 1689600/2000000, FPS 81.
+
+incre win rate is 0.45425867507886436.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1060/1250 episodes, total num timesteps 1697600/2000000, FPS 81.
+
+incre win rate is 0.49050632911392406.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1065/1250 episodes, total num timesteps 1705600/2000000, FPS 81.
+
+incre win rate is 0.428125.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1070/1250 episodes, total num timesteps 1713600/2000000, FPS 81.
+
+incre win rate is 0.4281150159744409.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1075/1250 episodes, total num timesteps 1721600/2000000, FPS 81.
+
+incre win rate is 0.4585987261146497.
+eval win rate is 0.40625.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1080/1250 episodes, total num timesteps 1729600/2000000, FPS 81.
+
+incre win rate is 0.44904458598726116.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1085/1250 episodes, total num timesteps 1737600/2000000, FPS 81.
+
+incre win rate is 0.3824451410658307.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1090/1250 episodes, total num timesteps 1745600/2000000, FPS 81.
+
+incre win rate is 0.5206349206349207.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1095/1250 episodes, total num timesteps 1753600/2000000, FPS 81.
+
+incre win rate is 0.4840764331210191.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1100/1250 episodes, total num timesteps 1761600/2000000, FPS 81.
+
+incre win rate is 0.48717948717948717.
+eval win rate is 0.4375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1105/1250 episodes, total num timesteps 1769600/2000000, FPS 81.
+
+incre win rate is 0.483974358974359.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1110/1250 episodes, total num timesteps 1777600/2000000, FPS 81.
+
+incre win rate is 0.5.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1115/1250 episodes, total num timesteps 1785600/2000000, FPS 81.
+
+incre win rate is 0.5562700964630225.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1120/1250 episodes, total num timesteps 1793600/2000000, FPS 81.
+
+incre win rate is 0.5399361022364217.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1125/1250 episodes, total num timesteps 1801600/2000000, FPS 81.
+
+incre win rate is 0.4793650793650794.
+eval win rate is 0.59375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1130/1250 episodes, total num timesteps 1809600/2000000, FPS 81.
+
+incre win rate is 0.5348101265822784.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1135/1250 episodes, total num timesteps 1817600/2000000, FPS 81.
+
+incre win rate is 0.5562700964630225.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1140/1250 episodes, total num timesteps 1825600/2000000, FPS 81.
+
+incre win rate is 0.5158227848101266.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1145/1250 episodes, total num timesteps 1833600/2000000, FPS 81.
+
+incre win rate is 0.5904761904761905.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1150/1250 episodes, total num timesteps 1841600/2000000, FPS 81.
+
+incre win rate is 0.5993589743589743.
+eval win rate is 0.6875.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1155/1250 episodes, total num timesteps 1849600/2000000, FPS 81.
+
+incre win rate is 0.5160256410256411.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1160/1250 episodes, total num timesteps 1857600/2000000, FPS 81.
+
+incre win rate is 0.5047619047619047.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1165/1250 episodes, total num timesteps 1865600/2000000, FPS 81.
+
+incre win rate is 0.44904458598726116.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1170/1250 episodes, total num timesteps 1873600/2000000, FPS 81.
+
+incre win rate is 0.46984126984126984.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1175/1250 episodes, total num timesteps 1881600/2000000, FPS 81.
+
+incre win rate is 0.4806451612903226.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1180/1250 episodes, total num timesteps 1889600/2000000, FPS 81.
+
+incre win rate is 0.5534591194968553.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1185/1250 episodes, total num timesteps 1897600/2000000, FPS 81.
+
+incre win rate is 0.47151898734177217.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1190/1250 episodes, total num timesteps 1905600/2000000, FPS 81.
+
+incre win rate is 0.4625.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1195/1250 episodes, total num timesteps 1913600/2000000, FPS 81.
+
+incre win rate is 0.4380952380952381.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1200/1250 episodes, total num timesteps 1921600/2000000, FPS 81.
+
+incre win rate is 0.41904761904761906.
+eval win rate is 0.59375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1205/1250 episodes, total num timesteps 1929600/2000000, FPS 81.
+
+incre win rate is 0.44375.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1210/1250 episodes, total num timesteps 1937600/2000000, FPS 81.
+
+incre win rate is 0.47318611987381703.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1215/1250 episodes, total num timesteps 1945600/2000000, FPS 81.
+
+incre win rate is 0.44200626959247646.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1220/1250 episodes, total num timesteps 1953600/2000000, FPS 81.
+
+incre win rate is 0.4177215189873418.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1225/1250 episodes, total num timesteps 1961600/2000000, FPS 81.
+
+incre win rate is 0.45454545454545453.
+eval win rate is 0.46875.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1230/1250 episodes, total num timesteps 1969600/2000000, FPS 81.
+
+incre win rate is 0.5205047318611987.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1235/1250 episodes, total num timesteps 1977600/2000000, FPS 81.
+
+incre win rate is 0.4625.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1240/1250 episodes, total num timesteps 1985600/2000000, FPS 81.
+
+incre win rate is 0.5236593059936908.
+
+ Map 5m_vs_6m Algo r_drbfn Exp drbfn_5m6m_v2 updates 1245/1250 episodes, total num timesteps 1993600/2000000, FPS 81.
+
+incre win rate is 0.5.

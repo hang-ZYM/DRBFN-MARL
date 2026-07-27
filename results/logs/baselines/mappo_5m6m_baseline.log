@@ -1,0 +1,1057 @@
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+u are choosing to use rmappo, we set use_recurrent_policy to be True
+choose to use gpu...
+obs_space:  [[124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]]]
+share_obs_space:  [[156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]]]
+act_space:  [Discrete(12), Discrete(12), Discrete(12), Discrete(12), Discrete(12)]
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 0/1250 episodes, total num timesteps 1600/2000000, FPS 103.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 5/1250 episodes, total num timesteps 9600/2000000, FPS 63.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 10/1250 episodes, total num timesteps 17600/2000000, FPS 76.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 15/1250 episodes, total num timesteps 25600/2000000, FPS 81.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 20/1250 episodes, total num timesteps 33600/2000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 25/1250 episodes, total num timesteps 41600/2000000, FPS 86.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 30/1250 episodes, total num timesteps 49600/2000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 35/1250 episodes, total num timesteps 57600/2000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 40/1250 episodes, total num timesteps 65600/2000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 45/1250 episodes, total num timesteps 73600/2000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 50/1250 episodes, total num timesteps 81600/2000000, FPS 85.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 55/1250 episodes, total num timesteps 89600/2000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 60/1250 episodes, total num timesteps 97600/2000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 65/1250 episodes, total num timesteps 105600/2000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 70/1250 episodes, total num timesteps 113600/2000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 75/1250 episodes, total num timesteps 121600/2000000, FPS 83.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 80/1250 episodes, total num timesteps 129600/2000000, FPS 82.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 85/1250 episodes, total num timesteps 137600/2000000, FPS 82.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 90/1250 episodes, total num timesteps 145600/2000000, FPS 82.
+
+incre win rate is 0.005509641873278237.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 95/1250 episodes, total num timesteps 153600/2000000, FPS 82.
+
+incre win rate is 0.002849002849002849.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 100/1250 episodes, total num timesteps 161600/2000000, FPS 82.
+
+incre win rate is 0.005813953488372093.
+eval win rate is 0.03125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 105/1250 episodes, total num timesteps 169600/2000000, FPS 81.
+
+incre win rate is 0.008746355685131196.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 110/1250 episodes, total num timesteps 177600/2000000, FPS 81.
+
+incre win rate is 0.01764705882352941.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 115/1250 episodes, total num timesteps 185600/2000000, FPS 81.
+
+incre win rate is 0.03197674418604651.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 120/1250 episodes, total num timesteps 193600/2000000, FPS 81.
+
+incre win rate is 0.02631578947368421.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 125/1250 episodes, total num timesteps 201600/2000000, FPS 81.
+
+incre win rate is 0.0058823529411764705.
+eval win rate is 0.03125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 130/1250 episodes, total num timesteps 209600/2000000, FPS 81.
+
+incre win rate is 0.023529411764705882.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 135/1250 episodes, total num timesteps 217600/2000000, FPS 81.
+
+incre win rate is 0.026865671641791045.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 140/1250 episodes, total num timesteps 225600/2000000, FPS 81.
+
+incre win rate is 0.041916167664670656.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 145/1250 episodes, total num timesteps 233600/2000000, FPS 81.
+
+incre win rate is 0.04294478527607362.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 150/1250 episodes, total num timesteps 241600/2000000, FPS 81.
+
+incre win rate is 0.0625.
+eval win rate is 0.1875.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 155/1250 episodes, total num timesteps 249600/2000000, FPS 80.
+
+incre win rate is 0.053125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 160/1250 episodes, total num timesteps 257600/2000000, FPS 80.
+
+incre win rate is 0.0778816199376947.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 165/1250 episodes, total num timesteps 265600/2000000, FPS 79.
+
+incre win rate is 0.10256410256410256.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 170/1250 episodes, total num timesteps 273600/2000000, FPS 80.
+
+incre win rate is 0.1111111111111111.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 175/1250 episodes, total num timesteps 281600/2000000, FPS 80.
+
+incre win rate is 0.16065573770491803.
+eval win rate is 0.21875.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 180/1250 episodes, total num timesteps 289600/2000000, FPS 80.
+
+incre win rate is 0.13738019169329074.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 185/1250 episodes, total num timesteps 297600/2000000, FPS 80.
+
+incre win rate is 0.13782051282051283.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 190/1250 episodes, total num timesteps 305600/2000000, FPS 81.
+
+incre win rate is 0.13183279742765272.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 195/1250 episodes, total num timesteps 313600/2000000, FPS 81.
+
+incre win rate is 0.14376996805111822.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 200/1250 episodes, total num timesteps 321600/2000000, FPS 81.
+
+incre win rate is 0.13183279742765272.
+eval win rate is 0.1875.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 205/1250 episodes, total num timesteps 329600/2000000, FPS 81.
+
+incre win rate is 0.16938110749185667.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 210/1250 episodes, total num timesteps 337600/2000000, FPS 80.
+
+incre win rate is 0.16013071895424835.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 215/1250 episodes, total num timesteps 345600/2000000, FPS 80.
+
+incre win rate is 0.13680781758957655.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 220/1250 episodes, total num timesteps 353600/2000000, FPS 80.
+
+incre win rate is 0.14743589743589744.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 225/1250 episodes, total num timesteps 361600/2000000, FPS 80.
+
+incre win rate is 0.19672131147540983.
+eval win rate is 0.21875.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 230/1250 episodes, total num timesteps 369600/2000000, FPS 80.
+
+incre win rate is 0.1607717041800643.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 235/1250 episodes, total num timesteps 377600/2000000, FPS 80.
+
+incre win rate is 0.18210862619808307.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 240/1250 episodes, total num timesteps 385600/2000000, FPS 80.
+
+incre win rate is 0.20192307692307693.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 245/1250 episodes, total num timesteps 393600/2000000, FPS 80.
+
+incre win rate is 0.14285714285714285.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 250/1250 episodes, total num timesteps 401600/2000000, FPS 80.
+
+incre win rate is 0.18506493506493507.
+eval win rate is 0.15625.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 255/1250 episodes, total num timesteps 409600/2000000, FPS 79.
+
+incre win rate is 0.20846905537459284.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 260/1250 episodes, total num timesteps 417600/2000000, FPS 80.
+
+incre win rate is 0.15112540192926044.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 265/1250 episodes, total num timesteps 425600/2000000, FPS 80.
+
+incre win rate is 0.17252396166134185.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 270/1250 episodes, total num timesteps 433600/2000000, FPS 80.
+
+incre win rate is 0.18892508143322476.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 275/1250 episodes, total num timesteps 441600/2000000, FPS 80.
+
+incre win rate is 0.2057877813504823.
+eval win rate is 0.25.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 280/1250 episodes, total num timesteps 449600/2000000, FPS 79.
+
+incre win rate is 0.20588235294117646.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 285/1250 episodes, total num timesteps 457600/2000000, FPS 79.
+
+incre win rate is 0.2079207920792079.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 290/1250 episodes, total num timesteps 465600/2000000, FPS 79.
+
+incre win rate is 0.12540192926045016.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 295/1250 episodes, total num timesteps 473600/2000000, FPS 79.
+
+incre win rate is 0.18092105263157895.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 300/1250 episodes, total num timesteps 481600/2000000, FPS 79.
+
+incre win rate is 0.17105263157894737.
+eval win rate is 0.21875.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 305/1250 episodes, total num timesteps 489600/2000000, FPS 79.
+
+incre win rate is 0.1180327868852459.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 310/1250 episodes, total num timesteps 497600/2000000, FPS 79.
+
+incre win rate is 0.12251655629139073.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 315/1250 episodes, total num timesteps 505600/2000000, FPS 79.
+
+incre win rate is 0.18394648829431437.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 320/1250 episodes, total num timesteps 513600/2000000, FPS 79.
+
+incre win rate is 0.2140468227424749.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 325/1250 episodes, total num timesteps 521600/2000000, FPS 78.
+
+incre win rate is 0.22259136212624583.
+eval win rate is 0.34375.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 330/1250 episodes, total num timesteps 529600/2000000, FPS 78.
+
+incre win rate is 0.19078947368421054.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 335/1250 episodes, total num timesteps 537600/2000000, FPS 78.
+
+incre win rate is 0.2635135135135135.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 340/1250 episodes, total num timesteps 545600/2000000, FPS 78.
+
+incre win rate is 0.24915824915824916.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 345/1250 episodes, total num timesteps 553600/2000000, FPS 78.
+
+incre win rate is 0.24914675767918087.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 350/1250 episodes, total num timesteps 561600/2000000, FPS 78.
+
+incre win rate is 0.25170068027210885.
+eval win rate is 0.28125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 355/1250 episodes, total num timesteps 569600/2000000, FPS 78.
+
+incre win rate is 0.26262626262626265.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 360/1250 episodes, total num timesteps 577600/2000000, FPS 78.
+
+incre win rate is 0.26013513513513514.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 365/1250 episodes, total num timesteps 585600/2000000, FPS 78.
+
+incre win rate is 0.31186440677966104.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 370/1250 episodes, total num timesteps 593600/2000000, FPS 78.
+
+incre win rate is 0.24662162162162163.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 375/1250 episodes, total num timesteps 601600/2000000, FPS 79.
+
+incre win rate is 0.23411371237458195.
+eval win rate is 0.21875.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 380/1250 episodes, total num timesteps 609600/2000000, FPS 78.
+
+incre win rate is 0.21621621621621623.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 385/1250 episodes, total num timesteps 617600/2000000, FPS 79.
+
+incre win rate is 0.27666666666666667.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 390/1250 episodes, total num timesteps 625600/2000000, FPS 79.
+
+incre win rate is 0.33221476510067116.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 395/1250 episodes, total num timesteps 633600/2000000, FPS 79.
+
+incre win rate is 0.33447098976109213.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 400/1250 episodes, total num timesteps 641600/2000000, FPS 79.
+
+incre win rate is 0.33783783783783783.
+eval win rate is 0.4375.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 405/1250 episodes, total num timesteps 649600/2000000, FPS 79.
+
+incre win rate is 0.32996632996632996.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 410/1250 episodes, total num timesteps 657600/2000000, FPS 80.
+
+incre win rate is 0.3435374149659864.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 415/1250 episodes, total num timesteps 665600/2000000, FPS 80.
+
+incre win rate is 0.2297734627831715.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 420/1250 episodes, total num timesteps 673600/2000000, FPS 80.
+
+incre win rate is 0.29333333333333333.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 425/1250 episodes, total num timesteps 681600/2000000, FPS 80.
+
+incre win rate is 0.2905405405405405.
+eval win rate is 0.34375.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 430/1250 episodes, total num timesteps 689600/2000000, FPS 80.
+
+incre win rate is 0.32432432432432434.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 435/1250 episodes, total num timesteps 697600/2000000, FPS 80.
+
+incre win rate is 0.30976430976430974.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 440/1250 episodes, total num timesteps 705600/2000000, FPS 81.
+
+incre win rate is 0.2953020134228188.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 445/1250 episodes, total num timesteps 713600/2000000, FPS 81.
+
+incre win rate is 0.34459459459459457.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 450/1250 episodes, total num timesteps 721600/2000000, FPS 81.
+
+incre win rate is 0.35494880546075086.
+eval win rate is 0.3125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 455/1250 episodes, total num timesteps 729600/2000000, FPS 81.
+
+incre win rate is 0.3468013468013468.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 460/1250 episodes, total num timesteps 737600/2000000, FPS 81.
+
+incre win rate is 0.34576271186440677.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 465/1250 episodes, total num timesteps 745600/2000000, FPS 81.
+
+incre win rate is 0.3720136518771331.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 470/1250 episodes, total num timesteps 753600/2000000, FPS 81.
+
+incre win rate is 0.35374149659863946.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 475/1250 episodes, total num timesteps 761600/2000000, FPS 81.
+
+incre win rate is 0.34121621621621623.
+eval win rate is 0.4375.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 480/1250 episodes, total num timesteps 769600/2000000, FPS 81.
+
+incre win rate is 0.36551724137931035.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 485/1250 episodes, total num timesteps 777600/2000000, FPS 82.
+
+incre win rate is 0.3673469387755102.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 490/1250 episodes, total num timesteps 785600/2000000, FPS 81.
+
+incre win rate is 0.32764505119453924.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 495/1250 episodes, total num timesteps 793600/2000000, FPS 81.
+
+incre win rate is 0.32666666666666666.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 500/1250 episodes, total num timesteps 801600/2000000, FPS 81.
+
+incre win rate is 0.31756756756756754.
+eval win rate is 0.21875.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 505/1250 episodes, total num timesteps 809600/2000000, FPS 81.
+
+incre win rate is 0.3311036789297659.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 510/1250 episodes, total num timesteps 817600/2000000, FPS 81.
+
+incre win rate is 0.4066666666666667.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 515/1250 episodes, total num timesteps 825600/2000000, FPS 81.
+
+incre win rate is 0.37583892617449666.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 520/1250 episodes, total num timesteps 833600/2000000, FPS 82.
+
+incre win rate is 0.4197952218430034.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 525/1250 episodes, total num timesteps 841600/2000000, FPS 82.
+
+incre win rate is 0.37333333333333335.
+eval win rate is 0.5.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 530/1250 episodes, total num timesteps 849600/2000000, FPS 82.
+
+incre win rate is 0.3864406779661017.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 535/1250 episodes, total num timesteps 857600/2000000, FPS 82.
+
+incre win rate is 0.35451505016722407.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 540/1250 episodes, total num timesteps 865600/2000000, FPS 83.
+
+incre win rate is 0.38175675675675674.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 545/1250 episodes, total num timesteps 873600/2000000, FPS 83.
+
+incre win rate is 0.3501683501683502.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 550/1250 episodes, total num timesteps 881600/2000000, FPS 83.
+
+incre win rate is 0.3422818791946309.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 555/1250 episodes, total num timesteps 889600/2000000, FPS 83.
+
+incre win rate is 0.34551495016611294.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 560/1250 episodes, total num timesteps 897600/2000000, FPS 83.
+
+incre win rate is 0.35135135135135137.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 565/1250 episodes, total num timesteps 905600/2000000, FPS 83.
+
+incre win rate is 0.3614864864864865.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 570/1250 episodes, total num timesteps 913600/2000000, FPS 84.
+
+incre win rate is 0.3927392739273927.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 575/1250 episodes, total num timesteps 921600/2000000, FPS 84.
+
+incre win rate is 0.3979933110367893.
+eval win rate is 0.4375.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 580/1250 episodes, total num timesteps 929600/2000000, FPS 84.
+
+incre win rate is 0.4074074074074074.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 585/1250 episodes, total num timesteps 937600/2000000, FPS 84.
+
+incre win rate is 0.304635761589404.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 590/1250 episodes, total num timesteps 945600/2000000, FPS 84.
+
+incre win rate is 0.4013377926421405.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 595/1250 episodes, total num timesteps 953600/2000000, FPS 84.
+
+incre win rate is 0.38175675675675674.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 600/1250 episodes, total num timesteps 961600/2000000, FPS 84.
+
+incre win rate is 0.4013377926421405.
+eval win rate is 0.4375.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 605/1250 episodes, total num timesteps 969600/2000000, FPS 84.
+
+incre win rate is 0.3926174496644295.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 610/1250 episodes, total num timesteps 977600/2000000, FPS 84.
+
+incre win rate is 0.3859060402684564.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 615/1250 episodes, total num timesteps 985600/2000000, FPS 85.
+
+incre win rate is 0.3523489932885906.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 620/1250 episodes, total num timesteps 993600/2000000, FPS 85.
+
+incre win rate is 0.39666666666666667.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 625/1250 episodes, total num timesteps 1001600/2000000, FPS 85.
+
+incre win rate is 0.375.
+eval win rate is 0.6875.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 630/1250 episodes, total num timesteps 1009600/2000000, FPS 85.
+
+incre win rate is 0.41496598639455784.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 635/1250 episodes, total num timesteps 1017600/2000000, FPS 85.
+
+incre win rate is 0.41694915254237286.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 640/1250 episodes, total num timesteps 1025600/2000000, FPS 85.
+
+incre win rate is 0.38095238095238093.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 645/1250 episodes, total num timesteps 1033600/2000000, FPS 85.
+
+incre win rate is 0.3493150684931507.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 650/1250 episodes, total num timesteps 1041600/2000000, FPS 84.
+
+incre win rate is 0.3741496598639456.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 655/1250 episodes, total num timesteps 1049600/2000000, FPS 84.
+
+incre win rate is 0.36486486486486486.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 660/1250 episodes, total num timesteps 1057600/2000000, FPS 84.
+
+incre win rate is 0.3724137931034483.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 665/1250 episodes, total num timesteps 1065600/2000000, FPS 84.
+
+incre win rate is 0.3079470198675497.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 670/1250 episodes, total num timesteps 1073600/2000000, FPS 85.
+
+incre win rate is 0.3979933110367893.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 675/1250 episodes, total num timesteps 1081600/2000000, FPS 85.
+
+incre win rate is 0.34219269102990035.
+eval win rate is 0.5625.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 680/1250 episodes, total num timesteps 1089600/2000000, FPS 85.
+
+incre win rate is 0.38666666666666666.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 685/1250 episodes, total num timesteps 1097600/2000000, FPS 85.
+
+incre win rate is 0.33666666666666667.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 690/1250 episodes, total num timesteps 1105600/2000000, FPS 85.
+
+incre win rate is 0.40939597315436244.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 695/1250 episodes, total num timesteps 1113600/2000000, FPS 85.
+
+incre win rate is 0.4019933554817276.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 700/1250 episodes, total num timesteps 1121600/2000000, FPS 85.
+
+incre win rate is 0.3953488372093023.
+eval win rate is 0.5625.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 705/1250 episodes, total num timesteps 1129600/2000000, FPS 85.
+
+incre win rate is 0.4166666666666667.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 710/1250 episodes, total num timesteps 1137600/2000000, FPS 85.
+
+incre win rate is 0.35294117647058826.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 715/1250 episodes, total num timesteps 1145600/2000000, FPS 85.
+
+incre win rate is 0.3609271523178808.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 720/1250 episodes, total num timesteps 1153600/2000000, FPS 85.
+
+incre win rate is 0.3069306930693069.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 725/1250 episodes, total num timesteps 1161600/2000000, FPS 85.
+
+incre win rate is 0.31353135313531355.
+eval win rate is 0.40625.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 730/1250 episodes, total num timesteps 1169600/2000000, FPS 85.
+
+incre win rate is 0.31.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 735/1250 episodes, total num timesteps 1177600/2000000, FPS 85.
+
+incre win rate is 0.348993288590604.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 740/1250 episodes, total num timesteps 1185600/2000000, FPS 86.
+
+incre win rate is 0.2838283828382838.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 745/1250 episodes, total num timesteps 1193600/2000000, FPS 86.
+
+incre win rate is 0.3157894736842105.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 750/1250 episodes, total num timesteps 1201600/2000000, FPS 86.
+
+incre win rate is 0.37209302325581395.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 755/1250 episodes, total num timesteps 1209600/2000000, FPS 86.
+
+incre win rate is 0.34219269102990035.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 760/1250 episodes, total num timesteps 1217600/2000000, FPS 86.
+
+incre win rate is 0.36577181208053694.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 765/1250 episodes, total num timesteps 1225600/2000000, FPS 86.
+
+incre win rate is 0.3277027027027027.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 770/1250 episodes, total num timesteps 1233600/2000000, FPS 86.
+
+incre win rate is 0.32450331125827814.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 775/1250 episodes, total num timesteps 1241600/2000000, FPS 86.
+
+incre win rate is 0.3511705685618729.
+eval win rate is 0.46875.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 780/1250 episodes, total num timesteps 1249600/2000000, FPS 86.
+
+incre win rate is 0.34983498349834985.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 785/1250 episodes, total num timesteps 1257600/2000000, FPS 86.
+
+incre win rate is 0.3053691275167785.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 790/1250 episodes, total num timesteps 1265600/2000000, FPS 86.
+
+incre win rate is 0.3221476510067114.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 795/1250 episodes, total num timesteps 1273600/2000000, FPS 86.
+
+incre win rate is 0.2730263157894737.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 800/1250 episodes, total num timesteps 1281600/2000000, FPS 86.
+
+incre win rate is 0.3904109589041096.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 805/1250 episodes, total num timesteps 1289600/2000000, FPS 86.
+
+incre win rate is 0.3787375415282392.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 810/1250 episodes, total num timesteps 1297600/2000000, FPS 86.
+
+incre win rate is 0.31788079470198677.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 815/1250 episodes, total num timesteps 1305600/2000000, FPS 86.
+
+incre win rate is 0.37966101694915255.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 820/1250 episodes, total num timesteps 1313600/2000000, FPS 86.
+
+incre win rate is 0.3926174496644295.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 825/1250 episodes, total num timesteps 1321600/2000000, FPS 86.
+
+incre win rate is 0.3864406779661017.
+eval win rate is 0.4375.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 830/1250 episodes, total num timesteps 1329600/2000000, FPS 85.
+
+incre win rate is 0.4155405405405405.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 835/1250 episodes, total num timesteps 1337600/2000000, FPS 85.
+
+incre win rate is 0.35714285714285715.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 840/1250 episodes, total num timesteps 1345600/2000000, FPS 86.
+
+incre win rate is 0.43728813559322033.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 845/1250 episodes, total num timesteps 1353600/2000000, FPS 86.
+
+incre win rate is 0.40476190476190477.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 850/1250 episodes, total num timesteps 1361600/2000000, FPS 86.
+
+incre win rate is 0.37373737373737376.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 855/1250 episodes, total num timesteps 1369600/2000000, FPS 85.
+
+incre win rate is 0.42857142857142855.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 860/1250 episodes, total num timesteps 1377600/2000000, FPS 85.
+
+incre win rate is 0.3724832214765101.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 865/1250 episodes, total num timesteps 1385600/2000000, FPS 85.
+
+incre win rate is 0.3716216216216216.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 870/1250 episodes, total num timesteps 1393600/2000000, FPS 86.
+
+incre win rate is 0.3779264214046823.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 875/1250 episodes, total num timesteps 1401600/2000000, FPS 86.
+
+incre win rate is 0.4463087248322148.
+eval win rate is 0.46875.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 880/1250 episodes, total num timesteps 1409600/2000000, FPS 86.
+
+incre win rate is 0.48322147651006714.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 885/1250 episodes, total num timesteps 1417600/2000000, FPS 86.
+
+incre win rate is 0.4205298013245033.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 890/1250 episodes, total num timesteps 1425600/2000000, FPS 86.
+
+incre win rate is 0.4222972972972973.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 895/1250 episodes, total num timesteps 1433600/2000000, FPS 86.
+
+incre win rate is 0.47491638795986624.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 900/1250 episodes, total num timesteps 1441600/2000000, FPS 86.
+
+incre win rate is 0.4217687074829932.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 905/1250 episodes, total num timesteps 1449600/2000000, FPS 86.
+
+incre win rate is 0.41333333333333333.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 910/1250 episodes, total num timesteps 1457600/2000000, FPS 86.
+
+incre win rate is 0.3815789473684211.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 915/1250 episodes, total num timesteps 1465600/2000000, FPS 86.
+
+incre win rate is 0.4019933554817276.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 920/1250 episodes, total num timesteps 1473600/2000000, FPS 86.
+
+incre win rate is 0.411371237458194.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 925/1250 episodes, total num timesteps 1481600/2000000, FPS 86.
+
+incre win rate is 0.43434343434343436.
+eval win rate is 0.59375.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 930/1250 episodes, total num timesteps 1489600/2000000, FPS 86.
+
+incre win rate is 0.5067114093959731.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 935/1250 episodes, total num timesteps 1497600/2000000, FPS 86.
+
+incre win rate is 0.4527027027027027.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 940/1250 episodes, total num timesteps 1505600/2000000, FPS 86.
+
+incre win rate is 0.4444444444444444.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 945/1250 episodes, total num timesteps 1513600/2000000, FPS 86.
+
+incre win rate is 0.3979591836734694.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 950/1250 episodes, total num timesteps 1521600/2000000, FPS 86.
+
+incre win rate is 0.468013468013468.
+eval win rate is 0.5625.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 955/1250 episodes, total num timesteps 1529600/2000000, FPS 86.
+
+incre win rate is 0.45051194539249145.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 960/1250 episodes, total num timesteps 1537600/2000000, FPS 86.
+
+incre win rate is 0.4197952218430034.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 965/1250 episodes, total num timesteps 1545600/2000000, FPS 86.
+
+incre win rate is 0.36610169491525424.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 970/1250 episodes, total num timesteps 1553600/2000000, FPS 86.
+
+incre win rate is 0.48109965635738833.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 975/1250 episodes, total num timesteps 1561600/2000000, FPS 86.
+
+incre win rate is 0.4554794520547945.
+eval win rate is 0.59375.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 980/1250 episodes, total num timesteps 1569600/2000000, FPS 86.
+
+incre win rate is 0.48639455782312924.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 985/1250 episodes, total num timesteps 1577600/2000000, FPS 86.
+
+incre win rate is 0.4931506849315068.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 990/1250 episodes, total num timesteps 1585600/2000000, FPS 86.
+
+incre win rate is 0.43686006825938567.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 995/1250 episodes, total num timesteps 1593600/2000000, FPS 86.
+
+incre win rate is 0.42662116040955633.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1000/1250 episodes, total num timesteps 1601600/2000000, FPS 86.
+
+incre win rate is 0.46621621621621623.
+eval win rate is 0.40625.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1005/1250 episodes, total num timesteps 1609600/2000000, FPS 86.
+
+incre win rate is 0.3979591836734694.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1010/1250 episodes, total num timesteps 1617600/2000000, FPS 86.
+
+incre win rate is 0.3521594684385382.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1015/1250 episodes, total num timesteps 1625600/2000000, FPS 86.
+
+incre win rate is 0.45733788395904434.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1020/1250 episodes, total num timesteps 1633600/2000000, FPS 86.
+
+incre win rate is 0.40816326530612246.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1025/1250 episodes, total num timesteps 1641600/2000000, FPS 86.
+
+incre win rate is 0.4576271186440678.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1030/1250 episodes, total num timesteps 1649600/2000000, FPS 86.
+
+incre win rate is 0.40955631399317405.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1035/1250 episodes, total num timesteps 1657600/2000000, FPS 87.
+
+incre win rate is 0.40202702702702703.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1040/1250 episodes, total num timesteps 1665600/2000000, FPS 87.
+
+incre win rate is 0.44594594594594594.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1045/1250 episodes, total num timesteps 1673600/2000000, FPS 87.
+
+incre win rate is 0.42424242424242425.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1050/1250 episodes, total num timesteps 1681600/2000000, FPS 87.
+
+incre win rate is 0.44932432432432434.
+eval win rate is 0.40625.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1055/1250 episodes, total num timesteps 1689600/2000000, FPS 87.
+
+incre win rate is 0.4812286689419795.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1060/1250 episodes, total num timesteps 1697600/2000000, FPS 87.
+
+incre win rate is 0.4417808219178082.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1065/1250 episodes, total num timesteps 1705600/2000000, FPS 87.
+
+incre win rate is 0.4175084175084175.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1070/1250 episodes, total num timesteps 1713600/2000000, FPS 87.
+
+incre win rate is 0.4713804713804714.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1075/1250 episodes, total num timesteps 1721600/2000000, FPS 87.
+
+incre win rate is 0.4597315436241611.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1080/1250 episodes, total num timesteps 1729600/2000000, FPS 87.
+
+incre win rate is 0.44932432432432434.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1085/1250 episodes, total num timesteps 1737600/2000000, FPS 87.
+
+incre win rate is 0.494949494949495.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1090/1250 episodes, total num timesteps 1745600/2000000, FPS 87.
+
+incre win rate is 0.46779661016949153.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1095/1250 episodes, total num timesteps 1753600/2000000, FPS 87.
+
+incre win rate is 0.5136054421768708.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1100/1250 episodes, total num timesteps 1761600/2000000, FPS 87.
+
+incre win rate is 0.5119453924914675.
+eval win rate is 0.65625.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1105/1250 episodes, total num timesteps 1769600/2000000, FPS 87.
+
+incre win rate is 0.45918367346938777.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1110/1250 episodes, total num timesteps 1777600/2000000, FPS 87.
+
+incre win rate is 0.4880546075085324.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1115/1250 episodes, total num timesteps 1785600/2000000, FPS 88.
+
+incre win rate is 0.48484848484848486.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1120/1250 episodes, total num timesteps 1793600/2000000, FPS 88.
+
+incre win rate is 0.4597315436241611.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1125/1250 episodes, total num timesteps 1801600/2000000, FPS 88.
+
+incre win rate is 0.5119453924914675.
+eval win rate is 0.3125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1130/1250 episodes, total num timesteps 1809600/2000000, FPS 88.
+
+incre win rate is 0.4074074074074074.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1135/1250 episodes, total num timesteps 1817600/2000000, FPS 87.
+
+incre win rate is 0.42424242424242425.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1140/1250 episodes, total num timesteps 1825600/2000000, FPS 87.
+
+incre win rate is 0.3624161073825503.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1145/1250 episodes, total num timesteps 1833600/2000000, FPS 88.
+
+incre win rate is 0.3898305084745763.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1150/1250 episodes, total num timesteps 1841600/2000000, FPS 88.
+
+incre win rate is 0.46959459459459457.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1155/1250 episodes, total num timesteps 1849600/2000000, FPS 88.
+
+incre win rate is 0.43537414965986393.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1160/1250 episodes, total num timesteps 1857600/2000000, FPS 88.
+
+incre win rate is 0.5102040816326531.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1165/1250 episodes, total num timesteps 1865600/2000000, FPS 88.
+
+incre win rate is 0.44673539518900346.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1170/1250 episodes, total num timesteps 1873600/2000000, FPS 88.
+
+incre win rate is 0.4560810810810811.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1175/1250 episodes, total num timesteps 1881600/2000000, FPS 88.
+
+incre win rate is 0.46779661016949153.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1180/1250 episodes, total num timesteps 1889600/2000000, FPS 88.
+
+incre win rate is 0.4300341296928328.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1185/1250 episodes, total num timesteps 1897600/2000000, FPS 88.
+
+incre win rate is 0.43097643097643096.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1190/1250 episodes, total num timesteps 1905600/2000000, FPS 88.
+
+incre win rate is 0.5084175084175084.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1195/1250 episodes, total num timesteps 1913600/2000000, FPS 88.
+
+incre win rate is 0.47333333333333333.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1200/1250 episodes, total num timesteps 1921600/2000000, FPS 88.
+
+incre win rate is 0.423841059602649.
+eval win rate is 0.5.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1205/1250 episodes, total num timesteps 1929600/2000000, FPS 88.
+
+incre win rate is 0.45666666666666667.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1210/1250 episodes, total num timesteps 1937600/2000000, FPS 88.
+
+incre win rate is 0.4473684210526316.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1215/1250 episodes, total num timesteps 1945600/2000000, FPS 88.
+
+incre win rate is 0.49333333333333335.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1220/1250 episodes, total num timesteps 1953600/2000000, FPS 88.
+
+incre win rate is 0.49666666666666665.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1225/1250 episodes, total num timesteps 1961600/2000000, FPS 88.
+
+incre win rate is 0.5033333333333333.
+eval win rate is 0.5.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1230/1250 episodes, total num timesteps 1969600/2000000, FPS 88.
+
+incre win rate is 0.38436482084690554.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1235/1250 episodes, total num timesteps 1977600/2000000, FPS 88.
+
+incre win rate is 0.38412698412698415.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1240/1250 episodes, total num timesteps 1985600/2000000, FPS 89.
+
+incre win rate is 0.4150326797385621.
+
+ Map 5m_vs_6m Algo rmappo Exp mappo_5m6m_baseline updates 1245/1250 episodes, total num timesteps 1993600/2000000, FPS 89.
+
+incre win rate is 0.41118421052631576.

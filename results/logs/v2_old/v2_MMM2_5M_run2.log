@@ -1,0 +1,326 @@
+u are choosing to use r_drbfn_v2 (generative DRBFN), keeping use_centralized_V = True
+choose to use gpu...
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+obs_space:  [[370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]]]
+share_obs_space:  [[435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]]]
+act_space:  [Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18)]
+WARNING:absl:SC2 isn't running, so bailing early on the websocket connection.
+Process Process-3:
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "D:\conda\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 336, in shareworker
+    ob, s_ob, available_actions = env.reset()
+                                  ^^^^^^^^^^^
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 388, in reset
+    self._launch()
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 338, in _launch
+    self._sc2_proc = self._run_config.start(window_size=self.window_size, want_rgb=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\run_configs\platforms.py", line 83, in start
+    return sc_process.StarcraftProcess(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\sc_process.py", line 137, in __init__
+    self._controller = remote_controller.RemoteController(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 142, in __init__
+    sock = self._connect(host, port, proc, timeout_seconds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\stopwatch.py", line 205, in _stopwatch
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 176, in _connect
+    raise ConnectError("Failed to connect to the SC2 websocket. Is it up?")
+pysc2.lib.remote_controller.ConnectError: Failed to connect to the SC2 websocket. Is it up?
+Process Process-1:
+Traceback (most recent call last):
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 62, in catch_websocket_connection_errors
+    yield
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 179, in _read
+    response_str = self._sock.recv()
+                   ^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+                   ^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+            ^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "D:\conda\Lib\site-packages\websocket\_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_socket.py", line 132, in recv
+    raise WebSocketConnectionClosedException("Connection to remote host was lost.")
+websocket._exceptions.WebSocketConnectionClosedException: Connection to remote host was lost.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 147, in send
+    res = self.send_req(req)
+          ^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 127, in send_req
+    return self.read()
+           ^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\stopwatch.py", line 205, in _stopwatch
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 98, in read
+    response = self._read()
+               ^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 178, in _read
+    with catch_websocket_connection_errors():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 64, in catch_websocket_connection_errors
+    raise ConnectionError("Connection already closed. SC2 probably crashed. "
+pysc2.lib.protocol.ConnectionError: Connection already closed. SC2 probably crashed. Check the error log.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "D:\conda\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 336, in shareworker
+    ob, s_ob, available_actions = env.reset()
+                                  ^^^^^^^^^^^
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 388, in reset
+    self._launch()
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 355, in _launch
+    self._controller.join_game(join)
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 95, in _valid_status
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 70, in _check_error
+    return check_error(func(*args, **kwargs), error_enum)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\stopwatch.py", line 205, in _stopwatch
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 205, in join_game
+    return self._client.send(join_game=req_join_game)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 149, in send
+    raise ConnectionError("Error during %s: %s" % (name, e))
+pysc2.lib.protocol.ConnectionError: Error during join_game: Connection already closed. SC2 probably crashed. Check the error log.
+Process Process-4:
+Traceback (most recent call last):
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 62, in catch_websocket_connection_errors
+    yield
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 179, in _read
+    response_str = self._sock.recv()
+                   ^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+                   ^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+            ^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "D:\conda\Lib\site-packages\websocket\_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_socket.py", line 132, in recv
+    raise WebSocketConnectionClosedException("Connection to remote host was lost.")
+websocket._exceptions.WebSocketConnectionClosedException: Connection to remote host was lost.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 147, in send
+    res = self.send_req(req)
+          ^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 127, in send_req
+    return self.read()
+           ^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\stopwatch.py", line 205, in _stopwatch
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 98, in read
+    response = self._read()
+               ^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 178, in _read
+    with catch_websocket_connection_errors():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 64, in catch_websocket_connection_errors
+    raise ConnectionError("Connection already closed. SC2 probably crashed. "
+pysc2.lib.protocol.ConnectionError: Connection already closed. SC2 probably crashed. Check the error log.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "D:\conda\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 336, in shareworker
+    ob, s_ob, available_actions = env.reset()
+                                  ^^^^^^^^^^^
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 388, in reset
+    self._launch()
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 355, in _launch
+    self._controller.join_game(join)
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 95, in _valid_status
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 70, in _check_error
+    return check_error(func(*args, **kwargs), error_enum)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\stopwatch.py", line 205, in _stopwatch
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 205, in join_game
+    return self._client.send(join_game=req_join_game)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 149, in send
+    raise ConnectionError("Error during %s: %s" % (name, e))
+pysc2.lib.protocol.ConnectionError: Error during join_game: Connection already closed. SC2 probably crashed. Check the error log.
+Process Process-2:
+Traceback (most recent call last):
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 62, in catch_websocket_connection_errors
+    yield
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 179, in _read
+    response_str = self._sock.recv()
+                   ^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+                   ^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+            ^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "D:\conda\Lib\site-packages\websocket\_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\websocket\_socket.py", line 132, in recv
+    raise WebSocketConnectionClosedException("Connection to remote host was lost.")
+websocket._exceptions.WebSocketConnectionClosedException: Connection to remote host was lost.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 147, in send
+    res = self.send_req(req)
+          ^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 127, in send_req
+    return self.read()
+           ^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\stopwatch.py", line 205, in _stopwatch
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 98, in read
+    response = self._read()
+               ^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 178, in _read
+    with catch_websocket_connection_errors():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 64, in catch_websocket_connection_errors
+    raise ConnectionError("Connection already closed. SC2 probably crashed. "
+pysc2.lib.protocol.ConnectionError: Connection already closed. SC2 probably crashed. Check the error log.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "D:\conda\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 336, in shareworker
+    ob, s_ob, available_actions = env.reset()
+                                  ^^^^^^^^^^^
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 388, in reset
+    self._launch()
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 355, in _launch
+    self._controller.join_game(join)
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 95, in _valid_status
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 70, in _check_error
+    return check_error(func(*args, **kwargs), error_enum)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\stopwatch.py", line 205, in _stopwatch
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 205, in join_game
+    return self._client.send(join_game=req_join_game)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\protocol.py", line 149, in send
+    raise ConnectionError("Error during %s: %s" % (name, e))
+pysc2.lib.protocol.ConnectionError: Error during join_game: Connection already closed. SC2 probably crashed. Check the error log.
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\connection.py", line 328, in _recv_bytes
+    nread, err = ov.GetOverlappedResult(True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [WinError 109] π‹µ¿“—Ω· ¯°£
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\’≈”¢√˙\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 264, in <module>
+    main(sys.argv[1:])
+  File "C:\Users\’≈”¢√˙\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 248, in main
+    runner.run()
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\runner\shared\smac_runner.py", line 17, in run
+    self.warmup()   
+    ^^^^^^^^^^^^^
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\runner\shared\smac_runner.py", line 100, in warmup
+    obs, share_obs, available_actions = self.envs.reset()
+                                        ^^^^^^^^^^^^^^^^^
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 397, in reset
+    results = [remote.recv() for remote in self.remotes]
+               ^^^^^^^^^^^^^
+  File "D:\conda\Lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+          ^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\multiprocessing\connection.py", line 337, in _recv_bytes
+    raise EOFError
+EOFError

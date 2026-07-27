@@ -1,0 +1,21 @@
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+u are choosing to use r_drbfn (DRBFN), keeping use_centralized_V = True
+choose to use gpu...
+obs_space:  [[124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]]]
+share_obs_space:  [[156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]]]
+act_space:  [Discrete(12), Discrete(12), Discrete(12), Discrete(12), Discrete(12)]
+Traceback (most recent call last):
+  File "C:\Users\’≈”¢√˙\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 262, in <module>
+    main(sys.argv[1:])
+  File "C:\Users\’≈”¢√˙\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 245, in main
+    runner = Runner(config)
+             ^^^^^^^^^^^^^^
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\runner\shared\smac_runner.py", line 14, in __init__
+    super(SMACRunner, self).__init__(config)
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\runner\shared\base_runner.py", line 91, in __init__
+    self.restore(self.model_dir)
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\runner\shared\base_runner.py", line 181, in restore
+    p = self.trainer.policy
+        ^^^^^^^^^^^^
+AttributeError: 'SMACRunner' object has no attribute 'trainer'. Did you mean: 'train'?

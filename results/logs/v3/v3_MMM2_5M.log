@@ -1,0 +1,652 @@
+u are choosing to use r_drbfn_v3 (n-step + counterfactual), keeping use_centralized_V = True
+choose to use gpu...
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+obs_space:  [[370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]]]
+share_obs_space:  [[435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]]]
+act_space:  [Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18)]
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 0/3125 episodes, total num timesteps 1600/5000000, FPS 62.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 5/3125 episodes, total num timesteps 9600/5000000, FPS 54.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 10/3125 episodes, total num timesteps 17600/5000000, FPS 62.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 15/3125 episodes, total num timesteps 25600/5000000, FPS 65.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 20/3125 episodes, total num timesteps 33600/5000000, FPS 67.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 25/3125 episodes, total num timesteps 41600/5000000, FPS 69.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 30/3125 episodes, total num timesteps 49600/5000000, FPS 63.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 35/3125 episodes, total num timesteps 57600/5000000, FPS 64.
+
+incre win rate is 0.0.
+[v3 step=40] R_mean=0.0300 | G_n_mean=0.2296 (n=5) | q_tot_pred_mean=0.1837 | drbfn_loss=0.6703, qi_loss=0.0064, qtot_loss=0.0448
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 40/3125 episodes, total num timesteps 65600/5000000, FPS 64.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 45/3125 episodes, total num timesteps 73600/5000000, FPS 65.
+
+incre win rate is 0.0.
+[v3 step=50] R_mean=0.0520 | G_n_mean=0.3441 (n=5) | q_tot_pred_mean=0.3579 | drbfn_loss=0.6500, qi_loss=0.0020, qtot_loss=0.0796
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 50/3125 episodes, total num timesteps 81600/5000000, FPS 65.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 55/3125 episodes, total num timesteps 89600/5000000, FPS 62.
+
+incre win rate is 0.0.
+[v3 step=60] R_mean=0.0572 | G_n_mean=0.3739 (n=5) | q_tot_pred_mean=0.3466 | drbfn_loss=0.6356, qi_loss=0.0015, qtot_loss=0.0704
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 60/3125 episodes, total num timesteps 97600/5000000, FPS 63.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 65/3125 episodes, total num timesteps 105600/5000000, FPS 63.
+
+incre win rate is 0.0.
+[v3 step=70] R_mean=0.0723 | G_n_mean=0.4630 (n=5) | q_tot_pred_mean=0.4552 | drbfn_loss=0.6157, qi_loss=0.0018, qtot_loss=0.0728
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 70/3125 episodes, total num timesteps 113600/5000000, FPS 64.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 75/3125 episodes, total num timesteps 121600/5000000, FPS 64.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v3 step=80] R_mean=0.0413 | G_n_mean=0.3096 (n=5) | q_tot_pred_mean=0.3152 | drbfn_loss=0.6030, qi_loss=0.0009, qtot_loss=0.0376
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 80/3125 episodes, total num timesteps 129600/5000000, FPS 62.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 85/3125 episodes, total num timesteps 137600/5000000, FPS 62.
+
+incre win rate is 0.0.
+[v3 step=90] R_mean=0.0683 | G_n_mean=0.4564 (n=5) | q_tot_pred_mean=0.4255 | drbfn_loss=0.5830, qi_loss=0.0014, qtot_loss=0.0593
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 90/3125 episodes, total num timesteps 145600/5000000, FPS 63.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 95/3125 episodes, total num timesteps 153600/5000000, FPS 63.
+
+incre win rate is 0.0.
+[v3 step=100] R_mean=0.0628 | G_n_mean=0.4330 (n=5) | q_tot_pred_mean=0.4603 | drbfn_loss=0.5626, qi_loss=0.0011, qtot_loss=0.0417
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 100/3125 episodes, total num timesteps 161600/5000000, FPS 63.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 105/3125 episodes, total num timesteps 169600/5000000, FPS 62.
+
+incre win rate is 0.0.
+[v3 step=110] R_mean=0.0633 | G_n_mean=0.4480 (n=5) | q_tot_pred_mean=0.4519 | drbfn_loss=0.5420, qi_loss=0.0011, qtot_loss=0.0432
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 110/3125 episodes, total num timesteps 177600/5000000, FPS 62.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 115/3125 episodes, total num timesteps 185600/5000000, FPS 62.
+
+incre win rate is 0.0.
+[v3 step=120] R_mean=0.0802 | G_n_mean=0.5385 (n=5) | q_tot_pred_mean=0.5386 | drbfn_loss=0.5218, qi_loss=0.0012, qtot_loss=0.0436
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 120/3125 episodes, total num timesteps 193600/5000000, FPS 62.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 125/3125 episodes, total num timesteps 201600/5000000, FPS 63.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v3 step=130] R_mean=0.0576 | G_n_mean=0.4237 (n=5) | q_tot_pred_mean=0.4611 | drbfn_loss=0.5013, qi_loss=0.0009, qtot_loss=0.0316
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 130/3125 episodes, total num timesteps 209600/5000000, FPS 62.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 135/3125 episodes, total num timesteps 217600/5000000, FPS 62.
+
+incre win rate is 0.0.
+[v3 step=140] R_mean=0.1180 | G_n_mean=0.7777 (n=5) | q_tot_pred_mean=0.8026 | drbfn_loss=0.4611, qi_loss=0.0017, qtot_loss=0.0651
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 140/3125 episodes, total num timesteps 225600/5000000, FPS 62.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 145/3125 episodes, total num timesteps 233600/5000000, FPS 62.
+
+incre win rate is 0.0.
+[v3 step=150] R_mean=0.0943 | G_n_mean=0.6530 (n=5) | q_tot_pred_mean=0.6479 | drbfn_loss=0.4412, qi_loss=0.0013, qtot_loss=0.0478
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 150/3125 episodes, total num timesteps 241600/5000000, FPS 62.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 155/3125 episodes, total num timesteps 249600/5000000, FPS 62.
+
+incre win rate is 0.0.
+[v3 step=160] R_mean=0.1060 | G_n_mean=0.7161 (n=5) | q_tot_pred_mean=0.7015 | drbfn_loss=0.4058, qi_loss=0.0012, qtot_loss=0.0491
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 160/3125 episodes, total num timesteps 257600/5000000, FPS 62.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 165/3125 episodes, total num timesteps 265600/5000000, FPS 61.
+
+incre win rate is 0.0.
+[v3 step=170] R_mean=0.0920 | G_n_mean=0.6438 (n=5) | q_tot_pred_mean=0.6329 | drbfn_loss=0.3797, qi_loss=0.0011, qtot_loss=0.0521
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 170/3125 episodes, total num timesteps 273600/5000000, FPS 61.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 175/3125 episodes, total num timesteps 281600/5000000, FPS 62.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v3 step=180] R_mean=0.1000 | G_n_mean=0.7007 (n=5) | q_tot_pred_mean=0.6848 | drbfn_loss=0.3342, qi_loss=0.0009, qtot_loss=0.0564
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 180/3125 episodes, total num timesteps 289600/5000000, FPS 61.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 185/3125 episodes, total num timesteps 297600/5000000, FPS 61.
+
+incre win rate is 0.0.
+[v3 step=190] R_mean=0.0702 | G_n_mean=0.5327 (n=5) | q_tot_pred_mean=0.5263 | drbfn_loss=0.2991, qi_loss=0.0007, qtot_loss=0.0345
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 190/3125 episodes, total num timesteps 305600/5000000, FPS 61.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 195/3125 episodes, total num timesteps 313600/5000000, FPS 62.
+
+incre win rate is 0.0.
+[v3 step=200] R_mean=0.1132 | G_n_mean=0.7999 (n=5) | q_tot_pred_mean=0.7855 | drbfn_loss=0.2270, qi_loss=0.0010, qtot_loss=0.0446
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 200/3125 episodes, total num timesteps 321600/5000000, FPS 62.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 205/3125 episodes, total num timesteps 329600/5000000, FPS 61.
+
+incre win rate is 0.0.
+[v3 step=210] R_mean=0.1102 | G_n_mean=0.7894 (n=5) | q_tot_pred_mean=0.8080 | drbfn_loss=0.1652, qi_loss=0.0009, qtot_loss=0.0597
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 210/3125 episodes, total num timesteps 337600/5000000, FPS 61.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 215/3125 episodes, total num timesteps 345600/5000000, FPS 61.
+
+incre win rate is 0.0.
+[v3 step=220] R_mean=0.1069 | G_n_mean=0.7856 (n=5) | q_tot_pred_mean=0.7719 | drbfn_loss=0.0998, qi_loss=0.0008, qtot_loss=0.0495
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 220/3125 episodes, total num timesteps 353600/5000000, FPS 61.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 225/3125 episodes, total num timesteps 361600/5000000, FPS 61.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v3 step=230] R_mean=0.1209 | G_n_mean=0.8886 (n=5) | q_tot_pred_mean=0.8349 | drbfn_loss=0.0258, qi_loss=0.0010, qtot_loss=0.0621
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 230/3125 episodes, total num timesteps 369600/5000000, FPS 61.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 235/3125 episodes, total num timesteps 377600/5000000, FPS 60.
+
+incre win rate is 0.0.
+[v3 step=240] R_mean=0.1118 | G_n_mean=0.8249 (n=5) | q_tot_pred_mean=0.7718 | drbfn_loss=-0.0346, qi_loss=0.0011, qtot_loss=0.0675
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 240/3125 episodes, total num timesteps 385600/5000000, FPS 60.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 245/3125 episodes, total num timesteps 393600/5000000, FPS 60.
+
+incre win rate is 0.0.
+[v3 step=250] R_mean=0.0831 | G_n_mean=0.6607 (n=5) | q_tot_pred_mean=0.6958 | drbfn_loss=-0.0913, qi_loss=0.0011, qtot_loss=0.0616
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 250/3125 episodes, total num timesteps 401600/5000000, FPS 60.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 255/3125 episodes, total num timesteps 409600/5000000, FPS 59.
+
+incre win rate is 0.0.
+[v3 step=260] R_mean=0.0572 | G_n_mean=0.4949 (n=5) | q_tot_pred_mean=0.5013 | drbfn_loss=-0.1284, qi_loss=0.0010, qtot_loss=0.0328
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 260/3125 episodes, total num timesteps 417600/5000000, FPS 59.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 265/3125 episodes, total num timesteps 425600/5000000, FPS 59.
+
+incre win rate is 0.0.
+[v3 step=270] R_mean=0.0736 | G_n_mean=0.6200 (n=5) | q_tot_pred_mean=0.6380 | drbfn_loss=-0.2067, qi_loss=0.0017, qtot_loss=0.0462
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 270/3125 episodes, total num timesteps 433600/5000000, FPS 59.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 275/3125 episodes, total num timesteps 441600/5000000, FPS 59.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v3 step=280] R_mean=0.1033 | G_n_mean=0.8425 (n=5) | q_tot_pred_mean=0.8481 | drbfn_loss=-0.2560, qi_loss=0.0027, qtot_loss=0.0428
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 280/3125 episodes, total num timesteps 449600/5000000, FPS 59.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 285/3125 episodes, total num timesteps 457600/5000000, FPS 59.
+
+incre win rate is 0.0.
+[v3 step=290] R_mean=0.0712 | G_n_mean=0.6209 (n=5) | q_tot_pred_mean=0.6132 | drbfn_loss=-0.2905, qi_loss=0.0017, qtot_loss=0.0372
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 290/3125 episodes, total num timesteps 465600/5000000, FPS 59.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 295/3125 episodes, total num timesteps 473600/5000000, FPS 59.
+
+incre win rate is 0.0.
+[v3 step=300] R_mean=0.0918 | G_n_mean=0.7877 (n=5) | q_tot_pred_mean=0.7940 | drbfn_loss=-0.3377, qi_loss=0.0023, qtot_loss=0.0653
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 300/3125 episodes, total num timesteps 481600/5000000, FPS 59.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 305/3125 episodes, total num timesteps 489600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=310] R_mean=0.0773 | G_n_mean=0.6960 (n=5) | q_tot_pred_mean=0.7345 | drbfn_loss=-0.3961, qi_loss=0.0019, qtot_loss=0.0474
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 310/3125 episodes, total num timesteps 497600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 315/3125 episodes, total num timesteps 505600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=320] R_mean=0.0703 | G_n_mean=0.6307 (n=5) | q_tot_pred_mean=0.6157 | drbfn_loss=-0.4442, qi_loss=0.0015, qtot_loss=0.0460
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 320/3125 episodes, total num timesteps 513600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 325/3125 episodes, total num timesteps 521600/5000000, FPS 58.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v3 step=330] R_mean=0.0710 | G_n_mean=0.6585 (n=5) | q_tot_pred_mean=0.7231 | drbfn_loss=-0.5017, qi_loss=0.0016, qtot_loss=0.0774
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 330/3125 episodes, total num timesteps 529600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 335/3125 episodes, total num timesteps 537600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=340] R_mean=0.0979 | G_n_mean=0.8632 (n=5) | q_tot_pred_mean=0.8578 | drbfn_loss=-0.5631, qi_loss=0.0022, qtot_loss=0.0526
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 340/3125 episodes, total num timesteps 545600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 345/3125 episodes, total num timesteps 553600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=350] R_mean=0.0794 | G_n_mean=0.7414 (n=5) | q_tot_pred_mean=0.7397 | drbfn_loss=-0.6030, qi_loss=0.0017, qtot_loss=0.0522
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 350/3125 episodes, total num timesteps 561600/5000000, FPS 58.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 355/3125 episodes, total num timesteps 569600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=360] R_mean=0.1441 | G_n_mean=1.2593 (n=5) | q_tot_pred_mean=1.2416 | drbfn_loss=-0.7017, qi_loss=0.0033, qtot_loss=0.1093
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 360/3125 episodes, total num timesteps 577600/5000000, FPS 57.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 365/3125 episodes, total num timesteps 585600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=370] R_mean=0.0983 | G_n_mean=0.9192 (n=5) | q_tot_pred_mean=0.9297 | drbfn_loss=-0.7398, qi_loss=0.0020, qtot_loss=0.0555
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 370/3125 episodes, total num timesteps 593600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 375/3125 episodes, total num timesteps 601600/5000000, FPS 58.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v3 step=380] R_mean=0.1008 | G_n_mean=0.9247 (n=5) | q_tot_pred_mean=0.9061 | drbfn_loss=-0.8054, qi_loss=0.0022, qtot_loss=0.0716
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 380/3125 episodes, total num timesteps 609600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 385/3125 episodes, total num timesteps 617600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=390] R_mean=0.0706 | G_n_mean=0.7083 (n=5) | q_tot_pred_mean=0.6820 | drbfn_loss=-0.8676, qi_loss=0.0015, qtot_loss=0.0535
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 390/3125 episodes, total num timesteps 625600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 395/3125 episodes, total num timesteps 633600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=400] R_mean=0.0933 | G_n_mean=0.8952 (n=5) | q_tot_pred_mean=0.8974 | drbfn_loss=-0.9620, qi_loss=0.0021, qtot_loss=0.0858
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 400/3125 episodes, total num timesteps 641600/5000000, FPS 58.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 405/3125 episodes, total num timesteps 649600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=410] R_mean=0.0796 | G_n_mean=0.8097 (n=5) | q_tot_pred_mean=0.8754 | drbfn_loss=-1.0605, qi_loss=0.0019, qtot_loss=0.0618
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 410/3125 episodes, total num timesteps 657600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 415/3125 episodes, total num timesteps 665600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=420] R_mean=0.0537 | G_n_mean=0.5961 (n=5) | q_tot_pred_mean=0.6343 | drbfn_loss=-1.1528, qi_loss=0.0012, qtot_loss=0.0553
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 420/3125 episodes, total num timesteps 673600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 425/3125 episodes, total num timesteps 681600/5000000, FPS 58.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v3 step=430] R_mean=0.0899 | G_n_mean=0.8992 (n=5) | q_tot_pred_mean=0.8949 | drbfn_loss=-1.2983, qi_loss=0.0021, qtot_loss=0.0537
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 430/3125 episodes, total num timesteps 689600/5000000, FPS 57.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 435/3125 episodes, total num timesteps 697600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=440] R_mean=0.0698 | G_n_mean=0.7046 (n=5) | q_tot_pred_mean=0.6740 | drbfn_loss=-1.4042, qi_loss=0.0013, qtot_loss=0.0563
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 440/3125 episodes, total num timesteps 705600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 445/3125 episodes, total num timesteps 713600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=450] R_mean=0.0735 | G_n_mean=0.7440 (n=5) | q_tot_pred_mean=0.7502 | drbfn_loss=-1.5557, qi_loss=0.0015, qtot_loss=0.0593
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 450/3125 episodes, total num timesteps 721600/5000000, FPS 58.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 455/3125 episodes, total num timesteps 729600/5000000, FPS 57.
+
+incre win rate is 0.0.
+[v3 step=460] R_mean=0.0829 | G_n_mean=0.8803 (n=5) | q_tot_pred_mean=0.9485 | drbfn_loss=-1.7366, qi_loss=0.0019, qtot_loss=0.0867
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 460/3125 episodes, total num timesteps 737600/5000000, FPS 57.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 465/3125 episodes, total num timesteps 745600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=470] R_mean=0.1045 | G_n_mean=1.0688 (n=5) | q_tot_pred_mean=1.0736 | drbfn_loss=-1.9125, qi_loss=0.0022, qtot_loss=0.0609
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 470/3125 episodes, total num timesteps 753600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 475/3125 episodes, total num timesteps 761600/5000000, FPS 58.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v3 step=480] R_mean=0.0674 | G_n_mean=0.7288 (n=5) | q_tot_pred_mean=0.7411 | drbfn_loss=-2.0291, qi_loss=0.0015, qtot_loss=0.0771
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 480/3125 episodes, total num timesteps 769600/5000000, FPS 57.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 485/3125 episodes, total num timesteps 777600/5000000, FPS 57.
+
+incre win rate is 0.0.
+[v3 step=490] R_mean=0.0742 | G_n_mean=0.8237 (n=5) | q_tot_pred_mean=0.8066 | drbfn_loss=-2.1471, qi_loss=0.0018, qtot_loss=0.0742
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 490/3125 episodes, total num timesteps 785600/5000000, FPS 57.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 495/3125 episodes, total num timesteps 793600/5000000, FPS 57.
+
+incre win rate is 0.0.
+[v3 step=500] R_mean=0.0803 | G_n_mean=0.9075 (n=5) | q_tot_pred_mean=0.9345 | drbfn_loss=-2.2503, qi_loss=0.0020, qtot_loss=0.0635
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 500/3125 episodes, total num timesteps 801600/5000000, FPS 57.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 505/3125 episodes, total num timesteps 809600/5000000, FPS 57.
+
+incre win rate is 0.0.
+[v3 step=510] R_mean=0.0598 | G_n_mean=0.7112 (n=5) | q_tot_pred_mean=0.7411 | drbfn_loss=-2.3316, qi_loss=0.0016, qtot_loss=0.0703
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 510/3125 episodes, total num timesteps 817600/5000000, FPS 57.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 515/3125 episodes, total num timesteps 825600/5000000, FPS 57.
+
+incre win rate is 0.0.
+[v3 step=520] R_mean=0.0734 | G_n_mean=0.8496 (n=5) | q_tot_pred_mean=0.8370 | drbfn_loss=-2.3932, qi_loss=0.0018, qtot_loss=0.0740
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 520/3125 episodes, total num timesteps 833600/5000000, FPS 57.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 525/3125 episodes, total num timesteps 841600/5000000, FPS 57.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v3 step=530] R_mean=0.0759 | G_n_mean=0.8889 (n=5) | q_tot_pred_mean=0.8663 | drbfn_loss=-2.4431, qi_loss=0.0018, qtot_loss=0.0543
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 530/3125 episodes, total num timesteps 849600/5000000, FPS 57.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 535/3125 episodes, total num timesteps 857600/5000000, FPS 57.
+
+incre win rate is 0.0.
+[v3 step=540] R_mean=0.0608 | G_n_mean=0.7470 (n=5) | q_tot_pred_mean=0.7712 | drbfn_loss=-2.4777, qi_loss=0.0016, qtot_loss=0.0824
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 540/3125 episodes, total num timesteps 865600/5000000, FPS 57.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 545/3125 episodes, total num timesteps 873600/5000000, FPS 57.
+
+incre win rate is 0.0.
+[v3 step=550] R_mean=0.0632 | G_n_mean=0.7546 (n=5) | q_tot_pred_mean=0.7524 | drbfn_loss=-2.4918, qi_loss=0.0014, qtot_loss=0.0940
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 550/3125 episodes, total num timesteps 881600/5000000, FPS 58.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 555/3125 episodes, total num timesteps 889600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=560] R_mean=0.0828 | G_n_mean=1.0124 (n=5) | q_tot_pred_mean=1.0286 | drbfn_loss=-2.4914, qi_loss=0.0022, qtot_loss=0.0814
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 560/3125 episodes, total num timesteps 897600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 565/3125 episodes, total num timesteps 905600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=570] R_mean=0.0760 | G_n_mean=0.9280 (n=5) | q_tot_pred_mean=0.9042 | drbfn_loss=-2.4914, qi_loss=0.0019, qtot_loss=0.1084
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 570/3125 episodes, total num timesteps 913600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 575/3125 episodes, total num timesteps 921600/5000000, FPS 58.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v3 step=580] R_mean=0.0820 | G_n_mean=1.0250 (n=5) | q_tot_pred_mean=1.0619 | drbfn_loss=-2.4927, qi_loss=0.0022, qtot_loss=0.0936
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 580/3125 episodes, total num timesteps 929600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 585/3125 episodes, total num timesteps 937600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=590] R_mean=0.0901 | G_n_mean=1.0758 (n=5) | q_tot_pred_mean=1.0979 | drbfn_loss=-2.4957, qi_loss=0.0023, qtot_loss=0.0761
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 590/3125 episodes, total num timesteps 945600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 595/3125 episodes, total num timesteps 953600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=600] R_mean=0.0937 | G_n_mean=1.1137 (n=5) | q_tot_pred_mean=1.1056 | drbfn_loss=-2.4960, qi_loss=0.0024, qtot_loss=0.0688
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 600/3125 episodes, total num timesteps 961600/5000000, FPS 58.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 605/3125 episodes, total num timesteps 969600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=610] R_mean=0.1132 | G_n_mean=1.3329 (n=5) | q_tot_pred_mean=1.2647 | drbfn_loss=-2.4956, qi_loss=0.0030, qtot_loss=0.1241
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 610/3125 episodes, total num timesteps 977600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 615/3125 episodes, total num timesteps 985600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=620] R_mean=0.0889 | G_n_mean=1.1043 (n=5) | q_tot_pred_mean=1.0731 | drbfn_loss=-2.4954, qi_loss=0.0026, qtot_loss=0.1050
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 620/3125 episodes, total num timesteps 993600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 625/3125 episodes, total num timesteps 1001600/5000000, FPS 58.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v3 step=630] R_mean=0.0849 | G_n_mean=1.0560 (n=5) | q_tot_pred_mean=1.0504 | drbfn_loss=-2.4966, qi_loss=0.0022, qtot_loss=0.0809
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 630/3125 episodes, total num timesteps 1009600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 635/3125 episodes, total num timesteps 1017600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=640] R_mean=0.0931 | G_n_mean=1.1523 (n=5) | q_tot_pred_mean=1.1055 | drbfn_loss=-2.4969, qi_loss=0.0027, qtot_loss=0.1231
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 640/3125 episodes, total num timesteps 1025600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 645/3125 episodes, total num timesteps 1033600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=650] R_mean=0.0619 | G_n_mean=0.8344 (n=5) | q_tot_pred_mean=0.8655 | drbfn_loss=-2.4970, qi_loss=0.0019, qtot_loss=0.1090
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 650/3125 episodes, total num timesteps 1041600/5000000, FPS 58.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 655/3125 episodes, total num timesteps 1049600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=660] R_mean=0.0809 | G_n_mean=1.0422 (n=5) | q_tot_pred_mean=1.0858 | drbfn_loss=-2.4967, qi_loss=0.0024, qtot_loss=0.0788
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 660/3125 episodes, total num timesteps 1057600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 665/3125 episodes, total num timesteps 1065600/5000000, FPS 58.
+
+incre win rate is 0.0.
+[v3 step=670] R_mean=0.0597 | G_n_mean=0.8126 (n=5) | q_tot_pred_mean=0.8412 | drbfn_loss=-2.4970, qi_loss=0.0019, qtot_loss=0.0972
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 670/3125 episodes, total num timesteps 1073600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 675/3125 episodes, total num timesteps 1081600/5000000, FPS 58.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v3 step=680] R_mean=0.0580 | G_n_mean=0.7611 (n=5) | q_tot_pred_mean=0.7590 | drbfn_loss=-2.4975, qi_loss=0.0016, qtot_loss=0.1002
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 680/3125 episodes, total num timesteps 1089600/5000000, FPS 58.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_5M updates 685/3125 episodes, total num timesteps 1097600/5000000, FPS 58.
+
+incre win rate is 0.0.

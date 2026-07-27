@@ -1,0 +1,1377 @@
+u are choosing to use rmappo, we set use_recurrent_policy to be True
+choose to use gpu...
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+obs_space:  [[37, [1, 13], [1, 5], [1, 4], [1, 15]], [37, [1, 13], [1, 5], [1, 4], [1, 15]]]
+share_obs_space:  [[45, [1, 16], [1, 8], [1, 4], [1, 17]], [45, [1, 16], [1, 8], [1, 4], [1, 17]]]
+act_space:  [Discrete(7), Discrete(7)]
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 0/6250 episodes, total num timesteps 1600/10000000, FPS 99.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 5/6250 episodes, total num timesteps 9600/10000000, FPS 81.
+
+incre win rate is 0.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 10/6250 episodes, total num timesteps 17600/10000000, FPS 93.
+
+incre win rate is 0.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 15/6250 episodes, total num timesteps 25600/10000000, FPS 100.
+
+incre win rate is 0.022857142857142857.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 20/6250 episodes, total num timesteps 33600/10000000, FPS 105.
+
+incre win rate is 0.07428571428571429.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 25/6250 episodes, total num timesteps 41600/10000000, FPS 109.
+
+incre win rate is 0.22033898305084745.
+eval win rate is 0.6875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 30/6250 episodes, total num timesteps 49600/10000000, FPS 104.
+
+incre win rate is 0.4134078212290503.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 35/6250 episodes, total num timesteps 57600/10000000, FPS 104.
+
+incre win rate is 0.5277777777777778.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 40/6250 episodes, total num timesteps 65600/10000000, FPS 106.
+
+incre win rate is 0.5586592178770949.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 45/6250 episodes, total num timesteps 73600/10000000, FPS 109.
+
+incre win rate is 0.6022099447513812.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 50/6250 episodes, total num timesteps 81600/10000000, FPS 110.
+
+incre win rate is 0.7228260869565217.
+eval win rate is 0.90625.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 55/6250 episodes, total num timesteps 89600/10000000, FPS 109.
+
+incre win rate is 0.7032967032967034.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 60/6250 episodes, total num timesteps 97600/10000000, FPS 111.
+
+incre win rate is 0.7814207650273224.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 65/6250 episodes, total num timesteps 105600/10000000, FPS 112.
+
+incre win rate is 0.8216216216216217.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 70/6250 episodes, total num timesteps 113600/10000000, FPS 113.
+
+incre win rate is 0.8864864864864865.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 75/6250 episodes, total num timesteps 121600/10000000, FPS 114.
+
+incre win rate is 0.9047619047619048.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 80/6250 episodes, total num timesteps 129600/10000000, FPS 113.
+
+incre win rate is 0.9576719576719577.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 85/6250 episodes, total num timesteps 137600/10000000, FPS 114.
+
+incre win rate is 0.9358288770053476.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 90/6250 episodes, total num timesteps 145600/10000000, FPS 114.
+
+incre win rate is 0.9202127659574468.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 95/6250 episodes, total num timesteps 153600/10000000, FPS 115.
+
+incre win rate is 0.9267015706806283.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 100/6250 episodes, total num timesteps 161600/10000000, FPS 115.
+
+incre win rate is 0.93717277486911.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 105/6250 episodes, total num timesteps 169600/10000000, FPS 114.
+
+incre win rate is 0.953125.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 110/6250 episodes, total num timesteps 177600/10000000, FPS 115.
+
+incre win rate is 0.9421052631578948.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 115/6250 episodes, total num timesteps 185600/10000000, FPS 116.
+
+incre win rate is 0.9197860962566845.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 120/6250 episodes, total num timesteps 193600/10000000, FPS 116.
+
+incre win rate is 0.8789473684210526.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 125/6250 episodes, total num timesteps 201600/10000000, FPS 116.
+
+incre win rate is 0.8835978835978836.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 130/6250 episodes, total num timesteps 209600/10000000, FPS 115.
+
+incre win rate is 0.9109947643979057.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 135/6250 episodes, total num timesteps 217600/10000000, FPS 115.
+
+incre win rate is 0.9319371727748691.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 140/6250 episodes, total num timesteps 225600/10000000, FPS 115.
+
+incre win rate is 0.9635416666666666.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 145/6250 episodes, total num timesteps 233600/10000000, FPS 115.
+
+incre win rate is 0.9427083333333334.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 150/6250 episodes, total num timesteps 241600/10000000, FPS 115.
+
+incre win rate is 0.953125.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 155/6250 episodes, total num timesteps 249600/10000000, FPS 114.
+
+incre win rate is 0.9583333333333334.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 160/6250 episodes, total num timesteps 257600/10000000, FPS 114.
+
+incre win rate is 0.890625.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 165/6250 episodes, total num timesteps 265600/10000000, FPS 111.
+
+incre win rate is 0.9414893617021277.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 170/6250 episodes, total num timesteps 273600/10000000, FPS 112.
+
+incre win rate is 0.90625.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 175/6250 episodes, total num timesteps 281600/10000000, FPS 112.
+
+incre win rate is 0.9384615384615385.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 180/6250 episodes, total num timesteps 289600/10000000, FPS 111.
+
+incre win rate is 0.8677248677248677.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 185/6250 episodes, total num timesteps 297600/10000000, FPS 111.
+
+incre win rate is 0.8704663212435233.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 190/6250 episodes, total num timesteps 305600/10000000, FPS 111.
+
+incre win rate is 0.9153439153439153.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 195/6250 episodes, total num timesteps 313600/10000000, FPS 111.
+
+incre win rate is 0.9427083333333334.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 200/6250 episodes, total num timesteps 321600/10000000, FPS 111.
+
+incre win rate is 0.9378238341968912.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 205/6250 episodes, total num timesteps 329600/10000000, FPS 111.
+
+incre win rate is 0.9015544041450777.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 210/6250 episodes, total num timesteps 337600/10000000, FPS 112.
+
+incre win rate is 0.927461139896373.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 215/6250 episodes, total num timesteps 345600/10000000, FPS 112.
+
+incre win rate is 0.9052631578947369.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 220/6250 episodes, total num timesteps 353600/10000000, FPS 112.
+
+incre win rate is 0.921875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 225/6250 episodes, total num timesteps 361600/10000000, FPS 113.
+
+incre win rate is 0.873015873015873.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 230/6250 episodes, total num timesteps 369600/10000000, FPS 112.
+
+incre win rate is 0.9427083333333334.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 235/6250 episodes, total num timesteps 377600/10000000, FPS 113.
+
+incre win rate is 0.9319371727748691.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 240/6250 episodes, total num timesteps 385600/10000000, FPS 113.
+
+incre win rate is 0.921875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 245/6250 episodes, total num timesteps 393600/10000000, FPS 114.
+
+incre win rate is 0.9481865284974094.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 250/6250 episodes, total num timesteps 401600/10000000, FPS 114.
+
+incre win rate is 0.9585492227979274.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 255/6250 episodes, total num timesteps 409600/10000000, FPS 114.
+
+incre win rate is 0.9484536082474226.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 260/6250 episodes, total num timesteps 417600/10000000, FPS 114.
+
+incre win rate is 0.9897435897435898.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 265/6250 episodes, total num timesteps 425600/10000000, FPS 114.
+
+incre win rate is 0.8911917098445595.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 270/6250 episodes, total num timesteps 433600/10000000, FPS 115.
+
+incre win rate is 0.9692307692307692.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 275/6250 episodes, total num timesteps 441600/10000000, FPS 115.
+
+incre win rate is 0.8789473684210526.
+eval win rate is 0.875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 280/6250 episodes, total num timesteps 449600/10000000, FPS 114.
+
+incre win rate is 0.8526315789473684.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 285/6250 episodes, total num timesteps 457600/10000000, FPS 114.
+
+incre win rate is 0.9259259259259259.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 290/6250 episodes, total num timesteps 465600/10000000, FPS 114.
+
+incre win rate is 0.8306878306878307.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 295/6250 episodes, total num timesteps 473600/10000000, FPS 114.
+
+incre win rate is 0.93717277486911.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 300/6250 episodes, total num timesteps 481600/10000000, FPS 115.
+
+incre win rate is 0.9010416666666666.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 305/6250 episodes, total num timesteps 489600/10000000, FPS 115.
+
+incre win rate is 0.8368421052631579.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 310/6250 episodes, total num timesteps 497600/10000000, FPS 115.
+
+incre win rate is 0.9057591623036649.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 315/6250 episodes, total num timesteps 505600/10000000, FPS 115.
+
+incre win rate is 0.8854166666666666.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 320/6250 episodes, total num timesteps 513600/10000000, FPS 115.
+
+incre win rate is 0.8624338624338624.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 325/6250 episodes, total num timesteps 521600/10000000, FPS 114.
+
+incre win rate is 0.8333333333333334.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 330/6250 episodes, total num timesteps 529600/10000000, FPS 114.
+
+incre win rate is 0.7593582887700535.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 335/6250 episodes, total num timesteps 537600/10000000, FPS 114.
+
+incre win rate is 0.8848167539267016.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 340/6250 episodes, total num timesteps 545600/10000000, FPS 114.
+
+incre win rate is 0.8979591836734694.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 345/6250 episodes, total num timesteps 553600/10000000, FPS 114.
+
+incre win rate is 0.9690721649484536.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 350/6250 episodes, total num timesteps 561600/10000000, FPS 115.
+
+incre win rate is 0.958974358974359.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 355/6250 episodes, total num timesteps 569600/10000000, FPS 114.
+
+incre win rate is 0.9336734693877551.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 360/6250 episodes, total num timesteps 577600/10000000, FPS 114.
+
+incre win rate is 0.9743589743589743.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 365/6250 episodes, total num timesteps 585600/10000000, FPS 115.
+
+incre win rate is 0.9226804123711341.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 370/6250 episodes, total num timesteps 593600/10000000, FPS 115.
+
+incre win rate is 0.9010416666666666.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 375/6250 episodes, total num timesteps 601600/10000000, FPS 115.
+
+incre win rate is 0.9378238341968912.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 380/6250 episodes, total num timesteps 609600/10000000, FPS 115.
+
+incre win rate is 0.9536082474226805.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 385/6250 episodes, total num timesteps 617600/10000000, FPS 115.
+
+incre win rate is 0.917098445595855.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 390/6250 episodes, total num timesteps 625600/10000000, FPS 115.
+
+incre win rate is 0.8974358974358975.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 395/6250 episodes, total num timesteps 633600/10000000, FPS 115.
+
+incre win rate is 0.9484536082474226.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 400/6250 episodes, total num timesteps 641600/10000000, FPS 115.
+
+incre win rate is 0.9743589743589743.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 405/6250 episodes, total num timesteps 649600/10000000, FPS 115.
+
+incre win rate is 0.9072164948453608.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 410/6250 episodes, total num timesteps 657600/10000000, FPS 115.
+
+incre win rate is 0.9072164948453608.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 415/6250 episodes, total num timesteps 665600/10000000, FPS 115.
+
+incre win rate is 0.923469387755102.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 420/6250 episodes, total num timesteps 673600/10000000, FPS 115.
+
+incre win rate is 0.9695431472081218.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 425/6250 episodes, total num timesteps 681600/10000000, FPS 115.
+
+incre win rate is 0.9132653061224489.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 430/6250 episodes, total num timesteps 689600/10000000, FPS 115.
+
+incre win rate is 0.882051282051282.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 435/6250 episodes, total num timesteps 697600/10000000, FPS 115.
+
+incre win rate is 0.9183673469387755.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 440/6250 episodes, total num timesteps 705600/10000000, FPS 115.
+
+incre win rate is 0.9015544041450777.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 445/6250 episodes, total num timesteps 713600/10000000, FPS 115.
+
+incre win rate is 0.9076923076923077.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 450/6250 episodes, total num timesteps 721600/10000000, FPS 115.
+
+incre win rate is 0.9384615384615385.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 455/6250 episodes, total num timesteps 729600/10000000, FPS 115.
+
+incre win rate is 0.9642857142857143.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 460/6250 episodes, total num timesteps 737600/10000000, FPS 115.
+
+incre win rate is 0.9693877551020408.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 465/6250 episodes, total num timesteps 745600/10000000, FPS 115.
+
+incre win rate is 0.9432989690721649.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 470/6250 episodes, total num timesteps 753600/10000000, FPS 115.
+
+incre win rate is 0.9849246231155779.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 475/6250 episodes, total num timesteps 761600/10000000, FPS 115.
+
+incre win rate is 0.9435897435897436.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 480/6250 episodes, total num timesteps 769600/10000000, FPS 114.
+
+incre win rate is 0.9432989690721649.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 485/6250 episodes, total num timesteps 777600/10000000, FPS 115.
+
+incre win rate is 0.9484536082474226.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 490/6250 episodes, total num timesteps 785600/10000000, FPS 114.
+
+incre win rate is 0.9739583333333334.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 495/6250 episodes, total num timesteps 793600/10000000, FPS 114.
+
+incre win rate is 0.9489795918367347.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 500/6250 episodes, total num timesteps 801600/10000000, FPS 114.
+
+incre win rate is 0.9489795918367347.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 505/6250 episodes, total num timesteps 809600/10000000, FPS 114.
+
+incre win rate is 0.9487179487179487.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 510/6250 episodes, total num timesteps 817600/10000000, FPS 114.
+
+incre win rate is 0.9487179487179487.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 515/6250 episodes, total num timesteps 825600/10000000, FPS 114.
+
+incre win rate is 0.9179487179487179.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 520/6250 episodes, total num timesteps 833600/10000000, FPS 114.
+
+incre win rate is 0.9384615384615385.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 525/6250 episodes, total num timesteps 841600/10000000, FPS 114.
+
+incre win rate is 0.9489795918367347.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 530/6250 episodes, total num timesteps 849600/10000000, FPS 113.
+
+incre win rate is 0.9481865284974094.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 535/6250 episodes, total num timesteps 857600/10000000, FPS 113.
+
+incre win rate is 0.9795918367346939.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 540/6250 episodes, total num timesteps 865600/10000000, FPS 113.
+
+incre win rate is 0.9846938775510204.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 545/6250 episodes, total num timesteps 873600/10000000, FPS 113.
+
+incre win rate is 0.9593908629441624.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 550/6250 episodes, total num timesteps 881600/10000000, FPS 113.
+
+incre win rate is 0.9846153846153847.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 555/6250 episodes, total num timesteps 889600/10000000, FPS 113.
+
+incre win rate is 0.99.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 560/6250 episodes, total num timesteps 897600/10000000, FPS 113.
+
+incre win rate is 0.9693877551020408.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 565/6250 episodes, total num timesteps 905600/10000000, FPS 113.
+
+incre win rate is 0.9849246231155779.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 570/6250 episodes, total num timesteps 913600/10000000, FPS 114.
+
+incre win rate is 0.9796954314720813.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 575/6250 episodes, total num timesteps 921600/10000000, FPS 114.
+
+incre win rate is 0.98989898989899.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 580/6250 episodes, total num timesteps 929600/10000000, FPS 114.
+
+incre win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 585/6250 episodes, total num timesteps 937600/10000000, FPS 114.
+
+incre win rate is 0.9846938775510204.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 590/6250 episodes, total num timesteps 945600/10000000, FPS 114.
+
+incre win rate is 0.9545454545454546.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 595/6250 episodes, total num timesteps 953600/10000000, FPS 114.
+
+incre win rate is 0.9744897959183674.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 600/6250 episodes, total num timesteps 961600/10000000, FPS 114.
+
+incre win rate is 0.917098445595855.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 605/6250 episodes, total num timesteps 969600/10000000, FPS 114.
+
+incre win rate is 0.965.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 610/6250 episodes, total num timesteps 977600/10000000, FPS 114.
+
+incre win rate is 0.9898477157360406.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 615/6250 episodes, total num timesteps 985600/10000000, FPS 114.
+
+incre win rate is 0.9695431472081218.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 620/6250 episodes, total num timesteps 993600/10000000, FPS 115.
+
+incre win rate is 0.9644670050761421.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 625/6250 episodes, total num timesteps 1001600/10000000, FPS 115.
+
+incre win rate is 0.9899497487437185.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 630/6250 episodes, total num timesteps 1009600/10000000, FPS 114.
+
+incre win rate is 0.9744897959183674.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 635/6250 episodes, total num timesteps 1017600/10000000, FPS 115.
+
+incre win rate is 0.9796954314720813.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 640/6250 episodes, total num timesteps 1025600/10000000, FPS 115.
+
+incre win rate is 0.9593908629441624.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 645/6250 episodes, total num timesteps 1033600/10000000, FPS 115.
+
+incre win rate is 0.9795918367346939.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 650/6250 episodes, total num timesteps 1041600/10000000, FPS 115.
+
+incre win rate is 0.9796954314720813.
+eval win rate is 0.96875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 655/6250 episodes, total num timesteps 1049600/10000000, FPS 114.
+
+incre win rate is 0.9743589743589743.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 660/6250 episodes, total num timesteps 1057600/10000000, FPS 115.
+
+incre win rate is 0.9278350515463918.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 665/6250 episodes, total num timesteps 1065600/10000000, FPS 115.
+
+incre win rate is 0.9538461538461539.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 670/6250 episodes, total num timesteps 1073600/10000000, FPS 115.
+
+incre win rate is 0.9593908629441624.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 675/6250 episodes, total num timesteps 1081600/10000000, FPS 115.
+
+incre win rate is 0.9639175257731959.
+eval win rate is 0.96875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 680/6250 episodes, total num timesteps 1089600/10000000, FPS 115.
+
+incre win rate is 0.9285714285714286.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 685/6250 episodes, total num timesteps 1097600/10000000, FPS 115.
+
+incre win rate is 0.9695431472081218.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 690/6250 episodes, total num timesteps 1105600/10000000, FPS 115.
+
+incre win rate is 0.9010416666666666.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 695/6250 episodes, total num timesteps 1113600/10000000, FPS 115.
+
+incre win rate is 0.9693877551020408.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 700/6250 episodes, total num timesteps 1121600/10000000, FPS 115.
+
+incre win rate is 0.9794871794871794.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 705/6250 episodes, total num timesteps 1129600/10000000, FPS 115.
+
+incre win rate is 0.9543147208121827.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 710/6250 episodes, total num timesteps 1137600/10000000, FPS 116.
+
+incre win rate is 0.9796954314720813.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 715/6250 episodes, total num timesteps 1145600/10000000, FPS 116.
+
+incre win rate is 0.9949238578680203.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 720/6250 episodes, total num timesteps 1153600/10000000, FPS 116.
+
+incre win rate is 0.9748743718592965.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 725/6250 episodes, total num timesteps 1161600/10000000, FPS 116.
+
+incre win rate is 0.9746192893401016.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 730/6250 episodes, total num timesteps 1169600/10000000, FPS 116.
+
+incre win rate is 0.9794871794871794.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 735/6250 episodes, total num timesteps 1177600/10000000, FPS 116.
+
+incre win rate is 0.9282051282051282.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 740/6250 episodes, total num timesteps 1185600/10000000, FPS 116.
+
+incre win rate is 0.949238578680203.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 745/6250 episodes, total num timesteps 1193600/10000000, FPS 117.
+
+incre win rate is 0.9644670050761421.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 750/6250 episodes, total num timesteps 1201600/10000000, FPS 117.
+
+incre win rate is 0.9540816326530612.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 755/6250 episodes, total num timesteps 1209600/10000000, FPS 117.
+
+incre win rate is 0.9642857142857143.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 760/6250 episodes, total num timesteps 1217600/10000000, FPS 117.
+
+incre win rate is 0.9746192893401016.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 765/6250 episodes, total num timesteps 1225600/10000000, FPS 117.
+
+incre win rate is 0.9695431472081218.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 770/6250 episodes, total num timesteps 1233600/10000000, FPS 117.
+
+incre win rate is 0.9796954314720813.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 775/6250 episodes, total num timesteps 1241600/10000000, FPS 117.
+
+incre win rate is 0.9796954314720813.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 780/6250 episodes, total num timesteps 1249600/10000000, FPS 117.
+
+incre win rate is 0.9847715736040609.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 785/6250 episodes, total num timesteps 1257600/10000000, FPS 117.
+
+incre win rate is 0.9642857142857143.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 790/6250 episodes, total num timesteps 1265600/10000000, FPS 117.
+
+incre win rate is 0.9435897435897436.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 795/6250 episodes, total num timesteps 1273600/10000000, FPS 117.
+
+incre win rate is 0.9438775510204082.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 800/6250 episodes, total num timesteps 1281600/10000000, FPS 118.
+
+incre win rate is 0.9795918367346939.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 805/6250 episodes, total num timesteps 1289600/10000000, FPS 117.
+
+incre win rate is 0.9644670050761421.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 810/6250 episodes, total num timesteps 1297600/10000000, FPS 117.
+
+incre win rate is 0.9175257731958762.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 815/6250 episodes, total num timesteps 1305600/10000000, FPS 117.
+
+incre win rate is 0.9536082474226805.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 820/6250 episodes, total num timesteps 1313600/10000000, FPS 117.
+
+incre win rate is 0.9642857142857143.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 825/6250 episodes, total num timesteps 1321600/10000000, FPS 117.
+
+incre win rate is 0.9899497487437185.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 830/6250 episodes, total num timesteps 1329600/10000000, FPS 117.
+
+incre win rate is 0.9238578680203046.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 835/6250 episodes, total num timesteps 1337600/10000000, FPS 117.
+
+incre win rate is 0.9538461538461539.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 840/6250 episodes, total num timesteps 1345600/10000000, FPS 117.
+
+incre win rate is 0.8756476683937824.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 845/6250 episodes, total num timesteps 1353600/10000000, FPS 117.
+
+incre win rate is 0.958974358974359.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 850/6250 episodes, total num timesteps 1361600/10000000, FPS 117.
+
+incre win rate is 0.9336734693877551.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 855/6250 episodes, total num timesteps 1369600/10000000, FPS 117.
+
+incre win rate is 0.9489795918367347.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 860/6250 episodes, total num timesteps 1377600/10000000, FPS 117.
+
+incre win rate is 0.9487179487179487.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 865/6250 episodes, total num timesteps 1385600/10000000, FPS 117.
+
+incre win rate is 0.9384615384615385.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 870/6250 episodes, total num timesteps 1393600/10000000, FPS 117.
+
+incre win rate is 0.9593908629441624.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 875/6250 episodes, total num timesteps 1401600/10000000, FPS 117.
+
+incre win rate is 0.9798994974874372.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 880/6250 episodes, total num timesteps 1409600/10000000, FPS 117.
+
+incre win rate is 0.9794871794871794.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 885/6250 episodes, total num timesteps 1417600/10000000, FPS 117.
+
+incre win rate is 0.98989898989899.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 890/6250 episodes, total num timesteps 1425600/10000000, FPS 117.
+
+incre win rate is 0.9642857142857143.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 895/6250 episodes, total num timesteps 1433600/10000000, FPS 117.
+
+incre win rate is 0.9696969696969697.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 900/6250 episodes, total num timesteps 1441600/10000000, FPS 117.
+
+incre win rate is 0.9949494949494949.
+eval win rate is 0.96875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 905/6250 episodes, total num timesteps 1449600/10000000, FPS 117.
+
+incre win rate is 0.9948979591836735.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 910/6250 episodes, total num timesteps 1457600/10000000, FPS 116.
+
+incre win rate is 0.9949494949494949.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 915/6250 episodes, total num timesteps 1465600/10000000, FPS 117.
+
+incre win rate is 0.9949494949494949.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 920/6250 episodes, total num timesteps 1473600/10000000, FPS 117.
+
+incre win rate is 0.98989898989899.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 925/6250 episodes, total num timesteps 1481600/10000000, FPS 117.
+
+incre win rate is 0.9595959595959596.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 930/6250 episodes, total num timesteps 1489600/10000000, FPS 117.
+
+incre win rate is 0.9949494949494949.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 935/6250 episodes, total num timesteps 1497600/10000000, FPS 117.
+
+incre win rate is 0.9543147208121827.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 940/6250 episodes, total num timesteps 1505600/10000000, FPS 117.
+
+incre win rate is 0.9540816326530612.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 945/6250 episodes, total num timesteps 1513600/10000000, FPS 117.
+
+incre win rate is 0.9487179487179487.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 950/6250 episodes, total num timesteps 1521600/10000000, FPS 117.
+
+incre win rate is 0.9897959183673469.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 955/6250 episodes, total num timesteps 1529600/10000000, FPS 117.
+
+incre win rate is 0.9797979797979798.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 960/6250 episodes, total num timesteps 1537600/10000000, FPS 117.
+
+incre win rate is 0.9642857142857143.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 965/6250 episodes, total num timesteps 1545600/10000000, FPS 117.
+
+incre win rate is 0.9384615384615385.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 970/6250 episodes, total num timesteps 1553600/10000000, FPS 117.
+
+incre win rate is 0.9846938775510204.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 975/6250 episodes, total num timesteps 1561600/10000000, FPS 117.
+
+incre win rate is 0.98989898989899.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 980/6250 episodes, total num timesteps 1569600/10000000, FPS 117.
+
+incre win rate is 0.9846153846153847.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 985/6250 episodes, total num timesteps 1577600/10000000, FPS 117.
+
+incre win rate is 0.9746192893401016.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 990/6250 episodes, total num timesteps 1585600/10000000, FPS 117.
+
+incre win rate is 0.9489795918367347.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 995/6250 episodes, total num timesteps 1593600/10000000, FPS 117.
+
+incre win rate is 0.9595959595959596.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1000/6250 episodes, total num timesteps 1601600/10000000, FPS 117.
+
+incre win rate is 0.9435897435897436.
+eval win rate is 0.96875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1005/6250 episodes, total num timesteps 1609600/10000000, FPS 117.
+
+incre win rate is 0.9593908629441624.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1010/6250 episodes, total num timesteps 1617600/10000000, FPS 117.
+
+incre win rate is 0.9744897959183674.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1015/6250 episodes, total num timesteps 1625600/10000000, FPS 117.
+
+incre win rate is 0.9796954314720813.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1020/6250 episodes, total num timesteps 1633600/10000000, FPS 117.
+
+incre win rate is 0.9545454545454546.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1025/6250 episodes, total num timesteps 1641600/10000000, FPS 117.
+
+incre win rate is 0.9226804123711341.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1030/6250 episodes, total num timesteps 1649600/10000000, FPS 117.
+
+incre win rate is 0.9282051282051282.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1035/6250 episodes, total num timesteps 1657600/10000000, FPS 117.
+
+incre win rate is 0.9387755102040817.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1040/6250 episodes, total num timesteps 1665600/10000000, FPS 117.
+
+incre win rate is 0.9128205128205128.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1045/6250 episodes, total num timesteps 1673600/10000000, FPS 118.
+
+incre win rate is 0.8865979381443299.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1050/6250 episodes, total num timesteps 1681600/10000000, FPS 118.
+
+incre win rate is 0.9545454545454546.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1055/6250 episodes, total num timesteps 1689600/10000000, FPS 118.
+
+incre win rate is 0.9847715736040609.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1060/6250 episodes, total num timesteps 1697600/10000000, FPS 118.
+
+incre win rate is 0.9795918367346939.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1065/6250 episodes, total num timesteps 1705600/10000000, FPS 118.
+
+incre win rate is 0.9748743718592965.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1070/6250 episodes, total num timesteps 1713600/10000000, FPS 118.
+
+incre win rate is 0.9897435897435898.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1075/6250 episodes, total num timesteps 1721600/10000000, FPS 118.
+
+incre win rate is 0.923469387755102.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1080/6250 episodes, total num timesteps 1729600/10000000, FPS 118.
+
+incre win rate is 0.958974358974359.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1085/6250 episodes, total num timesteps 1737600/10000000, FPS 118.
+
+incre win rate is 0.9748743718592965.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1090/6250 episodes, total num timesteps 1745600/10000000, FPS 118.
+
+incre win rate is 0.9948979591836735.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1095/6250 episodes, total num timesteps 1753600/10000000, FPS 118.
+
+incre win rate is 0.9849246231155779.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1100/6250 episodes, total num timesteps 1761600/10000000, FPS 118.
+
+incre win rate is 1.0.
+eval win rate is 0.96875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1105/6250 episodes, total num timesteps 1769600/10000000, FPS 118.
+
+incre win rate is 0.9798994974874372.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1110/6250 episodes, total num timesteps 1777600/10000000, FPS 118.
+
+incre win rate is 0.9948979591836735.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1115/6250 episodes, total num timesteps 1785600/10000000, FPS 118.
+
+incre win rate is 0.995.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1120/6250 episodes, total num timesteps 1793600/10000000, FPS 118.
+
+incre win rate is 0.9796954314720813.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1125/6250 episodes, total num timesteps 1801600/10000000, FPS 118.
+
+incre win rate is 0.9949494949494949.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1130/6250 episodes, total num timesteps 1809600/10000000, FPS 118.
+
+incre win rate is 0.9794871794871794.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1135/6250 episodes, total num timesteps 1817600/10000000, FPS 118.
+
+incre win rate is 0.9696969696969697.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1140/6250 episodes, total num timesteps 1825600/10000000, FPS 118.
+
+incre win rate is 0.9744897959183674.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1145/6250 episodes, total num timesteps 1833600/10000000, FPS 118.
+
+incre win rate is 0.9646464646464646.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1150/6250 episodes, total num timesteps 1841600/10000000, FPS 118.
+
+incre win rate is 0.9949238578680203.
+eval win rate is 0.96875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1155/6250 episodes, total num timesteps 1849600/10000000, FPS 118.
+
+incre win rate is 0.98989898989899.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1160/6250 episodes, total num timesteps 1857600/10000000, FPS 118.
+
+incre win rate is 0.9949238578680203.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1165/6250 episodes, total num timesteps 1865600/10000000, FPS 118.
+
+incre win rate is 0.9847715736040609.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1170/6250 episodes, total num timesteps 1873600/10000000, FPS 118.
+
+incre win rate is 0.9949494949494949.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1175/6250 episodes, total num timesteps 1881600/10000000, FPS 118.
+
+incre win rate is 0.9898477157360406.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1180/6250 episodes, total num timesteps 1889600/10000000, FPS 118.
+
+incre win rate is 0.9797979797979798.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1185/6250 episodes, total num timesteps 1897600/10000000, FPS 118.
+
+incre win rate is 0.9796954314720813.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1190/6250 episodes, total num timesteps 1905600/10000000, FPS 118.
+
+incre win rate is 0.9846938775510204.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1195/6250 episodes, total num timesteps 1913600/10000000, FPS 118.
+
+incre win rate is 0.9746192893401016.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1200/6250 episodes, total num timesteps 1921600/10000000, FPS 118.
+
+incre win rate is 0.9693877551020408.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1205/6250 episodes, total num timesteps 1929600/10000000, FPS 118.
+
+incre win rate is 0.9949494949494949.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1210/6250 episodes, total num timesteps 1937600/10000000, FPS 118.
+
+incre win rate is 0.9948979591836735.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1215/6250 episodes, total num timesteps 1945600/10000000, FPS 119.
+
+incre win rate is 0.9644670050761421.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1220/6250 episodes, total num timesteps 1953600/10000000, FPS 119.
+
+incre win rate is 0.9949238578680203.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1225/6250 episodes, total num timesteps 1961600/10000000, FPS 119.
+
+incre win rate is 0.958974358974359.
+eval win rate is 0.96875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1230/6250 episodes, total num timesteps 1969600/10000000, FPS 119.
+
+incre win rate is 0.9591836734693877.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1235/6250 episodes, total num timesteps 1977600/10000000, FPS 119.
+
+incre win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1240/6250 episodes, total num timesteps 1985600/10000000, FPS 119.
+
+incre win rate is 0.9746192893401016.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1245/6250 episodes, total num timesteps 1993600/10000000, FPS 119.
+
+incre win rate is 0.9387755102040817.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1250/6250 episodes, total num timesteps 2001600/10000000, FPS 119.
+
+incre win rate is 0.9540816326530612.
+eval win rate is 0.96875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1255/6250 episodes, total num timesteps 2009600/10000000, FPS 119.
+
+incre win rate is 0.9797979797979798.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1260/6250 episodes, total num timesteps 2017600/10000000, FPS 119.
+
+incre win rate is 0.9846938775510204.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1265/6250 episodes, total num timesteps 2025600/10000000, FPS 119.
+
+incre win rate is 0.98.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1270/6250 episodes, total num timesteps 2033600/10000000, FPS 119.
+
+incre win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1275/6250 episodes, total num timesteps 2041600/10000000, FPS 119.
+
+incre win rate is 1.0.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1280/6250 episodes, total num timesteps 2049600/10000000, FPS 119.
+
+incre win rate is 0.9897959183673469.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1285/6250 episodes, total num timesteps 2057600/10000000, FPS 119.
+
+incre win rate is 0.9747474747474747.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1290/6250 episodes, total num timesteps 2065600/10000000, FPS 119.
+
+incre win rate is 0.9797979797979798.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1295/6250 episodes, total num timesteps 2073600/10000000, FPS 119.
+
+incre win rate is 0.9897959183673469.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1300/6250 episodes, total num timesteps 2081600/10000000, FPS 119.
+
+incre win rate is 0.98989898989899.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1305/6250 episodes, total num timesteps 2089600/10000000, FPS 119.
+
+incre win rate is 0.9948979591836735.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1310/6250 episodes, total num timesteps 2097600/10000000, FPS 119.
+
+incre win rate is 0.9897959183673469.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1315/6250 episodes, total num timesteps 2105600/10000000, FPS 119.
+
+incre win rate is 0.99.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1320/6250 episodes, total num timesteps 2113600/10000000, FPS 119.
+
+incre win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1325/6250 episodes, total num timesteps 2121600/10000000, FPS 119.
+
+incre win rate is 0.958974358974359.
+eval win rate is 0.96875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1330/6250 episodes, total num timesteps 2129600/10000000, FPS 119.
+
+incre win rate is 0.9949238578680203.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1335/6250 episodes, total num timesteps 2137600/10000000, FPS 119.
+
+incre win rate is 0.9543147208121827.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1340/6250 episodes, total num timesteps 2145600/10000000, FPS 119.
+
+incre win rate is 0.9432989690721649.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1345/6250 episodes, total num timesteps 2153600/10000000, FPS 119.
+
+incre win rate is 0.9595959595959596.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1350/6250 episodes, total num timesteps 2161600/10000000, FPS 119.
+
+incre win rate is 0.9746192893401016.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1355/6250 episodes, total num timesteps 2169600/10000000, FPS 119.
+
+incre win rate is 0.9948979591836735.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1360/6250 episodes, total num timesteps 2177600/10000000, FPS 119.
+
+incre win rate is 0.9285714285714286.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1365/6250 episodes, total num timesteps 2185600/10000000, FPS 119.
+
+incre win rate is 0.9693877551020408.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1370/6250 episodes, total num timesteps 2193600/10000000, FPS 119.
+
+incre win rate is 0.9591836734693877.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1375/6250 episodes, total num timesteps 2201600/10000000, FPS 119.
+
+incre win rate is 0.9846938775510204.
+eval win rate is 0.96875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1380/6250 episodes, total num timesteps 2209600/10000000, FPS 119.
+
+incre win rate is 0.9797979797979798.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1385/6250 episodes, total num timesteps 2217600/10000000, FPS 119.
+
+incre win rate is 0.9897959183673469.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1390/6250 episodes, total num timesteps 2225600/10000000, FPS 119.
+
+incre win rate is 0.9899497487437185.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1395/6250 episodes, total num timesteps 2233600/10000000, FPS 119.
+
+incre win rate is 0.9693877551020408.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1400/6250 episodes, total num timesteps 2241600/10000000, FPS 119.
+
+incre win rate is 0.9230769230769231.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1405/6250 episodes, total num timesteps 2249600/10000000, FPS 119.
+
+incre win rate is 0.9230769230769231.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1410/6250 episodes, total num timesteps 2257600/10000000, FPS 119.
+
+incre win rate is 0.9642857142857143.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1415/6250 episodes, total num timesteps 2265600/10000000, FPS 119.
+
+incre win rate is 0.9846938775510204.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1420/6250 episodes, total num timesteps 2273600/10000000, FPS 119.
+
+incre win rate is 0.9693877551020408.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1425/6250 episodes, total num timesteps 2281600/10000000, FPS 119.
+
+incre win rate is 0.9899497487437185.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1430/6250 episodes, total num timesteps 2289600/10000000, FPS 119.
+
+incre win rate is 0.9897959183673469.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1435/6250 episodes, total num timesteps 2297600/10000000, FPS 119.
+
+incre win rate is 0.98989898989899.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1440/6250 episodes, total num timesteps 2305600/10000000, FPS 119.
+
+incre win rate is 0.98989898989899.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1445/6250 episodes, total num timesteps 2313600/10000000, FPS 119.
+
+incre win rate is 0.9847715736040609.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1450/6250 episodes, total num timesteps 2321600/10000000, FPS 119.
+
+incre win rate is 0.9847715736040609.
+eval win rate is 0.96875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1455/6250 episodes, total num timesteps 2329600/10000000, FPS 119.
+
+incre win rate is 0.9848484848484849.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1460/6250 episodes, total num timesteps 2337600/10000000, FPS 119.
+
+incre win rate is 0.9797979797979798.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1465/6250 episodes, total num timesteps 2345600/10000000, FPS 119.
+
+incre win rate is 0.9635416666666666.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1470/6250 episodes, total num timesteps 2353600/10000000, FPS 119.
+
+incre win rate is 0.9846938775510204.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1475/6250 episodes, total num timesteps 2361600/10000000, FPS 119.
+
+incre win rate is 0.9746192893401016.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1480/6250 episodes, total num timesteps 2369600/10000000, FPS 119.
+
+incre win rate is 0.9744897959183674.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1485/6250 episodes, total num timesteps 2377600/10000000, FPS 119.
+
+incre win rate is 0.9698492462311558.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1490/6250 episodes, total num timesteps 2385600/10000000, FPS 119.
+
+incre win rate is 0.9948979591836735.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1495/6250 episodes, total num timesteps 2393600/10000000, FPS 119.
+
+incre win rate is 0.9698492462311558.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1500/6250 episodes, total num timesteps 2401600/10000000, FPS 119.
+
+incre win rate is 0.9642857142857143.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1505/6250 episodes, total num timesteps 2409600/10000000, FPS 119.
+
+incre win rate is 0.9646464646464646.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1510/6250 episodes, total num timesteps 2417600/10000000, FPS 119.
+
+incre win rate is 0.9693877551020408.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1515/6250 episodes, total num timesteps 2425600/10000000, FPS 118.
+
+incre win rate is 0.9695431472081218.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1520/6250 episodes, total num timesteps 2433600/10000000, FPS 118.
+
+incre win rate is 0.9695431472081218.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1525/6250 episodes, total num timesteps 2441600/10000000, FPS 118.
+
+incre win rate is 0.9847715736040609.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1530/6250 episodes, total num timesteps 2449600/10000000, FPS 118.
+
+incre win rate is 0.9796954314720813.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1535/6250 episodes, total num timesteps 2457600/10000000, FPS 118.
+
+incre win rate is 0.9848484848484849.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1540/6250 episodes, total num timesteps 2465600/10000000, FPS 118.
+
+incre win rate is 0.9898477157360406.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1545/6250 episodes, total num timesteps 2473600/10000000, FPS 118.
+
+incre win rate is 0.9593908629441624.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1550/6250 episodes, total num timesteps 2481600/10000000, FPS 118.
+
+incre win rate is 0.9641025641025641.
+eval win rate is 0.96875.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1555/6250 episodes, total num timesteps 2489600/10000000, FPS 118.
+
+incre win rate is 0.9898477157360406.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1560/6250 episodes, total num timesteps 2497600/10000000, FPS 118.
+
+incre win rate is 0.9336734693877551.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1565/6250 episodes, total num timesteps 2505600/10000000, FPS 118.
+
+incre win rate is 0.9746192893401016.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1570/6250 episodes, total num timesteps 2513600/10000000, FPS 118.
+
+incre win rate is 0.9948979591836735.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1575/6250 episodes, total num timesteps 2521600/10000000, FPS 118.
+
+incre win rate is 0.9798994974874372.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1580/6250 episodes, total num timesteps 2529600/10000000, FPS 118.
+
+incre win rate is 0.9795918367346939.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1585/6250 episodes, total num timesteps 2537600/10000000, FPS 118.
+
+incre win rate is 0.9848484848484849.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1590/6250 episodes, total num timesteps 2545600/10000000, FPS 118.
+
+incre win rate is 0.9797979797979798.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1595/6250 episodes, total num timesteps 2553600/10000000, FPS 118.
+
+incre win rate is 0.9795918367346939.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1600/6250 episodes, total num timesteps 2561600/10000000, FPS 118.
+
+incre win rate is 1.0.
+eval win rate is 1.0.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1605/6250 episodes, total num timesteps 2569600/10000000, FPS 118.
+
+incre win rate is 0.9849246231155779.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1610/6250 episodes, total num timesteps 2577600/10000000, FPS 118.
+
+incre win rate is 0.9846938775510204.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1615/6250 episodes, total num timesteps 2585600/10000000, FPS 118.
+
+incre win rate is 0.9796954314720813.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1620/6250 episodes, total num timesteps 2593600/10000000, FPS 118.
+
+incre win rate is 0.9795918367346939.
+
+ Map 2s_vs_1sc Algo rmappo Exp mappo_2s_vs_1sc updates 1625/6250 episodes, total num timesteps 2601600/10000000, FPS 118.
+
+incre win rate is 0.9848484848484849.
+eval win rate is 1.0.

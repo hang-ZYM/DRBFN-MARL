@@ -1,16 +1,87 @@
-__pycache__
-results
+# Python
+__pycache__/
 *.pyc
-/gifs/
-build
-win_rate
-*.so
-*.csv
-RODE
-*.egg-info
-wandb
-.vscode
-api
-logs
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+.python-version
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets / personal config
+.env
+*.local
+api_keys/
+
+# ===============
+# Training output (auto-generated; large)
+# ===============
+# Original MAPPO per-run output (under onpolicy/scripts/):
+/onpolicy/scripts/results/
+**/win_rate/
+
+# ===============
+# Logs (per-run training stdout; large)
+# ===============
+# Default location for run-time logs (per MAPPO convention):
+/onpolicy/scripts/**/logs/
+/onpolicy/**/runner/**/logs/
+
+# ===============
+# Curated experiment results (TRACK THESE — they are our paper data)
+# ===============
+# IMPORTANT: results/ at repo root IS tracked because it contains our
+# curated logs, auto-generated curves, and figures. Don't ignore it.
+!results/
+!results/**
+
+# ===============
+# Caches & external tools
+# ===============
+.cache/
+wandb/
 .nfs*
 *.so
+*.dll
+RODE/
+
+# ===============
+# StarCraft II artifacts (huge; never commit)
+# ===============
+*.SC2Map
+*.s2ma
+StarCraftII/
+SC2.*/
+**/TempLaunchMap.SC2Map
+
+# ===============
+# Model checkpoints (large; per-run)
+# ===============
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+# ...but keep small index files:
+!*.index
+!*.json
+
+# ===============
+# Jupyter
+# ===============
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===============
+# Local dev scratch
+# ===============
+scratch/
+*.bak
+*.tmp
+_local/

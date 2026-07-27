@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import sys
 import os
-import wandb
+# import wandb  # lazy-loaded below to avoid protobuf version conflicts
 import socket
 import setproctitle
 import numpy as np
@@ -143,8 +143,14 @@ def main(args):
     elif all_args.algorithm_name == "happo"  or all_args.algorithm_name == "hatrpo":
         # can or cannot use recurrent network?
         print("using", all_args.algorithm_name, 'without recurrent network')
-        all_args.use_recurrent_policy = False 
+        all_args.use_recurrent_policy = False
         all_args.use_naive_recurrent_policy = False
+    elif all_args.algorithm_name == "r_drbfn":
+        print("u are choosing to use r_drbfn (DRBFN), keeping use_centralized_V = True")
+    elif all_args.algorithm_name == "r_drbfn_v2":
+        print("u are choosing to use r_drbfn_v2 (generative DRBFN), keeping use_centralized_V = True")
+    elif all_args.algorithm_name == "r_drbfn_v3":
+        print("u are choosing to use r_drbfn_v3 (n-step + counterfactual), keeping use_centralized_V = True")
     else:
         raise NotImplementedError
 
@@ -171,6 +177,7 @@ def main(args):
         os.makedirs(str(run_dir))
 
     if all_args.use_wandb:
+        import wandb
         run = wandb.init(config=all_args,
                          project=all_args.env_name,
                          entity=all_args.user_name,
@@ -248,6 +255,7 @@ def main(args):
         eval_envs.close()
 
     if all_args.use_wandb:
+        import wandb
         run.finish()
     else:
         runner.writter.export_scalars_to_json(str(runner.log_dir + '/summary.json'))

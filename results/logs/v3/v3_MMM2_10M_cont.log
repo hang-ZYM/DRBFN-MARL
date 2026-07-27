@@ -1,0 +1,228 @@
+u are choosing to use r_drbfn_v3 (n-step + counterfactual), keeping use_centralized_V = True
+choose to use gpu...
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+obs_space:  [[370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]]]
+share_obs_space:  [[435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]]]
+act_space:  [Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18)]
+Restored drbfn from checkpoint
+Restored qi_net from checkpoint
+Restored qtot_net from checkpoint
+Restored qi_target from checkpoint
+Restored qtot_target from checkpoint
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 0/6250 episodes, total num timesteps 1600/10000000, FPS 52.
+
+incre win rate is 0.0.
+eval win rate is 0.0625.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 5/6250 episodes, total num timesteps 9600/10000000, FPS 43.
+
+incre win rate is 0.020202020202020204.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 10/6250 episodes, total num timesteps 17600/10000000, FPS 50.
+
+incre win rate is 0.03608247422680412.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 15/6250 episodes, total num timesteps 25600/10000000, FPS 53.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 20/6250 episodes, total num timesteps 33600/10000000, FPS 55.
+
+incre win rate is 0.014705882352941176.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 25/6250 episodes, total num timesteps 41600/10000000, FPS 57.
+
+incre win rate is 0.015625.
+eval win rate is 0.0625.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 30/6250 episodes, total num timesteps 49600/10000000, FPS 55.
+
+incre win rate is 0.026737967914438502.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 35/6250 episodes, total num timesteps 57600/10000000, FPS 56.
+
+incre win rate is 0.023255813953488372.
+[v3 step=40] R_mean=0.2700 | G_n_mean=4.3150 (n=5) | q_tot_pred_mean=4.7874 | drbfn_loss=0.0022, qi_loss=0.0030, qtot_loss=0.9085
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 40/6250 episodes, total num timesteps 65600/10000000, FPS 56.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 45/6250 episodes, total num timesteps 73600/10000000, FPS 56.
+
+incre win rate is 0.0041841004184100415.
+[v3 step=50] R_mean=0.2702 | G_n_mean=4.3568 (n=5) | q_tot_pred_mean=4.4526 | drbfn_loss=0.0017, qi_loss=0.0027, qtot_loss=0.6315
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 50/6250 episodes, total num timesteps 81600/10000000, FPS 56.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 55/6250 episodes, total num timesteps 89600/10000000, FPS 55.
+
+incre win rate is 0.00423728813559322.
+[v3 step=60] R_mean=0.2714 | G_n_mean=4.3961 (n=5) | q_tot_pred_mean=4.3905 | drbfn_loss=0.0011, qi_loss=0.0026, qtot_loss=0.4248
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 60/6250 episodes, total num timesteps 97600/10000000, FPS 55.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 65/6250 episodes, total num timesteps 105600/10000000, FPS 55.
+
+incre win rate is 0.0.
+[v3 step=70] R_mean=0.2731 | G_n_mean=4.3546 (n=5) | q_tot_pred_mean=4.5363 | drbfn_loss=0.0016, qi_loss=0.0026, qtot_loss=0.6836
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 70/6250 episodes, total num timesteps 113600/10000000, FPS 56.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 75/6250 episodes, total num timesteps 121600/10000000, FPS 56.
+
+incre win rate is 0.02358490566037736.
+eval win rate is 0.0.
+[v3 step=80] R_mean=0.2572 | G_n_mean=4.1634 (n=5) | q_tot_pred_mean=4.2457 | drbfn_loss=0.0013, qi_loss=0.0028, qtot_loss=0.5333
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 80/6250 episodes, total num timesteps 129600/10000000, FPS 55.
+
+incre win rate is 0.004545454545454545.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 85/6250 episodes, total num timesteps 137600/10000000, FPS 55.
+
+incre win rate is 0.0.
+[v3 step=90] R_mean=0.2757 | G_n_mean=4.3805 (n=5) | q_tot_pred_mean=4.2882 | drbfn_loss=0.0013, qi_loss=0.0028, qtot_loss=0.4886
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 90/6250 episodes, total num timesteps 145600/10000000, FPS 55.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 95/6250 episodes, total num timesteps 153600/10000000, FPS 55.
+
+incre win rate is 0.0.
+[v3 step=100] R_mean=0.2736 | G_n_mean=4.3699 (n=5) | q_tot_pred_mean=4.4133 | drbfn_loss=0.0013, qi_loss=0.0031, qtot_loss=0.4992
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 100/6250 episodes, total num timesteps 161600/10000000, FPS 55.
+
+incre win rate is 0.0091324200913242.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 105/6250 episodes, total num timesteps 169600/10000000, FPS 54.
+
+incre win rate is 0.0045045045045045045.
+[v3 step=110] R_mean=0.2751 | G_n_mean=4.4599 (n=5) | q_tot_pred_mean=4.5162 | drbfn_loss=0.0010, qi_loss=0.0026, qtot_loss=0.4279
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 110/6250 episodes, total num timesteps 177600/10000000, FPS 54.
+
+incre win rate is 0.008849557522123894.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 115/6250 episodes, total num timesteps 185600/10000000, FPS 53.
+
+incre win rate is 0.0.
+[v3 step=120] R_mean=0.2689 | G_n_mean=4.3507 (n=5) | q_tot_pred_mean=4.2557 | drbfn_loss=0.0013, qi_loss=0.0025, qtot_loss=0.4898
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 120/6250 episodes, total num timesteps 193600/10000000, FPS 53.
+
+incre win rate is 0.004672897196261682.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 125/6250 episodes, total num timesteps 201600/10000000, FPS 54.
+
+incre win rate is 0.0045662100456621.
+eval win rate is 0.03125.
+[v3 step=130] R_mean=0.2632 | G_n_mean=4.2692 (n=5) | q_tot_pred_mean=4.2733 | drbfn_loss=0.0011, qi_loss=0.0029, qtot_loss=0.5454
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 130/6250 episodes, total num timesteps 209600/10000000, FPS 53.
+
+incre win rate is 0.014084507042253521.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 135/6250 episodes, total num timesteps 217600/10000000, FPS 53.
+
+incre win rate is 0.009433962264150943.
+[v3 step=140] R_mean=0.2637 | G_n_mean=4.3008 (n=5) | q_tot_pred_mean=4.2600 | drbfn_loss=0.0012, qi_loss=0.0027, qtot_loss=0.5658
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 140/6250 episodes, total num timesteps 225600/10000000, FPS 53.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 145/6250 episodes, total num timesteps 233600/10000000, FPS 53.
+
+incre win rate is 0.004545454545454545.
+[v3 step=150] R_mean=0.2640 | G_n_mean=4.3410 (n=5) | q_tot_pred_mean=4.4158 | drbfn_loss=0.0012, qi_loss=0.0029, qtot_loss=0.5587
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 150/6250 episodes, total num timesteps 241600/10000000, FPS 53.
+
+incre win rate is 0.0.
+eval win rate is 0.03125.
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 155/6250 episodes, total num timesteps 249600/10000000, FPS 53.
+
+incre win rate is 0.004629629629629629.
+[v3 step=160] R_mean=0.2607 | G_n_mean=4.3127 (n=5) | q_tot_pred_mean=4.3675 | drbfn_loss=0.0012, qi_loss=0.0027, qtot_loss=0.5572
+
+ Map MMM2 Algo r_drbfn_v3 Exp v3_MMM2_10M_cont updates 160/6250 episodes, total num timesteps 257600/10000000, FPS 54.
+
+incre win rate is 0.004608294930875576.
+Process Process-4:
+Traceback (most recent call last):
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 484, in step
+    self._controller.actions(req_actions)
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 81, in _skip_status
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 92, in _valid_status
+    raise protocol.ProtocolError(
+pysc2.lib.protocol.ProtocolError: `actions` called while in state: Status.ended, valid: (Status.in_game)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "D:\conda\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 326, in shareworker
+    ob, s_ob, reward, done, info, available_actions = env.step(data)
+                                                      ^^^^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 490, in step
+    self.full_restart()
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 452, in full_restart
+    self._launch()
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 351, in _launch
+    self._controller.create_game(create)
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 95, in _valid_status
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 70, in _check_error
+    return check_error(func(*args, **kwargs), error_enum)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 61, in check_error
+    raise RequestError("%s.%s: '%s'" % (enum_name, error_name, details), res)
+pysc2.lib.remote_controller.RequestError: SC2APIProtocol.ResponseCreateGame.Error.InvalidMapData: 'temporary map 'D:\Temp\StarCraft II\TempLaunchMap~04.SC2Map' has invalid data.'
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\connection.py", line 317, in _recv_bytes
+    ov, err = _winapi.ReadFile(self._handle, bsize,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [WinError 109] 管道已结束。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\张英铭\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 266, in <module>
+    main(sys.argv[1:])
+  File "C:\Users\张英铭\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 250, in main
+    runner.run()
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\runner\shared\smac_runner.py", line 34, in run
+    obs, share_obs, rewards, dones, infos, available_actions = self.envs.step(actions)
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 107, in step
+    return self.step_wait()
+           ^^^^^^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 389, in step_wait
+    results = [remote.recv() for remote in self.remotes]
+               ^^^^^^^^^^^^^
+  File "D:\conda\Lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+          ^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\multiprocessing\connection.py", line 337, in _recv_bytes
+    raise EOFError
+EOFError

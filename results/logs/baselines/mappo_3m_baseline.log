@@ -1,0 +1,211 @@
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+u are choosing to use rmappo, we set use_recurrent_policy to be True
+choose to use gpu...
+obs_space:  [[64, [2, 14], [3, 5], [1, 4], [1, 17]], [64, [2, 14], [3, 5], [1, 4], [1, 17]], [64, [2, 14], [3, 5], [1, 4], [1, 17]]]
+share_obs_space:  [[81, [2, 17], [3, 8], [1, 4], [1, 19]], [81, [2, 17], [3, 8], [1, 4], [1, 19]], [81, [2, 17], [3, 8], [1, 4], [1, 19]]]
+act_space:  [Discrete(9), Discrete(9), Discrete(9)]
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 0/1250 episodes, total num timesteps 1600/2000000, FPS 92.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 5/1250 episodes, total num timesteps 9600/2000000, FPS 73.
+
+incre win rate is 0.0.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 10/1250 episodes, total num timesteps 17600/2000000, FPS 86.
+
+incre win rate is 0.025252525252525252.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 15/1250 episodes, total num timesteps 25600/2000000, FPS 92.
+
+incre win rate is 0.10597826086956522.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 20/1250 episodes, total num timesteps 33600/2000000, FPS 96.
+
+incre win rate is 0.2655367231638418.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 25/1250 episodes, total num timesteps 41600/2000000, FPS 98.
+
+incre win rate is 0.3556851311953353.
+eval win rate is 0.21875.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 30/1250 episodes, total num timesteps 49600/2000000, FPS 97.
+
+incre win rate is 0.40173410404624277.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 35/1250 episodes, total num timesteps 57600/2000000, FPS 99.
+
+incre win rate is 0.49707602339181284.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 40/1250 episodes, total num timesteps 65600/2000000, FPS 100.
+
+incre win rate is 0.5398773006134969.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 45/1250 episodes, total num timesteps 73600/2000000, FPS 100.
+
+incre win rate is 0.5481927710843374.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 50/1250 episodes, total num timesteps 81600/2000000, FPS 101.
+
+incre win rate is 0.6165644171779141.
+eval win rate is 0.53125.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 55/1250 episodes, total num timesteps 89600/2000000, FPS 100.
+
+incre win rate is 0.5838509316770186.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 60/1250 episodes, total num timesteps 97600/2000000, FPS 100.
+
+incre win rate is 0.5993788819875776.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 65/1250 episodes, total num timesteps 105600/2000000, FPS 101.
+
+incre win rate is 0.6635802469135802.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 70/1250 episodes, total num timesteps 113600/2000000, FPS 102.
+
+incre win rate is 0.7393939393939394.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 75/1250 episodes, total num timesteps 121600/2000000, FPS 102.
+
+incre win rate is 0.7291666666666666.
+eval win rate is 0.8125.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 80/1250 episodes, total num timesteps 129600/2000000, FPS 102.
+
+incre win rate is 0.7134502923976608.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 85/1250 episodes, total num timesteps 137600/2000000, FPS 102.
+
+incre win rate is 0.7573099415204678.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 90/1250 episodes, total num timesteps 145600/2000000, FPS 102.
+
+incre win rate is 0.7735294117647059.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 95/1250 episodes, total num timesteps 153600/2000000, FPS 103.
+
+incre win rate is 0.8194842406876791.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 100/1250 episodes, total num timesteps 161600/2000000, FPS 103.
+
+incre win rate is 0.8510028653295129.
+eval win rate is 0.90625.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 105/1250 episodes, total num timesteps 169600/2000000, FPS 102.
+
+incre win rate is 0.8304093567251462.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 110/1250 episodes, total num timesteps 177600/2000000, FPS 103.
+
+incre win rate is 0.8885714285714286.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 115/1250 episodes, total num timesteps 185600/2000000, FPS 103.
+
+incre win rate is 0.9293785310734464.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 120/1250 episodes, total num timesteps 193600/2000000, FPS 103.
+
+incre win rate is 0.9411764705882353.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 125/1250 episodes, total num timesteps 201600/2000000, FPS 103.
+
+incre win rate is 0.925207756232687.
+eval win rate is 1.0.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 130/1250 episodes, total num timesteps 209600/2000000, FPS 103.
+
+incre win rate is 0.9452054794520548.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 135/1250 episodes, total num timesteps 217600/2000000, FPS 103.
+
+incre win rate is 0.9390581717451524.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 140/1250 episodes, total num timesteps 225600/2000000, FPS 103.
+
+incre win rate is 0.931129476584022.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 145/1250 episodes, total num timesteps 233600/2000000, FPS 104.
+
+incre win rate is 0.9617486338797814.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 150/1250 episodes, total num timesteps 241600/2000000, FPS 104.
+
+incre win rate is 0.9346049046321526.
+eval win rate is 1.0.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 155/1250 episodes, total num timesteps 249600/2000000, FPS 103.
+
+incre win rate is 0.9642857142857143.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 160/1250 episodes, total num timesteps 257600/2000000, FPS 104.
+
+incre win rate is 0.9478021978021978.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 165/1250 episodes, total num timesteps 265600/2000000, FPS 101.
+
+incre win rate is 0.9697802197802198.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 170/1250 episodes, total num timesteps 273600/2000000, FPS 102.
+
+incre win rate is 0.9565217391304348.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 175/1250 episodes, total num timesteps 281600/2000000, FPS 102.
+
+incre win rate is 0.953551912568306.
+eval win rate is 1.0.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 180/1250 episodes, total num timesteps 289600/2000000, FPS 102.
+
+incre win rate is 0.958904109589041.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 185/1250 episodes, total num timesteps 297600/2000000, FPS 102.
+
+incre win rate is 0.9504132231404959.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 190/1250 episodes, total num timesteps 305600/2000000, FPS 102.
+
+incre win rate is 0.9641873278236914.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 195/1250 episodes, total num timesteps 313600/2000000, FPS 102.
+
+incre win rate is 0.9562841530054644.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 200/1250 episodes, total num timesteps 321600/2000000, FPS 102.
+
+incre win rate is 0.943089430894309.
+eval win rate is 1.0.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 205/1250 episodes, total num timesteps 329600/2000000, FPS 102.
+
+incre win rate is 0.9918256130790191.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 210/1250 episodes, total num timesteps 337600/2000000, FPS 102.
+
+incre win rate is 0.9646739130434783.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 215/1250 episodes, total num timesteps 345600/2000000, FPS 102.
+
+incre win rate is 0.9679144385026738.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 220/1250 episodes, total num timesteps 353600/2000000, FPS 103.
+
+incre win rate is 0.9894459102902374.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 225/1250 episodes, total num timesteps 361600/2000000, FPS 103.
+
+incre win rate is 0.9547872340425532.
+eval win rate is 1.0.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 230/1250 episodes, total num timesteps 369600/2000000, FPS 103.
+
+incre win rate is 0.978891820580475.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 235/1250 episodes, total num timesteps 377600/2000000, FPS 103.
+
+incre win rate is 0.9733333333333334.
+
+ Map 3m Algo rmappo Exp mappo_3m_baseline updates 240/1250 episodes, total num timesteps 385600/2000000, FPS 103.

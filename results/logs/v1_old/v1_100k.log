@@ -1,0 +1,112 @@
+u are choosing to use r_drbfn (DRBFN), keeping use_centralized_V = True
+choose to use gpu...
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+obs_space:  [[64, [2, 14], [3, 5], [1, 4], [1, 17]], [64, [2, 14], [3, 5], [1, 4], [1, 17]], [64, [2, 14], [3, 5], [1, 4], [1, 17]]]
+share_obs_space:  [[81, [2, 17], [3, 8], [1, 4], [1, 19]], [81, [2, 17], [3, 8], [1, 4], [1, 19]], [81, [2, 17], [3, 8], [1, 4], [1, 19]]]
+act_space:  [Discrete(9), Discrete(9), Discrete(9)]
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 0/125 episodes, total num timesteps 800/100000, FPS 98.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 5/125 episodes, total num timesteps 4800/100000, FPS 68.
+
+incre win rate is 0.0.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 10/125 episodes, total num timesteps 8800/100000, FPS 80.
+
+incre win rate is 0.0.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 15/125 episodes, total num timesteps 12800/100000, FPS 85.
+
+incre win rate is 0.06951871657754011.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 20/125 episodes, total num timesteps 16800/100000, FPS 88.
+
+incre win rate is 0.21808510638297873.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 25/125 episodes, total num timesteps 20800/100000, FPS 90.
+
+incre win rate is 0.3076923076923077.
+eval win rate is 0.875.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 30/125 episodes, total num timesteps 24800/100000, FPS 90.
+
+incre win rate is 0.4411764705882353.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 35/125 episodes, total num timesteps 28800/100000, FPS 91.
+
+incre win rate is 0.6.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 40/125 episodes, total num timesteps 32800/100000, FPS 92.
+
+incre win rate is 0.6746987951807228.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 45/125 episodes, total num timesteps 36800/100000, FPS 93.
+
+incre win rate is 0.7023809523809523.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 50/125 episodes, total num timesteps 40800/100000, FPS 93.
+
+incre win rate is 0.6646341463414634.
+eval win rate is 0.875.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 55/125 episodes, total num timesteps 44800/100000, FPS 91.
+
+incre win rate is 0.656441717791411.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 60/125 episodes, total num timesteps 48800/100000, FPS 91.
+
+incre win rate is 0.6790123456790124.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 65/125 episodes, total num timesteps 52800/100000, FPS 92.
+
+incre win rate is 0.6832298136645962.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 70/125 episodes, total num timesteps 56800/100000, FPS 92.
+
+incre win rate is 0.7018633540372671.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 75/125 episodes, total num timesteps 60800/100000, FPS 93.
+
+incre win rate is 0.75.
+eval win rate is 0.8125.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 80/125 episodes, total num timesteps 64800/100000, FPS 93.
+
+incre win rate is 0.6521739130434783.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 85/125 episodes, total num timesteps 68800/100000, FPS 94.
+
+incre win rate is 0.6918238993710691.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 90/125 episodes, total num timesteps 72800/100000, FPS 95.
+
+incre win rate is 0.7375.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 95/125 episodes, total num timesteps 76800/100000, FPS 95.
+
+incre win rate is 0.710691823899371.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 100/125 episodes, total num timesteps 80800/100000, FPS 95.
+
+incre win rate is 0.740506329113924.
+eval win rate is 0.8125.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 105/125 episodes, total num timesteps 84800/100000, FPS 95.
+
+incre win rate is 0.782608695652174.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 110/125 episodes, total num timesteps 88800/100000, FPS 96.
+
+incre win rate is 0.7888198757763976.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 115/125 episodes, total num timesteps 92800/100000, FPS 96.
+
+incre win rate is 0.8333333333333334.
+
+ Map 3m Algo r_drbfn Exp v1_3m_100k updates 120/125 episodes, total num timesteps 96800/100000, FPS 96.
+
+incre win rate is 0.8571428571428571.

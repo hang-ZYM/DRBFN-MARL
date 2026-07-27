@@ -1,0 +1,136 @@
+u are choosing to use r_drbfn_v2 (generative DRBFN), keeping use_centralized_V = True
+choose to use gpu...
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+obs_space:  [[64, [2, 14], [3, 5], [1, 4], [1, 17]], [64, [2, 14], [3, 5], [1, 4], [1, 17]], [64, [2, 14], [3, 5], [1, 4], [1, 17]]]
+share_obs_space:  [[81, [2, 17], [3, 8], [1, 4], [1, 19]], [81, [2, 17], [3, 8], [1, 4], [1, 19]], [81, [2, 17], [3, 8], [1, 4], [1, 19]]]
+act_space:  [Discrete(9), Discrete(9), Discrete(9)]
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 0/125 episodes, total num timesteps 800/100000, FPS 99.
+
+incre win rate is 0.0.
+eval win rate is 0.125.
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 5/125 episodes, total num timesteps 4800/100000, FPS 82.
+
+incre win rate is 0.0.
+[v2-shape step=10] R_mean=0.1795 | r_mean(mean,min,max)=(0.0369,0.0070,0.0639) | r_var_mean=0.000093 | shaping_abs=0.0369 | alpha=1.0
+[v2-qdbg step=10] Q_tot(factual) sample: mean=-0.0345, min=-0.0848, max=-0.0125 | counterfactual_r(cur step) mean=0.0598, min=0.0000, max=0.4643 | drbfn_loss=0.0123, qtot_loss=0.0589
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 10/125 episodes, total num timesteps 8800/100000, FPS 97.
+
+incre win rate is 0.0.
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 15/125 episodes, total num timesteps 12800/100000, FPS 104.
+
+incre win rate is 0.004807692307692308.
+[v2-shape step=20] R_mean=0.3464 | r_mean(mean,min,max)=(0.1018,0.0704,0.1692) | r_var_mean=0.000084 | shaping_abs=0.1018 | alpha=1.0
+[v2-qdbg step=20] Q_tot(factual) sample: mean=-0.0262, min=-0.0613, max=0.0020 | counterfactual_r(cur step) mean=0.1155, min=0.0000, max=3.9492 | drbfn_loss=0.1228, qtot_loss=0.6133
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 20/125 episodes, total num timesteps 16800/100000, FPS 110.
+
+incre win rate is 0.03535353535353535.
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 25/125 episodes, total num timesteps 20800/100000, FPS 113.
+
+incre win rate is 0.10112359550561797.
+eval win rate is 0.8125.
+[v2-shape step=30] R_mean=0.4635 | r_mean(mean,min,max)=(0.1546,0.1218,0.2303) | r_var_mean=0.000139 | shaping_abs=0.1546 | alpha=1.0
+[v2-qdbg step=30] Q_tot(factual) sample: mean=-0.0134, min=-0.0525, max=0.0187 | counterfactual_r(cur step) mean=0.1545, min=0.0000, max=4.1215 | drbfn_loss=0.3459, qtot_loss=1.7700
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 30/125 episodes, total num timesteps 24800/100000, FPS 113.
+
+incre win rate is 0.20930232558139536.
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 35/125 episodes, total num timesteps 28800/100000, FPS 115.
+
+incre win rate is 0.29545454545454547.
+[v2-shape step=40] R_mean=0.4951 | r_mean(mean,min,max)=(0.2102,0.1245,0.3646) | r_var_mean=0.000495 | shaping_abs=0.2102 | alpha=1.0
+[v2-qdbg step=40] Q_tot(factual) sample: mean=-0.0074, min=-0.0345, max=0.0177 | counterfactual_r(cur step) mean=0.1650, min=0.0000, max=4.0195 | drbfn_loss=0.3825, qtot_loss=2.0601
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 40/125 episodes, total num timesteps 32800/100000, FPS 116.
+
+incre win rate is 0.3764705882352941.
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 45/125 episodes, total num timesteps 36800/100000, FPS 117.
+
+incre win rate is 0.4817073170731707.
+[v2-shape step=50] R_mean=0.5708 | r_mean(mean,min,max)=(0.2245,0.1200,0.7341) | r_var_mean=0.001480 | shaping_abs=0.2245 | alpha=1.0
+[v2-qdbg step=50] Q_tot(factual) sample: mean=0.0128, min=-0.0136, max=0.0537 | counterfactual_r(cur step) mean=0.1903, min=0.0000, max=4.0202 | drbfn_loss=0.4420, qtot_loss=2.8162
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 50/125 episodes, total num timesteps 40800/100000, FPS 118.
+
+incre win rate is 0.42857142857142855.
+eval win rate is 0.875.
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 55/125 episodes, total num timesteps 44800/100000, FPS 117.
+
+incre win rate is 0.5029585798816568.
+[v2-shape step=60] R_mean=0.6854 | r_mean(mean,min,max)=(0.2548,0.0519,1.6242) | r_var_mean=0.003628 | shaping_abs=0.2548 | alpha=1.0
+[v2-qdbg step=60] Q_tot(factual) sample: mean=0.0389, min=-0.0123, max=0.0836 | counterfactual_r(cur step) mean=0.2285, min=0.0000, max=4.0780 | drbfn_loss=0.3809, qtot_loss=3.9193
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 60/125 episodes, total num timesteps 48800/100000, FPS 118.
+
+incre win rate is 0.6608187134502924.
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 65/125 episodes, total num timesteps 52800/100000, FPS 118.
+
+incre win rate is 0.6586826347305389.
+[v2-shape step=70] R_mean=0.6704 | r_mean(mean,min,max)=(0.2415,-0.0885,3.4844) | r_var_mean=0.006375 | shaping_abs=0.2459 | alpha=1.0
+[v2-qdbg step=70] Q_tot(factual) sample: mean=0.0682, min=-0.0054, max=0.1256 | counterfactual_r(cur step) mean=0.2235, min=0.0000, max=4.0558 | drbfn_loss=0.0736, qtot_loss=3.6723
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 70/125 episodes, total num timesteps 56800/100000, FPS 119.
+
+incre win rate is 0.6242424242424243.
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 75/125 episodes, total num timesteps 60800/100000, FPS 120.
+
+incre win rate is 0.6467065868263473.
+eval win rate is 0.875.
+[v2-shape step=80] R_mean=0.6265 | r_mean(mean,min,max)=(0.1774,-0.1616,5.2599) | r_var_mean=0.005928 | shaping_abs=0.2124 | alpha=1.0
+[v2-qdbg step=80] Q_tot(factual) sample: mean=0.0565, min=0.0065, max=0.1131 | counterfactual_r(cur step) mean=0.2088, min=0.0000, max=4.0753 | drbfn_loss=0.0256, qtot_loss=3.1910
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 80/125 episodes, total num timesteps 64800/100000, FPS 119.
+
+incre win rate is 0.7177914110429447.
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 85/125 episodes, total num timesteps 68800/100000, FPS 119.
+
+incre win rate is 0.7636363636363637.
+[v2-shape step=90] R_mean=0.6911 | r_mean(mean,min,max)=(0.2198,-0.0770,4.2501) | r_var_mean=0.004382 | shaping_abs=0.2301 | alpha=1.0
+[v2-qdbg step=90] Q_tot(factual) sample: mean=0.0566, min=0.0002, max=0.1140 | counterfactual_r(cur step) mean=0.2304, min=0.0000, max=4.0806 | drbfn_loss=0.0055, qtot_loss=3.8537
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 90/125 episodes, total num timesteps 72800/100000, FPS 119.
+
+incre win rate is 0.7289156626506024.
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 95/125 episodes, total num timesteps 76800/100000, FPS 120.
+
+incre win rate is 0.7514792899408284.
+[v2-shape step=100] R_mean=0.7184 | r_mean(mean,min,max)=(0.2523,-0.0394,4.1889) | r_var_mean=0.003902 | shaping_abs=0.2542 | alpha=1.0
+[v2-qdbg step=100] Q_tot(factual) sample: mean=0.1159, min=0.0172, max=0.1752 | counterfactual_r(cur step) mean=0.2395, min=0.0000, max=4.0958 | drbfn_loss=0.0063, qtot_loss=3.9557
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 100/125 episodes, total num timesteps 80800/100000, FPS 120.
+
+incre win rate is 0.7393939393939394.
+eval win rate is 0.6875.
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 105/125 episodes, total num timesteps 84800/100000, FPS 120.
+
+incre win rate is 0.7037037037037037.
+[v2-shape step=110] R_mean=0.7866 | r_mean(mean,min,max)=(0.2648,-0.0425,4.4592) | r_var_mean=0.004369 | shaping_abs=0.2690 | alpha=1.0
+[v2-qdbg step=110] Q_tot(factual) sample: mean=0.1545, min=0.0594, max=0.2167 | counterfactual_r(cur step) mean=0.2622, min=0.0000, max=4.1823 | drbfn_loss=0.0041, qtot_loss=4.3944
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 110/125 episodes, total num timesteps 88800/100000, FPS 120.
+
+incre win rate is 0.8072289156626506.
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 115/125 episodes, total num timesteps 92800/100000, FPS 120.
+
+incre win rate is 0.7378048780487805.
+[v2-shape step=120] R_mean=0.6430 | r_mean(mean,min,max)=(0.2212,-0.0299,4.1636) | r_var_mean=0.003724 | shaping_abs=0.2230 | alpha=1.0
+[v2-qdbg step=120] Q_tot(factual) sample: mean=0.1651, min=0.1155, max=0.2383 | counterfactual_r(cur step) mean=0.2143, min=0.0000, max=4.1317 | drbfn_loss=0.0024, qtot_loss=3.1814
+
+ Map 3m Algo r_drbfn_v2 Exp v2_shaping_100k updates 120/125 episodes, total num timesteps 96800/100000, FPS 120.
+
+incre win rate is 0.7440476190476191.

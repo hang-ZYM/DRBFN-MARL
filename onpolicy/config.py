@@ -158,7 +158,7 @@ def get_config():
 
     # prepare parameters
     parser.add_argument("--algorithm_name", type=str,
-                        default='mappo', choices=["rmappo", "mappo", "happo", "hatrpo", "mat", "mat_dec"])
+                        default='mappo', choices=["rmappo", "mappo", "happo", "hatrpo", "mat", "mat_dec", "r_drbfn", "r_drbfn_v2", "r_drbfn_v3"])
 
     parser.add_argument("--experiment_name", type=str, default="check", help="an identifier to distinguish different experiment.")
     parser.add_argument("--seed", type=int, default=1, help="Random seed for numpy/torch")
@@ -303,5 +303,38 @@ def get_config():
     # add for online multi-task
     parser.add_argument("--train_maps", type=str, nargs='+', default=None)
     parser.add_argument("--eval_maps", type=str, nargs='+', default=None)
-    
+
+    # add for DRBFN
+    parser.add_argument("--drbfn_hidden", type=int, default=64,
+                        help="DRBFN BFN hidden size")
+    parser.add_argument("--drbfn_n_sample_steps", type=int, default=2,
+                        help="DRBFN BFN sampling steps")
+    parser.add_argument("--drbfn_lr", type=float, default=3e-4,
+                        help="DRBFN BFN + Q_tot learning rate")
+    parser.add_argument("--drbfn_beta", type=float, default=0.5,
+                        help="DRBFN BFN entropy regularization coefficient")
+    parser.add_argument("--drbfn_warmup_t", type=int, default=50000,
+                        help="DRBFN warmup env steps (use R/n)")
+    parser.add_argument("--drbfn_update_interval", type=int, default=5,
+                        help="DRBFN BFN update interval (in train steps)")
+    parser.add_argument("--qi_lr", type=float, default=5e-4,
+                        help="DRBFN Q_i learning rate")
+
+    # add for DRBFN-v2 (generative paradigm)
+    parser.add_argument("--drbfn_k_samples", type=int, default=4,
+                        help="DRBFN-v2 number of BFN samples for variance estimation")
+    parser.add_argument("--drbfn_lambda_cons", type=float, default=0.1,
+                        help="DRBFN-v2 conservation soft prior weight (||sum(r_i) - R||^2)")
+    parser.add_argument("--drbfn_lambda_exp", type=float, default=0.01,
+                        help="DRBFN-v2 exploration bonus weight (lambda * Var(r_i))")
+    parser.add_argument("--drbfn_cf_temperature", type=float, default=1.0,
+                        help="DRBFN-v2 counterfactual softmax temperature (r_i = softmax(delta_cf/tau) * R)")
+    parser.add_argument("--drbfn_lambda_shaping", type=float, default=1.0,
+                        help="DRBFN-v2 advantage shaping coefficient (BFN signal added to returns)")
+
+    # add for DRBFN-v3 (n-step + counterfactual)
+    parser.add_argument("--drbfn_n_step", type=int, default=5,
+                        help="DRBFN-v3 n-step return horizon (G_t^n = sum gamma^k R + gamma^n Q)")
+    # Note: --drbfn_cf_temperature reused from v2 config (already defined)
+
     return parser
