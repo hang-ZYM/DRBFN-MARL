@@ -165,7 +165,7 @@ on-policy/
 
 ```bash
 # 1. 克隆
-git clone https://github.com/<your-username>/on-policy.git
+git clone https://github.com/hang-ZYM/on-policy.git
 cd on-policy
 
 # 2. 创建环境
@@ -232,7 +232,7 @@ chmod +x train_smac_scripts/train_smac_drbfn_v3_5m_vs_6m.sh
   title  = {DRBFN: Dynamic Reward Bayesian Flow Network for Multi-Agent Credit Assignment},
   author = {Zhang Yingming},
   year   = {2026},
-  url    = {https://github.com/<your-username>/on-policy}
+  url    = {https://github.com/hang-ZYM/on-policy}
 }
 ```
 

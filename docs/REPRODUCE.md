@@ -21,7 +21,7 @@
 ### 1.3 Conda 环境
 
 ```bash
-git clone https://github.com/<your-username>/on-policy.git
+git clone https://github.com/hang-ZYM/on-policy.git
 cd on-policy
 conda env create -f environment.yaml
 conda activate marl
