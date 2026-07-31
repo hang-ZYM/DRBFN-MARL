@@ -75,6 +75,12 @@ class Runner(object):
         elif self.algorithm_name == "r_drbfn_v3":
             from onpolicy.algorithms.r_drbfn_v3.r_drbfn_v3 import R_DRBFN_v3 as TrainAlgo
             from onpolicy.algorithms.r_drbfn_v3.algorithm.rDRBFNPolicy_v3 import R_DRBFNPolicy_v3 as Policy
+        elif self.algorithm_name == "r_drbfn_final":
+            from onpolicy.algorithms.r_drbfn_final.r_drbfn_final import R_DRBFN_FINAL as TrainAlgo
+            from onpolicy.algorithms.r_drbfn_final.algorithm.rDRBFNFinalPolicy import R_DRBFNFinalPolicy as Policy
+        elif self.algorithm_name == "r_drbfn_qvpo":
+            from onpolicy.algorithms.r_drbfn_qvpo.r_drbfn_qvpo import R_DRBFN_QVPO as TrainAlgo
+            from onpolicy.algorithms.r_drbfn_qvpo.algorithm.rDRBFN_QVPOPolicy import R_DRBFNQVPOPolicy as Policy
         else:
             from onpolicy.algorithms.r_mappo.r_mappo import R_MAPPO as TrainAlgo
             from onpolicy.algorithms.r_mappo.algorithm.rMAPPOPolicy import R_MAPPOPolicy as Policy
@@ -94,6 +100,10 @@ class Runner(object):
             self.policy = Policy(self.all_args, self.envs.observation_space[0], share_observation_space, self.envs.action_space[0], self.num_agents, device = self.device)
         elif self.algorithm_name == "r_drbfn_v3":
             self.policy = Policy(self.all_args, self.envs.observation_space[0], share_observation_space, self.envs.action_space[0], self.num_agents, device = self.device)
+        elif self.algorithm_name == "r_drbfn_final":
+            self.policy = Policy(self.all_args, self.envs.observation_space[0], share_observation_space, self.envs.action_space[0], self.num_agents, device = self.device)
+        elif self.algorithm_name == "r_drbfn_qvpo":
+            self.policy = Policy(self.all_args, self.envs.observation_space[0], share_observation_space, self.envs.action_space[0], self.num_agents, device = self.device)
         else:
             self.policy = Policy(self.all_args, self.envs.observation_space[0], share_observation_space, self.envs.action_space[0], device = self.device)
 
@@ -109,6 +119,10 @@ class Runner(object):
             self.trainer = TrainAlgo(self.all_args, self.policy, self.num_agents, device = self.device)
         elif self.algorithm_name == "r_drbfn_v3":
             self.trainer = TrainAlgo(self.all_args, self.policy, self.num_agents, device = self.device)
+        elif self.algorithm_name == "r_drbfn_final":
+            self.trainer = TrainAlgo(self.all_args, self.policy, self.num_agents, device = self.device)
+            self.trainer = TrainAlgo(self.all_args, self.policy, self.num_agents, device = self.device)
+        elif self.algorithm_name == "r_drbfn_qvpo":
             self.trainer = TrainAlgo(self.all_args, self.policy, self.num_agents, device = self.device)
         else:
             self.trainer = TrainAlgo(self.all_args, self.policy, device = self.device)
@@ -191,6 +205,18 @@ class Runner(object):
                 torch.save(p.qtot_net.state_dict(), str(self.save_dir) + "/qtot_net.pt")
                 torch.save(p.qi_target.state_dict(), str(self.save_dir) + "/qi_target.pt")
                 torch.save(p.qtot_target.state_dict(), str(self.save_dir) + "/qtot_target.pt")
+            elif self.algorithm_name == "r_drbfn_final":
+                p = self.trainer.policy
+                torch.save(p.drbfn.state_dict(), str(self.save_dir) + "/drbfn.pt")
+                torch.save(p.qi_net.state_dict(), str(self.save_dir) + "/qi_net.pt")
+                torch.save(p.qtot_net.state_dict(), str(self.save_dir) + "/qtot_net.pt")
+                torch.save(p.qi_target.state_dict(), str(self.save_dir) + "/qi_target.pt")
+                torch.save(p.qtot_target.state_dict(), str(self.save_dir) + "/qtot_target.pt")
+            elif self.algorithm_name == "r_drbfn_qvpo":
+                p = self.trainer.policy
+                torch.save(p.drbfn.state_dict(), str(self.save_dir) + "/drbfn.pt")
+                torch.save(p.qtot_net.state_dict(), str(self.save_dir) + "/qtot_net.pt")
+                torch.save(p.qtot_target.state_dict(), str(self.save_dir) + "/qtot_target.pt")
 
     def restore(self, model_dir):
         """Restore policy's networks from a saved model."""
@@ -226,6 +252,25 @@ class Runner(object):
                 p = self.policy
                 for name, net in [("drbfn", p.drbfn), ("qi_net", p.qi_net),
                                   ("qtot_net", p.qtot_net), ("qi_target", p.qi_target),
+                                  ("qtot_target", p.qtot_target)]:
+                    path = str(self.model_dir) + f'/{name}.pt'
+                    if os.path.exists(path):
+                        net.load_state_dict(torch.load(path))
+            elif self.algorithm_name == "r_drbfn_final":
+                import os
+                p = self.policy
+                for name, net in [("drbfn", p.drbfn), ("qi_net", p.qi_net),
+                                  ("qtot_net", p.qtot_net), ("qi_target", p.qi_target),
+                                  ("qtot_target", p.qtot_target)]:
+                    path = str(self.model_dir) + f'/{name}.pt'
+                    if os.path.exists(path):
+                        net.load_state_dict(torch.load(path))
+                        print(f"Restored {name} from checkpoint")
+            elif self.algorithm_name == "r_drbfn_qvpo":
+                import os
+                p = self.policy
+                for name, net in [("drbfn", p.drbfn),
+                                  ("qtot_net", p.qtot_net),
                                   ("qtot_target", p.qtot_target)]:
                     path = str(self.model_dir) + f'/{name}.pt'
                     if os.path.exists(path):

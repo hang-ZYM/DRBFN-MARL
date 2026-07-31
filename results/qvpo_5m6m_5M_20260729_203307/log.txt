@@ -1,0 +1,1455 @@
+=== DRBFN-QVPO SMAC 5m_vs_6m (5M steps) ===
+Started at: Wed Jul 29 20:33:07     2026
+Log file: results/qvpo_5m6m_5M_20260729_203307/log.txt
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+u are choosing to use r_drbfn_qvpo (BFN outputs Phi, Q-weighted VLB, bi-level), keeping use_centralized_V = True
+choose to use gpu...
+obs_space:  [[124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]]]
+share_obs_space:  [[156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]]]
+act_space:  [Discrete(12), Discrete(12), Discrete(12), Discrete(12), Discrete(12)]
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 0/1562 episodes, total num timesteps 3200/5000000, FPS 181.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 5/1562 episodes, total num timesteps 19200/5000000, FPS 91.
+
+incre win rate is 0.0.
+[v_qvpo step=10] qtot_loss=1.8672 | drbfn_loss=-12.2819 | align_mean=0.0000 | g_n_mean=1.2092 | phi_scale=0.0428 | g_i_scale=0.0080 | raw_align_mean=0.0015 | raw_align_std=0.0026 | log_p_mean=12.3105 | grad_norm=10.7711
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 10/1562 episodes, total num timesteps 35200/5000000, FPS 105.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 15/1562 episodes, total num timesteps 51200/5000000, FPS 109.
+
+incre win rate is 0.0.
+[v_qvpo step=20] qtot_loss=2.1907 | drbfn_loss=-12.1403 | align_mean=0.0000 | g_n_mean=1.4972 | phi_scale=0.0520 | g_i_scale=0.0108 | raw_align_mean=0.0030 | raw_align_std=0.0042 | log_p_mean=12.1055 | grad_norm=10.9946
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 20/1562 episodes, total num timesteps 67200/5000000, FPS 110.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 25/1562 episodes, total num timesteps 83200/5000000, FPS 112.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=30] qtot_loss=1.6039 | drbfn_loss=-11.9320 | align_mean=-0.0000 | g_n_mean=1.5780 | phi_scale=0.0805 | g_i_scale=0.0139 | raw_align_mean=0.0043 | raw_align_std=0.0060 | log_p_mean=11.8756 | grad_norm=8.1031
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 30/1562 episodes, total num timesteps 99200/5000000, FPS 110.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 35/1562 episodes, total num timesteps 115200/5000000, FPS 112.
+
+incre win rate is 0.0.
+[v_qvpo step=40] qtot_loss=1.0717 | drbfn_loss=-11.8157 | align_mean=0.0000 | g_n_mean=1.6354 | phi_scale=0.1133 | g_i_scale=0.0175 | raw_align_mean=0.0060 | raw_align_std=0.0080 | log_p_mean=11.7308 | grad_norm=24.9294
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 40/1562 episodes, total num timesteps 131200/5000000, FPS 113.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 45/1562 episodes, total num timesteps 147200/5000000, FPS 113.
+
+incre win rate is 0.003973509933774834.
+[v_qvpo step=50] qtot_loss=0.8046 | drbfn_loss=-11.9434 | align_mean=0.0000 | g_n_mean=1.7099 | phi_scale=0.1563 | g_i_scale=0.0205 | raw_align_mean=0.0078 | raw_align_std=0.0101 | log_p_mean=11.9029 | grad_norm=10.6911
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 50/1562 episodes, total num timesteps 163200/5000000, FPS 114.
+
+incre win rate is 0.0013245033112582781.
+eval win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 55/1562 episodes, total num timesteps 179200/5000000, FPS 113.
+
+incre win rate is 0.0.
+[v_qvpo step=60] qtot_loss=0.8177 | drbfn_loss=-11.8859 | align_mean=-0.0000 | g_n_mean=1.7648 | phi_scale=0.1945 | g_i_scale=0.0249 | raw_align_mean=0.0100 | raw_align_std=0.0124 | log_p_mean=11.8683 | grad_norm=9.6079
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 60/1562 episodes, total num timesteps 195200/5000000, FPS 113.
+
+incre win rate is 0.004.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 65/1562 episodes, total num timesteps 211200/5000000, FPS 114.
+
+incre win rate is 0.0027210884353741495.
+[v_qvpo step=70] qtot_loss=0.5686 | drbfn_loss=-11.7850 | align_mean=-0.0000 | g_n_mean=1.8239 | phi_scale=0.2292 | g_i_scale=0.0311 | raw_align_mean=0.0126 | raw_align_std=0.0150 | log_p_mean=11.7373 | grad_norm=9.6490
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 70/1562 episodes, total num timesteps 227200/5000000, FPS 114.
+
+incre win rate is 0.0056022408963585435.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 75/1562 episodes, total num timesteps 243200/5000000, FPS 115.
+
+incre win rate is 0.011299435028248588.
+eval win rate is 0.0625.
+[v_qvpo step=80] qtot_loss=0.6374 | drbfn_loss=-11.8242 | align_mean=-0.0000 | g_n_mean=1.9441 | phi_scale=0.2406 | g_i_scale=0.0394 | raw_align_mean=0.0161 | raw_align_std=0.0181 | log_p_mean=11.6971 | grad_norm=12.3620
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 80/1562 episodes, total num timesteps 259200/5000000, FPS 113.
+
+incre win rate is 0.012838801711840228.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 85/1562 episodes, total num timesteps 275200/5000000, FPS 113.
+
+incre win rate is 0.020086083213773313.
+[v_qvpo step=90] qtot_loss=0.5721 | drbfn_loss=-11.9563 | align_mean=0.0000 | g_n_mean=2.0196 | phi_scale=0.2530 | g_i_scale=0.0492 | raw_align_mean=0.0203 | raw_align_std=0.0223 | log_p_mean=11.7539 | grad_norm=9.1150
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 90/1562 episodes, total num timesteps 291200/5000000, FPS 113.
+
+incre win rate is 0.03115727002967359.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 95/1562 episodes, total num timesteps 307200/5000000, FPS 114.
+
+incre win rate is 0.05504587155963303.
+[v_qvpo step=100] qtot_loss=1.2097 | drbfn_loss=-11.9394 | align_mean=-0.0000 | g_n_mean=2.1379 | phi_scale=0.2485 | g_i_scale=0.0578 | raw_align_mean=0.0236 | raw_align_std=0.0280 | log_p_mean=11.7036 | grad_norm=5.2294
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 100/1562 episodes, total num timesteps 323200/5000000, FPS 114.
+
+incre win rate is 0.08412698412698413.
+eval win rate is 0.34375.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 105/1562 episodes, total num timesteps 339200/5000000, FPS 113.
+
+incre win rate is 0.10634920634920635.
+[v_qvpo step=110] qtot_loss=1.1110 | drbfn_loss=-11.9053 | align_mean=0.0000 | g_n_mean=2.1677 | phi_scale=0.2441 | g_i_scale=0.0651 | raw_align_mean=0.0259 | raw_align_std=0.0321 | log_p_mean=11.6403 | grad_norm=5.8685
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 110/1562 episodes, total num timesteps 355200/5000000, FPS 113.
+
+incre win rate is 0.1485148514851485.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 115/1562 episodes, total num timesteps 371200/5000000, FPS 114.
+
+incre win rate is 0.1266233766233766.
+[v_qvpo step=120] qtot_loss=1.7924 | drbfn_loss=-11.9810 | align_mean=0.0000 | g_n_mean=2.3532 | phi_scale=0.2357 | g_i_scale=0.0713 | raw_align_mean=0.0257 | raw_align_std=0.0332 | log_p_mean=11.6795 | grad_norm=3.3137
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 120/1562 episodes, total num timesteps 387200/5000000, FPS 114.
+
+incre win rate is 0.13658536585365855.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 125/1562 episodes, total num timesteps 403200/5000000, FPS 114.
+
+incre win rate is 0.1702127659574468.
+eval win rate is 0.28125.
+[v_qvpo step=130] qtot_loss=2.8996 | drbfn_loss=-11.9546 | align_mean=-0.0000 | g_n_mean=2.6212 | phi_scale=0.2187 | g_i_scale=0.0812 | raw_align_mean=0.0285 | raw_align_std=0.0475 | log_p_mean=11.5908 | grad_norm=4.4615
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 130/1562 episodes, total num timesteps 419200/5000000, FPS 113.
+
+incre win rate is 0.20327868852459016.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 135/1562 episodes, total num timesteps 435200/5000000, FPS 113.
+
+incre win rate is 0.22885572139303484.
+[v_qvpo step=140] qtot_loss=2.3670 | drbfn_loss=-11.9438 | align_mean=-0.0000 | g_n_mean=2.6138 | phi_scale=0.2097 | g_i_scale=0.0878 | raw_align_mean=0.0252 | raw_align_std=0.0595 | log_p_mean=11.6053 | grad_norm=4.3374
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 140/1562 episodes, total num timesteps 451200/5000000, FPS 113.
+
+incre win rate is 0.245.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 145/1562 episodes, total num timesteps 467200/5000000, FPS 114.
+
+incre win rate is 0.23833333333333334.
+[v_qvpo step=150] qtot_loss=2.2632 | drbfn_loss=-11.7401 | align_mean=-0.0000 | g_n_mean=2.6933 | phi_scale=0.2036 | g_i_scale=0.0940 | raw_align_mean=0.0206 | raw_align_std=0.0635 | log_p_mean=11.4048 | grad_norm=6.0626
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 150/1562 episodes, total num timesteps 483200/5000000, FPS 114.
+
+incre win rate is 0.2785234899328859.
+eval win rate is 0.59375.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 155/1562 episodes, total num timesteps 499200/5000000, FPS 115.
+
+incre win rate is 0.3277870216306156.
+[v_qvpo step=160] qtot_loss=1.9029 | drbfn_loss=-11.4961 | align_mean=-0.0000 | g_n_mean=2.6934 | phi_scale=0.2149 | g_i_scale=0.1001 | raw_align_mean=0.0157 | raw_align_std=0.0702 | log_p_mean=11.2110 | grad_norm=8.3900
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 160/1562 episodes, total num timesteps 515200/5000000, FPS 116.
+
+incre win rate is 0.2921535893155259.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 165/1562 episodes, total num timesteps 531200/5000000, FPS 114.
+
+incre win rate is 0.29679595278246207.
+[v_qvpo step=170] qtot_loss=2.2116 | drbfn_loss=-11.3437 | align_mean=-0.0000 | g_n_mean=2.9163 | phi_scale=0.2381 | g_i_scale=0.1067 | raw_align_mean=0.0212 | raw_align_std=0.1174 | log_p_mean=11.0799 | grad_norm=7.9154
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 170/1562 episodes, total num timesteps 547200/5000000, FPS 115.
+
+incre win rate is 0.3243697478991597.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 175/1562 episodes, total num timesteps 563200/5000000, FPS 116.
+
+incre win rate is 0.34724540901502504.
+eval win rate is 0.40625.
+[v_qvpo step=180] qtot_loss=2.0440 | drbfn_loss=-11.5298 | align_mean=0.0000 | g_n_mean=2.9437 | phi_scale=0.2578 | g_i_scale=0.1185 | raw_align_mean=0.0267 | raw_align_std=0.1486 | log_p_mean=11.3091 | grad_norm=16.4915
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 180/1562 episodes, total num timesteps 579200/5000000, FPS 116.
+
+incre win rate is 0.3543441226575809.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 185/1562 episodes, total num timesteps 595200/5000000, FPS 117.
+
+incre win rate is 0.3552188552188552.
+[v_qvpo step=190] qtot_loss=1.8346 | drbfn_loss=-11.6158 | align_mean=0.0000 | g_n_mean=3.1217 | phi_scale=0.2601 | g_i_scale=0.1402 | raw_align_mean=0.0384 | raw_align_std=0.1929 | log_p_mean=11.2961 | grad_norm=12.9795
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 190/1562 episodes, total num timesteps 611200/5000000, FPS 117.
+
+incre win rate is 0.3724832214765101.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 195/1562 episodes, total num timesteps 627200/5000000, FPS 118.
+
+incre win rate is 0.42833333333333334.
+[v_qvpo step=200] qtot_loss=2.1143 | drbfn_loss=-11.7296 | align_mean=0.0000 | g_n_mean=3.3498 | phi_scale=0.2658 | g_i_scale=0.1660 | raw_align_mean=0.0654 | raw_align_std=0.2993 | log_p_mean=11.3956 | grad_norm=7.9417
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 200/1562 episodes, total num timesteps 643200/5000000, FPS 118.
+
+incre win rate is 0.41736227045075125.
+eval win rate is 0.71875.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 205/1562 episodes, total num timesteps 659200/5000000, FPS 118.
+
+incre win rate is 0.4722689075630252.
+[v_qvpo step=210] qtot_loss=1.8196 | drbfn_loss=-11.7200 | align_mean=-0.0000 | g_n_mean=3.3993 | phi_scale=0.2674 | g_i_scale=0.1936 | raw_align_mean=0.0798 | raw_align_std=0.3355 | log_p_mean=11.3638 | grad_norm=7.3116
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 210/1562 episodes, total num timesteps 675200/5000000, FPS 119.
+
+incre win rate is 0.44966442953020136.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 215/1562 episodes, total num timesteps 691200/5000000, FPS 119.
+
+incre win rate is 0.4873096446700508.
+[v_qvpo step=220] qtot_loss=1.8414 | drbfn_loss=-11.8073 | align_mean=0.0000 | g_n_mean=3.3828 | phi_scale=0.2698 | g_i_scale=0.2195 | raw_align_mean=0.0977 | raw_align_std=0.3782 | log_p_mean=11.4168 | grad_norm=2.5519
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 220/1562 episodes, total num timesteps 707200/5000000, FPS 119.
+
+incre win rate is 0.4317032040472175.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 225/1562 episodes, total num timesteps 723200/5000000, FPS 119.
+
+incre win rate is 0.38333333333333336.
+eval win rate is 0.65625.
+[v_qvpo step=230] qtot_loss=1.9819 | drbfn_loss=-11.8754 | align_mean=0.0000 | g_n_mean=3.5620 | phi_scale=0.2710 | g_i_scale=0.2497 | raw_align_mean=0.1218 | raw_align_std=0.4210 | log_p_mean=11.4359 | grad_norm=5.3603
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 230/1562 episodes, total num timesteps 739200/5000000, FPS 118.
+
+incre win rate is 0.4855687606112054.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 235/1562 episodes, total num timesteps 755200/5000000, FPS 118.
+
+incre win rate is 0.43529411764705883.
+[v_qvpo step=240] qtot_loss=2.1654 | drbfn_loss=-11.8384 | align_mean=-0.0000 | g_n_mean=3.6962 | phi_scale=0.2708 | g_i_scale=0.2763 | raw_align_mean=0.1394 | raw_align_std=0.4828 | log_p_mean=11.4217 | grad_norm=4.0458
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 240/1562 episodes, total num timesteps 771200/5000000, FPS 118.
+
+incre win rate is 0.505922165820643.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 245/1562 episodes, total num timesteps 787200/5000000, FPS 118.
+
+incre win rate is 0.4666666666666667.
+[v_qvpo step=250] qtot_loss=2.1711 | drbfn_loss=-11.7265 | align_mean=-0.0000 | g_n_mean=3.6685 | phi_scale=0.2678 | g_i_scale=0.2930 | raw_align_mean=0.1420 | raw_align_std=0.4848 | log_p_mean=11.2728 | grad_norm=7.6771
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 250/1562 episodes, total num timesteps 803200/5000000, FPS 118.
+
+incre win rate is 0.49409780775716694.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 255/1562 episodes, total num timesteps 819200/5000000, FPS 118.
+
+incre win rate is 0.4672268907563025.
+[v_qvpo step=260] qtot_loss=1.8549 | drbfn_loss=-11.6899 | align_mean=-0.0000 | g_n_mean=3.7457 | phi_scale=0.2654 | g_i_scale=0.3076 | raw_align_mean=0.1611 | raw_align_std=0.5341 | log_p_mean=11.2356 | grad_norm=4.7092
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 260/1562 episodes, total num timesteps 835200/5000000, FPS 118.
+
+incre win rate is 0.4716666666666667.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 265/1562 episodes, total num timesteps 851200/5000000, FPS 118.
+
+incre win rate is 0.5.
+[v_qvpo step=270] qtot_loss=1.9826 | drbfn_loss=-11.7664 | align_mean=-0.0000 | g_n_mean=3.8284 | phi_scale=0.2659 | g_i_scale=0.3316 | raw_align_mean=0.1818 | raw_align_std=0.6035 | log_p_mean=11.2546 | grad_norm=3.8076
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 270/1562 episodes, total num timesteps 867200/5000000, FPS 118.
+
+incre win rate is 0.5008375209380235.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 275/1562 episodes, total num timesteps 883200/5000000, FPS 118.
+
+incre win rate is 0.49666666666666665.
+eval win rate is 0.65625.
+[v_qvpo step=280] qtot_loss=1.8666 | drbfn_loss=-11.8294 | align_mean=-0.0000 | g_n_mean=3.8591 | phi_scale=0.2679 | g_i_scale=0.3524 | raw_align_mean=0.1933 | raw_align_std=0.6412 | log_p_mean=11.3514 | grad_norm=4.6648
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 280/1562 episodes, total num timesteps 899200/5000000, FPS 118.
+
+incre win rate is 0.525.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 285/1562 episodes, total num timesteps 915200/5000000, FPS 118.
+
+incre win rate is 0.4991652754590985.
+[v_qvpo step=290] qtot_loss=1.7428 | drbfn_loss=-11.8530 | align_mean=0.0000 | g_n_mean=3.8926 | phi_scale=0.2684 | g_i_scale=0.3697 | raw_align_mean=0.2021 | raw_align_std=0.6560 | log_p_mean=11.3674 | grad_norm=2.9111
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 290/1562 episodes, total num timesteps 931200/5000000, FPS 118.
+
+incre win rate is 0.5136054421768708.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 295/1562 episodes, total num timesteps 947200/5000000, FPS 118.
+
+incre win rate is 0.5335570469798657.
+[v_qvpo step=300] qtot_loss=1.9200 | drbfn_loss=-11.7634 | align_mean=0.0000 | g_n_mean=4.0316 | phi_scale=0.2644 | g_i_scale=0.3913 | raw_align_mean=0.2211 | raw_align_std=0.7288 | log_p_mean=11.2578 | grad_norm=6.1512
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 300/1562 episodes, total num timesteps 963200/5000000, FPS 118.
+
+incre win rate is 0.5353535353535354.
+eval win rate is 0.8125.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 305/1562 episodes, total num timesteps 979200/5000000, FPS 118.
+
+incre win rate is 0.5126050420168067.
+[v_qvpo step=310] qtot_loss=1.7192 | drbfn_loss=-11.7311 | align_mean=0.0000 | g_n_mean=4.1585 | phi_scale=0.2629 | g_i_scale=0.4098 | raw_align_mean=0.2357 | raw_align_std=0.7727 | log_p_mean=11.2286 | grad_norm=6.0040
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 310/1562 episodes, total num timesteps 995200/5000000, FPS 118.
+
+incre win rate is 0.5258764607679466.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 315/1562 episodes, total num timesteps 1011200/5000000, FPS 118.
+
+incre win rate is 0.5469798657718121.
+[v_qvpo step=320] qtot_loss=1.9474 | drbfn_loss=-11.7052 | align_mean=-0.0000 | g_n_mean=4.0835 | phi_scale=0.2599 | g_i_scale=0.4233 | raw_align_mean=0.2267 | raw_align_std=0.7195 | log_p_mean=11.2350 | grad_norm=4.5449
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 320/1562 episodes, total num timesteps 1027200/5000000, FPS 118.
+
+incre win rate is 0.5116666666666667.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 325/1562 episodes, total num timesteps 1043200/5000000, FPS 117.
+
+incre win rate is 0.48494983277591974.
+eval win rate is 0.625.
+[v_qvpo step=330] qtot_loss=1.8854 | drbfn_loss=-11.7801 | align_mean=-0.0000 | g_n_mean=4.2959 | phi_scale=0.2621 | g_i_scale=0.4518 | raw_align_mean=0.2696 | raw_align_std=0.8885 | log_p_mean=11.2783 | grad_norm=4.9658
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 330/1562 episodes, total num timesteps 1059200/5000000, FPS 116.
+
+incre win rate is 0.5652173913043478.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 335/1562 episodes, total num timesteps 1075200/5000000, FPS 116.
+
+incre win rate is 0.49246231155778897.
+[v_qvpo step=340] qtot_loss=2.3304 | drbfn_loss=-11.7161 | align_mean=-0.0000 | g_n_mean=4.5335 | phi_scale=0.2589 | g_i_scale=0.4866 | raw_align_mean=0.3073 | raw_align_std=0.9744 | log_p_mean=11.2280 | grad_norm=3.5344
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 340/1562 episodes, total num timesteps 1091200/5000000, FPS 116.
+
+incre win rate is 0.5669421487603306.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 345/1562 episodes, total num timesteps 1107200/5000000, FPS 116.
+
+incre win rate is 0.535.
+[v_qvpo step=350] qtot_loss=2.4052 | drbfn_loss=-11.7657 | align_mean=-0.0000 | g_n_mean=4.4586 | phi_scale=0.2624 | g_i_scale=0.4939 | raw_align_mean=0.3054 | raw_align_std=1.0141 | log_p_mean=11.3041 | grad_norm=3.4839
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 350/1562 episodes, total num timesteps 1123200/5000000, FPS 117.
+
+incre win rate is 0.53156146179402.
+eval win rate is 0.53125.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 355/1562 episodes, total num timesteps 1139200/5000000, FPS 116.
+
+incre win rate is 0.4991735537190083.
+[v_qvpo step=360] qtot_loss=2.0838 | drbfn_loss=-11.7451 | align_mean=0.0000 | g_n_mean=4.5864 | phi_scale=0.2607 | g_i_scale=0.5276 | raw_align_mean=0.3407 | raw_align_std=1.0822 | log_p_mean=11.2411 | grad_norm=3.3329
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 360/1562 episodes, total num timesteps 1155200/5000000, FPS 116.
+
+incre win rate is 0.4766666666666667.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 365/1562 episodes, total num timesteps 1171200/5000000, FPS 116.
+
+incre win rate is 0.543801652892562.
+[v_qvpo step=370] qtot_loss=1.9368 | drbfn_loss=-11.7645 | align_mean=-0.0000 | g_n_mean=4.5440 | phi_scale=0.2591 | g_i_scale=0.5186 | raw_align_mean=0.3009 | raw_align_std=0.9074 | log_p_mean=11.2406 | grad_norm=3.3014
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 370/1562 episodes, total num timesteps 1187200/5000000, FPS 116.
+
+incre win rate is 0.5116279069767442.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 375/1562 episodes, total num timesteps 1203200/5000000, FPS 116.
+
+incre win rate is 0.5394736842105263.
+eval win rate is 0.53125.
+[v_qvpo step=380] qtot_loss=1.8112 | drbfn_loss=-11.7654 | align_mean=-0.0000 | g_n_mean=4.6435 | phi_scale=0.2599 | g_i_scale=0.5423 | raw_align_mean=0.3242 | raw_align_std=0.9719 | log_p_mean=11.2772 | grad_norm=2.5360
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 380/1562 episodes, total num timesteps 1219200/5000000, FPS 116.
+
+incre win rate is 0.4614121510673235.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 385/1562 episodes, total num timesteps 1235200/5000000, FPS 116.
+
+incre win rate is 0.5447019867549668.
+[v_qvpo step=390] qtot_loss=2.1503 | drbfn_loss=-11.7474 | align_mean=0.0000 | g_n_mean=4.7762 | phi_scale=0.2606 | g_i_scale=0.5623 | raw_align_mean=0.3661 | raw_align_std=1.1544 | log_p_mean=11.2368 | grad_norm=4.1252
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 390/1562 episodes, total num timesteps 1251200/5000000, FPS 116.
+
+incre win rate is 0.5505804311774462.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 395/1562 episodes, total num timesteps 1267200/5000000, FPS 116.
+
+incre win rate is 0.5659432387312187.
+[v_qvpo step=400] qtot_loss=1.8621 | drbfn_loss=-11.6819 | align_mean=0.0000 | g_n_mean=4.7072 | phi_scale=0.2577 | g_i_scale=0.5566 | raw_align_mean=0.3294 | raw_align_std=1.0115 | log_p_mean=11.1933 | grad_norm=6.2205
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 400/1562 episodes, total num timesteps 1283200/5000000, FPS 116.
+
+incre win rate is 0.5223140495867769.
+eval win rate is 0.78125.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 405/1562 episodes, total num timesteps 1299200/5000000, FPS 116.
+
+incre win rate is 0.540765391014975.
+[v_qvpo step=410] qtot_loss=2.0999 | drbfn_loss=-11.7085 | align_mean=0.0000 | g_n_mean=4.8438 | phi_scale=0.2580 | g_i_scale=0.5801 | raw_align_mean=0.3409 | raw_align_std=1.0047 | log_p_mean=11.1930 | grad_norm=5.1490
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 410/1562 episodes, total num timesteps 1315200/5000000, FPS 116.
+
+incre win rate is 0.5688225538971807.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 415/1562 episodes, total num timesteps 1331200/5000000, FPS 116.
+
+incre win rate is 0.5197368421052632.
+[v_qvpo step=420] qtot_loss=2.0235 | drbfn_loss=-11.7121 | align_mean=-0.0000 | g_n_mean=4.9818 | phi_scale=0.2593 | g_i_scale=0.6205 | raw_align_mean=0.3992 | raw_align_std=1.2260 | log_p_mean=11.1847 | grad_norm=3.5696
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 420/1562 episodes, total num timesteps 1347200/5000000, FPS 116.
+
+incre win rate is 0.5614617940199336.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 425/1562 episodes, total num timesteps 1363200/5000000, FPS 117.
+
+incre win rate is 0.5250836120401338.
+eval win rate is 0.6875.
+[v_qvpo step=430] qtot_loss=2.1071 | drbfn_loss=-11.7243 | align_mean=0.0000 | g_n_mean=4.8815 | phi_scale=0.2577 | g_i_scale=0.6260 | raw_align_mean=0.3726 | raw_align_std=1.1191 | log_p_mean=11.2664 | grad_norm=3.5597
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 430/1562 episodes, total num timesteps 1379200/5000000, FPS 116.
+
+incre win rate is 0.520066889632107.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 435/1562 episodes, total num timesteps 1395200/5000000, FPS 116.
+
+incre win rate is 0.5757071547420965.
+[v_qvpo step=440] qtot_loss=1.9147 | drbfn_loss=-11.7743 | align_mean=-0.0000 | g_n_mean=5.2509 | phi_scale=0.2593 | g_i_scale=0.6517 | raw_align_mean=0.4279 | raw_align_std=1.3221 | log_p_mean=11.2941 | grad_norm=9.4471
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 440/1562 episodes, total num timesteps 1411200/5000000, FPS 117.
+
+incre win rate is 0.5887230514096186.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 445/1562 episodes, total num timesteps 1427200/5000000, FPS 117.
+
+incre win rate is 0.5445544554455446.
+[v_qvpo step=450] qtot_loss=2.1932 | drbfn_loss=-11.7207 | align_mean=-0.0000 | g_n_mean=5.2075 | phi_scale=0.2581 | g_i_scale=0.6630 | raw_align_mean=0.4265 | raw_align_std=1.2965 | log_p_mean=11.2174 | grad_norm=2.9533
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 450/1562 episodes, total num timesteps 1443200/5000000, FPS 117.
+
+incre win rate is 0.564437194127243.
+eval win rate is 0.65625.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 455/1562 episodes, total num timesteps 1459200/5000000, FPS 116.
+
+incre win rate is 0.5332225913621262.
+[v_qvpo step=460] qtot_loss=1.9293 | drbfn_loss=-11.7280 | align_mean=0.0000 | g_n_mean=5.1986 | phi_scale=0.2597 | g_i_scale=0.6586 | raw_align_mean=0.4000 | raw_align_std=1.1342 | log_p_mean=11.2008 | grad_norm=2.7697
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 460/1562 episodes, total num timesteps 1475200/5000000, FPS 117.
+
+incre win rate is 0.5115894039735099.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 465/1562 episodes, total num timesteps 1491200/5000000, FPS 117.
+
+incre win rate is 0.5808580858085809.
+[v_qvpo step=470] qtot_loss=1.8695 | drbfn_loss=-11.7290 | align_mean=-0.0000 | g_n_mean=5.4187 | phi_scale=0.2576 | g_i_scale=0.6771 | raw_align_mean=0.4307 | raw_align_std=1.2362 | log_p_mean=11.2298 | grad_norm=5.0245
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 470/1562 episodes, total num timesteps 1507200/5000000, FPS 117.
+
+incre win rate is 0.5517241379310345.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 475/1562 episodes, total num timesteps 1523200/5000000, FPS 117.
+
+incre win rate is 0.6049586776859505.
+eval win rate is 0.75.
+[v_qvpo step=480] qtot_loss=2.3550 | drbfn_loss=-11.7261 | align_mean=-0.0000 | g_n_mean=5.5397 | phi_scale=0.2572 | g_i_scale=0.6898 | raw_align_mean=0.4351 | raw_align_std=1.2419 | log_p_mean=11.2495 | grad_norm=4.0167
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 480/1562 episodes, total num timesteps 1539200/5000000, FPS 117.
+
+incre win rate is 0.5980230642504119.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 485/1562 episodes, total num timesteps 1555200/5000000, FPS 117.
+
+incre win rate is 0.6013289036544851.
+[v_qvpo step=490] qtot_loss=2.0716 | drbfn_loss=-11.6666 | align_mean=0.0000 | g_n_mean=5.3628 | phi_scale=0.2559 | g_i_scale=0.6873 | raw_align_mean=0.4146 | raw_align_std=1.1940 | log_p_mean=11.1626 | grad_norm=4.3176
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 490/1562 episodes, total num timesteps 1571200/5000000, FPS 117.
+
+incre win rate is 0.5690515806988353.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 495/1562 episodes, total num timesteps 1587200/5000000, FPS 117.
+
+incre win rate is 0.5697674418604651.
+[v_qvpo step=500] qtot_loss=2.3097 | drbfn_loss=-11.7730 | align_mean=0.0000 | g_n_mean=5.6431 | phi_scale=0.2560 | g_i_scale=0.7135 | raw_align_mean=0.4483 | raw_align_std=1.2094 | log_p_mean=11.2554 | grad_norm=4.5377
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 500/1562 episodes, total num timesteps 1603200/5000000, FPS 117.
+
+incre win rate is 0.5950413223140496.
+eval win rate is 0.6875.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 505/1562 episodes, total num timesteps 1619200/5000000, FPS 117.
+
+incre win rate is 0.5681444991789819.
+[v_qvpo step=510] qtot_loss=2.3116 | drbfn_loss=-11.7644 | align_mean=-0.0000 | g_n_mean=5.5684 | phi_scale=0.2532 | g_i_scale=0.7140 | raw_align_mean=0.4194 | raw_align_std=1.0708 | log_p_mean=11.2635 | grad_norm=7.6360
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 510/1562 episodes, total num timesteps 1635200/5000000, FPS 118.
+
+incre win rate is 0.543046357615894.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 515/1562 episodes, total num timesteps 1651200/5000000, FPS 118.
+
+incre win rate is 0.555008210180624.
+[v_qvpo step=520] qtot_loss=2.1199 | drbfn_loss=-11.7496 | align_mean=0.0000 | g_n_mean=5.7507 | phi_scale=0.2535 | g_i_scale=0.7506 | raw_align_mean=0.4736 | raw_align_std=1.3011 | log_p_mean=11.2649 | grad_norm=4.0343
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 520/1562 episodes, total num timesteps 1667200/5000000, FPS 118.
+
+incre win rate is 0.5714285714285714.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 525/1562 episodes, total num timesteps 1683200/5000000, FPS 118.
+
+incre win rate is 0.5973154362416108.
+eval win rate is 0.84375.
+[v_qvpo step=530] qtot_loss=2.0989 | drbfn_loss=-11.8062 | align_mean=-0.0000 | g_n_mean=5.9733 | phi_scale=0.2520 | g_i_scale=0.7662 | raw_align_mean=0.4990 | raw_align_std=1.3048 | log_p_mean=11.3330 | grad_norm=7.6641
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 530/1562 episodes, total num timesteps 1699200/5000000, FPS 118.
+
+incre win rate is 0.597682119205298.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 535/1562 episodes, total num timesteps 1715200/5000000, FPS 118.
+
+incre win rate is 0.5903814262023217.
+[v_qvpo step=540] qtot_loss=2.4360 | drbfn_loss=-11.7742 | align_mean=0.0000 | g_n_mean=5.8862 | phi_scale=0.2520 | g_i_scale=0.7861 | raw_align_mean=0.4924 | raw_align_std=1.2783 | log_p_mean=11.2614 | grad_norm=3.1755
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 540/1562 episodes, total num timesteps 1731200/5000000, FPS 118.
+
+incre win rate is 0.5880398671096345.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 545/1562 episodes, total num timesteps 1747200/5000000, FPS 119.
+
+incre win rate is 0.6204620462046204.
+[v_qvpo step=550] qtot_loss=2.2450 | drbfn_loss=-11.7597 | align_mean=0.0000 | g_n_mean=5.9965 | phi_scale=0.2513 | g_i_scale=0.8040 | raw_align_mean=0.4829 | raw_align_std=1.2061 | log_p_mean=11.2932 | grad_norm=2.5822
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 550/1562 episodes, total num timesteps 1763200/5000000, FPS 119.
+
+incre win rate is 0.5863787375415282.
+eval win rate is 0.75.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 555/1562 episodes, total num timesteps 1779200/5000000, FPS 119.
+
+incre win rate is 0.5900826446280992.
+[v_qvpo step=560] qtot_loss=2.1993 | drbfn_loss=-11.7870 | align_mean=0.0000 | g_n_mean=6.0052 | phi_scale=0.2516 | g_i_scale=0.8146 | raw_align_mean=0.4890 | raw_align_std=1.1776 | log_p_mean=11.3416 | grad_norm=3.3573
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 560/1562 episodes, total num timesteps 1795200/5000000, FPS 119.
+
+incre win rate is 0.5629139072847682.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 565/1562 episodes, total num timesteps 1811200/5000000, FPS 119.
+
+incre win rate is 0.5467980295566502.
+[v_qvpo step=570] qtot_loss=2.1718 | drbfn_loss=-11.8162 | align_mean=0.0000 | g_n_mean=5.8643 | phi_scale=0.2486 | g_i_scale=0.8272 | raw_align_mean=0.4848 | raw_align_std=1.1562 | log_p_mean=11.3593 | grad_norm=4.5185
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 570/1562 episodes, total num timesteps 1827200/5000000, FPS 119.
+
+incre win rate is 0.500823723228995.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 575/1562 episodes, total num timesteps 1843200/5000000, FPS 119.
+
+incre win rate is 0.5480132450331126.
+eval win rate is 0.78125.
+[v_qvpo step=580] qtot_loss=2.2693 | drbfn_loss=-11.7847 | align_mean=-0.0000 | g_n_mean=5.9941 | phi_scale=0.2456 | g_i_scale=0.8181 | raw_align_mean=0.4761 | raw_align_std=1.1250 | log_p_mean=11.3530 | grad_norm=5.2341
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 580/1562 episodes, total num timesteps 1859200/5000000, FPS 119.
+
+incre win rate is 0.5661641541038526.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 585/1562 episodes, total num timesteps 1875200/5000000, FPS 120.
+
+incre win rate is 0.5806988352745425.
+[v_qvpo step=590] qtot_loss=2.3848 | drbfn_loss=-11.7836 | align_mean=-0.0000 | g_n_mean=6.2094 | phi_scale=0.2502 | g_i_scale=0.8373 | raw_align_mean=0.5102 | raw_align_std=1.2527 | log_p_mean=11.3668 | grad_norm=3.8915
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 590/1562 episodes, total num timesteps 1891200/5000000, FPS 120.
+
+incre win rate is 0.5742904841402338.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 595/1562 episodes, total num timesteps 1907200/5000000, FPS 120.
+
+incre win rate is 0.5393634840871022.
+[v_qvpo step=600] qtot_loss=2.4509 | drbfn_loss=-11.8822 | align_mean=0.0000 | g_n_mean=5.9891 | phi_scale=0.2534 | g_i_scale=0.8076 | raw_align_mean=0.4502 | raw_align_std=1.0343 | log_p_mean=11.4355 | grad_norm=2.5128
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 600/1562 episodes, total num timesteps 1923200/5000000, FPS 120.
+
+incre win rate is 0.5622895622895623.
+eval win rate is 0.5625.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 605/1562 episodes, total num timesteps 1939200/5000000, FPS 120.
+
+incre win rate is 0.5266666666666666.
+[v_qvpo step=610] qtot_loss=2.2473 | drbfn_loss=-11.8234 | align_mean=0.0000 | g_n_mean=5.8865 | phi_scale=0.2458 | g_i_scale=0.8409 | raw_align_mean=0.4608 | raw_align_std=1.0901 | log_p_mean=11.3498 | grad_norm=6.3309
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 610/1562 episodes, total num timesteps 1955200/5000000, FPS 120.
+
+incre win rate is 0.5041597337770383.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 615/1562 episodes, total num timesteps 1971200/5000000, FPS 121.
+
+incre win rate is 0.509212730318258.
+[v_qvpo step=620] qtot_loss=2.3147 | drbfn_loss=-11.8673 | align_mean=-0.0000 | g_n_mean=6.1722 | phi_scale=0.2424 | g_i_scale=0.9001 | raw_align_mean=0.5422 | raw_align_std=1.3310 | log_p_mean=11.4326 | grad_norm=3.7197
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 620/1562 episodes, total num timesteps 1987200/5000000, FPS 121.
+
+incre win rate is 0.5419463087248322.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 625/1562 episodes, total num timesteps 2003200/5000000, FPS 121.
+
+incre win rate is 0.5916666666666667.
+eval win rate is 0.90625.
+[v_qvpo step=630] qtot_loss=2.3159 | drbfn_loss=-11.9123 | align_mean=0.0000 | g_n_mean=6.5524 | phi_scale=0.2475 | g_i_scale=0.9366 | raw_align_mean=0.5825 | raw_align_std=1.4226 | log_p_mean=11.4513 | grad_norm=2.2199
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 630/1562 episodes, total num timesteps 2019200/5000000, FPS 121.
+
+incre win rate is 0.584717607973422.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 635/1562 episodes, total num timesteps 2035200/5000000, FPS 121.
+
+incre win rate is 0.593698175787728.
+[v_qvpo step=640] qtot_loss=2.1643 | drbfn_loss=-11.8726 | align_mean=0.0000 | g_n_mean=6.2139 | phi_scale=0.2468 | g_i_scale=0.9142 | raw_align_mean=0.5336 | raw_align_std=1.3143 | log_p_mean=11.4412 | grad_norm=4.5022
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 640/1562 episodes, total num timesteps 2051200/5000000, FPS 121.
+
+incre win rate is 0.540765391014975.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 645/1562 episodes, total num timesteps 2067200/5000000, FPS 121.
+
+incre win rate is 0.5866666666666667.
+[v_qvpo step=650] qtot_loss=2.4998 | drbfn_loss=-11.9034 | align_mean=-0.0000 | g_n_mean=6.3899 | phi_scale=0.2511 | g_i_scale=0.9501 | raw_align_mean=0.5641 | raw_align_std=1.3604 | log_p_mean=11.4696 | grad_norm=2.6994
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 650/1562 episodes, total num timesteps 2083200/5000000, FPS 120.
+
+incre win rate is 0.5191986644407346.
+eval win rate is 0.5625.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 655/1562 episodes, total num timesteps 2099200/5000000, FPS 120.
+
+incre win rate is 0.5462184873949579.
+[v_qvpo step=660] qtot_loss=2.5104 | drbfn_loss=-11.9298 | align_mean=0.0000 | g_n_mean=6.5695 | phi_scale=0.2512 | g_i_scale=0.9878 | raw_align_mean=0.5922 | raw_align_std=1.3661 | log_p_mean=11.4946 | grad_norm=3.2772
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 660/1562 episodes, total num timesteps 2115200/5000000, FPS 120.
+
+incre win rate is 0.5206611570247934.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 665/1562 episodes, total num timesteps 2131200/5000000, FPS 120.
+
+incre win rate is 0.5317725752508361.
+[v_qvpo step=670] qtot_loss=2.3084 | drbfn_loss=-11.9147 | align_mean=-0.0000 | g_n_mean=6.5274 | phi_scale=0.2445 | g_i_scale=0.9723 | raw_align_mean=0.5658 | raw_align_std=1.3356 | log_p_mean=11.5460 | grad_norm=6.4684
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 670/1562 episodes, total num timesteps 2147200/5000000, FPS 120.
+
+incre win rate is 0.5829145728643216.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 675/1562 episodes, total num timesteps 2163200/5000000, FPS 120.
+
+incre win rate is 0.5342237061769616.
+eval win rate is 0.5625.
+[v_qvpo step=680] qtot_loss=2.6274 | drbfn_loss=-11.9264 | align_mean=-0.0000 | g_n_mean=6.9308 | phi_scale=0.2569 | g_i_scale=0.9888 | raw_align_mean=0.6135 | raw_align_std=1.4722 | log_p_mean=11.4922 | grad_norm=7.1693
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 680/1562 episodes, total num timesteps 2179200/5000000, FPS 120.
+
+incre win rate is 0.6013400335008375.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 685/1562 episodes, total num timesteps 2195200/5000000, FPS 120.
+
+incre win rate is 0.6143572621035058.
+[v_qvpo step=690] qtot_loss=2.4407 | drbfn_loss=-11.9059 | align_mean=0.0000 | g_n_mean=6.7497 | phi_scale=0.2584 | g_i_scale=0.9658 | raw_align_mean=0.5477 | raw_align_std=1.2001 | log_p_mean=11.5011 | grad_norm=2.0709
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 690/1562 episodes, total num timesteps 2211200/5000000, FPS 120.
+
+incre win rate is 0.5284280936454849.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 695/1562 episodes, total num timesteps 2227200/5000000, FPS 120.
+
+incre win rate is 0.4492753623188406.
+[v_qvpo step=700] qtot_loss=2.6255 | drbfn_loss=-11.9595 | align_mean=-0.0000 | g_n_mean=6.9567 | phi_scale=0.2557 | g_i_scale=1.0094 | raw_align_mean=0.6026 | raw_align_std=1.3271 | log_p_mean=11.4678 | grad_norm=4.1716
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 700/1562 episodes, total num timesteps 2243200/5000000, FPS 120.
+
+incre win rate is 0.6033333333333334.
+eval win rate is 0.75.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 705/1562 episodes, total num timesteps 2259200/5000000, FPS 120.
+
+incre win rate is 0.5903010033444817.
+[v_qvpo step=710] qtot_loss=2.5194 | drbfn_loss=-11.9238 | align_mean=0.0000 | g_n_mean=6.8688 | phi_scale=0.2520 | g_i_scale=0.9968 | raw_align_mean=0.5786 | raw_align_std=1.2802 | log_p_mean=11.4948 | grad_norm=3.2921
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 710/1562 episodes, total num timesteps 2275200/5000000, FPS 120.
+
+incre win rate is 0.5714285714285714.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 715/1562 episodes, total num timesteps 2291200/5000000, FPS 120.
+
+incre win rate is 0.6105442176870748.
+[v_qvpo step=720] qtot_loss=2.5796 | drbfn_loss=-11.8956 | align_mean=0.0000 | g_n_mean=7.1426 | phi_scale=0.2532 | g_i_scale=0.9859 | raw_align_mean=0.5882 | raw_align_std=1.3294 | log_p_mean=11.4193 | grad_norm=1.7873
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 720/1562 episodes, total num timesteps 2307200/5000000, FPS 120.
+
+incre win rate is 0.6047297297297297.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 725/1562 episodes, total num timesteps 2323200/5000000, FPS 120.
+
+incre win rate is 0.6036789297658863.
+eval win rate is 0.8125.
+[v_qvpo step=730] qtot_loss=2.5089 | drbfn_loss=-11.8916 | align_mean=0.0000 | g_n_mean=6.9493 | phi_scale=0.2547 | g_i_scale=0.9986 | raw_align_mean=0.5980 | raw_align_std=1.3974 | log_p_mean=11.4888 | grad_norm=3.0867
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 730/1562 episodes, total num timesteps 2339200/5000000, FPS 120.
+
+incre win rate is 0.5752508361204013.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 735/1562 episodes, total num timesteps 2355200/5000000, FPS 120.
+
+incre win rate is 0.6476510067114094.
+[v_qvpo step=740] qtot_loss=2.8722 | drbfn_loss=-11.8771 | align_mean=-0.0000 | g_n_mean=7.0188 | phi_scale=0.2573 | g_i_scale=1.0240 | raw_align_mean=0.6073 | raw_align_std=1.3076 | log_p_mean=11.4797 | grad_norm=3.6229
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 740/1562 episodes, total num timesteps 2371200/5000000, FPS 121.
+
+incre win rate is 0.5905245346869712.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 745/1562 episodes, total num timesteps 2387200/5000000, FPS 121.
+
+incre win rate is 0.5963149078726968.
+[v_qvpo step=750] qtot_loss=2.4270 | drbfn_loss=-11.9128 | align_mean=0.0000 | g_n_mean=7.2793 | phi_scale=0.2630 | g_i_scale=1.0313 | raw_align_mean=0.6044 | raw_align_std=1.2617 | log_p_mean=11.5001 | grad_norm=5.5714
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 750/1562 episodes, total num timesteps 2403200/5000000, FPS 121.
+
+incre win rate is 0.596989966555184.
+eval win rate is 0.75.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 755/1562 episodes, total num timesteps 2419200/5000000, FPS 121.
+
+incre win rate is 0.5906040268456376.
+[v_qvpo step=760] qtot_loss=2.8035 | drbfn_loss=-11.9171 | align_mean=-0.0000 | g_n_mean=7.3377 | phi_scale=0.2514 | g_i_scale=1.0358 | raw_align_mean=0.6127 | raw_align_std=1.3262 | log_p_mean=11.5123 | grad_norm=3.8523
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 760/1562 episodes, total num timesteps 2435200/5000000, FPS 121.
+
+incre win rate is 0.5915966386554622.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 765/1562 episodes, total num timesteps 2451200/5000000, FPS 121.
+
+incre win rate is 0.6459731543624161.
+[v_qvpo step=770] qtot_loss=2.7177 | drbfn_loss=-11.9061 | align_mean=-0.0000 | g_n_mean=7.2005 | phi_scale=0.2530 | g_i_scale=1.0172 | raw_align_mean=0.5766 | raw_align_std=1.1581 | log_p_mean=11.4658 | grad_norm=5.3606
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 770/1562 episodes, total num timesteps 2467200/5000000, FPS 121.
+
+incre win rate is 0.637123745819398.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 775/1562 episodes, total num timesteps 2483200/5000000, FPS 121.
+
+incre win rate is 0.5927152317880795.
+eval win rate is 0.65625.
+[v_qvpo step=780] qtot_loss=2.9206 | drbfn_loss=-11.8810 | align_mean=-0.0000 | g_n_mean=7.4666 | phi_scale=0.2486 | g_i_scale=1.0574 | raw_align_mean=0.6288 | raw_align_std=1.3178 | log_p_mean=11.4465 | grad_norm=1.8776
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 780/1562 episodes, total num timesteps 2499200/5000000, FPS 121.
+
+incre win rate is 0.617056856187291.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 785/1562 episodes, total num timesteps 2515200/5000000, FPS 121.
+
+incre win rate is 0.5852842809364549.
+[v_qvpo step=790] qtot_loss=2.8158 | drbfn_loss=-11.8760 | align_mean=0.0000 | g_n_mean=7.3094 | phi_scale=0.2482 | g_i_scale=1.0691 | raw_align_mean=0.6038 | raw_align_std=1.2038 | log_p_mean=11.4647 | grad_norm=4.1642
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 790/1562 episodes, total num timesteps 2531200/5000000, FPS 121.
+
+incre win rate is 0.5949579831932773.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 795/1562 episodes, total num timesteps 2547200/5000000, FPS 121.
+
+incre win rate is 0.6070826306913997.
+[v_qvpo step=800] qtot_loss=2.5279 | drbfn_loss=-11.9113 | align_mean=-0.0000 | g_n_mean=7.2012 | phi_scale=0.2519 | g_i_scale=1.0522 | raw_align_mean=0.6069 | raw_align_std=1.2587 | log_p_mean=11.5088 | grad_norm=3.0190
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 800/1562 episodes, total num timesteps 2563200/5000000, FPS 121.
+
+incre win rate is 0.5579831932773109.
+eval win rate is 0.71875.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 805/1562 episodes, total num timesteps 2579200/5000000, FPS 121.
+
+incre win rate is 0.6144781144781145.
+[v_qvpo step=810] qtot_loss=2.7144 | drbfn_loss=-11.9265 | align_mean=0.0000 | g_n_mean=7.8646 | phi_scale=0.2523 | g_i_scale=1.0929 | raw_align_mean=0.6673 | raw_align_std=1.3215 | log_p_mean=11.5131 | grad_norm=3.3059
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 810/1562 episodes, total num timesteps 2595200/5000000, FPS 121.
+
+incre win rate is 0.6214405360134003.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 815/1562 episodes, total num timesteps 2611200/5000000, FPS 121.
+
+incre win rate is 0.5949152542372881.
+[v_qvpo step=820] qtot_loss=2.9024 | drbfn_loss=-11.8680 | align_mean=-0.0000 | g_n_mean=7.4010 | phi_scale=0.2526 | g_i_scale=1.0923 | raw_align_mean=0.6359 | raw_align_std=1.2515 | log_p_mean=11.4926 | grad_norm=1.8454
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 820/1562 episodes, total num timesteps 2627200/5000000, FPS 121.
+
+incre win rate is 0.5611390284757118.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 825/1562 episodes, total num timesteps 2643200/5000000, FPS 121.
+
+incre win rate is 0.6029900332225914.
+eval win rate is 0.78125.
+[v_qvpo step=830] qtot_loss=2.9038 | drbfn_loss=-11.9131 | align_mean=0.0000 | g_n_mean=7.4399 | phi_scale=0.2540 | g_i_scale=1.0878 | raw_align_mean=0.6445 | raw_align_std=1.3398 | log_p_mean=11.5064 | grad_norm=3.3964
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 830/1562 episodes, total num timesteps 2659200/5000000, FPS 121.
+
+incre win rate is 0.5809682804674458.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 835/1562 episodes, total num timesteps 2675200/5000000, FPS 121.
+
+incre win rate is 0.5922818791946308.
+[v_qvpo step=840] qtot_loss=2.8710 | drbfn_loss=-11.8809 | align_mean=-0.0000 | g_n_mean=7.5404 | phi_scale=0.2533 | g_i_scale=1.1210 | raw_align_mean=0.6542 | raw_align_std=1.3121 | log_p_mean=11.4922 | grad_norm=3.0758
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 840/1562 episodes, total num timesteps 2691200/5000000, FPS 121.
+
+incre win rate is 0.5993322203672788.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 845/1562 episodes, total num timesteps 2707200/5000000, FPS 121.
+
+incre win rate is 0.6183333333333333.
+[v_qvpo step=850] qtot_loss=2.7080 | drbfn_loss=-11.8546 | align_mean=0.0000 | g_n_mean=7.8992 | phi_scale=0.2558 | g_i_scale=1.1359 | raw_align_mean=0.6691 | raw_align_std=1.2987 | log_p_mean=11.4544 | grad_norm=4.9386
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 850/1562 episodes, total num timesteps 2723200/5000000, FPS 121.
+
+incre win rate is 0.6063651591289783.
+eval win rate is 0.71875.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 855/1562 episodes, total num timesteps 2739200/5000000, FPS 121.
+
+incre win rate is 0.5766666666666667.
+[v_qvpo step=860] qtot_loss=3.0406 | drbfn_loss=-11.8093 | align_mean=-0.0000 | g_n_mean=7.4735 | phi_scale=0.2508 | g_i_scale=1.1091 | raw_align_mean=0.6297 | raw_align_std=1.2171 | log_p_mean=11.4183 | grad_norm=5.4271
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 860/1562 episodes, total num timesteps 2755200/5000000, FPS 121.
+
+incre win rate is 0.5996649916247906.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 865/1562 episodes, total num timesteps 2771200/5000000, FPS 121.
+
+incre win rate is 0.53.
+[v_qvpo step=870] qtot_loss=3.0324 | drbfn_loss=-11.8846 | align_mean=-0.0000 | g_n_mean=7.7422 | phi_scale=0.2556 | g_i_scale=1.1649 | raw_align_mean=0.6769 | raw_align_std=1.3069 | log_p_mean=11.4613 | grad_norm=3.8921
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 870/1562 episodes, total num timesteps 2787200/5000000, FPS 121.
+
+incre win rate is 0.5883333333333334.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 875/1562 episodes, total num timesteps 2803200/5000000, FPS 121.
+
+incre win rate is 0.6103678929765887.
+eval win rate is 0.75.
+[v_qvpo step=880] qtot_loss=3.1023 | drbfn_loss=-11.8344 | align_mean=-0.0000 | g_n_mean=7.6765 | phi_scale=0.2553 | g_i_scale=1.1430 | raw_align_mean=0.6571 | raw_align_std=1.2356 | log_p_mean=11.4370 | grad_norm=6.6133
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 880/1562 episodes, total num timesteps 2819200/5000000, FPS 121.
+
+incre win rate is 0.6245791245791246.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 885/1562 episodes, total num timesteps 2835200/5000000, FPS 122.
+
+incre win rate is 0.6003344481605352.
+[v_qvpo step=890] qtot_loss=2.9863 | drbfn_loss=-11.8292 | align_mean=0.0000 | g_n_mean=8.0644 | phi_scale=0.2504 | g_i_scale=1.1500 | raw_align_mean=0.6555 | raw_align_std=1.0854 | log_p_mean=11.4399 | grad_norm=3.7208
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 890/1562 episodes, total num timesteps 2851200/5000000, FPS 122.
+
+incre win rate is 0.6316666666666667.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 895/1562 episodes, total num timesteps 2867200/5000000, FPS 122.
+
+incre win rate is 0.6218487394957983.
+[v_qvpo step=900] qtot_loss=3.2029 | drbfn_loss=-11.7504 | align_mean=-0.0000 | g_n_mean=8.1021 | phi_scale=0.2527 | g_i_scale=1.1513 | raw_align_mean=0.6633 | raw_align_std=1.2133 | log_p_mean=11.3422 | grad_norm=2.7979
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 900/1562 episodes, total num timesteps 2883200/5000000, FPS 122.
+
+incre win rate is 0.6666666666666666.
+eval win rate is 0.75.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 905/1562 episodes, total num timesteps 2899200/5000000, FPS 122.
+
+incre win rate is 0.6046901172529313.
+[v_qvpo step=910] qtot_loss=3.3296 | drbfn_loss=-11.6278 | align_mean=-0.0000 | g_n_mean=7.5490 | phi_scale=0.2488 | g_i_scale=1.1448 | raw_align_mean=0.6228 | raw_align_std=1.0987 | log_p_mean=11.1939 | grad_norm=3.1737
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 910/1562 episodes, total num timesteps 2915200/5000000, FPS 122.
+
+incre win rate is 0.6063651591289783.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 915/1562 episodes, total num timesteps 2931200/5000000, FPS 122.
+
+incre win rate is 0.5916666666666667.
+[v_qvpo step=920] qtot_loss=3.1691 | drbfn_loss=-11.2136 | align_mean=-0.0000 | g_n_mean=7.8072 | phi_scale=0.2396 | g_i_scale=1.1610 | raw_align_mean=0.6519 | raw_align_std=1.1434 | log_p_mean=10.8291 | grad_norm=15.4894
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 920/1562 episodes, total num timesteps 2947200/5000000, FPS 122.
+
+incre win rate is 0.5986622073578596.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 925/1562 episodes, total num timesteps 2963200/5000000, FPS 122.
+
+incre win rate is 0.6086956521739131.
+eval win rate is 0.71875.
+[v_qvpo step=930] qtot_loss=2.9552 | drbfn_loss=-10.8346 | align_mean=0.0000 | g_n_mean=8.0156 | phi_scale=0.2355 | g_i_scale=1.1804 | raw_align_mean=0.6949 | raw_align_std=1.2778 | log_p_mean=10.4046 | grad_norm=6.7781
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 930/1562 episodes, total num timesteps 2979200/5000000, FPS 122.
+
+incre win rate is 0.6277128547579299.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 935/1562 episodes, total num timesteps 2995200/5000000, FPS 122.
+
+incre win rate is 0.6046511627906976.
+[v_qvpo step=940] qtot_loss=2.9149 | drbfn_loss=-10.9247 | align_mean=0.0000 | g_n_mean=8.2673 | phi_scale=0.2354 | g_i_scale=1.1960 | raw_align_mean=0.7234 | raw_align_std=1.3744 | log_p_mean=10.4605 | grad_norm=5.8763
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 940/1562 episodes, total num timesteps 3011200/5000000, FPS 122.
+
+incre win rate is 0.6043046357615894.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 945/1562 episodes, total num timesteps 3027200/5000000, FPS 122.
+
+incre win rate is 0.6334991708126037.
+[v_qvpo step=950] qtot_loss=3.0540 | drbfn_loss=-10.6823 | align_mean=-0.0000 | g_n_mean=8.3607 | phi_scale=0.2362 | g_i_scale=1.2002 | raw_align_mean=0.7280 | raw_align_std=1.3985 | log_p_mean=10.2971 | grad_norm=8.4852
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 950/1562 episodes, total num timesteps 3043200/5000000, FPS 122.
+
+incre win rate is 0.6268656716417911.
+eval win rate is 0.8125.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 955/1562 episodes, total num timesteps 3059200/5000000, FPS 122.
+
+incre win rate is 0.6312292358803987.
+[v_qvpo step=960] qtot_loss=3.0934 | drbfn_loss=-10.9111 | align_mean=-0.0000 | g_n_mean=8.2845 | phi_scale=0.2311 | g_i_scale=1.2247 | raw_align_mean=0.7146 | raw_align_std=1.2141 | log_p_mean=10.5223 | grad_norm=10.1008
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 960/1562 episodes, total num timesteps 3075200/5000000, FPS 122.
+
+incre win rate is 0.6023294509151415.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 965/1562 episodes, total num timesteps 3091200/5000000, FPS 122.
+
+incre win rate is 0.5823627287853578.
+[v_qvpo step=970] qtot_loss=3.3207 | drbfn_loss=-10.5213 | align_mean=0.0000 | g_n_mean=8.2388 | phi_scale=0.2361 | g_i_scale=1.1851 | raw_align_mean=0.7111 | raw_align_std=1.2865 | log_p_mean=10.0677 | grad_norm=9.4471
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 970/1562 episodes, total num timesteps 3107200/5000000, FPS 122.
+
+incre win rate is 0.5856905158069884.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 975/1562 episodes, total num timesteps 3123200/5000000, FPS 122.
+
+incre win rate is 0.5757071547420965.
+eval win rate is 0.78125.
+[v_qvpo step=980] qtot_loss=3.4990 | drbfn_loss=-10.4673 | align_mean=0.0000 | g_n_mean=8.0250 | phi_scale=0.2358 | g_i_scale=1.1671 | raw_align_mean=0.6903 | raw_align_std=1.2939 | log_p_mean=10.0263 | grad_norm=14.1272
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 980/1562 episodes, total num timesteps 3139200/5000000, FPS 122.
+
+incre win rate is 0.5681444991789819.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 985/1562 episodes, total num timesteps 3155200/5000000, FPS 122.
+
+incre win rate is 0.6086235489220564.
+[v_qvpo step=990] qtot_loss=2.9837 | drbfn_loss=-10.2954 | align_mean=0.0000 | g_n_mean=8.6043 | phi_scale=0.2246 | g_i_scale=1.2317 | raw_align_mean=0.7612 | raw_align_std=1.4246 | log_p_mean=9.7950 | grad_norm=17.2389
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 990/1562 episodes, total num timesteps 3171200/5000000, FPS 122.
+
+incre win rate is 0.5825082508250825.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 995/1562 episodes, total num timesteps 3187200/5000000, FPS 122.
+
+incre win rate is 0.5831960461285008.
+[v_qvpo step=1000] qtot_loss=3.1319 | drbfn_loss=-10.2581 | align_mean=0.0000 | g_n_mean=8.1642 | phi_scale=0.2285 | g_i_scale=1.2528 | raw_align_mean=0.7525 | raw_align_std=1.3053 | log_p_mean=9.7187 | grad_norm=9.1293
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1000/1562 episodes, total num timesteps 3203200/5000000, FPS 122.
+
+incre win rate is 0.5749588138385503.
+eval win rate is 0.5625.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1005/1562 episodes, total num timesteps 3219200/5000000, FPS 122.
+
+incre win rate is 0.5768595041322314.
+[v_qvpo step=1010] qtot_loss=3.6096 | drbfn_loss=-10.2724 | align_mean=-0.0000 | g_n_mean=8.2767 | phi_scale=0.2316 | g_i_scale=1.2165 | raw_align_mean=0.7120 | raw_align_std=1.1399 | log_p_mean=9.7816 | grad_norm=21.5828
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1010/1562 episodes, total num timesteps 3235200/5000000, FPS 122.
+
+incre win rate is 0.5789473684210527.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1015/1562 episodes, total num timesteps 3251200/5000000, FPS 122.
+
+incre win rate is 0.5941080196399345.
+[v_qvpo step=1020] qtot_loss=3.6399 | drbfn_loss=-10.2036 | align_mean=-0.0000 | g_n_mean=8.4726 | phi_scale=0.2241 | g_i_scale=1.2183 | raw_align_mean=0.7143 | raw_align_std=1.0768 | log_p_mean=9.6324 | grad_norm=10.8038
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1020/1562 episodes, total num timesteps 3267200/5000000, FPS 122.
+
+incre win rate is 0.5632183908045977.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1025/1562 episodes, total num timesteps 3283200/5000000, FPS 122.
+
+incre win rate is 0.6058631921824105.
+eval win rate is 0.71875.
+[v_qvpo step=1030] qtot_loss=4.0147 | drbfn_loss=-9.9523 | align_mean=0.0000 | g_n_mean=8.7218 | phi_scale=0.2199 | g_i_scale=1.1861 | raw_align_mean=0.7186 | raw_align_std=1.1447 | log_p_mean=9.4117 | grad_norm=12.6033
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1030/1562 episodes, total num timesteps 3299200/5000000, FPS 122.
+
+incre win rate is 0.5733113673805601.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1035/1562 episodes, total num timesteps 3315200/5000000, FPS 122.
+
+incre win rate is 0.5646481178396072.
+[v_qvpo step=1040] qtot_loss=3.4274 | drbfn_loss=-10.1474 | align_mean=0.0000 | g_n_mean=8.4579 | phi_scale=0.2309 | g_i_scale=1.1710 | raw_align_mean=0.7180 | raw_align_std=1.1879 | log_p_mean=9.4823 | grad_norm=10.9882
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1040/1562 episodes, total num timesteps 3331200/5000000, FPS 122.
+
+incre win rate is 0.5331125827814569.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1045/1562 episodes, total num timesteps 3347200/5000000, FPS 122.
+
+incre win rate is 0.5115511551155115.
+[v_qvpo step=1050] qtot_loss=3.7844 | drbfn_loss=-10.3529 | align_mean=-0.0000 | g_n_mean=8.6313 | phi_scale=0.2455 | g_i_scale=1.1624 | raw_align_mean=0.7191 | raw_align_std=1.2084 | log_p_mean=9.6268 | grad_norm=13.6027
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1050/1562 episodes, total num timesteps 3363200/5000000, FPS 122.
+
+incre win rate is 0.5524126455906821.
+eval win rate is 0.65625.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1055/1562 episodes, total num timesteps 3379200/5000000, FPS 122.
+
+incre win rate is 0.5250836120401338.
+[v_qvpo step=1060] qtot_loss=4.2200 | drbfn_loss=-9.9232 | align_mean=0.0000 | g_n_mean=8.1197 | phi_scale=0.2431 | g_i_scale=1.1383 | raw_align_mean=0.6808 | raw_align_std=1.1264 | log_p_mean=9.1241 | grad_norm=6.6725
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1060/1562 episodes, total num timesteps 3395200/5000000, FPS 122.
+
+incre win rate is 0.5477386934673367.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1065/1562 episodes, total num timesteps 3411200/5000000, FPS 122.
+
+incre win rate is 0.5939597315436241.
+[v_qvpo step=1070] qtot_loss=3.2924 | drbfn_loss=-9.6309 | align_mean=0.0000 | g_n_mean=8.1709 | phi_scale=0.2459 | g_i_scale=1.1479 | raw_align_mean=0.6711 | raw_align_std=1.0262 | log_p_mean=8.7886 | grad_norm=11.2698
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1070/1562 episodes, total num timesteps 3427200/5000000, FPS 122.
+
+incre win rate is 0.5334448160535117.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1075/1562 episodes, total num timesteps 3443200/5000000, FPS 122.
+
+incre win rate is 0.5326633165829145.
+eval win rate is 0.6875.
+[v_qvpo step=1080] qtot_loss=3.2636 | drbfn_loss=-9.2717 | align_mean=-0.0000 | g_n_mean=8.2638 | phi_scale=0.2492 | g_i_scale=1.1588 | raw_align_mean=0.6915 | raw_align_std=1.1089 | log_p_mean=8.3275 | grad_norm=25.4418
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1080/1562 episodes, total num timesteps 3459200/5000000, FPS 122.
+
+incre win rate is 0.5290102389078498.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1085/1562 episodes, total num timesteps 3475200/5000000, FPS 122.
+
+incre win rate is 0.5338983050847458.
+[v_qvpo step=1090] qtot_loss=3.5686 | drbfn_loss=-8.9958 | align_mean=0.0000 | g_n_mean=8.1210 | phi_scale=0.2497 | g_i_scale=1.1613 | raw_align_mean=0.6836 | raw_align_std=1.0564 | log_p_mean=7.9016 | grad_norm=16.9706
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1090/1562 episodes, total num timesteps 3491200/5000000, FPS 122.
+
+incre win rate is 0.5497470489038786.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1095/1562 episodes, total num timesteps 3507200/5000000, FPS 122.
+
+incre win rate is 0.5564924114671164.
+[v_qvpo step=1100] qtot_loss=3.3481 | drbfn_loss=-9.1557 | align_mean=-0.0000 | g_n_mean=8.5292 | phi_scale=0.2467 | g_i_scale=1.1651 | raw_align_mean=0.7066 | raw_align_std=1.1440 | log_p_mean=8.2586 | grad_norm=17.2224
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1100/1562 episodes, total num timesteps 3523200/5000000, FPS 122.
+
+incre win rate is 0.5706984667802385.
+eval win rate is 0.4375.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1105/1562 episodes, total num timesteps 3539200/5000000, FPS 122.
+
+incre win rate is 0.535234899328859.
+[v_qvpo step=1110] qtot_loss=3.3472 | drbfn_loss=-8.5316 | align_mean=0.0000 | g_n_mean=8.5846 | phi_scale=0.2429 | g_i_scale=1.1663 | raw_align_mean=0.7021 | raw_align_std=1.1756 | log_p_mean=7.6751 | grad_norm=9.2140
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1110/1562 episodes, total num timesteps 3555200/5000000, FPS 122.
+
+incre win rate is 0.5784148397976391.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1115/1562 episodes, total num timesteps 3571200/5000000, FPS 122.
+
+incre win rate is 0.5956006768189509.
+[v_qvpo step=1120] qtot_loss=3.4911 | drbfn_loss=-8.7555 | align_mean=-0.0000 | g_n_mean=8.7687 | phi_scale=0.2448 | g_i_scale=1.1656 | raw_align_mean=0.7002 | raw_align_std=1.0955 | log_p_mean=7.5951 | grad_norm=36.9218
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1120/1562 episodes, total num timesteps 3587200/5000000, FPS 122.
+
+incre win rate is 0.6044142614601019.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1125/1562 episodes, total num timesteps 3603200/5000000, FPS 122.
+
+incre win rate is 0.563973063973064.
+eval win rate is 0.65625.
+[v_qvpo step=1130] qtot_loss=3.0797 | drbfn_loss=-8.5479 | align_mean=-0.0000 | g_n_mean=8.7789 | phi_scale=0.2503 | g_i_scale=1.1667 | raw_align_mean=0.7095 | raw_align_std=1.2160 | log_p_mean=7.5545 | grad_norm=24.6206
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1130/1562 episodes, total num timesteps 3619200/5000000, FPS 122.
+
+incre win rate is 0.5918367346938775.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1135/1562 episodes, total num timesteps 3635200/5000000, FPS 122.
+
+incre win rate is 0.5779661016949152.
+[v_qvpo step=1140] qtot_loss=3.6192 | drbfn_loss=-8.7116 | align_mean=-0.0000 | g_n_mean=8.4788 | phi_scale=0.2523 | g_i_scale=1.1346 | raw_align_mean=0.6781 | raw_align_std=1.1727 | log_p_mean=7.1946 | grad_norm=14.3524
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1140/1562 episodes, total num timesteps 3651200/5000000, FPS 122.
+
+incre win rate is 0.5513698630136986.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1145/1562 episodes, total num timesteps 3667200/5000000, FPS 122.
+
+incre win rate is 0.5314091680814941.
+[v_qvpo step=1150] qtot_loss=3.5708 | drbfn_loss=-7.8045 | align_mean=0.0000 | g_n_mean=8.3498 | phi_scale=0.2483 | g_i_scale=1.1233 | raw_align_mean=0.6496 | raw_align_std=1.0054 | log_p_mean=6.4657 | grad_norm=15.9678
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1150/1562 episodes, total num timesteps 3683200/5000000, FPS 122.
+
+incre win rate is 0.5578231292517006.
+eval win rate is 0.75.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1155/1562 episodes, total num timesteps 3699200/5000000, FPS 122.
+
+incre win rate is 0.5709459459459459.
+[v_qvpo step=1160] qtot_loss=3.4869 | drbfn_loss=-8.0290 | align_mean=-0.0000 | g_n_mean=8.2902 | phi_scale=0.2484 | g_i_scale=1.1208 | raw_align_mean=0.6418 | raw_align_std=0.9045 | log_p_mean=6.6297 | grad_norm=15.7702
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1160/1562 episodes, total num timesteps 3715200/5000000, FPS 122.
+
+incre win rate is 0.509212730318258.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1165/1562 episodes, total num timesteps 3731200/5000000, FPS 122.
+
+incre win rate is 0.5151006711409396.
+[v_qvpo step=1170] qtot_loss=3.6351 | drbfn_loss=-7.7675 | align_mean=-0.0000 | g_n_mean=8.6688 | phi_scale=0.2439 | g_i_scale=1.1610 | raw_align_mean=0.6942 | raw_align_std=1.0226 | log_p_mean=6.7994 | grad_norm=20.6261
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1170/1562 episodes, total num timesteps 3747200/5000000, FPS 122.
+
+incre win rate is 0.5277310924369748.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1175/1562 episodes, total num timesteps 3763200/5000000, FPS 122.
+
+incre win rate is 0.5598650927487352.
+eval win rate is 0.6875.
+[v_qvpo step=1180] qtot_loss=3.7506 | drbfn_loss=-7.8314 | align_mean=-0.0000 | g_n_mean=8.7274 | phi_scale=0.2388 | g_i_scale=1.1334 | raw_align_mean=0.6795 | raw_align_std=1.0199 | log_p_mean=6.8574 | grad_norm=14.2563
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1180/1562 episodes, total num timesteps 3779200/5000000, FPS 122.
+
+incre win rate is 0.5549915397631133.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1185/1562 episodes, total num timesteps 3795200/5000000, FPS 122.
+
+incre win rate is 0.5847457627118644.
+[v_qvpo step=1190] qtot_loss=3.2411 | drbfn_loss=-8.5004 | align_mean=-0.0000 | g_n_mean=8.7168 | phi_scale=0.2515 | g_i_scale=1.1219 | raw_align_mean=0.6506 | raw_align_std=0.8970 | log_p_mean=7.0682 | grad_norm=20.6917
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1190/1562 episodes, total num timesteps 3811200/5000000, FPS 122.
+
+incre win rate is 0.5446880269814502.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1195/1562 episodes, total num timesteps 3827200/5000000, FPS 122.
+
+incre win rate is 0.5302013422818792.
+[v_qvpo step=1200] qtot_loss=3.8259 | drbfn_loss=-8.2985 | align_mean=0.0000 | g_n_mean=8.6679 | phi_scale=0.2554 | g_i_scale=1.1626 | raw_align_mean=0.6924 | raw_align_std=1.0460 | log_p_mean=6.8841 | grad_norm=18.2793
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1200/1562 episodes, total num timesteps 3843200/5000000, FPS 122.
+
+incre win rate is 0.52428810720268.
+eval win rate is 0.78125.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1205/1562 episodes, total num timesteps 3859200/5000000, FPS 122.
+
+incre win rate is 0.6067226890756302.
+[v_qvpo step=1210] qtot_loss=3.3285 | drbfn_loss=-8.3190 | align_mean=0.0000 | g_n_mean=8.7998 | phi_scale=0.2535 | g_i_scale=1.1116 | raw_align_mean=0.6445 | raw_align_std=0.8460 | log_p_mean=6.9929 | grad_norm=24.6146
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1210/1562 episodes, total num timesteps 3875200/5000000, FPS 122.
+
+incre win rate is 0.6086956521739131.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1215/1562 episodes, total num timesteps 3891200/5000000, FPS 122.
+
+incre win rate is 0.5862646566164154.
+[v_qvpo step=1220] qtot_loss=3.6177 | drbfn_loss=-8.4795 | align_mean=0.0000 | g_n_mean=9.1167 | phi_scale=0.2547 | g_i_scale=1.1492 | raw_align_mean=0.7040 | raw_align_std=1.0561 | log_p_mean=7.3014 | grad_norm=39.8974
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1220/1562 episodes, total num timesteps 3907200/5000000, FPS 122.
+
+incre win rate is 0.6166666666666667.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1225/1562 episodes, total num timesteps 3923200/5000000, FPS 122.
+
+incre win rate is 0.5896147403685092.
+eval win rate is 0.65625.
+[v_qvpo step=1230] qtot_loss=3.4919 | drbfn_loss=-8.1714 | align_mean=0.0000 | g_n_mean=9.1163 | phi_scale=0.2416 | g_i_scale=1.1271 | raw_align_mean=0.6739 | raw_align_std=0.9352 | log_p_mean=6.8831 | grad_norm=18.3147
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1230/1562 episodes, total num timesteps 3939200/5000000, FPS 122.
+
+incre win rate is 0.6023489932885906.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1235/1562 episodes, total num timesteps 3955200/5000000, FPS 122.
+
+incre win rate is 0.6027164685908319.
+[v_qvpo step=1240] qtot_loss=3.2682 | drbfn_loss=-9.1689 | align_mean=0.0000 | g_n_mean=9.0010 | phi_scale=0.2423 | g_i_scale=1.1248 | raw_align_mean=0.6604 | raw_align_std=0.9354 | log_p_mean=7.7427 | grad_norm=18.5224
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1240/1562 episodes, total num timesteps 3971200/5000000, FPS 122.
+
+incre win rate is 0.597972972972973.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1245/1562 episodes, total num timesteps 3987200/5000000, FPS 122.
+
+incre win rate is 0.6162988115449916.
+[v_qvpo step=1250] qtot_loss=3.5809 | drbfn_loss=-8.7436 | align_mean=-0.0000 | g_n_mean=9.2365 | phi_scale=0.2388 | g_i_scale=1.1484 | raw_align_mean=0.6851 | raw_align_std=0.9863 | log_p_mean=7.3242 | grad_norm=31.6893
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1250/1562 episodes, total num timesteps 4003200/5000000, FPS 122.
+
+incre win rate is 0.6177474402730375.
+eval win rate is 0.75.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1255/1562 episodes, total num timesteps 4019200/5000000, FPS 122.
+
+incre win rate is 0.6262798634812287.
+[v_qvpo step=1260] qtot_loss=3.3174 | drbfn_loss=-8.1790 | align_mean=0.0000 | g_n_mean=9.1547 | phi_scale=0.2391 | g_i_scale=1.1135 | raw_align_mean=0.6593 | raw_align_std=0.8940 | log_p_mean=7.2080 | grad_norm=19.8292
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1260/1562 episodes, total num timesteps 4035200/5000000, FPS 122.
+
+incre win rate is 0.6593220338983051.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1265/1562 episodes, total num timesteps 4051200/5000000, FPS 122.
+
+incre win rate is 0.6047700170357752.
+[v_qvpo step=1270] qtot_loss=3.5935 | drbfn_loss=-8.7360 | align_mean=0.0000 | g_n_mean=9.1160 | phi_scale=0.2462 | g_i_scale=1.1344 | raw_align_mean=0.6767 | raw_align_std=0.9896 | log_p_mean=7.5803 | grad_norm=31.6997
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1270/1562 episodes, total num timesteps 4067200/5000000, FPS 122.
+
+incre win rate is 0.6142131979695431.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1275/1562 episodes, total num timesteps 4083200/5000000, FPS 122.
+
+incre win rate is 0.5750421585160203.
+eval win rate is 0.6875.
+[v_qvpo step=1280] qtot_loss=3.2993 | drbfn_loss=-8.9251 | align_mean=-0.0000 | g_n_mean=9.0720 | phi_scale=0.2412 | g_i_scale=1.1234 | raw_align_mean=0.6586 | raw_align_std=0.9221 | log_p_mean=7.4146 | grad_norm=25.4829
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1280/1562 episodes, total num timesteps 4099200/5000000, FPS 122.
+
+incre win rate is 0.6496598639455783.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1285/1562 episodes, total num timesteps 4115200/5000000, FPS 122.
+
+incre win rate is 0.5945945945945946.
+[v_qvpo step=1290] qtot_loss=3.2599 | drbfn_loss=-8.9546 | align_mean=-0.0000 | g_n_mean=9.3397 | phi_scale=0.2445 | g_i_scale=1.1160 | raw_align_mean=0.6770 | raw_align_std=1.0005 | log_p_mean=7.6209 | grad_norm=27.9090
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1290/1562 episodes, total num timesteps 4131200/5000000, FPS 123.
+
+incre win rate is 0.636518771331058.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1295/1562 episodes, total num timesteps 4147200/5000000, FPS 123.
+
+incre win rate is 0.5969125214408233.
+[v_qvpo step=1300] qtot_loss=3.2060 | drbfn_loss=-8.6819 | align_mean=-0.0000 | g_n_mean=9.3205 | phi_scale=0.2436 | g_i_scale=1.1048 | raw_align_mean=0.6644 | raw_align_std=0.9963 | log_p_mean=7.3435 | grad_norm=18.6231
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1300/1562 episodes, total num timesteps 4163200/5000000, FPS 122.
+
+incre win rate is 0.5927835051546392.
+eval win rate is 0.65625.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1305/1562 episodes, total num timesteps 4179200/5000000, FPS 122.
+
+incre win rate is 0.6096718480138169.
+[v_qvpo step=1310] qtot_loss=3.4324 | drbfn_loss=-8.2173 | align_mean=0.0000 | g_n_mean=9.5684 | phi_scale=0.2380 | g_i_scale=1.1006 | raw_align_mean=0.6741 | raw_align_std=1.0131 | log_p_mean=6.8466 | grad_norm=23.3589
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1310/1562 episodes, total num timesteps 4195200/5000000, FPS 122.
+
+incre win rate is 0.62778730703259.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1315/1562 episodes, total num timesteps 4211200/5000000, FPS 122.
+
+incre win rate is 0.5576271186440678.
+[v_qvpo step=1320] qtot_loss=4.0440 | drbfn_loss=-8.1643 | align_mean=-0.0000 | g_n_mean=8.5230 | phi_scale=0.2412 | g_i_scale=1.0844 | raw_align_mean=0.6305 | raw_align_std=0.9249 | log_p_mean=6.9598 | grad_norm=27.2239
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1320/1562 episodes, total num timesteps 4227200/5000000, FPS 122.
+
+incre win rate is 0.564625850340136.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1325/1562 episodes, total num timesteps 4243200/5000000, FPS 122.
+
+incre win rate is 0.5272108843537415.
+eval win rate is 0.625.
+[v_qvpo step=1330] qtot_loss=3.5553 | drbfn_loss=-9.2130 | align_mean=-0.0000 | g_n_mean=8.8967 | phi_scale=0.2511 | g_i_scale=1.1463 | raw_align_mean=0.6885 | raw_align_std=0.9843 | log_p_mean=8.0097 | grad_norm=15.9206
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1330/1562 episodes, total num timesteps 4259200/5000000, FPS 122.
+
+incre win rate is 0.5126050420168067.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1335/1562 episodes, total num timesteps 4275200/5000000, FPS 122.
+
+incre win rate is 0.4857142857142857.
+[v_qvpo step=1340] qtot_loss=3.3586 | drbfn_loss=-8.6742 | align_mean=-0.0000 | g_n_mean=9.0233 | phi_scale=0.2502 | g_i_scale=1.1231 | raw_align_mean=0.6735 | raw_align_std=0.9608 | log_p_mean=7.5204 | grad_norm=22.6644
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1340/1562 episodes, total num timesteps 4291200/5000000, FPS 122.
+
+incre win rate is 0.5414551607445008.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1345/1562 episodes, total num timesteps 4307200/5000000, FPS 122.
+
+incre win rate is 0.5275459098497496.
+[v_qvpo step=1350] qtot_loss=3.4064 | drbfn_loss=-8.3290 | align_mean=0.0000 | g_n_mean=8.8337 | phi_scale=0.2413 | g_i_scale=1.0650 | raw_align_mean=0.6378 | raw_align_std=0.9403 | log_p_mean=6.9929 | grad_norm=24.1043
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1350/1562 episodes, total num timesteps 4323200/5000000, FPS 123.
+
+incre win rate is 0.564625850340136.
+eval win rate is 0.625.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1355/1562 episodes, total num timesteps 4339200/5000000, FPS 123.
+
+incre win rate is 0.5480607082630692.
+[v_qvpo step=1360] qtot_loss=3.2961 | drbfn_loss=-9.1819 | align_mean=-0.0000 | g_n_mean=9.0474 | phi_scale=0.2541 | g_i_scale=1.1093 | raw_align_mean=0.6655 | raw_align_std=0.9190 | log_p_mean=8.0045 | grad_norm=25.2331
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1360/1562 episodes, total num timesteps 4355200/5000000, FPS 123.
+
+incre win rate is 0.5544388609715243.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1365/1562 episodes, total num timesteps 4371200/5000000, FPS 123.
+
+incre win rate is 0.5480607082630692.
+[v_qvpo step=1370] qtot_loss=3.9792 | drbfn_loss=-8.4538 | align_mean=0.0000 | g_n_mean=8.7479 | phi_scale=0.2409 | g_i_scale=1.1084 | raw_align_mean=0.6457 | raw_align_std=0.8501 | log_p_mean=7.3862 | grad_norm=61.1800
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1370/1562 episodes, total num timesteps 4387200/5000000, FPS 123.
+
+incre win rate is 0.5167785234899329.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1375/1562 episodes, total num timesteps 4403200/5000000, FPS 123.
+
+incre win rate is 0.5692821368948247.
+eval win rate is 0.59375.
+[v_qvpo step=1380] qtot_loss=3.5382 | drbfn_loss=-9.5285 | align_mean=0.0000 | g_n_mean=8.9466 | phi_scale=0.2543 | g_i_scale=1.1156 | raw_align_mean=0.6623 | raw_align_std=0.8834 | log_p_mean=8.4681 | grad_norm=38.5771
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1380/1562 episodes, total num timesteps 4419200/5000000, FPS 123.
+
+incre win rate is 0.5463576158940397.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1385/1562 episodes, total num timesteps 4435200/5000000, FPS 123.
+
+incre win rate is 0.6060100166944908.
+[v_qvpo step=1390] qtot_loss=3.1501 | drbfn_loss=-8.3174 | align_mean=-0.0000 | g_n_mean=9.1530 | phi_scale=0.2349 | g_i_scale=1.1020 | raw_align_mean=0.6606 | raw_align_std=0.9569 | log_p_mean=7.0585 | grad_norm=55.4874
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1390/1562 episodes, total num timesteps 4451200/5000000, FPS 123.
+
+incre win rate is 0.5561139028475712.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1395/1562 episodes, total num timesteps 4467200/5000000, FPS 123.
+
+incre win rate is 0.5709459459459459.
+[v_qvpo step=1400] qtot_loss=3.3166 | drbfn_loss=-8.6667 | align_mean=0.0000 | g_n_mean=9.0377 | phi_scale=0.2497 | g_i_scale=1.0938 | raw_align_mean=0.6601 | raw_align_std=0.9154 | log_p_mean=7.5663 | grad_norm=39.0165
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1400/1562 episodes, total num timesteps 4483200/5000000, FPS 123.
+
+incre win rate is 0.5370370370370371.
+eval win rate is 0.71875.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1405/1562 episodes, total num timesteps 4499200/5000000, FPS 123.
+
+incre win rate is 0.5536912751677853.
+[v_qvpo step=1410] qtot_loss=3.8969 | drbfn_loss=-8.1230 | align_mean=0.0000 | g_n_mean=9.0924 | phi_scale=0.2390 | g_i_scale=1.1157 | raw_align_mean=0.6626 | raw_align_std=0.9743 | log_p_mean=6.9742 | grad_norm=53.2717
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1410/1562 episodes, total num timesteps 4515200/5000000, FPS 123.
+
+incre win rate is 0.5742904841402338.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1415/1562 episodes, total num timesteps 4531200/5000000, FPS 123.
+
+incre win rate is 0.5644891122278057.
+[v_qvpo step=1420] qtot_loss=3.4175 | drbfn_loss=-8.4459 | align_mean=-0.0000 | g_n_mean=9.0965 | phi_scale=0.2533 | g_i_scale=1.1289 | raw_align_mean=0.6912 | raw_align_std=1.0213 | log_p_mean=7.3924 | grad_norm=64.5052
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1420/1562 episodes, total num timesteps 4547200/5000000, FPS 123.
+
+incre win rate is 0.6023688663282571.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1425/1562 episodes, total num timesteps 4563200/5000000, FPS 123.
+
+incre win rate is 0.5738255033557047.
+eval win rate is 0.65625.
+[v_qvpo step=1430] qtot_loss=3.5481 | drbfn_loss=-8.6933 | align_mean=-0.0000 | g_n_mean=9.3344 | phi_scale=0.2450 | g_i_scale=1.1378 | raw_align_mean=0.6948 | raw_align_std=1.0139 | log_p_mean=7.1828 | grad_norm=40.7635
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1430/1562 episodes, total num timesteps 4579200/5000000, FPS 123.
+
+incre win rate is 0.5535117056856187.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1435/1562 episodes, total num timesteps 4595200/5000000, FPS 123.
+
+incre win rate is 0.5183946488294314.
+[v_qvpo step=1440] qtot_loss=3.4359 | drbfn_loss=-8.7185 | align_mean=-0.0000 | g_n_mean=9.1329 | phi_scale=0.2525 | g_i_scale=1.1453 | raw_align_mean=0.6704 | raw_align_std=0.9314 | log_p_mean=7.6427 | grad_norm=38.8472
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1440/1562 episodes, total num timesteps 4611200/5000000, FPS 123.
+
+incre win rate is 0.5666666666666667.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1445/1562 episodes, total num timesteps 4627200/5000000, FPS 123.
+
+incre win rate is 0.5555555555555556.
+[v_qvpo step=1450] qtot_loss=4.0168 | drbfn_loss=-9.1445 | align_mean=0.0000 | g_n_mean=8.9575 | phi_scale=0.2487 | g_i_scale=1.1442 | raw_align_mean=0.6687 | raw_align_std=0.9122 | log_p_mean=7.7196 | grad_norm=22.5583
+WARNING:absl:SC2 isn't running, so bailing early on the websocket connection.
+Process Process-7:
+Traceback (most recent call last):
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 484, in step
+    self._controller.actions(req_actions)
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 81, in _skip_status
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 92, in _valid_status
+    raise protocol.ProtocolError(
+pysc2.lib.protocol.ProtocolError: `actions` called while in state: Status.ended, valid: (Status.in_game)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "D:\conda\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 326, in shareworker
+    ob, s_ob, reward, done, info, available_actions = env.step(data)
+                                                      ^^^^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 490, in step
+    self.full_restart()
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 452, in full_restart
+    self._launch()
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 338, in _launch
+    self._sc2_proc = self._run_config.start(window_size=self.window_size, want_rgb=False)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\run_configs\platforms.py", line 83, in start
+    return sc_process.StarcraftProcess(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\sc_process.py", line 137, in __init__
+    self._controller = remote_controller.RemoteController(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 142, in __init__
+    sock = self._connect(host, port, proc, timeout_seconds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\stopwatch.py", line 205, in _stopwatch
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 176, in _connect
+    raise ConnectError("Failed to connect to the SC2 websocket. Is it up?")
+pysc2.lib.remote_controller.ConnectError: Failed to connect to the SC2 websocket. Is it up?
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1450/1562 episodes, total num timesteps 4643200/5000000, FPS 123.
+
+incre win rate is 0.5268456375838926.
+eval win rate is 0.59375.
+
+ Map 5m_vs_6m Algo r_drbfn_qvpo Exp qvpo_5m6m_5M updates 1455/1562 episodes, total num timesteps 4659200/5000000, FPS 123.
+
+incre win rate is 0.5254237288135594.
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\connection.py", line 317, in _recv_bytes
+    ov, err = _winapi.ReadFile(self._handle, bsize,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [WinError 109] 管道已结束。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\张英铭\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 270, in <module>
+    main(sys.argv[1:])
+  File "C:\Users\张英铭\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 254, in main
+    runner.run()
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\runner\shared\smac_runner.py", line 34, in run
+    obs, share_obs, rewards, dones, infos, available_actions = self.envs.step(actions)
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 107, in step
+    return self.step_wait()
+           ^^^^^^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 389, in step_wait
+    results = [remote.recv() for remote in self.remotes]
+               ^^^^^^^^^^^^^
+  File "D:\conda\Lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+          ^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\multiprocessing\connection.py", line 337, in _recv_bytes
+    raise EOFError
+EOFError
+Finished at: Thu Jul 30 07:03:24     2026

@@ -151,6 +151,10 @@ def main(args):
         print("u are choosing to use r_drbfn_v2 (generative DRBFN), keeping use_centralized_V = True")
     elif all_args.algorithm_name == "r_drbfn_v3":
         print("u are choosing to use r_drbfn_v3 (n-step + counterfactual), keeping use_centralized_V = True")
+    elif all_args.algorithm_name == "r_drbfn_final":
+        print("u are choosing to use r_drbfn_final (v1 + n-step Q_tot), keeping use_centralized_V = True")
+    elif all_args.algorithm_name == "r_drbfn_qvpo":
+        print("u are choosing to use r_drbfn_qvpo (BFN outputs Phi, Q-weighted VLB, bi-level), keeping use_centralized_V = True")
     else:
         raise NotImplementedError
 

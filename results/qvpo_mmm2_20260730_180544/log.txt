@@ -1,0 +1,698 @@
+=== DRBFN-QVPO SMAC MMM2 (5M steps + lr decay) ===
+Started at: Thu Jul 30 18:05:44     2026
+Log file: results/qvpo_mmm2_20260730_180544/log.txt
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+u are choosing to use r_drbfn_qvpo (BFN outputs Phi, Q-weighted VLB, bi-level), keeping use_centralized_V = True
+choose to use gpu...
+obs_space:  [[370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]]]
+share_obs_space:  [[435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]]]
+act_space:  [Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18)]
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 0/1562 episodes, total num timesteps 3200/5000000, FPS 76.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 5/1562 episodes, total num timesteps 19200/5000000, FPS 53.
+
+incre win rate is 0.0.
+[v_qvpo step=10] qtot_loss=0.0236 | drbfn_loss=-23.3373 | align_mean=0.0000 | g_n_mean=0.0669 | phi_scale=0.0678 | g_i_scale=0.0021 | raw_align_mean=-0.0000 | raw_align_std=0.0004 | log_p_mean=23.3060 | grad_norm=21.3810
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 10/1562 episodes, total num timesteps 35200/5000000, FPS 67.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 15/1562 episodes, total num timesteps 51200/5000000, FPS 74.
+
+incre win rate is 0.0.
+[v_qvpo step=20] qtot_loss=0.0338 | drbfn_loss=-23.3853 | align_mean=0.0000 | g_n_mean=0.1206 | phi_scale=0.0800 | g_i_scale=0.0020 | raw_align_mean=-0.0000 | raw_align_std=0.0003 | log_p_mean=23.3021 | grad_norm=12.6044
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 20/1562 episodes, total num timesteps 67200/5000000, FPS 78.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 25/1562 episodes, total num timesteps 83200/5000000, FPS 81.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=30] qtot_loss=0.0350 | drbfn_loss=-23.1482 | align_mean=0.0000 | g_n_mean=0.1560 | phi_scale=0.0949 | g_i_scale=0.0025 | raw_align_mean=0.0000 | raw_align_std=0.0004 | log_p_mean=23.1021 | grad_norm=8.9099
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 30/1562 episodes, total num timesteps 99200/5000000, FPS 76.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 35/1562 episodes, total num timesteps 115200/5000000, FPS 78.
+
+incre win rate is 0.0.
+[v_qvpo step=40] qtot_loss=0.0293 | drbfn_loss=-23.0752 | align_mean=-0.0000 | g_n_mean=0.1306 | phi_scale=0.1198 | g_i_scale=0.0027 | raw_align_mean=0.0001 | raw_align_std=0.0005 | log_p_mean=23.0193 | grad_norm=9.0260
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 40/1562 episodes, total num timesteps 131200/5000000, FPS 79.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 45/1562 episodes, total num timesteps 147200/5000000, FPS 80.
+
+incre win rate is 0.0.
+[v_qvpo step=50] qtot_loss=0.0368 | drbfn_loss=-23.2669 | align_mean=0.0000 | g_n_mean=0.1895 | phi_scale=0.1665 | g_i_scale=0.0047 | raw_align_mean=0.0002 | raw_align_std=0.0009 | log_p_mean=23.2191 | grad_norm=12.9327
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 50/1562 episodes, total num timesteps 163200/5000000, FPS 81.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 55/1562 episodes, total num timesteps 179200/5000000, FPS 78.
+
+incre win rate is 0.0.
+[v_qvpo step=60] qtot_loss=0.0331 | drbfn_loss=-23.2596 | align_mean=-0.0000 | g_n_mean=0.1848 | phi_scale=0.1835 | g_i_scale=0.0064 | raw_align_mean=0.0004 | raw_align_std=0.0014 | log_p_mean=23.2176 | grad_norm=7.9883
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 60/1562 episodes, total num timesteps 195200/5000000, FPS 79.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 65/1562 episodes, total num timesteps 211200/5000000, FPS 80.
+
+incre win rate is 0.0.
+[v_qvpo step=70] qtot_loss=0.0390 | drbfn_loss=-23.1511 | align_mean=0.0000 | g_n_mean=0.2307 | phi_scale=0.2004 | g_i_scale=0.0099 | raw_align_mean=0.0008 | raw_align_std=0.0025 | log_p_mean=23.1157 | grad_norm=9.9192
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 70/1562 episodes, total num timesteps 227200/5000000, FPS 81.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 75/1562 episodes, total num timesteps 243200/5000000, FPS 82.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=80] qtot_loss=0.0266 | drbfn_loss=-23.2682 | align_mean=0.0000 | g_n_mean=0.1811 | phi_scale=0.1940 | g_i_scale=0.0100 | raw_align_mean=0.0008 | raw_align_std=0.0028 | log_p_mean=23.2111 | grad_norm=7.5556
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 80/1562 episodes, total num timesteps 259200/5000000, FPS 80.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 85/1562 episodes, total num timesteps 275200/5000000, FPS 81.
+
+incre win rate is 0.0.
+[v_qvpo step=90] qtot_loss=0.0235 | drbfn_loss=-23.2238 | align_mean=0.0000 | g_n_mean=0.1414 | phi_scale=0.1793 | g_i_scale=0.0098 | raw_align_mean=0.0007 | raw_align_std=0.0029 | log_p_mean=23.1707 | grad_norm=5.7901
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 90/1562 episodes, total num timesteps 291200/5000000, FPS 82.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 95/1562 episodes, total num timesteps 307200/5000000, FPS 82.
+
+incre win rate is 0.0.
+[v_qvpo step=100] qtot_loss=0.0287 | drbfn_loss=-23.2002 | align_mean=0.0000 | g_n_mean=0.2071 | phi_scale=0.1855 | g_i_scale=0.0130 | raw_align_mean=0.0012 | raw_align_std=0.0040 | log_p_mean=23.1531 | grad_norm=10.4055
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 100/1562 episodes, total num timesteps 323200/5000000, FPS 83.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 105/1562 episodes, total num timesteps 339200/5000000, FPS 81.
+
+incre win rate is 0.0.
+[v_qvpo step=110] qtot_loss=0.0324 | drbfn_loss=-23.3227 | align_mean=-0.0000 | g_n_mean=0.2664 | phi_scale=0.2013 | g_i_scale=0.0172 | raw_align_mean=0.0017 | raw_align_std=0.0050 | log_p_mean=23.1442 | grad_norm=5.8931
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 110/1562 episodes, total num timesteps 355200/5000000, FPS 82.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 115/1562 episodes, total num timesteps 371200/5000000, FPS 82.
+
+incre win rate is 0.0.
+[v_qvpo step=120] qtot_loss=0.0293 | drbfn_loss=-23.3562 | align_mean=-0.0000 | g_n_mean=0.2292 | phi_scale=0.1986 | g_i_scale=0.0172 | raw_align_mean=0.0014 | raw_align_std=0.0049 | log_p_mean=23.1618 | grad_norm=7.0914
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 120/1562 episodes, total num timesteps 387200/5000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 125/1562 episodes, total num timesteps 403200/5000000, FPS 83.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=130] qtot_loss=0.0374 | drbfn_loss=-23.2458 | align_mean=0.0000 | g_n_mean=0.2890 | phi_scale=0.1993 | g_i_scale=0.0200 | raw_align_mean=0.0020 | raw_align_std=0.0059 | log_p_mean=23.0291 | grad_norm=10.3731
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 130/1562 episodes, total num timesteps 419200/5000000, FPS 82.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 135/1562 episodes, total num timesteps 435200/5000000, FPS 83.
+
+incre win rate is 0.0.
+[v_qvpo step=140] qtot_loss=0.0368 | drbfn_loss=-23.2920 | align_mean=0.0000 | g_n_mean=0.2848 | phi_scale=0.1912 | g_i_scale=0.0213 | raw_align_mean=0.0021 | raw_align_std=0.0067 | log_p_mean=22.9701 | grad_norm=16.3364
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 140/1562 episodes, total num timesteps 451200/5000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 145/1562 episodes, total num timesteps 467200/5000000, FPS 83.
+
+incre win rate is 0.0.
+[v_qvpo step=150] qtot_loss=0.0402 | drbfn_loss=-23.1914 | align_mean=0.0000 | g_n_mean=0.3176 | phi_scale=0.1908 | g_i_scale=0.0224 | raw_align_mean=0.0025 | raw_align_std=0.0077 | log_p_mean=22.8369 | grad_norm=8.6317
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 150/1562 episodes, total num timesteps 483200/5000000, FPS 84.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 155/1562 episodes, total num timesteps 499200/5000000, FPS 83.
+
+incre win rate is 0.0.
+[v_qvpo step=160] qtot_loss=0.0290 | drbfn_loss=-23.1918 | align_mean=-0.0000 | g_n_mean=0.2209 | phi_scale=0.1719 | g_i_scale=0.0178 | raw_align_mean=0.0019 | raw_align_std=0.0066 | log_p_mean=22.6199 | grad_norm=5.4491
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 160/1562 episodes, total num timesteps 515200/5000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 165/1562 episodes, total num timesteps 531200/5000000, FPS 82.
+
+incre win rate is 0.0.
+[v_qvpo step=170] qtot_loss=0.0330 | drbfn_loss=-23.1235 | align_mean=0.0000 | g_n_mean=0.2234 | phi_scale=0.1616 | g_i_scale=0.0181 | raw_align_mean=0.0020 | raw_align_std=0.0076 | log_p_mean=22.4719 | grad_norm=6.3707
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 170/1562 episodes, total num timesteps 547200/5000000, FPS 82.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 175/1562 episodes, total num timesteps 563200/5000000, FPS 82.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=180] qtot_loss=0.0353 | drbfn_loss=-23.1041 | align_mean=-0.0000 | g_n_mean=0.2629 | phi_scale=0.1562 | g_i_scale=0.0206 | raw_align_mean=0.0024 | raw_align_std=0.0085 | log_p_mean=22.3607 | grad_norm=5.2744
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 180/1562 episodes, total num timesteps 579200/5000000, FPS 82.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 185/1562 episodes, total num timesteps 595200/5000000, FPS 82.
+
+incre win rate is 0.0.
+[v_qvpo step=190] qtot_loss=0.0257 | drbfn_loss=-23.0688 | align_mean=-0.0000 | g_n_mean=0.2225 | phi_scale=0.1490 | g_i_scale=0.0185 | raw_align_mean=0.0022 | raw_align_std=0.0082 | log_p_mean=22.2925 | grad_norm=3.9451
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 190/1562 episodes, total num timesteps 611200/5000000, FPS 82.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 195/1562 episodes, total num timesteps 627200/5000000, FPS 83.
+
+incre win rate is 0.0.
+[v_qvpo step=200] qtot_loss=0.0240 | drbfn_loss=-23.0494 | align_mean=0.0000 | g_n_mean=0.1900 | phi_scale=0.1509 | g_i_scale=0.0162 | raw_align_mean=0.0016 | raw_align_std=0.0069 | log_p_mean=22.2992 | grad_norm=2.5922
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 200/1562 episodes, total num timesteps 643200/5000000, FPS 83.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 205/1562 episodes, total num timesteps 659200/5000000, FPS 82.
+
+incre win rate is 0.0.
+[v_qvpo step=210] qtot_loss=0.0352 | drbfn_loss=-23.0128 | align_mean=0.0000 | g_n_mean=0.2793 | phi_scale=0.1595 | g_i_scale=0.0215 | raw_align_mean=0.0027 | raw_align_std=0.0096 | log_p_mean=22.3259 | grad_norm=8.1183
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 210/1562 episodes, total num timesteps 675200/5000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 215/1562 episodes, total num timesteps 691200/5000000, FPS 83.
+
+incre win rate is 0.0.
+[v_qvpo step=220] qtot_loss=0.0328 | drbfn_loss=-23.0385 | align_mean=0.0000 | g_n_mean=0.2605 | phi_scale=0.1692 | g_i_scale=0.0210 | raw_align_mean=0.0025 | raw_align_std=0.0094 | log_p_mean=22.2537 | grad_norm=7.4383
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 220/1562 episodes, total num timesteps 707200/5000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 225/1562 episodes, total num timesteps 723200/5000000, FPS 83.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=230] qtot_loss=0.0381 | drbfn_loss=-23.0169 | align_mean=-0.0000 | g_n_mean=0.3449 | phi_scale=0.1757 | g_i_scale=0.0272 | raw_align_mean=0.0032 | raw_align_std=0.0103 | log_p_mean=22.3019 | grad_norm=7.5475
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 230/1562 episodes, total num timesteps 739200/5000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 235/1562 episodes, total num timesteps 755200/5000000, FPS 83.
+
+incre win rate is 0.0.
+[v_qvpo step=240] qtot_loss=0.0300 | drbfn_loss=-22.9392 | align_mean=0.0000 | g_n_mean=0.2524 | phi_scale=0.1800 | g_i_scale=0.0206 | raw_align_mean=0.0022 | raw_align_std=0.0085 | log_p_mean=22.3019 | grad_norm=8.7502
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 240/1562 episodes, total num timesteps 771200/5000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 245/1562 episodes, total num timesteps 787200/5000000, FPS 83.
+
+incre win rate is 0.0.
+[v_qvpo step=250] qtot_loss=0.0326 | drbfn_loss=-22.7195 | align_mean=0.0000 | g_n_mean=0.3150 | phi_scale=0.2234 | g_i_scale=0.0255 | raw_align_mean=0.0026 | raw_align_std=0.0089 | log_p_mean=22.3155 | grad_norm=17.6516
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 250/1562 episodes, total num timesteps 803200/5000000, FPS 84.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 255/1562 episodes, total num timesteps 819200/5000000, FPS 83.
+
+incre win rate is 0.0.
+[v_qvpo step=260] qtot_loss=0.0251 | drbfn_loss=-21.3679 | align_mean=0.0000 | g_n_mean=0.2379 | phi_scale=0.2629 | g_i_scale=0.0182 | raw_align_mean=0.0022 | raw_align_std=0.0082 | log_p_mean=22.6022 | grad_norm=68.3904
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 260/1562 episodes, total num timesteps 835200/5000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 265/1562 episodes, total num timesteps 851200/5000000, FPS 83.
+
+incre win rate is 0.0.
+[v_qvpo step=270] qtot_loss=0.0247 | drbfn_loss=-22.9422 | align_mean=-0.0000 | g_n_mean=0.2419 | phi_scale=0.2601 | g_i_scale=0.0177 | raw_align_mean=0.0020 | raw_align_std=0.0081 | log_p_mean=22.5877 | grad_norm=31.6822
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 270/1562 episodes, total num timesteps 867200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 275/1562 episodes, total num timesteps 883200/5000000, FPS 84.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=280] qtot_loss=0.0255 | drbfn_loss=-23.2903 | align_mean=0.0000 | g_n_mean=0.2283 | phi_scale=0.2559 | g_i_scale=0.0168 | raw_align_mean=0.0020 | raw_align_std=0.0082 | log_p_mean=22.7476 | grad_norm=20.0148
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 280/1562 episodes, total num timesteps 899200/5000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 285/1562 episodes, total num timesteps 915200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=290] qtot_loss=0.0302 | drbfn_loss=-23.5006 | align_mean=-0.0000 | g_n_mean=0.2513 | phi_scale=0.2558 | g_i_scale=0.0185 | raw_align_mean=0.0023 | raw_align_std=0.0092 | log_p_mean=22.9696 | grad_norm=12.7647
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 290/1562 episodes, total num timesteps 931200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 295/1562 episodes, total num timesteps 947200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=300] qtot_loss=0.0291 | drbfn_loss=-23.6076 | align_mean=-0.0000 | g_n_mean=0.2932 | phi_scale=0.2513 | g_i_scale=0.0225 | raw_align_mean=0.0029 | raw_align_std=0.0104 | log_p_mean=22.9801 | grad_norm=5.9680
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 300/1562 episodes, total num timesteps 963200/5000000, FPS 84.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 305/1562 episodes, total num timesteps 979200/5000000, FPS 83.
+
+incre win rate is 0.0.
+[v_qvpo step=310] qtot_loss=0.0280 | drbfn_loss=-23.5304 | align_mean=-0.0000 | g_n_mean=0.2790 | phi_scale=0.2582 | g_i_scale=0.0215 | raw_align_mean=0.0026 | raw_align_std=0.0099 | log_p_mean=22.9846 | grad_norm=10.4256
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 310/1562 episodes, total num timesteps 995200/5000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 315/1562 episodes, total num timesteps 1011200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=320] qtot_loss=0.0339 | drbfn_loss=-23.3913 | align_mean=-0.0000 | g_n_mean=0.3177 | phi_scale=0.2673 | g_i_scale=0.0250 | raw_align_mean=0.0031 | raw_align_std=0.0115 | log_p_mean=22.7939 | grad_norm=14.7717
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 320/1562 episodes, total num timesteps 1027200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 325/1562 episodes, total num timesteps 1043200/5000000, FPS 84.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=330] qtot_loss=0.0257 | drbfn_loss=-23.5031 | align_mean=0.0000 | g_n_mean=0.2670 | phi_scale=0.2751 | g_i_scale=0.0206 | raw_align_mean=0.0025 | raw_align_std=0.0100 | log_p_mean=22.7962 | grad_norm=32.8159
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 330/1562 episodes, total num timesteps 1059200/5000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 335/1562 episodes, total num timesteps 1075200/5000000, FPS 83.
+
+incre win rate is 0.0.
+[v_qvpo step=340] qtot_loss=0.0327 | drbfn_loss=-23.5986 | align_mean=0.0000 | g_n_mean=0.2894 | phi_scale=0.2691 | g_i_scale=0.0221 | raw_align_mean=0.0028 | raw_align_std=0.0109 | log_p_mean=22.8141 | grad_norm=11.6837
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 340/1562 episodes, total num timesteps 1091200/5000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 345/1562 episodes, total num timesteps 1107200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=350] qtot_loss=0.0382 | drbfn_loss=-23.5009 | align_mean=-0.0000 | g_n_mean=0.3238 | phi_scale=0.2727 | g_i_scale=0.0231 | raw_align_mean=0.0032 | raw_align_std=0.0118 | log_p_mean=22.7583 | grad_norm=11.2994
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 350/1562 episodes, total num timesteps 1123200/5000000, FPS 84.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 355/1562 episodes, total num timesteps 1139200/5000000, FPS 83.
+
+incre win rate is 0.0.
+[v_qvpo step=360] qtot_loss=0.0260 | drbfn_loss=-23.3576 | align_mean=0.0000 | g_n_mean=0.2504 | phi_scale=0.2742 | g_i_scale=0.0180 | raw_align_mean=0.0021 | raw_align_std=0.0096 | log_p_mean=22.7484 | grad_norm=9.0387
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 360/1562 episodes, total num timesteps 1155200/5000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 365/1562 episodes, total num timesteps 1171200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=370] qtot_loss=0.0340 | drbfn_loss=-23.4906 | align_mean=-0.0000 | g_n_mean=0.3027 | phi_scale=0.2740 | g_i_scale=0.0234 | raw_align_mean=0.0029 | raw_align_std=0.0116 | log_p_mean=22.8168 | grad_norm=5.8262
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 370/1562 episodes, total num timesteps 1187200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 375/1562 episodes, total num timesteps 1203200/5000000, FPS 84.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=380] qtot_loss=0.0338 | drbfn_loss=-23.4598 | align_mean=0.0000 | g_n_mean=0.3351 | phi_scale=0.2744 | g_i_scale=0.0264 | raw_align_mean=0.0036 | raw_align_std=0.0130 | log_p_mean=22.7371 | grad_norm=5.1728
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 380/1562 episodes, total num timesteps 1219200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 385/1562 episodes, total num timesteps 1235200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=390] qtot_loss=0.0306 | drbfn_loss=-23.4497 | align_mean=-0.0000 | g_n_mean=0.2841 | phi_scale=0.2741 | g_i_scale=0.0220 | raw_align_mean=0.0031 | raw_align_std=0.0126 | log_p_mean=22.7868 | grad_norm=9.3146
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 390/1562 episodes, total num timesteps 1251200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 395/1562 episodes, total num timesteps 1267200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=400] qtot_loss=0.0322 | drbfn_loss=-23.5401 | align_mean=0.0000 | g_n_mean=0.3338 | phi_scale=0.2751 | g_i_scale=0.0256 | raw_align_mean=0.0036 | raw_align_std=0.0134 | log_p_mean=22.8070 | grad_norm=4.4771
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 400/1562 episodes, total num timesteps 1283200/5000000, FPS 84.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 405/1562 episodes, total num timesteps 1299200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=410] qtot_loss=0.0481 | drbfn_loss=-23.4753 | align_mean=-0.0000 | g_n_mean=0.4059 | phi_scale=0.2743 | g_i_scale=0.0310 | raw_align_mean=0.0049 | raw_align_std=0.0166 | log_p_mean=22.8052 | grad_norm=6.1033
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 410/1562 episodes, total num timesteps 1315200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 415/1562 episodes, total num timesteps 1331200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=420] qtot_loss=0.0557 | drbfn_loss=-23.6252 | align_mean=0.0000 | g_n_mean=0.5124 | phi_scale=0.2764 | g_i_scale=0.0421 | raw_align_mean=0.0062 | raw_align_std=0.0182 | log_p_mean=22.8432 | grad_norm=4.7249
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 420/1562 episodes, total num timesteps 1347200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 425/1562 episodes, total num timesteps 1363200/5000000, FPS 85.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=430] qtot_loss=0.0440 | drbfn_loss=-23.4632 | align_mean=0.0000 | g_n_mean=0.4213 | phi_scale=0.2747 | g_i_scale=0.0329 | raw_align_mean=0.0053 | raw_align_std=0.0183 | log_p_mean=22.7650 | grad_norm=9.0766
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 430/1562 episodes, total num timesteps 1379200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 435/1562 episodes, total num timesteps 1395200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=440] qtot_loss=0.0597 | drbfn_loss=-23.5567 | align_mean=0.0000 | g_n_mean=0.5866 | phi_scale=0.2756 | g_i_scale=0.0465 | raw_align_mean=0.0076 | raw_align_std=0.0222 | log_p_mean=22.7687 | grad_norm=5.9038
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 440/1562 episodes, total num timesteps 1411200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 445/1562 episodes, total num timesteps 1427200/5000000, FPS 85.
+
+incre win rate is 0.0.
+[v_qvpo step=450] qtot_loss=0.0471 | drbfn_loss=-23.4574 | align_mean=-0.0000 | g_n_mean=0.4886 | phi_scale=0.2757 | g_i_scale=0.0407 | raw_align_mean=0.0063 | raw_align_std=0.0209 | log_p_mean=22.7816 | grad_norm=6.0879
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 450/1562 episodes, total num timesteps 1443200/5000000, FPS 85.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 455/1562 episodes, total num timesteps 1459200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=460] qtot_loss=0.0529 | drbfn_loss=-23.5393 | align_mean=-0.0000 | g_n_mean=0.6006 | phi_scale=0.2744 | g_i_scale=0.0492 | raw_align_mean=0.0082 | raw_align_std=0.0243 | log_p_mean=22.7387 | grad_norm=7.2458
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 460/1562 episodes, total num timesteps 1475200/5000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 465/1562 episodes, total num timesteps 1491200/5000000, FPS 85.
+
+incre win rate is 0.0.
+[v_qvpo step=470] qtot_loss=0.0553 | drbfn_loss=-23.4977 | align_mean=0.0000 | g_n_mean=0.5921 | phi_scale=0.2753 | g_i_scale=0.0503 | raw_align_mean=0.0083 | raw_align_std=0.0243 | log_p_mean=22.7196 | grad_norm=5.4509
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 470/1562 episodes, total num timesteps 1507200/5000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 475/1562 episodes, total num timesteps 1523200/5000000, FPS 85.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=480] qtot_loss=0.0525 | drbfn_loss=-23.4149 | align_mean=-0.0000 | g_n_mean=0.5678 | phi_scale=0.2741 | g_i_scale=0.0478 | raw_align_mean=0.0079 | raw_align_std=0.0242 | log_p_mean=22.7065 | grad_norm=7.0008
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 480/1562 episodes, total num timesteps 1539200/5000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 485/1562 episodes, total num timesteps 1555200/5000000, FPS 85.
+
+incre win rate is 0.0.
+[v_qvpo step=490] qtot_loss=0.0750 | drbfn_loss=-23.5592 | align_mean=0.0000 | g_n_mean=0.7244 | phi_scale=0.2762 | g_i_scale=0.0594 | raw_align_mean=0.0096 | raw_align_std=0.0262 | log_p_mean=22.7080 | grad_norm=6.4291
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 490/1562 episodes, total num timesteps 1571200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 495/1562 episodes, total num timesteps 1587200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=500] qtot_loss=0.0627 | drbfn_loss=-23.4646 | align_mean=0.0000 | g_n_mean=0.6769 | phi_scale=0.2741 | g_i_scale=0.0594 | raw_align_mean=0.0101 | raw_align_std=0.0284 | log_p_mean=22.6688 | grad_norm=4.4052
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 500/1562 episodes, total num timesteps 1603200/5000000, FPS 84.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 505/1562 episodes, total num timesteps 1619200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=510] qtot_loss=0.0700 | drbfn_loss=-23.5869 | align_mean=0.0000 | g_n_mean=0.8170 | phi_scale=0.2772 | g_i_scale=0.0747 | raw_align_mean=0.0128 | raw_align_std=0.0323 | log_p_mean=22.7750 | grad_norm=10.6702
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 510/1562 episodes, total num timesteps 1635200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 515/1562 episodes, total num timesteps 1651200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=520] qtot_loss=0.0716 | drbfn_loss=-23.4158 | align_mean=-0.0000 | g_n_mean=0.7964 | phi_scale=0.2735 | g_i_scale=0.0722 | raw_align_mean=0.0128 | raw_align_std=0.0325 | log_p_mean=22.6681 | grad_norm=8.8286
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 520/1562 episodes, total num timesteps 1667200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 525/1562 episodes, total num timesteps 1683200/5000000, FPS 84.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=530] qtot_loss=0.0903 | drbfn_loss=-23.5844 | align_mean=0.0000 | g_n_mean=0.8351 | phi_scale=0.2759 | g_i_scale=0.0750 | raw_align_mean=0.0132 | raw_align_std=0.0337 | log_p_mean=22.6735 | grad_norm=12.5006
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 530/1562 episodes, total num timesteps 1699200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 535/1562 episodes, total num timesteps 1715200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=540] qtot_loss=0.0890 | drbfn_loss=-23.5370 | align_mean=-0.0000 | g_n_mean=0.9048 | phi_scale=0.2756 | g_i_scale=0.0809 | raw_align_mean=0.0147 | raw_align_std=0.0358 | log_p_mean=22.6763 | grad_norm=6.4692
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 540/1562 episodes, total num timesteps 1731200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 545/1562 episodes, total num timesteps 1747200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=550] qtot_loss=0.0679 | drbfn_loss=-23.6343 | align_mean=-0.0000 | g_n_mean=0.9579 | phi_scale=0.2767 | g_i_scale=0.0870 | raw_align_mean=0.0156 | raw_align_std=0.0367 | log_p_mean=22.7415 | grad_norm=5.3733
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 550/1562 episodes, total num timesteps 1763200/5000000, FPS 85.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 555/1562 episodes, total num timesteps 1779200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=560] qtot_loss=0.0836 | drbfn_loss=-23.6336 | align_mean=-0.0000 | g_n_mean=1.0619 | phi_scale=0.2776 | g_i_scale=0.0974 | raw_align_mean=0.0180 | raw_align_std=0.0414 | log_p_mean=22.6523 | grad_norm=8.9340
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 560/1562 episodes, total num timesteps 1795200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 565/1562 episodes, total num timesteps 1811200/5000000, FPS 85.
+
+incre win rate is 0.0.
+[v_qvpo step=570] qtot_loss=0.0812 | drbfn_loss=-23.7117 | align_mean=-0.0000 | g_n_mean=1.0388 | phi_scale=0.2773 | g_i_scale=0.0944 | raw_align_mean=0.0174 | raw_align_std=0.0412 | log_p_mean=22.6496 | grad_norm=7.1151
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 570/1562 episodes, total num timesteps 1827200/5000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 575/1562 episodes, total num timesteps 1843200/5000000, FPS 85.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=580] qtot_loss=0.0787 | drbfn_loss=-23.4150 | align_mean=0.0000 | g_n_mean=1.0263 | phi_scale=0.2736 | g_i_scale=0.0917 | raw_align_mean=0.0165 | raw_align_std=0.0404 | log_p_mean=22.4688 | grad_norm=14.6153
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 580/1562 episodes, total num timesteps 1859200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 585/1562 episodes, total num timesteps 1875200/5000000, FPS 85.
+
+incre win rate is 0.0.
+[v_qvpo step=590] qtot_loss=0.0744 | drbfn_loss=-23.3794 | align_mean=0.0000 | g_n_mean=1.0166 | phi_scale=0.2739 | g_i_scale=0.0945 | raw_align_mean=0.0175 | raw_align_std=0.0429 | log_p_mean=22.4063 | grad_norm=12.3946
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 590/1562 episodes, total num timesteps 1891200/5000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 595/1562 episodes, total num timesteps 1907200/5000000, FPS 85.
+
+incre win rate is 0.0.
+[v_qvpo step=600] qtot_loss=0.0729 | drbfn_loss=-23.4056 | align_mean=0.0000 | g_n_mean=0.9657 | phi_scale=0.2715 | g_i_scale=0.0923 | raw_align_mean=0.0158 | raw_align_std=0.0405 | log_p_mean=22.3236 | grad_norm=8.8781
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 600/1562 episodes, total num timesteps 1923200/5000000, FPS 85.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 605/1562 episodes, total num timesteps 1939200/5000000, FPS 85.
+
+incre win rate is 0.0.
+[v_qvpo step=610] qtot_loss=0.0832 | drbfn_loss=-23.3201 | align_mean=-0.0000 | g_n_mean=1.0793 | phi_scale=0.2732 | g_i_scale=0.1021 | raw_align_mean=0.0181 | raw_align_std=0.0429 | log_p_mean=22.3120 | grad_norm=9.2043
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 610/1562 episodes, total num timesteps 1955200/5000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 615/1562 episodes, total num timesteps 1971200/5000000, FPS 85.
+
+incre win rate is 0.0.
+[v_qvpo step=620] qtot_loss=0.0798 | drbfn_loss=-23.2627 | align_mean=0.0000 | g_n_mean=1.1238 | phi_scale=0.2721 | g_i_scale=0.1068 | raw_align_mean=0.0186 | raw_align_std=0.0450 | log_p_mean=22.2300 | grad_norm=10.7500
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 620/1562 episodes, total num timesteps 1987200/5000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 625/1562 episodes, total num timesteps 2003200/5000000, FPS 85.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=630] qtot_loss=0.0820 | drbfn_loss=-23.2681 | align_mean=-0.0000 | g_n_mean=0.9934 | phi_scale=0.2723 | g_i_scale=0.0918 | raw_align_mean=0.0164 | raw_align_std=0.0418 | log_p_mean=22.2148 | grad_norm=10.6557
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 630/1562 episodes, total num timesteps 2019200/5000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 635/1562 episodes, total num timesteps 2035200/5000000, FPS 85.
+
+incre win rate is 0.0.
+[v_qvpo step=640] qtot_loss=0.1063 | drbfn_loss=-23.2605 | align_mean=0.0000 | g_n_mean=1.0871 | phi_scale=0.2710 | g_i_scale=0.1033 | raw_align_mean=0.0163 | raw_align_std=0.0422 | log_p_mean=22.1084 | grad_norm=8.3572
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 640/1562 episodes, total num timesteps 2051200/5000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 645/1562 episodes, total num timesteps 2067200/5000000, FPS 85.
+
+incre win rate is 0.0.
+[v_qvpo step=650] qtot_loss=0.1114 | drbfn_loss=-23.2269 | align_mean=-0.0000 | g_n_mean=1.2534 | phi_scale=0.2717 | g_i_scale=0.1210 | raw_align_mean=0.0193 | raw_align_std=0.0454 | log_p_mean=21.9669 | grad_norm=5.7866
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 650/1562 episodes, total num timesteps 2083200/5000000, FPS 85.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 655/1562 episodes, total num timesteps 2099200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=660] qtot_loss=0.0777 | drbfn_loss=-22.9955 | align_mean=-0.0000 | g_n_mean=1.0360 | phi_scale=0.2689 | g_i_scale=0.0995 | raw_align_mean=0.0162 | raw_align_std=0.0436 | log_p_mean=21.8091 | grad_norm=5.7735
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 660/1562 episodes, total num timesteps 2115200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 665/1562 episodes, total num timesteps 2131200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=670] qtot_loss=0.0912 | drbfn_loss=-23.0279 | align_mean=-0.0000 | g_n_mean=1.1114 | phi_scale=0.2688 | g_i_scale=0.1071 | raw_align_mean=0.0173 | raw_align_std=0.0444 | log_p_mean=21.8045 | grad_norm=6.0953
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 670/1562 episodes, total num timesteps 2147200/5000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 675/1562 episodes, total num timesteps 2163200/5000000, FPS 85.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=680] qtot_loss=0.1082 | drbfn_loss=-23.1592 | align_mean=0.0000 | g_n_mean=1.1996 | phi_scale=0.2693 | g_i_scale=0.1166 | raw_align_mean=0.0195 | raw_align_std=0.0463 | log_p_mean=21.8094 | grad_norm=5.5529
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 680/1562 episodes, total num timesteps 2179200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 685/1562 episodes, total num timesteps 2195200/5000000, FPS 84.
+
+incre win rate is 0.0.
+[v_qvpo step=690] qtot_loss=0.0780 | drbfn_loss=-22.9455 | align_mean=-0.0000 | g_n_mean=1.0178 | phi_scale=0.2644 | g_i_scale=0.0958 | raw_align_mean=0.0154 | raw_align_std=0.0416 | log_p_mean=21.7252 | grad_norm=5.6101
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 690/1562 episodes, total num timesteps 2211200/5000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 695/1562 episodes, total num timesteps 2227200/5000000, FPS 85.
+
+incre win rate is 0.0.
+[v_qvpo step=700] qtot_loss=0.0936 | drbfn_loss=-23.0070 | align_mean=0.0000 | g_n_mean=1.0205 | phi_scale=0.2667 | g_i_scale=0.0971 | raw_align_mean=0.0159 | raw_align_std=0.0440 | log_p_mean=21.7461 | grad_norm=8.8912
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 700/1562 episodes, total num timesteps 2243200/5000000, FPS 85.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 705/1562 episodes, total num timesteps 2259200/5000000, FPS 85.
+
+incre win rate is 0.0.
+[v_qvpo step=710] qtot_loss=0.0722 | drbfn_loss=-23.1560 | align_mean=0.0000 | g_n_mean=0.9475 | phi_scale=0.2683 | g_i_scale=0.0921 | raw_align_mean=0.0139 | raw_align_std=0.0407 | log_p_mean=21.8945 | grad_norm=7.6932
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 710/1562 episodes, total num timesteps 2275200/5000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 715/1562 episodes, total num timesteps 2291200/5000000, FPS 85.
+
+incre win rate is 0.0.
+[v_qvpo step=720] qtot_loss=0.1099 | drbfn_loss=-23.1823 | align_mean=0.0000 | g_n_mean=1.0841 | phi_scale=0.2664 | g_i_scale=0.1085 | raw_align_mean=0.0167 | raw_align_std=0.0449 | log_p_mean=21.9006 | grad_norm=4.1600
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 720/1562 episodes, total num timesteps 2307200/5000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map MMM2 Algo r_drbfn_qvpo Exp qvpo_mmm2 updates 725/1562 episodes, total num timesteps 2323200/5000000, FPS 85.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+[v_qvpo step=730] qtot_loss=0.0771 | drbfn_loss=-23.0575 | align_mean=0.0000 | g_n_mean=0.8677 | phi_scale=0.2645 | g_i_scale=0.0789 | raw_align_mean=0.0124 | raw_align_std=0.0393 | log_p_mean=21.8905 | grad_norm=11.2123
+Finished at: Fri Jul 31 01:44:39     2026

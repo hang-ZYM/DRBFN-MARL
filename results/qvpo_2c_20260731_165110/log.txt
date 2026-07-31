@@ -1,0 +1,61 @@
+=== DRBFN-QVPO SMAC 2c_vs_64zg (5M steps + lr decay) ===
+Started at: Fri Jul 31 16:51:10     2026
+Log file: results/qvpo_2c_20260731_165110/log.txt
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+Process Process-4:
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "D:\conda\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 336, in shareworker
+    ob, s_ob, available_actions = env.reset()
+                                  ^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 388, in reset
+    self._launch()
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 351, in _launch
+    self._controller.create_game(create)
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 95, in _valid_status
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 70, in _check_error
+    return check_error(func(*args, **kwargs), error_enum)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 61, in check_error
+    raise RequestError("%s.%s: '%s'" % (enum_name, error_name, details), res)
+pysc2.lib.remote_controller.RequestError: SC2APIProtocol.ResponseCreateGame.Error.InvalidMapData: 'temporary map 'D:\Temp\StarCraft II\TempLaunchMap.SC2Map' has invalid data.'
+u are choosing to use r_drbfn_qvpo (BFN outputs Phi, Q-weighted VLB, bi-level), keeping use_centralized_V = True
+choose to use gpu...
+obs_space:  [[478, [1, 76], [64, 5], [1, 4], [1, 78]], [478, [1, 76], [64, 5], [1, 4], [1, 78]]]
+share_obs_space:  [[675, [1, 79], [64, 8], [1, 4], [1, 80]], [675, [1, 79], [64, 8], [1, 4], [1, 80]]]
+act_space:  [Discrete(70), Discrete(70)]
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\connection.py", line 317, in _recv_bytes
+    ov, err = _winapi.ReadFile(self._handle, bsize,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [WinError 109] 管道已结束。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\张英铭\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 270, in <module>
+    main(sys.argv[1:])
+  File "C:\Users\张英铭\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 254, in main
+    runner.run()
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\runner\shared\smac_runner.py", line 17, in run
+    self.warmup()   
+    ^^^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\runner\shared\smac_runner.py", line 100, in warmup
+    obs, share_obs, available_actions = self.envs.reset()
+                                        ^^^^^^^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 397, in reset
+    results = [remote.recv() for remote in self.remotes]
+               ^^^^^^^^^^^^^
+  File "D:\conda\Lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+          ^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\multiprocessing\connection.py", line 337, in _recv_bytes
+    raise EOFError
+EOFError
+Finished at: Fri Jul 31 16:51:56     2026

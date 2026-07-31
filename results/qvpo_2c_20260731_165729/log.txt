@@ -1,0 +1,114 @@
+=== DRBFN-QVPO SMAC 2c_vs_64zg (5M steps + lr decay) ===
+Started at: Fri Jul 31 16:57:29     2026
+Log file: results/qvpo_2c_20260731_165729/log.txt
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+u are choosing to use r_drbfn_qvpo (BFN outputs Phi, Q-weighted VLB, bi-level), keeping use_centralized_V = True
+choose to use gpu...
+obs_space:  [[478, [1, 76], [64, 5], [1, 4], [1, 78]], [478, [1, 76], [64, 5], [1, 4], [1, 78]]]
+share_obs_space:  [[675, [1, 79], [64, 8], [1, 4], [1, 80]], [675, [1, 79], [64, 8], [1, 4], [1, 80]]]
+act_space:  [Discrete(70), Discrete(70)]
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 0/1562 episodes, total num timesteps 3200/5000000, FPS 72.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 5/1562 episodes, total num timesteps 19200/5000000, FPS 60.
+
+incre win rate is 0.0.
+[v_qvpo step=10] qtot_loss=1.8302 | drbfn_loss=-4.8753 | align_mean=-0.0000 | g_n_mean=1.5993 | phi_scale=0.0217 | g_i_scale=0.0052 | raw_align_mean=-0.0015 | raw_align_std=0.0024 | log_p_mean=4.9035 | grad_norm=3.0692
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 10/1562 episodes, total num timesteps 35200/5000000, FPS 69.
+
+incre win rate is 0.0.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 15/1562 episodes, total num timesteps 51200/5000000, FPS 80.
+
+incre win rate is 0.0.
+[v_qvpo step=20] qtot_loss=0.9948 | drbfn_loss=-4.9608 | align_mean=0.0000 | g_n_mean=1.6577 | phi_scale=0.0245 | g_i_scale=0.0067 | raw_align_mean=-0.0021 | raw_align_std=0.0031 | log_p_mean=4.9570 | grad_norm=1.0368
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 20/1562 episodes, total num timesteps 67200/5000000, FPS 84.
+
+incre win rate is 0.0.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 25/1562 episodes, total num timesteps 83200/5000000, FPS 88.
+
+incre win rate is 0.0022935779816513763.
+eval win rate is 0.03125.
+[v_qvpo step=30] qtot_loss=0.7402 | drbfn_loss=-4.9860 | align_mean=0.0000 | g_n_mean=1.6806 | phi_scale=0.0276 | g_i_scale=0.0088 | raw_align_mean=-0.0029 | raw_align_std=0.0043 | log_p_mean=4.9714 | grad_norm=0.6038
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 30/1562 episodes, total num timesteps 99200/5000000, FPS 89.
+
+incre win rate is 0.0.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 35/1562 episodes, total num timesteps 115200/5000000, FPS 91.
+
+incre win rate is 0.0.
+[v_qvpo step=40] qtot_loss=0.5680 | drbfn_loss=-4.9833 | align_mean=-0.0000 | g_n_mean=1.7621 | phi_scale=0.0281 | g_i_scale=0.0116 | raw_align_mean=-0.0039 | raw_align_std=0.0050 | log_p_mean=4.9661 | grad_norm=0.9425
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 40/1562 episodes, total num timesteps 131200/5000000, FPS 93.
+
+incre win rate is 0.0.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 45/1562 episodes, total num timesteps 147200/5000000, FPS 96.
+
+incre win rate is 0.0.
+[v_qvpo step=50] qtot_loss=0.5500 | drbfn_loss=-4.9719 | align_mean=0.0000 | g_n_mean=1.8286 | phi_scale=0.0272 | g_i_scale=0.0142 | raw_align_mean=-0.0048 | raw_align_std=0.0063 | log_p_mean=4.9555 | grad_norm=0.8519
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 50/1562 episodes, total num timesteps 163200/5000000, FPS 98.
+
+incre win rate is 0.0025380710659898475.
+eval win rate is 0.0.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 55/1562 episodes, total num timesteps 179200/5000000, FPS 98.
+
+incre win rate is 0.005249343832020997.
+[v_qvpo step=60] qtot_loss=0.4860 | drbfn_loss=-4.9629 | align_mean=0.0000 | g_n_mean=1.8971 | phi_scale=0.0247 | g_i_scale=0.0175 | raw_align_mean=-0.0062 | raw_align_std=0.0077 | log_p_mean=4.9408 | grad_norm=0.7574
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 60/1562 episodes, total num timesteps 195200/5000000, FPS 100.
+
+incre win rate is 0.0025.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 65/1562 episodes, total num timesteps 211200/5000000, FPS 101.
+
+incre win rate is 0.010582010582010581.
+[v_qvpo step=70] qtot_loss=0.5099 | drbfn_loss=-4.9695 | align_mean=-0.0000 | g_n_mean=1.8692 | phi_scale=0.0237 | g_i_scale=0.0202 | raw_align_mean=-0.0069 | raw_align_std=0.0088 | log_p_mean=4.9410 | grad_norm=1.3244
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 70/1562 episodes, total num timesteps 227200/5000000, FPS 102.
+
+incre win rate is 0.021333333333333333.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 75/1562 episodes, total num timesteps 243200/5000000, FPS 103.
+
+incre win rate is 0.016304347826086956.
+eval win rate is 0.0625.
+[v_qvpo step=80] qtot_loss=0.5086 | drbfn_loss=-4.9277 | align_mean=-0.0000 | g_n_mean=1.9439 | phi_scale=0.0302 | g_i_scale=0.0227 | raw_align_mean=-0.0079 | raw_align_std=0.0099 | log_p_mean=4.9006 | grad_norm=1.6635
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 80/1562 episodes, total num timesteps 259200/5000000, FPS 103.
+
+incre win rate is 0.04054054054054054.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 85/1562 episodes, total num timesteps 275200/5000000, FPS 104.
+
+incre win rate is 0.04491017964071856.
+[v_qvpo step=90] qtot_loss=0.5800 | drbfn_loss=-4.9756 | align_mean=0.0000 | g_n_mean=2.0590 | phi_scale=0.0335 | g_i_scale=0.0252 | raw_align_mean=-0.0091 | raw_align_std=0.0109 | log_p_mean=4.9403 | grad_norm=0.9941
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 90/1562 episodes, total num timesteps 291200/5000000, FPS 105.
+
+incre win rate is 0.07042253521126761.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 95/1562 episodes, total num timesteps 307200/5000000, FPS 106.
+
+incre win rate is 0.11370262390670553.
+[v_qvpo step=100] qtot_loss=0.6262 | drbfn_loss=-4.9320 | align_mean=-0.0000 | g_n_mean=2.0891 | phi_scale=0.0373 | g_i_scale=0.0299 | raw_align_mean=-0.0108 | raw_align_std=0.0130 | log_p_mean=4.9194 | grad_norm=0.4808
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 100/1562 episodes, total num timesteps 323200/5000000, FPS 107.
+
+incre win rate is 0.1488095238095238.
+eval win rate is 0.3125.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 105/1562 episodes, total num timesteps 339200/5000000, FPS 107.
+
+incre win rate is 0.13782051282051283.
+[v_qvpo step=110] qtot_loss=0.6354 | drbfn_loss=-4.9405 | align_mean=-0.0000 | g_n_mean=2.1157 | phi_scale=0.1103 | g_i_scale=0.0330 | raw_align_mean=-0.0117 | raw_align_std=0.0143 | log_p_mean=4.8744 | grad_norm=0.7560

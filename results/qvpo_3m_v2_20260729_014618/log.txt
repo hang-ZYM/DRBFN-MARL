@@ -1,0 +1,67 @@
+=== DRBFN-QVPO SMAC 3m (BFN normalize fixed) ===
+Started at: Wed Jul 29 01:46:18     2026
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+u are choosing to use r_drbfn_qvpo (BFN outputs Phi, Q-weighted VLB, bi-level), keeping use_centralized_V = True
+choose to use gpu...
+obs_space:  [[64, [2, 14], [3, 5], [1, 4], [1, 17]], [64, [2, 14], [3, 5], [1, 4], [1, 17]], [64, [2, 14], [3, 5], [1, 4], [1, 17]]]
+share_obs_space:  [[81, [2, 17], [3, 8], [1, 4], [1, 19]], [81, [2, 17], [3, 8], [1, 4], [1, 19]], [81, [2, 17], [3, 8], [1, 4], [1, 19]]]
+act_space:  [Discrete(9), Discrete(9), Discrete(9)]
+
+ Map 3m Algo r_drbfn_qvpo Exp qvpo_3m_v2 updates 0/312 episodes, total num timesteps 3200/1000000, FPS 137.
+
+incre win rate is 0.0.
+eval win rate is 0.28125.
+
+ Map 3m Algo r_drbfn_qvpo Exp qvpo_3m_v2 updates 5/312 episodes, total num timesteps 19200/1000000, FPS 119.
+
+incre win rate is 0.0.
+[v_qvpo step=10] qtot_loss=4.3098 | drbfn_loss=-7.4902 | align_mean=-0.0000 | g_n_mean=1.5199
+
+ Map 3m Algo r_drbfn_qvpo Exp qvpo_3m_v2 updates 10/312 episodes, total num timesteps 35200/1000000, FPS 156.
+
+incre win rate is 0.02386934673366834.
+
+ Map 3m Algo r_drbfn_qvpo Exp qvpo_3m_v2 updates 15/312 episodes, total num timesteps 51200/1000000, FPS 181.
+
+incre win rate is 0.13811420982735723.
+[v_qvpo step=20] qtot_loss=14.1678 | drbfn_loss=-7.5085 | align_mean=0.0000 | g_n_mean=2.4823
+
+ Map 3m Algo r_drbfn_qvpo Exp qvpo_3m_v2 updates 20/312 episodes, total num timesteps 67200/1000000, FPS 198.
+
+incre win rate is 0.2992805755395683.
+
+ Map 3m Algo r_drbfn_qvpo Exp qvpo_3m_v2 updates 25/312 episodes, total num timesteps 83200/1000000, FPS 209.
+
+incre win rate is 0.43288084464555054.
+eval win rate is 1.0.
+[v_qvpo step=30] qtot_loss=18.5434 | drbfn_loss=-7.5165 | align_mean=0.0000 | g_n_mean=2.9153
+
+ Map 3m Algo r_drbfn_qvpo Exp qvpo_3m_v2 updates 30/312 episodes, total num timesteps 99200/1000000, FPS 213.
+
+incre win rate is 0.5216049382716049.
+
+ Map 3m Algo r_drbfn_qvpo Exp qvpo_3m_v2 updates 35/312 episodes, total num timesteps 115200/1000000, FPS 220.
+
+incre win rate is 0.5977564102564102.
+[v_qvpo step=40] qtot_loss=17.0953 | drbfn_loss=-7.4958 | align_mean=0.0000 | g_n_mean=2.8451
+
+ Map 3m Algo r_drbfn_qvpo Exp qvpo_3m_v2 updates 40/312 episodes, total num timesteps 131200/1000000, FPS 222.
+
+incre win rate is 0.5737179487179487.
+
+ Map 3m Algo r_drbfn_qvpo Exp qvpo_3m_v2 updates 45/312 episodes, total num timesteps 147200/1000000, FPS 225.
+
+incre win rate is 0.669826224328594.
+[v_qvpo step=50] qtot_loss=19.5600 | drbfn_loss=-7.4921 | align_mean=-0.0000 | g_n_mean=3.1734
+
+ Map 3m Algo r_drbfn_qvpo Exp qvpo_3m_v2 updates 50/312 episodes, total num timesteps 163200/1000000, FPS 229.
+
+incre win rate is 0.6830427892234548.
+eval win rate is 0.96875.
+
+ Map 3m Algo r_drbfn_qvpo Exp qvpo_3m_v2 updates 55/312 episodes, total num timesteps 179200/1000000, FPS 230.
+
+incre win rate is 0.7667185069984448.
+[v_qvpo step=60] qtot_loss=21.8831 | drbfn_loss=-7.4758 | align_mean=-0.0000 | g_n_mean=3.6567
+Finished at: Wed Jul 29 02:03:36     2026

@@ -5033,3 +5033,125 @@ incre win rate is 0.3503184713375796.
 
 incre win rate is 0.3076923076923077.
 eval win rate is 0.28125.
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5355/6250 episodes, total num timesteps 4284800/5000000, FPS 76.
+
+incre win rate is 0.34375.
+[v3 step=5360] R_mean=0.5464 | G_n_mean=7.6931 (n=5) | q_tot_pred_mean=7.7953 | drbfn_loss=0.0217, qi_loss=0.5374, qtot_loss=5.2041
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5360/6250 episodes, total num timesteps 4288800/5000000, FPS 76.
+
+incre win rate is 0.3670886075949367.
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5365/6250 episodes, total num timesteps 4292800/5000000, FPS 76.
+
+incre win rate is 0.31875.
+[v3 step=5370] R_mean=0.5405 | G_n_mean=7.7063 (n=5) | q_tot_pred_mean=7.7098 | drbfn_loss=0.0230, qi_loss=0.4371, qtot_loss=3.9469
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5370/6250 episodes, total num timesteps 4296800/5000000, FPS 76.
+
+incre win rate is 0.38509316770186336.
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5375/6250 episodes, total num timesteps 4300800/5000000, FPS 76.
+
+incre win rate is 0.4161490683229814.
+eval win rate is 0.625.
+[v3 step=5380] R_mean=0.5658 | G_n_mean=8.0511 (n=5) | q_tot_pred_mean=7.7898 | drbfn_loss=0.0215, qi_loss=0.5605, qtot_loss=5.1858
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5380/6250 episodes, total num timesteps 4304800/5000000, FPS 76.
+
+incre win rate is 0.39375.
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5385/6250 episodes, total num timesteps 4308800/5000000, FPS 76.
+
+incre win rate is 0.3416149068322981.
+[v3 step=5390] R_mean=0.5132 | G_n_mean=7.3083 (n=5) | q_tot_pred_mean=7.6437 | drbfn_loss=0.0221, qi_loss=0.5126, qtot_loss=5.2888
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5390/6250 episodes, total num timesteps 4312800/5000000, FPS 76.
+
+incre win rate is 0.4.
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5395/6250 episodes, total num timesteps 4316800/5000000, FPS 76.
+
+incre win rate is 0.40764331210191085.
+[v3 step=5400] R_mean=0.5466 | G_n_mean=7.4960 (n=5) | q_tot_pred_mean=7.3580 | drbfn_loss=0.0212, qi_loss=0.6059, qtot_loss=3.7412
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5400/6250 episodes, total num timesteps 4320800/5000000, FPS 76.
+
+incre win rate is 0.35802469135802467.
+eval win rate is 0.28125.
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5405/6250 episodes, total num timesteps 4324800/5000000, FPS 76.
+
+incre win rate is 0.34394904458598724.
+[v3 step=5410] R_mean=0.5135 | G_n_mean=7.0296 (n=5) | q_tot_pred_mean=7.1508 | drbfn_loss=0.0216, qi_loss=0.5650, qtot_loss=5.2819
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5410/6250 episodes, total num timesteps 4328800/5000000, FPS 76.
+
+incre win rate is 0.31097560975609756.
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5415/6250 episodes, total num timesteps 4332800/5000000, FPS 76.
+
+incre win rate is 0.39622641509433965.
+[v3 step=5420] R_mean=0.5601 | G_n_mean=7.5877 (n=5) | q_tot_pred_mean=7.8138 | drbfn_loss=0.0217, qi_loss=0.5824, qtot_loss=4.6616
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5420/6250 episodes, total num timesteps 4336800/5000000, FPS 76.
+
+incre win rate is 0.41975308641975306.
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5425/6250 episodes, total num timesteps 4340800/5000000, FPS 76.
+
+incre win rate is 0.3167701863354037.
+eval win rate is 0.4375.
+[v3 step=5430] R_mean=0.5805 | G_n_mean=8.1123 (n=5) | q_tot_pred_mean=7.8328 | drbfn_loss=0.0246, qi_loss=0.4889, qtot_loss=5.4664
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5430/6250 episodes, total num timesteps 4344800/5000000, FPS 76.
+
+incre win rate is 0.445859872611465.
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5435/6250 episodes, total num timesteps 4348800/5000000, FPS 76.
+
+incre win rate is 0.33540372670807456.
+[v3 step=5440] R_mean=0.4618 | G_n_mean=6.4974 (n=5) | q_tot_pred_mean=6.5352 | drbfn_loss=0.0197, qi_loss=0.5434, qtot_loss=4.0204
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5440/6250 episodes, total num timesteps 4352800/5000000, FPS 76.
+
+incre win rate is 0.3.
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5445/6250 episodes, total num timesteps 4356800/5000000, FPS 76.
+
+incre win rate is 0.30120481927710846.
+[v3 step=5450] R_mean=0.5765 | G_n_mean=7.5360 (n=5) | q_tot_pred_mean=7.6160 | drbfn_loss=0.0221, qi_loss=0.6162, qtot_loss=4.4768
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5450/6250 episodes, total num timesteps 4360800/5000000, FPS 76.
+
+incre win rate is 0.35365853658536583.
+eval win rate is 0.375.
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5455/6250 episodes, total num timesteps 4364800/5000000, FPS 76.
+
+incre win rate is 0.2546583850931677.
+[v3 step=5460] R_mean=0.5883 | G_n_mean=7.7696 (n=5) | q_tot_pred_mean=7.5332 | drbfn_loss=0.0225, qi_loss=0.5388, qtot_loss=4.5659
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5460/6250 episodes, total num timesteps 4368800/5000000, FPS 76.
+
+incre win rate is 0.2891566265060241.
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5465/6250 episodes, total num timesteps 4372800/5000000, FPS 76.
+
+incre win rate is 0.3780487804878049.
+[v3 step=5470] R_mean=0.4683 | G_n_mean=6.6876 (n=5) | q_tot_pred_mean=6.7584 | drbfn_loss=0.0213, qi_loss=0.6259, qtot_loss=3.4823
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5470/6250 episodes, total num timesteps 4376800/5000000, FPS 76.
+
+incre win rate is 0.25925925925925924.
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5475/6250 episodes, total num timesteps 4380800/5000000, FPS 76.
+
+incre win rate is 0.3496932515337423.
+eval win rate is 0.34375.
+[v3 step=5480] R_mean=0.5234 | G_n_mean=7.1566 (n=5) | q_tot_pred_mean=7.2732 | drbfn_loss=0.0243, qi_loss=0.6409, qtot_loss=4.2981
+
+ Map 5m_vs_6m Algo r_drbfn_v3 Exp v3_5m_vs_6m_5M_seed1_full updates 5480/6250 episodes, total num timesteps 4384800/5000000, FPS 76.
+
+incre win rate is 0.3067484662576687.

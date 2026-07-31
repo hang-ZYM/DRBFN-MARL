@@ -1,0 +1,230 @@
+=== DRBFN-QVPO SMAC 2c_vs_64zg (5M steps + lr decay) ===
+Started at: Fri Jul 31 03:44:35     2026
+Log file: results/qvpo_2c_20260731_034435/log.txt
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+u are choosing to use r_drbfn_qvpo (BFN outputs Phi, Q-weighted VLB, bi-level), keeping use_centralized_V = True
+choose to use gpu...
+obs_space:  [[478, [1, 76], [64, 5], [1, 4], [1, 78]], [478, [1, 76], [64, 5], [1, 4], [1, 78]]]
+share_obs_space:  [[675, [1, 79], [64, 8], [1, 4], [1, 80]], [675, [1, 79], [64, 8], [1, 4], [1, 80]]]
+act_space:  [Discrete(70), Discrete(70)]
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 0/1562 episodes, total num timesteps 3200/5000000, FPS 97.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 5/1562 episodes, total num timesteps 19200/5000000, FPS 89.
+
+incre win rate is 0.0.
+[v_qvpo step=10] qtot_loss=1.8302 | drbfn_loss=-4.8753 | align_mean=-0.0000 | g_n_mean=1.5993 | phi_scale=0.0217 | g_i_scale=0.0052 | raw_align_mean=-0.0015 | raw_align_std=0.0024 | log_p_mean=4.9035 | grad_norm=3.0692
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 10/1562 episodes, total num timesteps 35200/5000000, FPS 101.
+
+incre win rate is 0.0.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 15/1562 episodes, total num timesteps 51200/5000000, FPS 107.
+
+incre win rate is 0.0.
+[v_qvpo step=20] qtot_loss=0.9948 | drbfn_loss=-4.9608 | align_mean=0.0000 | g_n_mean=1.6577 | phi_scale=0.0245 | g_i_scale=0.0067 | raw_align_mean=-0.0021 | raw_align_std=0.0031 | log_p_mean=4.9570 | grad_norm=1.0368
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 20/1562 episodes, total num timesteps 67200/5000000, FPS 113.
+
+incre win rate is 0.0.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 25/1562 episodes, total num timesteps 83200/5000000, FPS 108.
+
+incre win rate is 0.0022935779816513763.
+eval win rate is 0.03125.
+[v_qvpo step=30] qtot_loss=0.7402 | drbfn_loss=-4.9860 | align_mean=0.0000 | g_n_mean=1.6806 | phi_scale=0.0276 | g_i_scale=0.0088 | raw_align_mean=-0.0029 | raw_align_std=0.0043 | log_p_mean=4.9714 | grad_norm=0.6038
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 30/1562 episodes, total num timesteps 99200/5000000, FPS 101.
+
+incre win rate is 0.0.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 35/1562 episodes, total num timesteps 115200/5000000, FPS 100.
+
+incre win rate is 0.0.
+[v_qvpo step=40] qtot_loss=0.5680 | drbfn_loss=-4.9833 | align_mean=-0.0000 | g_n_mean=1.7621 | phi_scale=0.0281 | g_i_scale=0.0116 | raw_align_mean=-0.0039 | raw_align_std=0.0050 | log_p_mean=4.9661 | grad_norm=0.9425
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 40/1562 episodes, total num timesteps 131200/5000000, FPS 99.
+
+incre win rate is 0.0.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 45/1562 episodes, total num timesteps 147200/5000000, FPS 98.
+
+incre win rate is 0.0.
+[v_qvpo step=50] qtot_loss=0.5500 | drbfn_loss=-4.9719 | align_mean=0.0000 | g_n_mean=1.8286 | phi_scale=0.0272 | g_i_scale=0.0142 | raw_align_mean=-0.0048 | raw_align_std=0.0063 | log_p_mean=4.9555 | grad_norm=0.8519
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 50/1562 episodes, total num timesteps 163200/5000000, FPS 96.
+
+incre win rate is 0.0025380710659898475.
+eval win rate is 0.0.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 55/1562 episodes, total num timesteps 179200/5000000, FPS 95.
+
+incre win rate is 0.005249343832020997.
+[v_qvpo step=60] qtot_loss=0.4630 | drbfn_loss=-4.9696 | align_mean=-0.0000 | g_n_mean=1.8723 | phi_scale=0.0246 | g_i_scale=0.0171 | raw_align_mean=-0.0059 | raw_align_std=0.0072 | log_p_mean=4.9481 | grad_norm=0.8729
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 60/1562 episodes, total num timesteps 195200/5000000, FPS 95.
+
+incre win rate is 0.0025974025974025974.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 65/1562 episodes, total num timesteps 211200/5000000, FPS 95.
+
+incre win rate is 0.002631578947368421.
+[v_qvpo step=70] qtot_loss=0.5713 | drbfn_loss=-4.9553 | align_mean=0.0000 | g_n_mean=1.9304 | phi_scale=0.0233 | g_i_scale=0.0193 | raw_align_mean=-0.0068 | raw_align_std=0.0086 | log_p_mean=4.9345 | grad_norm=2.0395
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 70/1562 episodes, total num timesteps 227200/5000000, FPS 96.
+
+incre win rate is 0.005714285714285714.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 75/1562 episodes, total num timesteps 243200/5000000, FPS 97.
+
+incre win rate is 0.013440860215053764.
+eval win rate is 0.125.
+[v_qvpo step=80] qtot_loss=0.4566 | drbfn_loss=-4.9132 | align_mean=-0.0000 | g_n_mean=1.6690 | phi_scale=0.0357 | g_i_scale=0.0222 | raw_align_mean=-0.0064 | raw_align_std=0.0091 | log_p_mean=4.8915 | grad_norm=0.6896
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 80/1562 episodes, total num timesteps 259200/5000000, FPS 97.
+
+incre win rate is 0.036923076923076927.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 85/1562 episodes, total num timesteps 275200/5000000, FPS 98.
+
+incre win rate is 0.03592814371257485.
+[v_qvpo step=90] qtot_loss=0.4495 | drbfn_loss=-4.8541 | align_mean=0.0000 | g_n_mean=1.6189 | phi_scale=0.0744 | g_i_scale=0.0229 | raw_align_mean=-0.0064 | raw_align_std=0.0097 | log_p_mean=4.8275 | grad_norm=3.9217
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 90/1562 episodes, total num timesteps 291200/5000000, FPS 99.
+
+incre win rate is 0.07384615384615385.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 95/1562 episodes, total num timesteps 307200/5000000, FPS 99.
+
+incre win rate is 0.0972644376899696.
+[v_qvpo step=100] qtot_loss=0.6252 | drbfn_loss=-3.7001 | align_mean=-0.0000 | g_n_mean=1.9832 | phi_scale=0.2727 | g_i_scale=0.0259 | raw_align_mean=-0.0085 | raw_align_std=0.0111 | log_p_mean=4.2115 | grad_norm=29.4472
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 100/1562 episodes, total num timesteps 323200/5000000, FPS 100.
+
+incre win rate is 0.10256410256410256.
+eval win rate is 0.28125.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 105/1562 episodes, total num timesteps 339200/5000000, FPS 100.
+
+incre win rate is 0.115625.
+[v_qvpo step=110] qtot_loss=0.6370 | drbfn_loss=-4.6564 | align_mean=0.0000 | g_n_mean=2.0773 | phi_scale=0.2658 | g_i_scale=0.0282 | raw_align_mean=-0.0097 | raw_align_std=0.0125 | log_p_mean=4.6848 | grad_norm=19.9321
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 110/1562 episodes, total num timesteps 355200/5000000, FPS 101.
+
+incre win rate is 0.13213213213213212.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 115/1562 episodes, total num timesteps 371200/5000000, FPS 101.
+
+incre win rate is 0.16037735849056603.
+[v_qvpo step=120] qtot_loss=0.5542 | drbfn_loss=-4.8419 | align_mean=0.0000 | g_n_mean=2.0984 | phi_scale=0.2635 | g_i_scale=0.0315 | raw_align_mean=-0.0107 | raw_align_std=0.0133 | log_p_mean=4.7623 | grad_norm=3.3926
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 120/1562 episodes, total num timesteps 387200/5000000, FPS 102.
+
+incre win rate is 0.14241486068111456.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 125/1562 episodes, total num timesteps 403200/5000000, FPS 102.
+
+incre win rate is 0.22392638036809817.
+eval win rate is 0.28125.
+[v_qvpo step=130] qtot_loss=0.5357 | drbfn_loss=-4.9447 | align_mean=-0.0000 | g_n_mean=2.1667 | phi_scale=0.2641 | g_i_scale=0.0346 | raw_align_mean=-0.0120 | raw_align_std=0.0145 | log_p_mean=4.8416 | grad_norm=2.9874
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 130/1562 episodes, total num timesteps 419200/5000000, FPS 101.
+
+incre win rate is 0.18292682926829268.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 135/1562 episodes, total num timesteps 435200/5000000, FPS 101.
+
+incre win rate is 0.2826747720364742.
+[v_qvpo step=140] qtot_loss=0.6632 | drbfn_loss=-4.9911 | align_mean=-0.0000 | g_n_mean=2.2682 | phi_scale=0.2589 | g_i_scale=0.0385 | raw_align_mean=-0.0138 | raw_align_std=0.0169 | log_p_mean=4.8788 | grad_norm=1.7271
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 140/1562 episodes, total num timesteps 451200/5000000, FPS 102.
+
+incre win rate is 0.208955223880597.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 145/1562 episodes, total num timesteps 467200/5000000, FPS 103.
+
+incre win rate is 0.29357798165137616.
+[v_qvpo step=150] qtot_loss=0.5899 | drbfn_loss=-5.0032 | align_mean=0.0000 | g_n_mean=2.2915 | phi_scale=0.2631 | g_i_scale=0.0433 | raw_align_mean=-0.0154 | raw_align_std=0.0189 | log_p_mean=4.8834 | grad_norm=0.7305
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 150/1562 episodes, total num timesteps 483200/5000000, FPS 104.
+
+incre win rate is 0.22653721682847897.
+eval win rate is 0.34375.
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 155/1562 episodes, total num timesteps 499200/5000000, FPS 104.
+
+incre win rate is 0.310126582278481.
+[v_qvpo step=160] qtot_loss=0.6533 | drbfn_loss=-5.0104 | align_mean=0.0000 | g_n_mean=2.3348 | phi_scale=0.2582 | g_i_scale=0.0475 | raw_align_mean=-0.0170 | raw_align_std=0.0200 | log_p_mean=4.8824 | grad_norm=0.8540
+Process Process-2:
+Traceback (most recent call last):
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 484, in step
+    self._controller.actions(req_actions)
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 81, in _skip_status
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 92, in _valid_status
+    raise protocol.ProtocolError(
+pysc2.lib.protocol.ProtocolError: `actions` called while in state: Status.ended, valid: (Status.in_game)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "D:\conda\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 326, in shareworker
+    ob, s_ob, reward, done, info, available_actions = env.step(data)
+                                                      ^^^^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 490, in step
+    self.full_restart()
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 452, in full_restart
+    self._launch()
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 351, in _launch
+    self._controller.create_game(create)
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 95, in _valid_status
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 70, in _check_error
+    return check_error(func(*args, **kwargs), error_enum)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 61, in check_error
+    raise RequestError("%s.%s: '%s'" % (enum_name, error_name, details), res)
+pysc2.lib.remote_controller.RequestError: SC2APIProtocol.ResponseCreateGame.Error.InvalidMapData: 'temporary map 'D:\Temp\StarCraft II\TempLaunchMap~11.SC2Map' has invalid data.'
+
+ Map 2c_vs_64zg Algo r_drbfn_qvpo Exp qvpo_2c updates 160/1562 episodes, total num timesteps 515200/5000000, FPS 104.
+
+incre win rate is 0.3322784810126582.
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\connection.py", line 328, in _recv_bytes
+    nread, err = ov.GetOverlappedResult(True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [WinError 109] 管道已结束。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\张英铭\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 270, in <module>
+    main(sys.argv[1:])
+  File "C:\Users\张英铭\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 254, in main
+    runner.run()
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\runner\shared\smac_runner.py", line 34, in run
+    obs, share_obs, rewards, dones, infos, available_actions = self.envs.step(actions)
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 107, in step
+    return self.step_wait()
+           ^^^^^^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 389, in step_wait
+    results = [remote.recv() for remote in self.remotes]
+               ^^^^^^^^^^^^^
+  File "D:\conda\Lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+          ^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\multiprocessing\connection.py", line 337, in _recv_bytes
+    raise EOFError
+EOFError
+Finished at: Fri Jul 31 05:09:10     2026

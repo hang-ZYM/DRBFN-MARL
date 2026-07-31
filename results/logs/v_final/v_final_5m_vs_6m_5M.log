@@ -1,0 +1,981 @@
+u are choosing to use r_drbfn_final (v1 + n-step Q_tot), keeping use_centralized_V = True
+choose to use gpu...
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+obs_space:  [[124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]], [124, [4, 17], [6, 5], [1, 4], [1, 22]]]
+share_obs_space:  [[156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]], [156, [4, 20], [6, 8], [1, 4], [1, 24]]]
+act_space:  [Discrete(12), Discrete(12), Discrete(12), Discrete(12), Discrete(12)]
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 0/6250 episodes, total num timesteps 800/5000000, FPS 73.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 5/6250 episodes, total num timesteps 4800/5000000, FPS 59.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 10/6250 episodes, total num timesteps 8800/5000000, FPS 68.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 15/6250 episodes, total num timesteps 12800/5000000, FPS 73.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 20/6250 episodes, total num timesteps 16800/5000000, FPS 75.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 25/6250 episodes, total num timesteps 20800/5000000, FPS 77.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 30/6250 episodes, total num timesteps 24800/5000000, FPS 76.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 35/6250 episodes, total num timesteps 28800/5000000, FPS 79.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 40/6250 episodes, total num timesteps 32800/5000000, FPS 80.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 45/6250 episodes, total num timesteps 36800/5000000, FPS 82.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 50/6250 episodes, total num timesteps 40800/5000000, FPS 83.
+
+incre win rate is 0.0.
+eval win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 55/6250 episodes, total num timesteps 44800/5000000, FPS 83.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 60/6250 episodes, total num timesteps 48800/5000000, FPS 85.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 65/6250 episodes, total num timesteps 52800/5000000, FPS 89.
+
+incre win rate is 0.0.
+[v_final step=70] R_mean=0.3590 | G_n_mean=1.8412 (n=5) | q_tot_pred=0.8385 | drbfn_loss=0.2844, qi_loss=0.0083, qtot_loss=1.5746
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 70/6250 episodes, total num timesteps 56800/5000000, FPS 90.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 75/6250 episodes, total num timesteps 60800/5000000, FPS 89.
+
+incre win rate is 0.0.
+eval win rate is 0.03125.
+[v_final step=80] R_mean=0.3675 | G_n_mean=1.9075 (n=5) | q_tot_pred=1.6977 | drbfn_loss=0.2659, qi_loss=0.0073, qtot_loss=0.4627
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 80/6250 episodes, total num timesteps 64800/5000000, FPS 88.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 85/6250 episodes, total num timesteps 68800/5000000, FPS 89.
+
+incre win rate is 0.0.
+[v_final step=90] R_mean=0.3533 | G_n_mean=1.8723 (n=5) | q_tot_pred=2.1724 | drbfn_loss=0.2473, qi_loss=0.0062, qtot_loss=0.4271
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 90/6250 episodes, total num timesteps 72800/5000000, FPS 90.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 95/6250 episodes, total num timesteps 76800/5000000, FPS 91.
+
+incre win rate is 0.005376344086021506.
+[v_final step=100] R_mean=0.3743 | G_n_mean=2.0050 (n=5) | q_tot_pred=2.0427 | drbfn_loss=0.2277, qi_loss=0.0053, qtot_loss=0.3253
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 100/6250 episodes, total num timesteps 80800/5000000, FPS 92.
+
+incre win rate is 0.010638297872340425.
+eval win rate is 0.09375.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 105/6250 episodes, total num timesteps 84800/5000000, FPS 92.
+
+incre win rate is 0.005291005291005291.
+[v_final step=110] R_mean=0.3802 | G_n_mean=2.0619 (n=5) | q_tot_pred=1.9688 | drbfn_loss=0.2073, qi_loss=0.0048, qtot_loss=0.3383
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 110/6250 episodes, total num timesteps 88800/5000000, FPS 92.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 115/6250 episodes, total num timesteps 92800/5000000, FPS 93.
+
+incre win rate is 0.005291005291005291.
+[v_final step=120] R_mean=0.3769 | G_n_mean=2.0700 (n=5) | q_tot_pred=2.0472 | drbfn_loss=0.1867, qi_loss=0.0043, qtot_loss=0.3467
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 120/6250 episodes, total num timesteps 96800/5000000, FPS 94.
+
+incre win rate is 0.015873015873015872.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 125/6250 episodes, total num timesteps 100800/5000000, FPS 95.
+
+incre win rate is 0.010582010582010581.
+eval win rate is 0.0.
+[v_final step=130] R_mean=0.3664 | G_n_mean=2.0345 (n=5) | q_tot_pred=2.1133 | drbfn_loss=0.1651, qi_loss=0.0044, qtot_loss=0.2772
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 130/6250 episodes, total num timesteps 104800/5000000, FPS 95.
+
+incre win rate is 0.005376344086021506.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 135/6250 episodes, total num timesteps 108800/5000000, FPS 95.
+
+incre win rate is 0.0.
+[v_final step=140] R_mean=0.3856 | G_n_mean=2.1834 (n=5) | q_tot_pred=2.1655 | drbfn_loss=0.1415, qi_loss=0.0037, qtot_loss=0.2685
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 140/6250 episodes, total num timesteps 112800/5000000, FPS 96.
+
+incre win rate is 0.0.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 145/6250 episodes, total num timesteps 116800/5000000, FPS 96.
+
+incre win rate is 0.010869565217391304.
+[v_final step=150] R_mean=0.3888 | G_n_mean=2.2528 (n=5) | q_tot_pred=2.2519 | drbfn_loss=0.1154, qi_loss=0.0033, qtot_loss=0.2592
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 150/6250 episodes, total num timesteps 120800/5000000, FPS 97.
+
+incre win rate is 0.005405405405405406.
+eval win rate is 0.03125.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 155/6250 episodes, total num timesteps 124800/5000000, FPS 97.
+
+incre win rate is 0.010869565217391304.
+[v_final step=160] R_mean=0.3942 | G_n_mean=2.3103 (n=5) | q_tot_pred=2.2352 | drbfn_loss=0.0886, qi_loss=0.0103, qtot_loss=0.9465
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 160/6250 episodes, total num timesteps 128800/5000000, FPS 97.
+
+incre win rate is 0.016304347826086956.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 165/6250 episodes, total num timesteps 132800/5000000, FPS 98.
+
+incre win rate is 0.027777777777777776.
+[v_final step=170] R_mean=0.3795 | G_n_mean=2.2671 (n=5) | q_tot_pred=2.2815 | drbfn_loss=0.0571, qi_loss=0.0031, qtot_loss=0.2258
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 170/6250 episodes, total num timesteps 136800/5000000, FPS 98.
+
+incre win rate is 0.005555555555555556.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 175/6250 episodes, total num timesteps 140800/5000000, FPS 99.
+
+incre win rate is 0.00558659217877095.
+eval win rate is 0.03125.
+[v_final step=180] R_mean=0.3796 | G_n_mean=2.2811 (n=5) | q_tot_pred=2.2107 | drbfn_loss=0.0273, qi_loss=0.0097, qtot_loss=0.8836
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 180/6250 episodes, total num timesteps 144800/5000000, FPS 99.
+
+incre win rate is 0.011235955056179775.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 185/6250 episodes, total num timesteps 148800/5000000, FPS 99.
+
+incre win rate is 0.01694915254237288.
+[v_final step=190] R_mean=0.3637 | G_n_mean=2.2514 (n=5) | q_tot_pred=2.3615 | drbfn_loss=-0.0072, qi_loss=0.0031, qtot_loss=0.2664
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 190/6250 episodes, total num timesteps 152800/5000000, FPS 100.
+
+incre win rate is 0.03409090909090909.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 195/6250 episodes, total num timesteps 156800/5000000, FPS 100.
+
+incre win rate is 0.011235955056179775.
+[v_final step=200] R_mean=0.3853 | G_n_mean=2.3975 (n=5) | q_tot_pred=2.3587 | drbfn_loss=-0.0459, qi_loss=0.0057, qtot_loss=0.5434
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 200/6250 episodes, total num timesteps 160800/5000000, FPS 100.
+
+incre win rate is 0.005813953488372093.
+eval win rate is 0.03125.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 205/6250 episodes, total num timesteps 164800/5000000, FPS 100.
+
+incre win rate is 0.0.
+[v_final step=210] R_mean=0.3627 | G_n_mean=2.3089 (n=5) | q_tot_pred=2.3133 | drbfn_loss=-0.0787, qi_loss=0.0062, qtot_loss=0.6199
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 210/6250 episodes, total num timesteps 168800/5000000, FPS 101.
+
+incre win rate is 0.041176470588235294.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 215/6250 episodes, total num timesteps 172800/5000000, FPS 101.
+
+incre win rate is 0.011494252873563218.
+[v_final step=220] R_mean=0.4026 | G_n_mean=2.5561 (n=5) | q_tot_pred=2.5121 | drbfn_loss=-0.1201, qi_loss=0.0065, qtot_loss=0.5548
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 220/6250 episodes, total num timesteps 176800/5000000, FPS 101.
+
+incre win rate is 0.029239766081871343.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 225/6250 episodes, total num timesteps 180800/5000000, FPS 102.
+
+incre win rate is 0.03529411764705882.
+eval win rate is 0.03125.
+[v_final step=230] R_mean=0.3952 | G_n_mean=2.5543 (n=5) | q_tot_pred=2.5064 | drbfn_loss=-0.1551, qi_loss=0.0073, qtot_loss=0.5583
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 230/6250 episodes, total num timesteps 184800/5000000, FPS 101.
+
+incre win rate is 0.017045454545454544.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 235/6250 episodes, total num timesteps 188800/5000000, FPS 101.
+
+incre win rate is 0.02824858757062147.
+[v_final step=240] R_mean=0.3932 | G_n_mean=2.5494 (n=5) | q_tot_pred=2.5707 | drbfn_loss=-0.1833, qi_loss=0.0083, qtot_loss=0.5402
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 240/6250 episodes, total num timesteps 192800/5000000, FPS 102.
+
+incre win rate is 0.03488372093023256.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 245/6250 episodes, total num timesteps 196800/5000000, FPS 102.
+
+incre win rate is 0.034482758620689655.
+[v_final step=250] R_mean=0.4061 | G_n_mean=2.6738 (n=5) | q_tot_pred=2.6447 | drbfn_loss=-0.2204, qi_loss=0.0136, qtot_loss=0.9258
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 250/6250 episodes, total num timesteps 200800/5000000, FPS 102.
+
+incre win rate is 0.029411764705882353.
+eval win rate is 0.03125.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 255/6250 episodes, total num timesteps 204800/5000000, FPS 102.
+
+incre win rate is 0.05952380952380952.
+[v_final step=260] R_mean=0.3873 | G_n_mean=2.6139 (n=5) | q_tot_pred=2.7559 | drbfn_loss=-0.2503, qi_loss=0.0072, qtot_loss=0.3461
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 260/6250 episodes, total num timesteps 208800/5000000, FPS 102.
+
+incre win rate is 0.05325443786982249.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 265/6250 episodes, total num timesteps 212800/5000000, FPS 102.
+
+incre win rate is 0.041666666666666664.
+[v_final step=270] R_mean=0.3967 | G_n_mean=2.6924 (n=5) | q_tot_pred=2.6891 | drbfn_loss=-0.2831, qi_loss=0.0076, qtot_loss=0.3130
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 270/6250 episodes, total num timesteps 216800/5000000, FPS 102.
+
+incre win rate is 0.041666666666666664.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 275/6250 episodes, total num timesteps 220800/5000000, FPS 103.
+
+incre win rate is 0.041666666666666664.
+eval win rate is 0.125.
+[v_final step=280] R_mean=0.3942 | G_n_mean=2.7521 (n=5) | q_tot_pred=2.8784 | drbfn_loss=-0.3262, qi_loss=0.0079, qtot_loss=0.3048
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 280/6250 episodes, total num timesteps 224800/5000000, FPS 103.
+
+incre win rate is 0.04678362573099415.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 285/6250 episodes, total num timesteps 228800/5000000, FPS 103.
+
+incre win rate is 0.017857142857142856.
+[v_final step=290] R_mean=0.4074 | G_n_mean=2.8810 (n=5) | q_tot_pred=2.8640 | drbfn_loss=-0.3706, qi_loss=0.0110, qtot_loss=0.6117
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 290/6250 episodes, total num timesteps 232800/5000000, FPS 103.
+
+incre win rate is 0.03529411764705882.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 295/6250 episodes, total num timesteps 236800/5000000, FPS 103.
+
+incre win rate is 0.03529411764705882.
+[v_final step=300] R_mean=0.4021 | G_n_mean=2.8597 (n=5) | q_tot_pred=2.9164 | drbfn_loss=-0.4174, qi_loss=0.0106, qtot_loss=0.6923
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 300/6250 episodes, total num timesteps 240800/5000000, FPS 104.
+
+incre win rate is 0.058823529411764705.
+eval win rate is 0.125.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 305/6250 episodes, total num timesteps 244800/5000000, FPS 103.
+
+incre win rate is 0.07228915662650602.
+[v_final step=310] R_mean=0.4148 | G_n_mean=2.9414 (n=5) | q_tot_pred=2.9542 | drbfn_loss=-0.4649, qi_loss=0.0146, qtot_loss=0.9382
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 310/6250 episodes, total num timesteps 248800/5000000, FPS 104.
+
+incre win rate is 0.09467455621301775.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 315/6250 episodes, total num timesteps 252800/5000000, FPS 104.
+
+incre win rate is 0.060240963855421686.
+[v_final step=320] R_mean=0.4341 | G_n_mean=3.0745 (n=5) | q_tot_pred=3.0440 | drbfn_loss=-0.5309, qi_loss=0.0215, qtot_loss=1.4223
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 320/6250 episodes, total num timesteps 256800/5000000, FPS 104.
+
+incre win rate is 0.10429447852760736.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 325/6250 episodes, total num timesteps 260800/5000000, FPS 102.
+
+incre win rate is 0.10365853658536585.
+eval win rate is 0.15625.
+[v_final step=330] R_mean=0.4382 | G_n_mean=3.1950 (n=5) | q_tot_pred=3.0778 | drbfn_loss=-0.6108, qi_loss=0.0187, qtot_loss=1.2641
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 330/6250 episodes, total num timesteps 264800/5000000, FPS 102.
+
+incre win rate is 0.08235294117647059.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 335/6250 episodes, total num timesteps 268800/5000000, FPS 102.
+
+incre win rate is 0.11976047904191617.
+[v_final step=340] R_mean=0.4300 | G_n_mean=3.1409 (n=5) | q_tot_pred=3.1790 | drbfn_loss=-0.6917, qi_loss=0.0197, qtot_loss=1.3786
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 340/6250 episodes, total num timesteps 272800/5000000, FPS 101.
+
+incre win rate is 0.1165644171779141.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 345/6250 episodes, total num timesteps 276800/5000000, FPS 101.
+
+incre win rate is 0.06832298136645963.
+[v_final step=350] R_mean=0.4585 | G_n_mean=3.2979 (n=5) | q_tot_pred=3.1199 | drbfn_loss=-0.7787, qi_loss=0.0252, qtot_loss=1.6439
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 350/6250 episodes, total num timesteps 280800/5000000, FPS 101.
+
+incre win rate is 0.09876543209876543.
+eval win rate is 0.21875.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 355/6250 episodes, total num timesteps 284800/5000000, FPS 100.
+
+incre win rate is 0.1111111111111111.
+[v_final step=360] R_mean=0.4192 | G_n_mean=3.1981 (n=5) | q_tot_pred=3.3386 | drbfn_loss=-0.9339, qi_loss=0.0177, qtot_loss=1.0391
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 360/6250 episodes, total num timesteps 288800/5000000, FPS 100.
+
+incre win rate is 0.11904761904761904.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 365/6250 episodes, total num timesteps 292800/5000000, FPS 100.
+
+incre win rate is 0.06626506024096386.
+[v_final step=370] R_mean=0.4034 | G_n_mean=3.1758 (n=5) | q_tot_pred=3.2496 | drbfn_loss=-1.0901, qi_loss=0.0116, qtot_loss=0.9572
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 370/6250 episodes, total num timesteps 296800/5000000, FPS 100.
+
+incre win rate is 0.06547619047619048.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 375/6250 episodes, total num timesteps 300800/5000000, FPS 101.
+
+incre win rate is 0.07142857142857142.
+eval win rate is 0.15625.
+[v_final step=380] R_mean=0.4311 | G_n_mean=3.3411 (n=5) | q_tot_pred=3.2948 | drbfn_loss=-1.2563, qi_loss=0.0151, qtot_loss=1.0464
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 380/6250 episodes, total num timesteps 304800/5000000, FPS 100.
+
+incre win rate is 0.07142857142857142.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 385/6250 episodes, total num timesteps 308800/5000000, FPS 101.
+
+incre win rate is 0.1111111111111111.
+[v_final step=390] R_mean=0.4240 | G_n_mean=3.3581 (n=5) | q_tot_pred=3.4028 | drbfn_loss=-1.4480, qi_loss=0.0108, qtot_loss=0.8060
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 390/6250 episodes, total num timesteps 312800/5000000, FPS 101.
+
+incre win rate is 0.08333333333333333.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 395/6250 episodes, total num timesteps 316800/5000000, FPS 101.
+
+incre win rate is 0.13690476190476192.
+[v_final step=400] R_mean=0.4310 | G_n_mean=3.4178 (n=5) | q_tot_pred=3.3713 | drbfn_loss=-1.6521, qi_loss=0.0138, qtot_loss=1.2033
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 400/6250 episodes, total num timesteps 320800/5000000, FPS 101.
+
+incre win rate is 0.08771929824561403.
+eval win rate is 0.25.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 405/6250 episodes, total num timesteps 324800/5000000, FPS 101.
+
+incre win rate is 0.1317365269461078.
+[v_final step=410] R_mean=0.4130 | G_n_mean=3.3438 (n=5) | q_tot_pred=3.4919 | drbfn_loss=-1.8337, qi_loss=0.0107, qtot_loss=0.7197
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 410/6250 episodes, total num timesteps 328800/5000000, FPS 101.
+
+incre win rate is 0.0783132530120482.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 415/6250 episodes, total num timesteps 332800/5000000, FPS 101.
+
+incre win rate is 0.11046511627906977.
+[v_final step=420] R_mean=0.4342 | G_n_mean=3.5131 (n=5) | q_tot_pred=3.4884 | drbfn_loss=-2.0661, qi_loss=0.0132, qtot_loss=0.9098
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 420/6250 episodes, total num timesteps 336800/5000000, FPS 101.
+
+incre win rate is 0.05952380952380952.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 425/6250 episodes, total num timesteps 340800/5000000, FPS 101.
+
+incre win rate is 0.041666666666666664.
+eval win rate is 0.09375.
+[v_final step=430] R_mean=0.4064 | G_n_mean=3.3895 (n=5) | q_tot_pred=3.4536 | drbfn_loss=-2.2485, qi_loss=0.0093, qtot_loss=0.7795
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 430/6250 episodes, total num timesteps 344800/5000000, FPS 101.
+
+incre win rate is 0.05917159763313609.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 435/6250 episodes, total num timesteps 348800/5000000, FPS 102.
+
+incre win rate is 0.03977272727272727.
+[v_final step=440] R_mean=0.4286 | G_n_mean=3.5510 (n=5) | q_tot_pred=3.5365 | drbfn_loss=-2.2633, qi_loss=0.0114, qtot_loss=0.9811
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 440/6250 episodes, total num timesteps 352800/5000000, FPS 102.
+
+incre win rate is 0.12121212121212122.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 445/6250 episodes, total num timesteps 356800/5000000, FPS 102.
+
+incre win rate is 0.047619047619047616.
+[v_final step=450] R_mean=0.4440 | G_n_mean=3.6228 (n=5) | q_tot_pred=3.3845 | drbfn_loss=-2.3171, qi_loss=0.0174, qtot_loss=1.4320
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 450/6250 episodes, total num timesteps 360800/5000000, FPS 102.
+
+incre win rate is 0.08875739644970414.
+eval win rate is 0.1875.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 455/6250 episodes, total num timesteps 364800/5000000, FPS 102.
+
+incre win rate is 0.05084745762711865.
+[v_final step=460] R_mean=0.4711 | G_n_mean=3.8634 (n=5) | q_tot_pred=3.6809 | drbfn_loss=-2.3376, qi_loss=0.0236, qtot_loss=1.8483
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 460/6250 episodes, total num timesteps 368800/5000000, FPS 102.
+
+incre win rate is 0.11042944785276074.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 465/6250 episodes, total num timesteps 372800/5000000, FPS 102.
+
+incre win rate is 0.15337423312883436.
+[v_final step=470] R_mean=0.4187 | G_n_mean=3.5776 (n=5) | q_tot_pred=3.6281 | drbfn_loss=-2.3924, qi_loss=0.0108, qtot_loss=1.0564
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 470/6250 episodes, total num timesteps 376800/5000000, FPS 102.
+
+incre win rate is 0.15060240963855423.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 475/6250 episodes, total num timesteps 380800/5000000, FPS 102.
+
+incre win rate is 0.10365853658536585.
+eval win rate is 0.28125.
+[v_final step=480] R_mean=0.4748 | G_n_mean=3.8906 (n=5) | q_tot_pred=3.8293 | drbfn_loss=-2.3832, qi_loss=0.0236, qtot_loss=1.7485
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 480/6250 episodes, total num timesteps 384800/5000000, FPS 102.
+
+incre win rate is 0.17791411042944785.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 485/6250 episodes, total num timesteps 388800/5000000, FPS 102.
+
+incre win rate is 0.20496894409937888.
+[v_final step=490] R_mean=0.4292 | G_n_mean=3.7235 (n=5) | q_tot_pred=3.7862 | drbfn_loss=-2.4054, qi_loss=0.0100, qtot_loss=1.0970
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 490/6250 episodes, total num timesteps 392800/5000000, FPS 102.
+
+incre win rate is 0.18902439024390244.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 495/6250 episodes, total num timesteps 396800/5000000, FPS 102.
+
+incre win rate is 0.2147239263803681.
+[v_final step=500] R_mean=0.4730 | G_n_mean=4.0160 (n=5) | q_tot_pred=4.0946 | drbfn_loss=-2.4197, qi_loss=0.0201, qtot_loss=1.4229
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 500/6250 episodes, total num timesteps 400800/5000000, FPS 102.
+
+incre win rate is 0.23170731707317074.
+eval win rate is 0.34375.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 505/6250 episodes, total num timesteps 404800/5000000, FPS 102.
+
+incre win rate is 0.18404907975460122.
+[v_final step=510] R_mean=0.4760 | G_n_mean=4.0557 (n=5) | q_tot_pred=3.9811 | drbfn_loss=-2.4404, qi_loss=0.0212, qtot_loss=1.2358
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 510/6250 episodes, total num timesteps 408800/5000000, FPS 102.
+
+incre win rate is 0.20496894409937888.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 515/6250 episodes, total num timesteps 412800/5000000, FPS 102.
+
+incre win rate is 0.21739130434782608.
+[v_final step=520] R_mean=0.4436 | G_n_mean=3.8445 (n=5) | q_tot_pred=3.9345 | drbfn_loss=-2.4495, qi_loss=0.0132, qtot_loss=1.3997
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 520/6250 episodes, total num timesteps 416800/5000000, FPS 102.
+
+incre win rate is 0.19875776397515527.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 525/6250 episodes, total num timesteps 420800/5000000, FPS 102.
+
+incre win rate is 0.19254658385093168.
+eval win rate is 0.25.
+[v_final step=530] R_mean=0.4069 | G_n_mean=3.7081 (n=5) | q_tot_pred=3.8920 | drbfn_loss=-2.4567, qi_loss=0.0080, qtot_loss=0.9051
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 530/6250 episodes, total num timesteps 424800/5000000, FPS 102.
+
+incre win rate is 0.08695652173913043.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 535/6250 episodes, total num timesteps 428800/5000000, FPS 102.
+
+incre win rate is 0.1901840490797546.
+[v_final step=540] R_mean=0.3823 | G_n_mean=3.7409 (n=5) | q_tot_pred=4.0618 | drbfn_loss=-2.4807, qi_loss=0.0060, qtot_loss=0.6323
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 540/6250 episodes, total num timesteps 432800/5000000, FPS 102.
+
+incre win rate is 0.12121212121212122.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 545/6250 episodes, total num timesteps 436800/5000000, FPS 102.
+
+incre win rate is 0.1.
+[v_final step=550] R_mean=0.4325 | G_n_mean=4.0605 (n=5) | q_tot_pred=4.2358 | drbfn_loss=-2.4790, qi_loss=0.0134, qtot_loss=1.4276
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 550/6250 episodes, total num timesteps 440800/5000000, FPS 103.
+
+incre win rate is 0.15853658536585366.
+eval win rate is 0.15625.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 555/6250 episodes, total num timesteps 444800/5000000, FPS 102.
+
+incre win rate is 0.18072289156626506.
+[v_final step=560] R_mean=0.4617 | G_n_mean=4.2401 (n=5) | q_tot_pred=4.1816 | drbfn_loss=-2.4848, qi_loss=0.0171, qtot_loss=1.5407
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 560/6250 episodes, total num timesteps 448800/5000000, FPS 102.
+
+incre win rate is 0.15432098765432098.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 565/6250 episodes, total num timesteps 452800/5000000, FPS 102.
+
+incre win rate is 0.17682926829268292.
+[v_final step=570] R_mean=0.4878 | G_n_mean=4.3660 (n=5) | q_tot_pred=4.2290 | drbfn_loss=-2.4850, qi_loss=0.0213, qtot_loss=2.0866
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 570/6250 episodes, total num timesteps 456800/5000000, FPS 102.
+
+incre win rate is 0.15151515151515152.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 575/6250 episodes, total num timesteps 460800/5000000, FPS 102.
+
+incre win rate is 0.11976047904191617.
+eval win rate is 0.25.
+[v_final step=580] R_mean=0.4385 | G_n_mean=4.1044 (n=5) | q_tot_pred=4.1334 | drbfn_loss=-2.4835, qi_loss=0.0147, qtot_loss=1.3962
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 580/6250 episodes, total num timesteps 464800/5000000, FPS 102.
+
+incre win rate is 0.17682926829268292.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 585/6250 episodes, total num timesteps 468800/5000000, FPS 102.
+
+incre win rate is 0.11904761904761904.
+[v_final step=590] R_mean=0.4413 | G_n_mean=4.1195 (n=5) | q_tot_pred=4.0605 | drbfn_loss=-2.4868, qi_loss=0.0136, qtot_loss=1.7377
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 590/6250 episodes, total num timesteps 472800/5000000, FPS 102.
+
+incre win rate is 0.12280701754385964.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 595/6250 episodes, total num timesteps 476800/5000000, FPS 103.
+
+incre win rate is 0.17682926829268292.
+[v_final step=600] R_mean=0.4544 | G_n_mean=4.2732 (n=5) | q_tot_pred=4.2768 | drbfn_loss=-2.4851, qi_loss=0.0174, qtot_loss=1.7857
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 600/6250 episodes, total num timesteps 480800/5000000, FPS 103.
+
+incre win rate is 0.147239263803681.
+eval win rate is 0.1875.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 605/6250 episodes, total num timesteps 484800/5000000, FPS 102.
+
+incre win rate is 0.06470588235294118.
+[v_final step=610] R_mean=0.4203 | G_n_mean=4.0794 (n=5) | q_tot_pred=4.1968 | drbfn_loss=-2.4880, qi_loss=0.0095, qtot_loss=1.0666
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 610/6250 episodes, total num timesteps 488800/5000000, FPS 102.
+
+incre win rate is 0.1524390243902439.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 615/6250 episodes, total num timesteps 492800/5000000, FPS 102.
+
+incre win rate is 0.1130952380952381.
+[v_final step=620] R_mean=0.4354 | G_n_mean=4.2376 (n=5) | q_tot_pred=4.1434 | drbfn_loss=-2.4872, qi_loss=0.0143, qtot_loss=1.2320
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 620/6250 episodes, total num timesteps 496800/5000000, FPS 103.
+
+incre win rate is 0.13855421686746988.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 625/6250 episodes, total num timesteps 500800/5000000, FPS 103.
+
+incre win rate is 0.13690476190476192.
+eval win rate is 0.21875.
+[v_final step=630] R_mean=0.4105 | G_n_mean=4.1172 (n=5) | q_tot_pred=4.2430 | drbfn_loss=-2.4892, qi_loss=0.0128, qtot_loss=1.2748
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 630/6250 episodes, total num timesteps 504800/5000000, FPS 103.
+
+incre win rate is 0.1524390243902439.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 635/6250 episodes, total num timesteps 508800/5000000, FPS 103.
+
+incre win rate is 0.12269938650306748.
+[v_final step=640] R_mean=0.4591 | G_n_mean=4.5128 (n=5) | q_tot_pred=4.4830 | drbfn_loss=-2.4896, qi_loss=0.0168, qtot_loss=1.9640
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 640/6250 episodes, total num timesteps 512800/5000000, FPS 103.
+
+incre win rate is 0.12345679012345678.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 645/6250 episodes, total num timesteps 516800/5000000, FPS 103.
+
+incre win rate is 0.15151515151515152.
+[v_final step=650] R_mean=0.4656 | G_n_mean=4.4971 (n=5) | q_tot_pred=4.3701 | drbfn_loss=-2.4891, qi_loss=0.0197, qtot_loss=1.9685
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 650/6250 episodes, total num timesteps 520800/5000000, FPS 102.
+
+incre win rate is 0.175.
+eval win rate is 0.3125.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 655/6250 episodes, total num timesteps 524800/5000000, FPS 101.
+
+incre win rate is 0.25308641975308643.
+[v_final step=660] R_mean=0.4868 | G_n_mean=4.6573 (n=5) | q_tot_pred=4.6021 | drbfn_loss=-2.4904, qi_loss=0.0202, qtot_loss=2.6913
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 660/6250 episodes, total num timesteps 528800/5000000, FPS 101.
+
+incre win rate is 0.15151515151515152.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 665/6250 episodes, total num timesteps 532800/5000000, FPS 101.
+
+incre win rate is 0.18181818181818182.
+[v_final step=670] R_mean=0.5356 | G_n_mean=5.0600 (n=5) | q_tot_pred=4.9917 | drbfn_loss=-2.4918, qi_loss=0.0228, qtot_loss=2.2282
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 670/6250 episodes, total num timesteps 536800/5000000, FPS 101.
+
+incre win rate is 0.2037037037037037.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 675/6250 episodes, total num timesteps 540800/5000000, FPS 101.
+
+incre win rate is 0.17073170731707318.
+eval win rate is 0.125.
+[v_final step=680] R_mean=0.4966 | G_n_mean=4.8865 (n=5) | q_tot_pred=4.7126 | drbfn_loss=-2.4914, qi_loss=0.0198, qtot_loss=2.1471
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 680/6250 episodes, total num timesteps 544800/5000000, FPS 101.
+
+incre win rate is 0.16071428571428573.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 685/6250 episodes, total num timesteps 548800/5000000, FPS 101.
+
+incre win rate is 0.2.
+[v_final step=690] R_mean=0.4715 | G_n_mean=4.7267 (n=5) | q_tot_pred=4.7680 | drbfn_loss=-2.4898, qi_loss=0.0170, qtot_loss=1.5137
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 690/6250 episodes, total num timesteps 552800/5000000, FPS 100.
+
+incre win rate is 0.21951219512195122.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 695/6250 episodes, total num timesteps 556800/5000000, FPS 100.
+
+incre win rate is 0.22560975609756098.
+[v_final step=700] R_mean=0.5242 | G_n_mean=5.1841 (n=5) | q_tot_pred=5.0394 | drbfn_loss=-2.4930, qi_loss=0.0228, qtot_loss=2.6253
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 700/6250 episodes, total num timesteps 560800/5000000, FPS 100.
+
+incre win rate is 0.2830188679245283.
+eval win rate is 0.28125.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 705/6250 episodes, total num timesteps 564800/5000000, FPS 100.
+
+incre win rate is 0.2222222222222222.
+[v_final step=710] R_mean=0.5173 | G_n_mean=5.0547 (n=5) | q_tot_pred=4.8267 | drbfn_loss=-2.4921, qi_loss=0.0283, qtot_loss=2.3509
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 710/6250 episodes, total num timesteps 568800/5000000, FPS 100.
+
+incre win rate is 0.2484472049689441.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 715/6250 episodes, total num timesteps 572800/5000000, FPS 100.
+
+incre win rate is 0.24375.
+[v_final step=720] R_mean=0.4519 | G_n_mean=4.6807 (n=5) | q_tot_pred=4.8210 | drbfn_loss=-2.4918, qi_loss=0.0131, qtot_loss=1.8290
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 720/6250 episodes, total num timesteps 576800/5000000, FPS 100.
+
+incre win rate is 0.19135802469135801.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 725/6250 episodes, total num timesteps 580800/5000000, FPS 100.
+
+incre win rate is 0.26380368098159507.
+eval win rate is 0.375.
+[v_final step=730] R_mean=0.5097 | G_n_mean=5.1013 (n=5) | q_tot_pred=4.9876 | drbfn_loss=-2.4924, qi_loss=0.0289, qtot_loss=2.1033
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 730/6250 episodes, total num timesteps 584800/5000000, FPS 100.
+
+incre win rate is 0.20496894409937888.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 735/6250 episodes, total num timesteps 588800/5000000, FPS 100.
+
+incre win rate is 0.2125.
+[v_final step=740] R_mean=0.4548 | G_n_mean=4.6691 (n=5) | q_tot_pred=4.7038 | drbfn_loss=-2.4937, qi_loss=0.0172, qtot_loss=1.7663
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 740/6250 episodes, total num timesteps 592800/5000000, FPS 100.
+
+incre win rate is 0.20382165605095542.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 745/6250 episodes, total num timesteps 596800/5000000, FPS 99.
+
+incre win rate is 0.2138364779874214.
+[v_final step=750] R_mean=0.4833 | G_n_mean=4.9441 (n=5) | q_tot_pred=5.0400 | drbfn_loss=-2.4936, qi_loss=0.0189, qtot_loss=2.2333
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 750/6250 episodes, total num timesteps 600800/5000000, FPS 99.
+
+incre win rate is 0.2911392405063291.
+eval win rate is 0.375.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 755/6250 episodes, total num timesteps 604800/5000000, FPS 99.
+
+incre win rate is 0.18072289156626506.
+[v_final step=760] R_mean=0.4664 | G_n_mean=4.8169 (n=5) | q_tot_pred=4.8439 | drbfn_loss=-2.4930, qi_loss=0.0199, qtot_loss=2.4004
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 760/6250 episodes, total num timesteps 608800/5000000, FPS 99.
+
+incre win rate is 0.21739130434782608.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 765/6250 episodes, total num timesteps 612800/5000000, FPS 99.
+
+incre win rate is 0.2073170731707317.
+[v_final step=770] R_mean=0.5140 | G_n_mean=5.1672 (n=5) | q_tot_pred=4.9475 | drbfn_loss=-2.4939, qi_loss=0.0289, qtot_loss=3.1636
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 770/6250 episodes, total num timesteps 616800/5000000, FPS 99.
+
+incre win rate is 0.21604938271604937.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 775/6250 episodes, total num timesteps 620800/5000000, FPS 99.
+
+incre win rate is 0.17791411042944785.
+eval win rate is 0.34375.
+[v_final step=780] R_mean=0.4702 | G_n_mean=4.8584 (n=5) | q_tot_pred=4.8722 | drbfn_loss=-2.4947, qi_loss=0.0203, qtot_loss=2.5259
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 780/6250 episodes, total num timesteps 624800/5000000, FPS 99.
+
+incre win rate is 0.15286624203821655.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 785/6250 episodes, total num timesteps 628800/5000000, FPS 99.
+
+incre win rate is 0.16770186335403728.
+[v_final step=790] R_mean=0.4546 | G_n_mean=4.8383 (n=5) | q_tot_pred=4.9119 | drbfn_loss=-2.4955, qi_loss=0.0149, qtot_loss=2.1595
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 790/6250 episodes, total num timesteps 632800/5000000, FPS 99.
+
+incre win rate is 0.1696969696969697.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 795/6250 episodes, total num timesteps 636800/5000000, FPS 99.
+
+incre win rate is 0.1962025316455696.
+[v_final step=800] R_mean=0.4658 | G_n_mean=5.0194 (n=5) | q_tot_pred=4.9949 | drbfn_loss=-2.4946, qi_loss=0.0238, qtot_loss=2.1983
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 800/6250 episodes, total num timesteps 640800/5000000, FPS 99.
+
+incre win rate is 0.17721518987341772.
+eval win rate is 0.21875.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 805/6250 episodes, total num timesteps 644800/5000000, FPS 98.
+
+incre win rate is 0.2138364779874214.
+[v_final step=810] R_mean=0.4594 | G_n_mean=4.9325 (n=5) | q_tot_pred=5.0599 | drbfn_loss=-2.4955, qi_loss=0.0180, qtot_loss=2.3721
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 810/6250 episodes, total num timesteps 648800/5000000, FPS 98.
+
+incre win rate is 0.27388535031847133.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 815/6250 episodes, total num timesteps 652800/5000000, FPS 98.
+
+incre win rate is 0.25.
+[v_final step=820] R_mean=0.4368 | G_n_mean=4.8031 (n=5) | q_tot_pred=4.8702 | drbfn_loss=-2.4958, qi_loss=0.0162, qtot_loss=1.7091
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 820/6250 episodes, total num timesteps 656800/5000000, FPS 98.
+
+incre win rate is 0.1949685534591195.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 825/6250 episodes, total num timesteps 660800/5000000, FPS 98.
+
+incre win rate is 0.18518518518518517.
+eval win rate is 0.4375.
+[v_final step=830] R_mean=0.4485 | G_n_mean=4.8977 (n=5) | q_tot_pred=4.8300 | drbfn_loss=-2.4960, qi_loss=0.0207, qtot_loss=2.0303
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 830/6250 episodes, total num timesteps 664800/5000000, FPS 98.
+
+incre win rate is 0.15.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 835/6250 episodes, total num timesteps 668800/5000000, FPS 98.
+
+incre win rate is 0.2389937106918239.
+[v_final step=840] R_mean=0.4802 | G_n_mean=5.0942 (n=5) | q_tot_pred=5.1842 | drbfn_loss=-2.4961, qi_loss=0.0225, qtot_loss=2.5458
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 840/6250 episodes, total num timesteps 672800/5000000, FPS 98.
+
+incre win rate is 0.2654320987654321.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 845/6250 episodes, total num timesteps 676800/5000000, FPS 98.
+
+incre win rate is 0.2389937106918239.
+[v_final step=850] R_mean=0.4926 | G_n_mean=5.2439 (n=5) | q_tot_pred=5.2221 | drbfn_loss=-2.4968, qi_loss=0.0299, qtot_loss=2.7770
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 850/6250 episodes, total num timesteps 680800/5000000, FPS 98.
+
+incre win rate is 0.22641509433962265.
+eval win rate is 0.28125.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 855/6250 episodes, total num timesteps 684800/5000000, FPS 98.
+
+incre win rate is 0.18518518518518517.
+[v_final step=860] R_mean=0.5004 | G_n_mean=5.4145 (n=5) | q_tot_pred=5.4748 | drbfn_loss=-2.4963, qi_loss=0.0292, qtot_loss=2.0792
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 860/6250 episodes, total num timesteps 688800/5000000, FPS 98.
+
+incre win rate is 0.2546583850931677.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 865/6250 episodes, total num timesteps 692800/5000000, FPS 98.
+
+incre win rate is 0.17682926829268292.
+[v_final step=870] R_mean=0.5119 | G_n_mean=5.4416 (n=5) | q_tot_pred=5.3089 | drbfn_loss=-2.4968, qi_loss=0.0288, qtot_loss=2.7110
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 870/6250 episodes, total num timesteps 696800/5000000, FPS 98.
+
+incre win rate is 0.2830188679245283.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 875/6250 episodes, total num timesteps 700800/5000000, FPS 98.
+
+incre win rate is 0.24691358024691357.
+eval win rate is 0.34375.
+[v_final step=880] R_mean=0.4758 | G_n_mean=5.1951 (n=5) | q_tot_pred=5.0825 | drbfn_loss=-2.4972, qi_loss=0.0213, qtot_loss=2.2999
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 880/6250 episodes, total num timesteps 704800/5000000, FPS 98.
+
+incre win rate is 0.2138364779874214.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 885/6250 episodes, total num timesteps 708800/5000000, FPS 97.
+
+incre win rate is 0.1497005988023952.
+[v_final step=890] R_mean=0.4907 | G_n_mean=5.4679 (n=5) | q_tot_pred=5.7001 | drbfn_loss=-2.4973, qi_loss=0.0257, qtot_loss=2.5494
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 890/6250 episodes, total num timesteps 712800/5000000, FPS 97.
+
+incre win rate is 0.33974358974358976.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 895/6250 episodes, total num timesteps 716800/5000000, FPS 97.
+
+incre win rate is 0.28205128205128205.
+[v_final step=900] R_mean=0.5419 | G_n_mean=5.8678 (n=5) | q_tot_pred=5.4398 | drbfn_loss=-2.4970, qi_loss=0.0335, qtot_loss=2.9069
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 900/6250 episodes, total num timesteps 720800/5000000, FPS 98.
+
+incre win rate is 0.22012578616352202.
+eval win rate is 0.25.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 905/6250 episodes, total num timesteps 724800/5000000, FPS 97.
+
+incre win rate is 0.22784810126582278.
+[v_final step=910] R_mean=0.4906 | G_n_mean=5.4346 (n=5) | q_tot_pred=5.2504 | drbfn_loss=-2.4972, qi_loss=0.0235, qtot_loss=2.3131
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 910/6250 episodes, total num timesteps 728800/5000000, FPS 97.
+
+incre win rate is 0.19254658385093168.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 915/6250 episodes, total num timesteps 732800/5000000, FPS 97.
+
+incre win rate is 0.20253164556962025.
+[v_final step=920] R_mean=0.4657 | G_n_mean=5.2401 (n=5) | q_tot_pred=5.3866 | drbfn_loss=-2.4979, qi_loss=0.0205, qtot_loss=2.6309
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 920/6250 episodes, total num timesteps 736800/5000000, FPS 97.
+
+incre win rate is 0.2111801242236025.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 925/6250 episodes, total num timesteps 740800/5000000, FPS 97.
+
+incre win rate is 0.18902439024390244.
+eval win rate is 0.25.
+[v_final step=930] R_mean=0.4756 | G_n_mean=5.3005 (n=5) | q_tot_pred=5.2728 | drbfn_loss=-2.4976, qi_loss=0.0256, qtot_loss=2.2516
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 930/6250 episodes, total num timesteps 744800/5000000, FPS 97.
+
+incre win rate is 0.20125786163522014.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 935/6250 episodes, total num timesteps 748800/5000000, FPS 97.
+
+incre win rate is 0.2608695652173913.
+[v_final step=940] R_mean=0.4407 | G_n_mean=5.1682 (n=5) | q_tot_pred=5.3544 | drbfn_loss=-2.4982, qi_loss=0.0215, qtot_loss=1.9194
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 940/6250 episodes, total num timesteps 752800/5000000, FPS 97.
+
+incre win rate is 0.1875.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 945/6250 episodes, total num timesteps 756800/5000000, FPS 97.
+
+incre win rate is 0.2375.
+[v_final step=950] R_mean=0.5258 | G_n_mean=5.6340 (n=5) | q_tot_pred=5.2359 | drbfn_loss=-2.4973, qi_loss=0.0348, qtot_loss=2.9019
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 950/6250 episodes, total num timesteps 760800/5000000, FPS 97.
+
+incre win rate is 0.17682926829268292.
+eval win rate is 0.3125.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 955/6250 episodes, total num timesteps 764800/5000000, FPS 97.
+
+incre win rate is 0.18012422360248448.
+[v_final step=960] R_mean=0.4593 | G_n_mean=5.2284 (n=5) | q_tot_pred=5.2669 | drbfn_loss=-2.4979, qi_loss=0.0254, qtot_loss=2.6438
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 960/6250 episodes, total num timesteps 768800/5000000, FPS 97.
+
+incre win rate is 0.1951219512195122.
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 965/6250 episodes, total num timesteps 772800/5000000, FPS 97.
+
+incre win rate is 0.2064516129032258.
+[v_final step=970] R_mean=0.5048 | G_n_mean=5.6477 (n=5) | q_tot_pred=5.5693 | drbfn_loss=-2.4975, qi_loss=0.0280, qtot_loss=3.2815
+
+ Map 5m_vs_6m Algo r_drbfn_final Exp v_final_5m_vs_6m_5M updates 970/6250 episodes, total num timesteps 776800/5000000, FPS 97.
+
+incre win rate is 0.2222222222222222.
+Process Process-3:
+Traceback (most recent call last):
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 484, in step
+    self._controller.actions(req_actions)
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 81, in _skip_status
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 92, in _valid_status
+    raise protocol.ProtocolError(
+pysc2.lib.protocol.ProtocolError: `actions` called while in state: Status.ended, valid: (Status.in_game)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "D:\conda\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 326, in shareworker
+    ob, s_ob, reward, done, info, available_actions = env.step(data)
+                                                      ^^^^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 490, in step
+    self.full_restart()
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 452, in full_restart
+    self._launch()
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\starcraft2\StarCraft2_Env.py", line 351, in _launch
+    self._controller.create_game(create)
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 95, in _valid_status
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 70, in _check_error
+    return check_error(func(*args, **kwargs), error_enum)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\site-packages\pysc2\lib\remote_controller.py", line 61, in check_error
+    raise RequestError("%s.%s: '%s'" % (enum_name, error_name, details), res)
+pysc2.lib.remote_controller.RequestError: SC2APIProtocol.ResponseCreateGame.Error.InvalidMapData: 'temporary map 'D:\Temp\StarCraft II\TempLaunchMap~12.SC2Map' has invalid data.'
+Traceback (most recent call last):
+  File "D:\conda\Lib\multiprocessing\connection.py", line 328, in _recv_bytes
+    nread, err = ov.GetOverlappedResult(True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [WinError 109] 管道已结束。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\张英铭\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 268, in <module>
+    main(sys.argv[1:])
+  File "C:\Users\张英铭\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 252, in main
+    runner.run()
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\runner\shared\smac_runner.py", line 34, in run
+    obs, share_obs, rewards, dones, infos, available_actions = self.envs.step(actions)
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 107, in step
+    return self.step_wait()
+           ^^^^^^^^^^^^^^^^
+  File "c:\users\张英铭\desktop\on-policy\onpolicy\envs\env_wrappers.py", line 389, in step_wait
+    results = [remote.recv() for remote in self.remotes]
+               ^^^^^^^^^^^^^
+  File "D:\conda\Lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+          ^^^^^^^^^^^^^^^^^^
+  File "D:\conda\Lib\multiprocessing\connection.py", line 337, in _recv_bytes
+    raise EOFError
+EOFError

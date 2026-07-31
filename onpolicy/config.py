@@ -158,7 +158,7 @@ def get_config():
 
     # prepare parameters
     parser.add_argument("--algorithm_name", type=str,
-                        default='mappo', choices=["rmappo", "mappo", "happo", "hatrpo", "mat", "mat_dec", "r_drbfn", "r_drbfn_v2", "r_drbfn_v3"])
+                        default='mappo', choices=["rmappo", "mappo", "happo", "hatrpo", "mat", "mat_dec", "r_drbfn", "r_drbfn_v2", "r_drbfn_v3", "r_drbfn_final", "r_drbfn_qvpo"])
 
     parser.add_argument("--experiment_name", type=str, default="check", help="an identifier to distinguish different experiment.")
     parser.add_argument("--seed", type=int, default=1, help="Random seed for numpy/torch")
@@ -336,5 +336,15 @@ def get_config():
     parser.add_argument("--drbfn_n_step", type=int, default=5,
                         help="DRBFN-v3 n-step return horizon (G_t^n = sum gamma^k R + gamma^n Q)")
     # Note: --drbfn_cf_temperature reused from v2 config (already defined)
+
+    # DRBFN-QVPO specific args
+    parser.add_argument("--drbfn_K_train", type=int, default=4,
+                        help="DRBFN-QVPO K samples for BFN training (Q-weighted VLB)")
+    parser.add_argument("--drbfn_K_deploy", type=int, default=8,
+                        help="DRBFN-QVPO K samples for rollout (K-argmax behavior policy)")
+    parser.add_argument("--drbfn_phi_clamp", type=float, default=0.3,
+                        help="DRBFN-QVPO clamp magnitude for Phi. var=1e-3 → std=0.032, clamp=0.3 gives ~10x std headroom")
+    parser.add_argument("--drbfn_default_action", type=int, default=0,
+                        help="DRBFN-QVPO default action for counterfactual g_i (SMAC: no-op=0)")
 
     return parser

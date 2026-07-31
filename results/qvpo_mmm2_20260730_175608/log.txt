@@ -1,0 +1,22 @@
+=== DRBFN-QVPO SMAC MMM2 (5M steps + lr decay) ===
+Started at: Thu Jul 30 17:56:08     2026
+Log file: results/qvpo_mmm2_20260730_175608/log.txt
+D:\conda\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+u are choosing to use r_drbfn_qvpo (BFN outputs Phi, Q-weighted VLB, bi-level), keeping use_centralized_V = True
+choose to use gpu...
+obs_space:  [[370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]], [370, [9, 26], [12, 8], [1, 4], [1, 36]]]
+share_obs_space:  [[435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]], [435, [9, 29], [12, 11], [1, 4], [1, 38]]]
+act_space:  [Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18), Discrete(18)]
+Traceback (most recent call last):
+  File "C:\Users\’≈”¢√˙\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 270, in <module>
+    main(sys.argv[1:])
+  File "C:\Users\’≈”¢√˙\Desktop\on-policy\onpolicy\scripts\train\train_smac.py", line 254, in main
+    runner.run()
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\runner\shared\smac_runner.py", line 27, in run
+    self.trainer.policy.lr_decay(episode, episodes)
+  File "c:\users\’≈”¢√˙\desktop\on-policy\onpolicy\algorithms\r_drbfn_qvpo\algorithm\rDRBFN_QVPOPolicy.py", line 96, in lr_decay
+    update_linear_schedule(self.drbfn_optimizer, episode, episodes, self.drbfn_lr)
+                                                                    ^^^^^^^^^^^^^
+AttributeError: 'R_DRBFNQVPOPolicy' object has no attribute 'drbfn_lr'
+Finished at: Thu Jul 30 17:57:04     2026
