@@ -1,119 +1,101 @@
-# DRBFN-QVPO：基于贝叶斯流网络的多智能体信用分配
+# DRBFN：奖励生成——用条件贝叶斯流网络从团队回报学习个体奖励
 
-> 用 **Bayesian Flow Network (BFN)** 学习 per-agent potential 分布 Φ(s, a)，通过 **PBRS（Potential-Based Reward Shaping）** 形式推出细粒度奖励 r。BFN 通过 **Q-加权变分下界（Q-weighted VLB）** 训练——让 BFN 朝高对齐度（r · ∂Q_tot/∂a_i）方向偏移概率密度；actor 拿 r 当 reward 走 PPO，自然朝 ∇Q_tot 方向更新。
+> **Reward Generation: Learning Individual Rewards from Team Returns via Conditional Bayesian Flow Networks**
+>
+> 合作多智能体强化学习信用分配的生成式范式：个体奖励不由人工设计、不由值分解隐式承担、不由反事实参照估计，而是由**条件贝叶斯流网络（BFN）**生成——仅以团队回报为训练信号。
 
 **基于**：[marlbenchmark/on-policy](https://github.com/marlbenchmark/on-policy)（MAPPO 官方实现）
-**测试环境**：StarCraft Multi-Agent Challenge (SMAC) — `3m`、`5m_vs_6m`、`2c_vs_64zg`
+**测试环境**：StarCraft Multi-Agent Challenge（SMAC），8 张地图，2–10 个智能体，覆盖同质与异质队伍（含治疗型 Medivac）
+**论文工作稿**：[CCC.md](CCC.md)（唯一工作版本）
 
 ---
 
 ## TL;DR
 
-合作型 MARL 中，团队奖励 `R` 是标量，标准做法给每个智能体分 `R/N`——无法区分贡献。**DRBFN-QVPO** 让 BFN 学一个 per-agent potential `Φ ∈ ℝ^N` 的分布，通过 PBRS 公式得到策略不变的塑形奖励：
+合作 MARL 中环境只返回单一团队奖励 $R$，标准做法给每个智能体分 $R/N$——所有人拿到同一个数，信用分配无从发生。本工作提出**奖励生成**：把"从团队反馈到个体奖励"这个欠定映射表示为条件分布 $p_\phi(\boldsymbol{\psi}\mid s,\mathbf{a})$（$\boldsymbol{\psi}$ 为逐智能体势），从中采样、经势差形式组合为个体奖励：
 
-```
-r_i(t) = R(t)/N + γ·Φ_i(s_{t+1}, a_{t+1}) - Φ_i(s_t, a_t)
-```
+$$r_i(t) = \frac{R_t}{N} + \beta_t\,\kappa\,\big(\gamma\,\psi_i(s_{t+1},\mathbf{a}_{t+1}) - \psi_i(s_t,\mathbf{a}_t)\big)$$
 
-PBRS 的经典理论（Ng et al. 1999）保证：**任何这种形式的塑形都不改变最优策略**。所以 DRBFN-QVPO 在数学上不会让 actor 学到错误策略——最坏情况退化到 MAPPO。
+系统由**三个学习器**组成，信号源彼此独立：
 
-BFN 通过 Q-加权 VLB 训练，让 Φ 朝"高对齐度"方向偏移——即让 r 与 Q_tot 对动作的反事实敏感度 `g_i = ∂Q_tot/∂a_i` 对齐。这让 actor 拿 r 走 PPO 时，自然朝 ∇Q_tot 方向更新，相当于一个**学到的、状态相关的优势分解**。
+| 学习器 | 输入信号 | 更新规则 |
+|---|---|---|
+| 团队评论家 $Q_{tot}$ | 真实奖励 $R$ | $n$-step TD 回归 |
+| 奖励生成器 $p_\phi$（BFN） | 团队优势 $A^{tot}$ | REINFORCE：$\nabla_\phi J = \mathbb{E}[\nabla_\phi\log p_\phi(\boldsymbol{\psi}\mid s,\mathbf{a})\cdot A^{tot}]$ |
+| 策略 $\pi_i$ | 生成奖励 $r_i$ | PPO（零修改） |
+
+**为什么这是对的**（详见 [CCC.md](CCC.md) §4.6）：
+
+- **定理 1（优势分化）**：共享奖励 + 共享评论家下，所有智能体的 GAE 优势恒相等——逐智能体信用**不可表示**；生成奖励下优势自然分化。
+- **定理 2（无偏性）**：团队优势经 REINFORCE 训练生成器是无偏的策略梯度——不需要监督标签、层级优化或反事实评估。
+- **有界性**：势差项沿任意轨迹的折扣累积与回合长度无关，策略的长期目标始终锚定在真实回报上（PBRS 伸缩性质）。
 
 ---
 
-## 实验结果（截至 2026-07-31）
+## 实验结果（SMAC，8 地图）
 
-| Map | Steps | Peak | Final | vs MAPPO baseline |
+格式：峰值胜率 / 末段 10 次评估均值（%）。统一步数预算对齐（3m 1M；2s_vs_1sc、2s3z 2.5M；其余 5M）。单种子，32 局评估。
+
+| 地图 | N / 类型 | DRBFN（本工作） | MAPPO 复现 | MAPPO 文献值 |
 |---|---|---|---|---|
-| `3m` | 1M | **100%** | 96.88% | 持平（简单地图都收敛）|
-| **`5m_vs_6m`** | **4.66M** | **90.62%** | 59.38% | **+21.87% over MAPPO 68.75%** |
-| `2c_vs_64zg` | 在跑 | TBD | TBD | 已到 34% @ 515K，进度正常 |
-| `MMM2` | 2.3M | 0% | 0% | 任务太难（连 MAPPO 都难收敛）|
+| 3m | 3 / 同质 | 100 / 93.1 † | 100 / 99.4 | 100 / 100 |
+| 2s_vs_1sc | 2 / 同质 | 100 / 99.1 † | 100 / 98.8 | 100 / 100 |
+| 2c_vs_64zg | 2 / 同质 | **93.8 / 85.6** † | 84.4 / 75.9 | 100 / 98.4 |
+| 5m_vs_6m | 5 / 同质 | 87.5 / 76.9 | **93.8 / 83.4** | 88.3 / 87.5 |
+| 2s3z | 5 / 异质×2 | **100 / 99.1** | — | 100 / 100 |
+| 3s5z | 8 / 异质×2 | **93.8 / 80.3** | — | 96.9 / 96.9 |
+| 1c3s5z | 9 / 异质×3 | **100 / 96.2** | — | 96.9 / 100 |
+| MMM2 | 10 / 异质×3 | 78.1 / 64.7 ‡ | 78.1 / 65.6 | 87.5 / 86.7 |
 
-### `5m_vs_6m` 详细对比（核心结果）
+† 该图为反事实信号驱动的生成器变体（消融见下）。‡ MMM2 训练在 5.68M 因 SC2 崩溃终止、终止时仍在上升，崩溃前峰值 84.4。
 
-| 算法 | Peak | Mean last 10 |
+| ![2c_vs_64zg](results/figures/2cvs64zg_eval_win_rate.png) | ![MMM2](results/figures/MMM2_eval_win_rate.png) |
+|---|---|
+| 2c_vs_64zg：DRBFN 2.72M 破 90%，MAPPO 复现 5M 内未过 84.4 | MMM2（Super Hard）：与 MAPPO 复现同节奏上升 |
+
+**消融——生成器的驱动信号**（3s5z，同一生成器、同一训练管线，仅换驱动信号）：
+
+| 驱动信号 | 3s5z 峰值 | 机制 |
 |---|---|---|
-| MAPPO (baseline) | 68.75% | 47.5% |
-| **DRBFN-QVPO（本工作）** | **90.62%** | **65.62%** |
-| 提升 | **+21.87%** | **+18.12%** |
+| 反事实 $Q_{tot}(s,\mathbf{a}) - Q_{tot}(s,(c_i,\mathbf{a}_{-i}))$ | 9.4% | 参照动作 $c_i$ 语义在异质单位上失效 |
+| **团队优势（本方法）** | **93.8%** | 无需个体参照，类型无关 |
+
+**生成器行为**（MMM2 收敛检查点，32 评估回合探针）：每步跨智能体标准差均值 0.040（共享奖励下恒为 0，即定理 1 的实证）；三类单位势均值分层（Marauder −0.066 / Marine −0.015 / Medivac −0.008）——生成器从不含类型信息的条件输入中**隐式恢复**了类型相关归因。探针数据 `probe_psi_MMM2.npz`、分析脚本 `analysis/probe_generator.py`。
 
 ---
 
-## 核心思想
+## 方法与版本演化
 
-### 双优化路径
+| 版本 | 目录 | 核心设计 | 状态 |
+|---|---|---|---|
+| DRBFN v1/v2/v3 | `onpolicy/algorithms/r_drbfn`, `r_drbfn_v2`, `r_drbfn_v3` | 加性值分解 + 奖励守恒约束 + $\Delta Q_i$ 条件特征 | 早期探索 |
+| DRBFN-QVPO | `onpolicy/algorithms/r_drbfn_qvpo`（初期形态） | BFN + PBRS + Q-加权变分下界 | 归档：[docs/DRBFN_QVPO_notes.md](docs/DRBFN_QVPO_notes.md) |
+| **DRBFN（最终版）** | `onpolicy/algorithms/r_drbfn_qvpo`（演化后）+ `exp_scripts/run_*_final.sh` | **奖励生成范式：团队优势 + REINFORCE + PPO 零修改** | 主线，对应 [CCC.md](CCC.md) |
 
-```
-Path 2 (lower level, 标准 PPO):
-    BFN 生成 Φ → 通过 PBRS 算 r_i → actor 用 r_i 当 reward 更新
-
-Path 1 (upper level, BFN 训练):
-    Q_tot 反推 per-agent 敏感度 g_i = ∂Q_tot(s,a)/∂a_i
-    BFN 采样 K 组 Φ，每组算 align = r·g
-    在 K 个 sample 内归一化，高 align 的样本被加权重
-    加权 VLB loss 更新 BFN
-```
-
-### 为什么这个设计是新的
-
-| 维度 | DRBFN-QVPO | 传统方法（QMIX/MAVEN/QPLEX）|
-|---|---|---|
-| 学什么 | per-agent **potential 分布** | per-agent **Q 值点估计** |
-| 守恒性 | PBRS 自然满足策略不变性（数学保证）| 显式 value 分解约束 |
-| 不确定性 | BFN 后验方差（用于 K-sample argmax 过滤）| 无 |
-| 训练信号 | Q-加权 VLB（implicit, end-to-end）| 显式 TD loss |
-| 理论基础 | Ng 1999 PBRS + QVPO NeurIPS 2024 + BFN | 各自的 value 分解定理 |
-
-### 关键设计决策
-
-| # | 决策 | 实现 | 原因 |
-|---|------|------|------|
-| 1 | PBRS 形式 a' | buffer 的 a_{t+1}（SARSA） | Wiewiora 等价在 SARSA 下成立 |
-| 2 | V-critic | 不要，Q_tot 兼任 | 减少网络数，干净信号 |
-| 3 | 离散动作下 g_i | default action 反事实 | 不需要 per-agent Q |
-| 4 | BFN σ 防塌缩 | 固定 noise_dev | 跟原 BFN 一致 |
-| 5 | Wiewiora 双视角 | 成立（SARSA）→ reward 视角 | 数学等价 |
-| 6 | 闭环稳定 | warmup + detach + 监控 | 防止反馈失控 |
-| 7 | rollout 选 r | K-sample argmax (K=4) | 过滤坏样本 |
-| 8 | align 尺度 | K 内 normalize + Φ clamp=0.3 | 防爆炸 + 公平比较 |
+从守恒约束到生成范式的演化动机（守恒的刚性、条件特征漂移、层级优化复杂度）见 CCC.md §"设计演化"。
 
 ---
-
-
-### 现在的任务
-将三个版本的整合，形成一个完整的算法。
 
 ## 仓库结构
 
 ```
-on-policy/
-├── README.md                              # 本文件
-├── docs/                                  # 详细文档
-│   ├── METHOD.md                          # 算法细节（含 Q-加权 VLB 推导）
-│   ├── RESULTS.md                         # 实验结果叙事
-│   └── REPRODUCE.md                       # 复现指南
-├── tools/                                 # 结果提取与绘图
-│   ├── extract_curves.py
-│   └── plot_results.py
-├── results/                               # 实验产物（已整理）
-│   ├── logs/
-│   ├── curves/
-│   ├── figures/
-│   └── tables.md
-└── onpolicy/                              # 源代码
-    ├── algorithms/
-    │   ├── r_drbfn_qvpo/                  # ★ 主推版本（DRBFN-QVPO）
-    │   │   ├── README.md                  # 详细算法文档（含代码索引）
-    │   │   ├── r_drbfn_qvpo.py            # 主 Trainer
-    │   │   └── algorithm/
-    │   │       ├── drbfn_qvpo.py          # BFN 模块 (PotentialBFN)
-    │   │       └── rDRBFN_QVPOPolicy.py   # Policy 类
-    │   └── r_mappo/                       # MAPPO baseline（原始）
-    ├── config.py                          # + DRBFN-QVPO 专用参数
-    ├── envs/                              # + SMAC 集成
-    ├── runner/                            # + DRBFN 训练循环
-    └── scripts/                           # + train_smac_qvpo*.sh
+DRBFN-MARL/
+├── CCC.md                                # ★ 论文工作稿（唯一工作版本）
+├── README.md                             # 本文件
+├── docs/
+│   ├── DRBFN_QVPO_notes.md               # 旧版 README 归档（QVPO 变体，2026-07 口径）
+│   ├── METHOD.md / RESULTS.md / REPRODUCE.md
+├── onpolicy/
+│   ├── algorithms/
+│   │   ├── r_drbfn_qvpo/                 # ★ 主实现（已演化为最终 REINFORCE 版）
+│   │   ├── r_drbfn / r_drbfn_v2 / r_drbfn_v3   # 早期版本
+│   │   └── r_mappo/                      # MAPPO baseline
+│   ├── config.py                         # DRBFN 专用参数
+│   └── scripts/train/train_smac.py       # 训练入口
+├── exp_scripts/                          # run_*_final.sh（最终版）/ run_qvpo_*.sh（早期）
+├── analysis/                             # 曲线解析、绘图、生成器探针
+├── probe_psi_3s5z.npz / probe_psi_MMM2.npz   # 生成器行为探针数据
+└── results/                              # 训练日志、曲线、图
 ```
 
 ---
@@ -148,17 +130,13 @@ conda activate marl
 python onpolicy/scripts/train/train_smac.py \
     --env_name StarCraft2 \
     --algorithm_name r_drbfn_qvpo \
+    --experiment_name drbfn_3m \
     --map_name 3m \
     --num_env_steps 1000000 \
-    --use_eval --use_linear_lr_decay
+    --use_eval --eval_episodes 32
 
-# 5m_vs_6m（核心结果，5M 步）
-python onpolicy/scripts/train/train_smac.py \
-    --env_name StarCraft2 \
-    --algorithm_name r_drbfn_qvpo \
-    --map_name 5m_vs_6m \
-    --num_env_steps 5000000 \
-    --use_eval --use_linear_lr_decay
+# MMM2（Super Hard，超参照 MAPPO 论文专用参数：ppo_epoch 5 / num_mini_batch 2 / gain 1）
+bash exp_scripts/run_mmm2_final.sh
 
 # MAPPO baseline 作对比
 python onpolicy/scripts/train/train_smac.py \
@@ -169,76 +147,41 @@ python onpolicy/scripts/train/train_smac.py \
     --use_eval --use_linear_lr_decay
 ```
 
----
+其余地图的完整命令见 `exp_scripts/run_*_final.sh`（以脚本为准）。
 
-## 关键超参数
+### DRBFN 关键超参数
 
 ```bash
-# PPO 部分（沿用 MAPPO）
---ppo_epoch 15
---num_mini_batch 1
---clip_param 0.2
---entropy_coef 0.01
---lr 5e-4
---gamma 0.99
---use_linear_lr_decay    # 重要：开启 lr decay
-
-# QVPO 部分
---drbfn_hidden 64                    # BFN 隐藏层
---drbfn_n_sample_steps 2             # BFN 采样步数
---drbfn_lr 3e-4                      # BFN 学习率
---drbfn_warmup_t 20000               # warmup 步数（先用 R/N 训 Q_tot）
---drbfn_K_train 4                    # BFN 训练采样数
---drbfn_K_deploy 4                   # 部署时 K-argmax 数
---drbfn_phi_clamp 0.3                # Φ clamp 范围（关键！）
---drbfn_default_action 0             # default action for g_i（SMAC: no-op=0）
---drbfn_n_step 5                     # n-step return horizon
+--drbfn_warmup_t 20000    # warmup：先用 R/N 训稳 Q_tot，生成项再介入（β 日程）
+--drbfn_phi_clamp 0.3     # 势的范围约束
+--drbfn_n_step 5          # 团队评论家的 n-step return horizon
 ```
 
----
-
-## 监控指标
-
-| 指标 | 含义 | 健康范围 |
-|------|------|----------|
-| `qtot_loss` | Q_tot 训练 loss | 单调下降 |
-| `drbfn_loss` | BFN 训练 loss | 负数（log_p 正）|
-| `g_n_mean` | Q_tot 输出（团队价值） | 应该增长 |
-| `phi_scale` | BFN 输出 Φ 的绝对值平均 | ≤ phi_clamp |
-| `g_i_scale` | per-agent Q 敏感度 | 应该增长 |
-| `raw_align_std` | K 个 sample 的 align 方差 | 应该增长 |
-| `log_p_mean` | BFN log-likelihood | 接近 N × 2.53（max） |
-| `grad_norm` | BFN 梯度 | < 20 |
+PPO 部分沿用 MAPPO 官方超参；逐地图差异（如 MMM2 的 `ppo_epoch 5 / num_mini_batch 2 / gain 1`）见各 run 脚本。
 
 ---
 
 ## 文档导航
 
-- **[onpolicy/algorithms/r_drbfn_qvpo/README.md](onpolicy/algorithms/r_drbfn_qvpo/README.md)** — 完整算法文档（含代码索引、训练循环详解、关键 bug 修复历史）★ 最详细
-- **[docs/METHOD.md](docs/METHOD.md)** — 方法叙事：BFN + PBRS + Q-加权 VLB 推导
-- **[docs/RESULTS.md](docs/RESULTS.md)** — 结果分析：5m_vs_6m 90.62% 的解读、失败模式、改进方向
-- **[docs/REPRODUCE.md](docs/REPRODUCE.md)** — 复现指南：环境搭建、训练命令、常见陷阱
+- **[CCC.md](CCC.md)** — 论文工作稿：动机、方法、定理与证明、完整实验 ★
+- [onpolicy/algorithms/r_drbfn_qvpo/README.md](onpolicy/algorithms/r_drbfn_qvpo/README.md) — 实现细节与代码索引
+- [docs/METHOD.md](docs/METHOD.md) / [docs/RESULTS.md](docs/RESULTS.md) / [docs/REPRODUCE.md](docs/REPRODUCE.md) — 方法叙事 / 结果分析 / 复现指南
+- [docs/DRBFN_QVPO_notes.md](docs/DRBFN_QVPO_notes.md) — QVPO 早期变体归档
 
 ---
 
 ## 引用
 
 ```bibtex
-@misc{drbfn_qvpo_2026,
-  title  = {DRBFN-QVPO: Bayesian Flow Network for Multi-Agent Credit Assignment via Q-Weighted Variational Lower Bound},
-  author = {Zhang Yingming},
+@misc{drbfn_2026,
+  title  = {Reward Generation: Learning Individual Rewards from Team Returns via Conditional Bayesian Flow Networks},
+  author = {Zhang, Yingming},
   year   = {2026},
   url    = {https://github.com/hang-ZYM/DRBFN-MARL}
 }
 ```
 
-参考的原始工作：
-- BFN: Graves et al. "Bayesian Flow Networks" (2023)
-- QVPO: Ding et al. "Diffusion-based RL via Q-weighted Variational Policy Optimization" NeurIPS 2024
-- PBRS: Ng et al. "Policy invariance under reward transformations" (1999)
-- Multi-agent PBRS: Devlin & Kudenko (2011)
-- Wiewiora 等价: Wiewiora (2003)
-- MAPPO: Yu et al. NeurIPS 2022
+核心参考：BFN（Graves et al., 2023）· PBRS（Ng et al., 1999）· MAPPO（Yu et al., NeurIPS 2022）· QVPO（Ding et al., NeurIPS 2024）
 
 ---
 
@@ -246,8 +189,6 @@ python onpolicy/scripts/train/train_smac.py \
 
 MIT — 见 [LICENSE](LICENSE)。
 
----
-
 ## 状态
 
-**活跃开发中**。2c_vs_64zg 实验进行中；论文撰写中。Issues 和 PR 欢迎。
+**活跃开发中**。论文撰写中（学位论文 + 期刊稿）。Issues 和 PR 欢迎。
